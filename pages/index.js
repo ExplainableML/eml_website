@@ -3,6 +3,9 @@ import NavBar from '../components/NavBar'
 import Headline from '../components/Headline'
 import TeamMemberGrid from '../components/TeamMemberGrid'
 import Hero from '../components/Hero'
+import PublicationCard from '../components/PublicationCard'
+import PublicationGrid from '../components/PublicationGrid'
+
 export default function Home() {
   return (<div class="bg-gray-50">
 
@@ -17,6 +20,9 @@ export default function Home() {
      <Headline text="Team"></Headline>
      <TeamMemberGrid team={[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]}></TeamMemberGrid>
      <Headline text="Publications"></Headline>
+     <PublicationGrid>
+     </PublicationGrid>
+     <Headline text="Teaching"></Headline>
     </div></div>
   )
 }
