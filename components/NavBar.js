@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <div class=" fixed z-50 w-full" >
+    <div class="fixed z-50 w-full md:px-16" >
     <nav class="flex w-full items-center justify-between flex-wrap bg-gray-50 p-6">
       <div class="flex items-center flex-shrink-0 text-black mr-6">
         <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">

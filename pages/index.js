@@ -3,8 +3,10 @@ import NavBar from '../components/NavBar'
 import Headline from '../components/Headline'
 import TeamMemberGrid from '../components/TeamMemberGrid'
 import Hero from '../components/Hero'
-import PublicationCard from '../components/PublicationCard'
+
 import PublicationGrid from '../components/PublicationGrid'
+import TeachingGrid from '../components/TeachingGrid'
+import ContactGrid from '../components/ContactGrid'
 
 export default function Home() {
   return (<div class="bg-gray-50">
@@ -15,7 +17,7 @@ export default function Home() {
 
   
   <NavBar></NavBar>
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2  md:px-16 ">
       <Hero></Hero>
      <Headline text="Team"></Headline>
      <TeamMemberGrid team={[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]}></TeamMemberGrid>
@@ -23,6 +25,9 @@ export default function Home() {
      <PublicationGrid>
      </PublicationGrid>
      <Headline text="Teaching"></Headline>
+     <TeachingGrid></TeachingGrid>
+     <Headline text="Contact"></Headline>
+     <ContactGrid></ContactGrid>
     </div></div>
   )
 }
