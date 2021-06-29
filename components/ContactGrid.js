@@ -5,6 +5,7 @@ export default function ContactGrid(props) {
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full p-6">
 
                     <ContactCard></ContactCard>
+                    <ContactCard></ContactCard>
                 
             </div>
     )

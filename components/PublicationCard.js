@@ -15,16 +15,16 @@ export default function PublicationCard(props) {
             </div>
             
                 <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                    <div class="font-semibold text-sm mb-2">Zeynep Akata</div>
+                    <div class="font-bold text-xl mb-2">{props.title}</div>
+                    {props.authors.map((author)=><div class="font-semibold text-sm mb-2">author</div>)}
                     <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        {props.abstract}
                     </p>
                 </div>
 
-                <div>
+                <div class="flex flex-row justify-center items-center p-8">
 
-                    
+                    <button class="text-purple-400 font-semibold">View Details</button>
                 </div>
 
 
