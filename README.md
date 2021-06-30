@@ -24,5 +24,11 @@ The webpage should now run in `localhost:3000`
 ## Components
 
 ## API interface to CMS
+The CMS is a simple directory with markdown files which can be left inside this repository in the content folder or moved to another repository.
 
 ## Hosting Recommendations
+
+### github.io
+
+### Vercel
+With a single owner of the repository on github, the most convenient way is to host the website for free on vercel. As they are the maintainers of the next.js library this is very easy and thoroughly explained in this link:
