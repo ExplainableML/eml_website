@@ -10,8 +10,9 @@ export default function PublicationCard(props) {
         <div class="overflow-hidden bg-white shadow-lg">
             <div class="w-full bg-white h-256 flex flex-row justify-center ">
 
-            <Image class="" height="200" width="300" loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
+            <Image width="330" height="200" objectFit="cover"  loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
 
+           
             </div>
             
                 <div class="px-6 py-4 text-center">
