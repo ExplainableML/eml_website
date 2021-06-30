@@ -18,16 +18,16 @@ export default function NavBar() {
       </div>
       <div class="w-full md:hidden flex-grow lg:flex lg:items-center lg:w-auto " id="navbar">
         <div class="text-sm lg:flex-grow lg:text-right">
-          <a href="#responsive-header" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-teal-100 hover:text-purple-500 mr-4 text-md">
+          <a href="#team" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-teal-100 hover:text-purple-500 mr-4 text-md">
             Team
           </a>
-          <a href="#responsive-header" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-teal-100 hover:text-purple-500 mr-4 text-md">
+          <a href="#publications" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-teal-100 hover:text-purple-500 mr-4 text-md">
             Publications
           </a>
-          <a href="#responsive-header" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-teal-100 hover:text-purple-500 mr-4 text-md">
+          <a href="#teaching" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-teal-100 hover:text-purple-500 mr-4 text-md">
             Teaching
           </a>
-          <a href="#responsive-header" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-purple-100 hover:text-purple-500 mr-4 text-md">
+          <a href="#contact" class="block mt-4 font-semibold lg:inline-block lg:mt-0 text-purple-100 hover:text-purple-500 mr-4 text-md">
             Contact
           </a>
         </div>
