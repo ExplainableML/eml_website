@@ -1,3 +1,3 @@
 export default function Publications () {
-    return "publications"
+    return (<div>Publications</div>)
 }

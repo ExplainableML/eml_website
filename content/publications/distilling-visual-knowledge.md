@@ -7,5 +7,3 @@ year: 2020
 abstract: Distilling Audivisual Knowledge is a major task.
 ---
 
-##Introduction
-Hello my friend.

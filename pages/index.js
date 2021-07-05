@@ -10,11 +10,17 @@ import PublicationGrid from '../components/PublicationGrid'
 import TeachingGrid from '../components/TeachingGrid'
 import ContactGrid from '../components/ContactGrid'
 
+import Footer from '../components/Footer';
+
 export default function Home(props) {
+
+  console.log(props)
 
   const publications = props.publicationsData.map(pub => matter(pub));
   let publicationsList = publications.map(item => item.data);
 
+  const team = props.teamData.map(person => matter(person));
+  let teamList = team.map(person => person.data);
 
   return (<div class="bg-gray-50">
 
@@ -27,23 +33,25 @@ export default function Home(props) {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Hero></Hero>
       <Headline id="team" text="Team"></Headline>
-      <TeamMemberGrid team={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]}></TeamMemberGrid>
+      <TeamMemberGrid team={teamList}></TeamMemberGrid>
       <Headline id="publications" text="Publications"></Headline>
       <PublicationGrid publications={publicationsList}></PublicationGrid>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
-    </div></div>
+    </div>
+    <Footer></Footer>
+    </div>
   )
 }
 
 export const getStaticProps = async () => {
   const fs = require("fs");
 
-  const files = fs.readdirSync(`${process.cwd()}/content/publications/`, 'utf-8');
+  const pub_files = fs.readdirSync(`${process.cwd()}/content/publications/`, 'utf-8');
 
-  const publications = files.filter(fn => fn.endsWith(".md"));
+  const publications = pub_files.filter(fn => fn.endsWith(".md"));
 
   const publicationsData = publications.map(publication => {
     const path = `${process.cwd()}/content/publications/${publication}`;
@@ -54,8 +62,23 @@ export const getStaticProps = async () => {
     return rawContent;
   });
 
+  const team_files = fs.readdirSync(`${process.cwd()}/content/team/`, 'utf-8');
+
+  const team = team_files.filter(fn => fn.endsWith(".md"));
+
+  const teamData = team.map(team => {
+    const path = `${process.cwd()}/content/team/${team}`;
+    const rawContent = fs.readFileSync(path, {
+      encoding: "utf-8"
+    });
+
+    return rawContent;
+  });
+
+
   return {
     props: {
+      teamData,
       publicationsData
     }
   }
