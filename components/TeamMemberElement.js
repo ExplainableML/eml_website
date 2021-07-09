@@ -13,8 +13,8 @@ export default function TeamMemberElement(props) {
             <Image class="rounded-full mb-4" width="200" height="200" objectFit="cover" loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}>
 
             </Image>
-            <a href="" class="mt-3 text-purple-200 text-xl font-bold">{props.person.name}</a>
-            <div class="text-lg font-semibold">{props.person.role}</div>
+            <a href={"/team/"+props.person.link} class="mt-3 text-purple-200 text-md md:text-xl font-bold">{props.person.name}</a>
+            <div class="text-sm md:text-md font-semibold">{props.person.role}</div>
 
         </div>
     )

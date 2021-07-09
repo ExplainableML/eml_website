@@ -1,3 +1,3 @@
-export default function TeamMember() {
+export default function TeamMember(props) {
     return "hello"
 }
