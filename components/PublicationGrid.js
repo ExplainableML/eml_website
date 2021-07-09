@@ -13,7 +13,7 @@ export default function PublicationGrid(props) {
                 </PublicationCard>)}
 
             </div>
-            <a href="/publications" class="text-xl font-semibold px-4 py-2 text-purple-400">View all Publications ></a>
+            <a href="/publications" class="text-xl font-semibold px-4 py-2 text-purple-500">View all Publications ></a>
         </div>
 
 
