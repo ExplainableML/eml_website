@@ -7,6 +7,9 @@ module.exports = {
       sans: ["Montserrat"]
     },
     extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/eml.png')",
+       }),
       colors: {
         purple: {
           '100': '#5A005B22',
