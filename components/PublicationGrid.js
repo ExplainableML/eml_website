@@ -4,7 +4,7 @@ export default function PublicationGrid(props) {
     console.log(props.publications)
     return (
 
-        <div class="flex flex-col items-center mb-16">
+        <div id="publications" class="flex flex-col items-center mb-16">
 
 
             <div class="grid grid-cols-1 md:grid-cols-3 md:px-16 gap-8 w-full p-6">

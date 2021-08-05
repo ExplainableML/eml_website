@@ -18,6 +18,7 @@ export default function Home(props) {
 
   const publications = props.publicationsData.map(pub => matter(pub));
   let publicationsList = publications.map(item => item.data);
+  console.log(publications)
 
   const team = props.teamData.map(person => matter(person));
   let teamList = team.map(person => person.data);
@@ -74,6 +75,8 @@ export const getStaticProps = async () => {
 
     return rawContent;
   });
+
+  console.log(teamData)
 
 
   return {

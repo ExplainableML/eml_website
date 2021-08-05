@@ -6,6 +6,7 @@ export default function TeamMemberElement(props) {
   };
 
   return (
+    <a href={"/team/" + props.person.link}>
     <div class="flex flex-col items-center justify-center">
       <Image
         class="rounded-full mb-4"
@@ -23,6 +24,6 @@ export default function TeamMemberElement(props) {
         {props.person.name}
       </a>
       <div class="text-sm md:text-md font-semibold">{props.person.role}</div>
-    </div>
+    </div></a>
   );
 }

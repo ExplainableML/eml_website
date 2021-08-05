@@ -24,7 +24,7 @@ export default function PublicationCard(props) {
 
                 <div class="flex flex-row justify-center items-center p-8">
 
-                    <button class="text-purple-500 font-semibold">View Details</button>
+                    <a href="/publication/id" class="text-purple-500 font-semibold">View Details</a>
                 </div>
 
 
