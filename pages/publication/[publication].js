@@ -8,9 +8,17 @@ import fs from "fs";
 import path from "path";
 import { useEffect } from 'react'
 
+import gfm from "remark-gfm";
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
+
+
 export default function Publication(props) {
   const router = useRouter()
   const { publication } = router.query
+
+  const {rehypeRaw} = require("rehype-raw")
 
   useEffect(()=>{
     console.log(props.content)
@@ -19,11 +27,11 @@ export default function Publication(props) {
     return (
         <>
         <NavBar></NavBar>
-        <div class="pt-32 bg-gray-50 h-screen lg:px-20 flex flex-col items-center">
+        <div class="pt-32 bg-gray-50 h-screen lg:px-20 flex flex-col items-left">
  
       <article>
-        <ReactMarkdown escapeHtml={false} children={props.content} />
-        <ReactMarkdown>*React-Markdown* is **Awesome**</ReactMarkdown>
+        <ReactMarkdown     remarkPlugins={[remarkMath]}
+    rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
 
       </article>
 
@@ -57,7 +65,8 @@ export async function getStaticProps({ params: { publication } }) {
 
   return {
     props: {
-      content: content,
+      data:data,
+      content: `${content}`,
     },
   };
 }
