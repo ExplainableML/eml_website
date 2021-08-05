@@ -33,10 +33,10 @@ export default function TeamMember(props) {
 
 
     return (
-        <div class="">
+        <div class="h-screen">
         <NavBar></NavBar>
 
-        <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+        <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
 
 
 
