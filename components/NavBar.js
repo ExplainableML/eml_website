@@ -1,4 +1,23 @@
+import { useEffect } from "react";
+
 export default function NavBar() {
+
+	useEffect(()=>{
+
+			let mynav = document.getElementById("navbar")
+			let nav_container = document.getElementById("nav-container")
+		
+			if (window.innerWidth < 500) {
+			  mynav.classList.add("hidden")
+			  nav_container.classList.add("h-screen")
+			  nav_container.classList.add("flex")
+			  nav_container.classList.add("flex-col")
+			  nav_container.classList.add("justify-center")
+			  nav_container.classList.add("items-center")
+			  nav_container.classList.add("-pt-32")
+			}
+		
+	},[])
   return (
     <div class="fixed z-50 w-full">
       <nav class="flex w-full items-center justify-between flex-wrap bg-gray-50 p-6 md:px-16">
@@ -245,11 +264,20 @@ export default function NavBar() {
         </a>
         <div class="block lg:hidden">
           <button
-            class="flex items-center px-3 py-2 border rounded text-teal-100 border-teal-400 hover:text-white hover:border-white"
+            class="flex items-center px-3 py-2 text-teal-100 z-50"
             id="navbar-btn"
+			onClick={()=>{
+				let mynav = document.getElementById("navbar")
+				if (mynav.classList.contains("hidden")) {
+				  mynav.classList.remove("hidden")
+				} else {
+				  mynav.classList.add("hidden")
+				}
+				
+			  }}
           >
             <svg
-              class="fill-current h-3 w-3"
+              class="fill-purple-500 stroke-purple-500 h-4 w-4"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -262,28 +290,28 @@ export default function NavBar() {
           class="w-full md:hidden flex-grow lg:flex lg:items-center lg:w-auto "
           id="navbar"
         >
-          <div class="text-sm lg:flex-grow lg:text-right">
+          <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
             <a
               href="#team"
-              class="block mt-4 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 text-md"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Team
             </a>
             <a
               href="/#publications"
-              class="block mt-4 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 text-md"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Publications
             </a>
             <a
               href="/#teaching"
-              class="block mt-4 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 text-md"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Teaching
             </a>
             <a
               href="#contact"
-              class="block mt-4 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 text-md"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               Contact
             </a>

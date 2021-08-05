@@ -7,7 +7,7 @@ export default function PublicationCard(props) {
     }
 
     return (
-        <div class="overflow-hidden bg-white shadow-lg">
+        <div class="relative overflow-hidden bg-white shadow-lg">
             <div class="w-full bg-white h-256 ">
 
             <Image width="500" height="256" objectFit="cover"  loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
@@ -22,9 +22,9 @@ export default function PublicationCard(props) {
                     <div class="font-normal  text-xs text-gray-600 mb-2">{props.publication.year}</div>
                 </div>
 
-                <div class="flex flex-row justify-center items-center p-8">
+                <div class=" flex flex-row justify-center items-center p-8">
 
-                    <a href="/publication/id" class="text-purple-500 font-semibold">View Details</a>
+                    <a href={"/publication/"+props.publication.filename} class=" absolute  bottom-8 text-purple-500 font-semibold">View Details</a>
                 </div>
 
 

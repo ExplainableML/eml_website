@@ -2,5 +2,5 @@
 img: "/team/zeynep-akata.jpg"
 name: Zeynep Akata
 role: Professor
-link: zeynep-akata
+link: 1-zeynep-akata
 ---

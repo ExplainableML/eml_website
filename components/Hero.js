@@ -10,7 +10,7 @@ export default function Hero () {
         <div class="font-bold text-xl lg:text-4xl text-purple-200">Multimodal Learning</div>
             </div>
            <div >
-           <Image src="/eml2.png" objectFit="cover" width="2000" height="2000"></Image>
+           <Image src="/eml.png" objectFit="cover" width="2000" height="2000"></Image>
            </div>
            
         </div> 

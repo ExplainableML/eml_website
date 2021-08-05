@@ -2,6 +2,8 @@ import matter from 'gray-matter'
 import marked from 'marked'
 import Link from 'next/link'
 import NavBar from "../../components/NavBar"
+import Footer from "../../components/Footer"
+
 import { useRouter } from 'next/router'
 import ReactMarkdown from "react-markdown";
 import fs from "fs";
@@ -12,31 +14,78 @@ import gfm from "remark-gfm";
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
-
+import rehypeRaw from 'rehype-raw'
+import Headline from '../../components/Headline'
+import Image from "next/image"
+import References from '../../components/References'
 
 export default function Publication(props) {
   const router = useRouter()
-  const { publication } = router.query
 
-  const {rehypeRaw} = require("rehype-raw")
+  const myLoader = ({ src, width, quality }) => {
+    return props.data.img
+}
 
   useEffect(()=>{
     console.log(props.content)
+    console.log(props.data)
   },[])
 
-    return (
-        <>
-        <NavBar></NavBar>
-        <div class="pt-32 bg-gray-50 h-screen lg:px-20 flex flex-col items-left">
- 
-      <article>
-        <ReactMarkdown     remarkPlugins={[remarkMath]}
-    rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
 
-      </article>
+    return (
+        <div class="">
+        <NavBar></NavBar>
+
+        <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+
+
+
+          <div class="mb-8 flex flex-col items-center">
+          <div>
+          <Image width="784" height="256" objectFit="contain"  loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
+
+          </div>
+
+              <div class="lg:text-3xl font-bold">
+                {props.data.title}
+              </div>
+              <div class="bg-purple-500 h-2 w-8 mb-2 mt-2">
+
+
+              </div>
+
+              <div class="lg:text-md text-gray-800">{props.data.authors}</div>
+              <div class="lg:text-md text-gray-400">{props.data.publisher}</div>
+              <div class="lg:text-md text-gray-400">{props.data.year}</div>
+
+              <div class="flex lg:flex-row justify-center items-center">
+                <References {...props.data}></References>
+              </div>
+      <br></br>
+              <div class="lg:text-xl  font-semibold">
+                Abstract
+              </div>
+
+              <div class="text-left" style={{maxWidth:784}}>
+              {props.data.abstract}
+              </div>
+            
+
+          </div>
+ 
+      <div class="bg-gray-50 w-screen flex flex-col items-center px-4" >
+
+        <div style={{maxWidth:784}}>
+        <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
+    rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
+        </div>
+
+
+      </div>
 
         </div>
-        </>
+<Footer></Footer>
+        </div>
     )
 }
 
