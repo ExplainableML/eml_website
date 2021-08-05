@@ -1,5 +1,5 @@
 export default function ContactCard() {
-    return ( <div class=" overflow-hidden shadow-lg h-72 bg-white p-8">
+    return ( <div class=" overflow-hidden shadow-lg lg:h-72 bg-white p-8">
             <div class="font-semibold">Explainable Machine Learning Tübingen</div>
             <div>AI Research Building</div>
             <div>Maria-Von-Linden-Straße 6</div>

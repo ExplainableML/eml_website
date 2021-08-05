@@ -292,24 +292,40 @@ export default function NavBar() {
         >
           <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
             <a
-              href="#team"
+			  onClick={()=>{
+				let mynav = document.getElementById("navbar")
+				mynav.classList.add("hidden")
+			  }}
+              href="/#team"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Team
             </a>
             <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
               href="/#publications"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Publications
             </a>
             <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
               href="/#teaching"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Teaching
             </a>
             <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
               href="#contact"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >

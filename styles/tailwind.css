@@ -4,15 +4,24 @@
 
 h1 {
     @apply text-2xl;
+    @apply text-center;
     @apply font-semibold;
+    @apply mt-8;
+
   }
   h2 {
     @apply text-xl;
+    @apply text-center;
+
     @apply font-semibold;
+    @apply mt-8;
   }
   h3 {
     @apply text-lg;
+    @apply text-center;
+
     @apply font-semibold;
+    @apply mt-8;
   }
 
   p {
@@ -21,4 +30,8 @@ h1 {
 
   iframe {
 
+  }
+
+  ul {
+    @apply: list-disc;
   }

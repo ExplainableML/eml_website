@@ -46,7 +46,7 @@ export default function Publication(props) {
 
           </div>
 
-              <div class="lg:text-3xl font-bold">
+              <div class="lg:text-3xl font-bold text-center">
                 {props.data.title}
               </div>
               <div class="bg-purple-500 h-2 w-8 mb-2 mt-2">
@@ -54,9 +54,9 @@ export default function Publication(props) {
 
               </div>
 
-              <div class="lg:text-md text-gray-800">{props.data.authors}</div>
-              <div class="lg:text-md text-gray-400">{props.data.publisher}</div>
-              <div class="lg:text-md text-gray-400">{props.data.year}</div>
+              <div class="lg:text-md text-gray-800 text-center">{props.data.authors}</div>
+              <div class="lg:text-md text-gray-400 text-center">{props.data.publisher}</div>
+              <div class="lg:text-md text-gray-400 text-center">{props.data.year}</div>
 
               <div class="flex lg:flex-row justify-center items-center">
                 <References {...props.data}></References>
