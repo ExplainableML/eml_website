@@ -18,32 +18,36 @@ import rehypeRaw from 'rehype-raw'
 import Headline from '../../components/Headline'
 import Image from "next/image"
 import References from '../../components/References'
+import TeamMemberSidebar from '../../components/TeamMemberSidebar'
 
 export default function TeamMember(props) {
   const router = useRouter()
 
   const myLoader = ({ src, width, quality }) => {
     return props.data.img
-}
+  }
 
-  useEffect(()=>{
+  useEffect(() => {
     console.log(props.content)
     console.log(props.data)
-  },[])
+  }, [])
 
 
-    return (
-        <div class="h-screen">
-        <NavBar></NavBar>
+  return (
+    <div class="h-screen">
+      <NavBar></NavBar>
 
-        <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
-
-
-
+      <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <TeamMemberSidebar></TeamMemberSidebar>
         </div>
-<Footer></Footer>
-        </div>
-    )
+        
+
+
+      </div>
+      <Footer></Footer>
+    </div>
+  )
 }
 
 export async function getStaticPaths() {
@@ -63,14 +67,14 @@ export async function getStaticPaths() {
 
 
 export async function getStaticProps({ params: { name } }) {
-   const markdownWithMetadata = fs.readFileSync(path.join(`${process.cwd()}/content/team/`, name + ".md"))
+  const markdownWithMetadata = fs.readFileSync(path.join(`${process.cwd()}/content/team/`, name + ".md"))
     .toString();
 
   const { data, content } = matter(markdownWithMetadata);
 
   return {
     props: {
-      data:data,
+      data: data,
       content: `${content}`,
     },
   };
