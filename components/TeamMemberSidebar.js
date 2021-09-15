@@ -1,5 +1,5 @@
 export default function TeamMemberSidebar(props) {
-    return (<>
-    
-    </>)
+    return (<div class="col-span-1">
+    hello
+    </div>)
 }

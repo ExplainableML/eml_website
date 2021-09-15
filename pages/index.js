@@ -11,6 +11,7 @@ import TeachingGrid from '../components/TeachingGrid'
 import ContactGrid from '../components/ContactGrid'
 
 import Footer from '../components/Footer';
+import NewsGrid from '../components/NewsGrid';
 
 export default function Home(props) {
 
@@ -39,6 +40,8 @@ export default function Home(props) {
       <PublicationGrid viewAll={true} publications={publicationsList.filter((pub)=>{return pub.year==2021}).slice(0,3)}></PublicationGrid>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
+      <Headline text="News"></Headline>
+      <NewsGrid></NewsGrid>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
     </div>

@@ -19,6 +19,7 @@ import Headline from '../../components/Headline'
 import Image from "next/image"
 import References from '../../components/References'
 import TeamMemberSidebar from '../../components/TeamMemberSidebar'
+import TeamMemberContent from '../../components/TeamMemberContent'
 
 export default function TeamMember(props) {
   const router = useRouter()
@@ -37,9 +38,10 @@ export default function TeamMember(props) {
     <div class="h-screen">
       <NavBar></NavBar>
 
-      <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+      <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2">
           <TeamMemberSidebar></TeamMemberSidebar>
+          <TeamMemberContent></TeamMemberContent>
         </div>
         
 

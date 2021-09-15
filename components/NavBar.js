@@ -321,6 +321,16 @@ export default function NavBar() {
             >
               Teaching
             </a>
+			<a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="#news"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+            >
+              News
+            </a>
             <a
 						  onClick={()=>{
 							let mynav = document.getElementById("navbar")
