@@ -9,7 +9,13 @@ export default function TeamMemberSidebar(props) {
 
   function getOffset(el) {
     const rect = el.getBoundingClientRect();
-    return rect.top + window.scrollY
+
+    if (rect.top > 0) {
+      return rect.top-window.scrollY
+    } else {
+      return -rect.top-window.scrollY;
+    }
+    
     
   }
 
@@ -20,11 +26,26 @@ export default function TeamMemberSidebar(props) {
 
     let doc = document.getElementsByTagName("h1")
 
-    document.addEventListener("scroll" , function(e)  {
+    window.addEventListener("scroll" , function(e)  {
+
+      let offsetArray = [];
+      let minVal = 10000;
+
+    
       for (var i = 0, all = doc.length; i < all; i++) {
-        doc[i].id = doc[i].innerText;
-        props.setActiveSection(doc[i].innerText)
+        doc[i].innerText;
+        if(getOffset(doc[i])<minVal) {
+          minVal = getOffset(doc[i])
+          props.setActiveSection(doc[i].innerText)
+        }
+        
       }
+
+      
+
+
+
+
     })
 
     
@@ -75,7 +96,12 @@ export default function TeamMemberSidebar(props) {
       <div class="flex flex-col justify-center items-center mt-8">
 
         {menuItems.map(item => {
-          return <a class="w-full" href={"#"+item}><div class="text-sm font-semibold hover:bg-purple-500 hover:text-white w-full text-center py-2 rounded-sm">{item}</div></a>
+          return (<>
+          
+          {props.activeSection != item && <a class="w-full" href={"#"+item}><div class="text-sm font-semibold hover:bg-purple-500 hover:text-white w-full text-center py-2 rounded-sm">{item}</div></a>}
+          {props.activeSection == item && <a class="w-full" href={"#"+item}><div class="text-sm font-semibold bg-purple-500 text-white w-full text-center py-2 rounded-sm">{item}</div></a>}
+
+          </>)
         })}
 
       </div>
