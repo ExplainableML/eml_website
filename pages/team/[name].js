@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 import ReactMarkdown from "react-markdown";
 import fs from "fs";
 import path from "path";
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 import gfm from "remark-gfm";
 import remarkMath from 'remark-math'
@@ -24,6 +24,8 @@ import TeamMemberContent from '../../components/TeamMemberContent'
 export default function TeamMember(props) {
   const router = useRouter()
 
+  const [activeSection, setActiveSection] = useState("Profile")
+
   const myLoader = ({ src, width, quality }) => {
     return props.data.img
   }
@@ -35,20 +37,26 @@ export default function TeamMember(props) {
 
 
   return (
-    <div class="h-screen">
+    <>
+    <div>
+        <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
       <NavBar></NavBar>
 
-      <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 px-4">
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-          <TeamMemberSidebar></TeamMemberSidebar>
-          <TeamMemberContent></TeamMemberContent>
+      <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 px-4 ">
+        <div class="grid grid-cols-1 lg:grid-cols-4 overflow-y-scroll">
+          <TeamMemberSidebar activeSection={activeSection} setActiveSection={setActiveSection} person={props.data} content={props.content}></TeamMemberSidebar>
+          <TeamMemberContent activeSection={activeSection} content={props.content}></TeamMemberContent>
         </div>
         
 
 
       </div>
-      <Footer></Footer>
+      
     </div>
+ 
+    </>
   )
 }
 
