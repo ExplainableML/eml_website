@@ -1,4 +1,6 @@
 import PublicationCard from "./PublicationCard"
+import { ChevronRight} from 'react-feather';
+
 export default function PublicationGrid(props) {
 
     console.log(props.publications)
@@ -13,7 +15,7 @@ export default function PublicationGrid(props) {
                 </PublicationCard>)}
 
             </div>
-            {props.viewAll && <a href="/publications" class="text-xl font-semibold px-4 py-2 text-purple-500">View all Publications > </a>}
+            {props.viewAll && <a href="/publications" class="text-xl flex flex-row items-center font-semibold px-4 py-2 text-purple-500">View all Publications <ChevronRight></ChevronRight> </a>}
         </div>
 
 

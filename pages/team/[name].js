@@ -47,7 +47,7 @@ export default function TeamMember(props) {
       <div class="pt-32 h-screen bg-gray-50 mb-32 lg:px-20 px-4 ">
         <div class="grid grid-cols-1 lg:grid-cols-4 overflow-y-scroll">
           <TeamMemberSidebar activeSection={activeSection} setActiveSection={setActiveSection} person={props.data} content={props.content}></TeamMemberSidebar>
-          <TeamMemberContent activeSection={activeSection} content={props.content}></TeamMemberContent>
+          <TeamMemberContent activeSection={activeSection} setActiveSection={setActiveSection} content={props.content}></TeamMemberContent>
         </div>
         
 

@@ -6,6 +6,8 @@ order: 1
 link: zeynep-akata
 github: https://google.com
 linkedin: https://google.com
+website: https://google.com
+address: Maria-von-Lindenstraße
 profile: # hello
 ---
 
