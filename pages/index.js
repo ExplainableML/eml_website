@@ -79,11 +79,12 @@ export const getStaticProps = async () => {
     return rawContent;
   });
 
-  console.log(teamData)
+
 
 
   return {
     props: {
+      team,
       teamData,
       publicationsData
     }

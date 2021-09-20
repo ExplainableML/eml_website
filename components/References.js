@@ -14,6 +14,7 @@ export default function References(props) {
         {props.address && <span class="flex flex-row justify-left items-center p-4 py-1">     <Map color="#5A005B" size={16}/><span class="text-purple-500 font-semibold text-xs pl-2">{props.address}</span></span>}
         {props.phone && <span class="flex flex-row justify-left items-center p-4 py-1">     <Phone color="#5A005B" size={16}/><span class="text-purple-500 font-semibold text-xs pl-2">{props.phone}</span></span>}
         {props.mail && <span class="flex flex-row justify-left items-center p-4 py-1">     <Mail color="#5A005B" size={16}/><span class="text-purple-500 font-semibold text-xs pl-2">{props.mail}</span></span>}
+        {props.scholar && <span class="flex flex-row justify-left items-center p-4 py-1">     <Filetext color="#5A005B" size={16}/><span class="text-purple-500 font-semibold text-xs pl-2">{props.scholar}</span></span>}
 
 
     </>)
