@@ -5,6 +5,10 @@ role: Postdoctoral Researcher
 order: 2
 link: massimiliano-mancini
 mail: massimiliano.mancini at uni-tuebingen.de
+website: https://mancinimassimiliano.github.io
+github: https://github.com/mancinimassimiliano
+scholar: https://scholar.google.it/citations?user=bqTPA8kAAAAJ&hl=en
+
 ---
 
 # Profile
