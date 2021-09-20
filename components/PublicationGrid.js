@@ -10,7 +10,7 @@ export default function PublicationGrid(props) {
 
 
             <div class="grid grid-cols-1 md:grid-cols-3 md:px-16 gap-8 w-full p-6">
-                {props.publications.map(publication => <PublicationCard publication={publication}>
+                {props.publications.sort(function(a,b) {return new Date(a.date)- new Date(b.date)}).map(publication => <PublicationCard publication={publication}>
 
                 </PublicationCard>)}
 

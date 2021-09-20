@@ -7,10 +7,13 @@ github: http://github.com
 authors: Stephan Alaniz, Diego Marcos, Bernt Schiele, Zeynep Akata
 publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
 year: 2021
+month: 4
+day: 11
+date: 2021-04-11
 abstract: "To control the text alignment of an element at a specific breakpoint, add a {screen}: prefix to any existing text alignment utility. For example, use md:text-center to apply the text-center utility at only medium screen sizes and above."
 ---
 # Hello
-Ldasdadsasdasdsdad
+This is an exemplary extension of the paper information
 
 ## my helllo
 ```
