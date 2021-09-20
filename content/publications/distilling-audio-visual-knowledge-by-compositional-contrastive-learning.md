@@ -6,7 +6,7 @@ publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
 year: 2021
 month: 4
 day: 22
-date: "2021-04-22"
+date: "2021-04-10"
 filename: distilling-audio-visual-knowledge-by-compositional-contrastive-learning
 arxiv: https://arxiv.org/abs/2104.10955
 github: https://github.com/yanbeic/CCL

@@ -4,7 +4,7 @@ title: Open World Compositional Zero-Shot Learning
 authors: Massimiliano Mancini, Mohammad Ferjad Naeem, Yongqin Xian, Zeynep Akata
 publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
 year: 2021
-date: "2021-07-02"
+date: "2021-03-30"
 filename: open-world-compositional-zero-shot-learning
 arxiv: https://arxiv.org/abs/2101.12609
 

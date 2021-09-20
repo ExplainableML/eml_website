@@ -37,7 +37,7 @@ export default function Home(props) {
       <Headline id="team" text="Team"></Headline>
       <TeamMemberGrid team={teamList}></TeamMemberGrid>
       <Headline id="publications" text="Publications"></Headline>
-      <PublicationGrid viewAll={true} publications={publicationsList.filter((pub)=>{return pub.year==2021}).slice(0,3)}></PublicationGrid>
+      <PublicationGrid viewAll={true} publications={publicationsList.sort(function(a,b) {return new Date(b.date)- new Date(a.date)}).slice(0,3)}></PublicationGrid>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
       <Headline text="News"></Headline>
