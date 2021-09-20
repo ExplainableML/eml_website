@@ -26,6 +26,8 @@ export default function Publications(props) {
           <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2020})}></PublicationGrid>
 
           <YearHeadline text="2019"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2019})}></PublicationGrid>
+
       </div>
     </div>
   );
