@@ -12,6 +12,7 @@ export default function TeamMemberContent(props) {
         var els = document.getElementsByTagName("ul");
         for(var i = 0, all = els.length; i < all; i++){   
              els[i].classList.add('list-disc');
+             els[i].classList.add('pl-4');
          }
     }, [])
     return (<div class="col-span-1 lg:col-span-4 min-h-screen lg:pl-72 mb-72">

@@ -4,10 +4,10 @@ name: Zeynep Akata
 role: Professor
 order: 1
 link: zeynep-akata
-github: https://google.com
 linkedin: https://google.com
-website: https://google.com
-address: Maria-von-Lindenstraße
+address: Office 40-30/A24, Maria von Linden Straße 6
+phone: (+49) 172 231412 1231
+mail: zeynep.akata (at) uni-tuebingen.de
 profile: # hello
 ---
 
@@ -27,31 +27,52 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 - MSc: RWTH Aachen, Germany, 2010
 - BSc: Trakya University, Turkey, 2008
 
+## External Activities
+
+* Program Chair:
+    * GCPR-DAGM 2020​
+* Area Chair:
+    * WACV 2016, IJCAI 2018, ECCV 2018, BMVC 2019, CVPR 2019, ICCV 2019, CVPR 2020, ICML 2020, ECCV 2020, ICLR 2021, ICML 2021
+* Associate Editor:
+    * Pattern Recognition Journal (Appointment between Aug 2018 - Aug 2020)
+    * Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2020 - Now)
+* Reviewer:
+    * TPAMI 2015-2017, IJCV 2015-2017
+    * ICCV 2015-2017, ECCV 2016, ACCV 2016, CVPR 2015-2018, EMNLP 2018, NIPS 2016-2018, AISTATS 2017, AAAI 2018, ICLR 2018, ICML 2018-2019
+* Organization Committees and Invited Talks:
+    * Gender Diversity in STEM fields, Springboard training program, 2015
+    * Tutorial on Embeddings and Metric Learning, GCPR 2016
+    *   Tutorial on Zero-Shot Learning, CVPR 2017
+    *   CD-Make 2018, Cross Domain Conference on Machine Learning and Knowledge Extraction
+    * WiCV@ECCV 2018, Women in Computer Vision Workshop
+    * Interpretable Machine Learning for Computer Vision Tutorial at CVPR 2020, Invited Speaker
+    * Fair, Data-Efficient and Trusted Computer Vision Workshop at CVPR 2020, Invited Speaker
+    * Human in the Loop Learning (HILL) Workshop at ICML 2020, Invited Speaker
+    * XXAI Workshop at ICML 2020, Invited Speaker
+    * Women in Computer Vision (WiCV) Workshop at ECCV 2020, Invited Speaker
+    * Task-CV Workshop at ECCV 2020, Invited Speaker
+    * RIIAA 2020 - International Meeting on Artificial Intelligence, Invited Speaker
+    * Sketching for Human Expressivity (SHE) Workshop at ICCV 2021, Co-organizer
+    * Human in the Loop Learning (HILL) Workshop at ICML 2021, Co-organizer
+
+## Awards and Funding 
+* Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society in 2014
+* Explainable Artificial Intelligence (XAI) grant from DARPA in 2017
+* ERC Starting Grant from the European Research Council in 2019
+* Young Investigator honour from Werner-von-Siemens-Ring Foundation in 2019
 # Publications
 
 ### 2021
 
-- Keep CALM and Improve Visual Feature Attribution
-Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh
-IEEE International Conference of Computer Vision, ICCV 2021
-- e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks
-Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz
-IEEE International Conference of Computer Vision, ICCV 2021
-- Uncertainty-Guided Progressive GANs for Medical Image Translation
-Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata
+- [Keep CALM and Improve Visual Feature Attribution](https://www.google.com) Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh IEEE International Conference of Computer Vision, ICCV 2021
+- e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz IEEE International Conference of Computer Vision, ICCV 2021
+- Uncertainty-Guided Progressive GANs for Medical Image Translation Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata
 - Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
-- Learning Decision Trees Recurrently Through Communication
-Stephan Alaniz, Diego Marcos, Bernt Schiele, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
-- Learning Graph Embeddings for Compositional Zero-shot Learning
-Mohammad Ferjad Naeem, Yongqin Xian, Federico Tombari, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
-- Distilling Audio-Visual Knowledge by Compositional Contrastive Learning
-Yanbei Chen, Yongqin Xian, Almut Sophia Koepke, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
-- Open World Compositional Zero-Shot Learning
-Massimiliano Mancini, Mohammad Ferjad Naeem, Yongqin Xian, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Learning Decision Trees Recurrently Through Communication Stephan Alaniz, Diego Marcos, Bernt Schiele, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Learning Graph Embeddings for Compositional Zero-shot Learning Mohammad Ferjad Naeem, Yongqin Xian, Federico Tombari, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Distilling Audio-Visual Knowledge by Compositional Contrastive Learning Yanbei Chen, Yongqin Xian, Almut Sophia Koepke, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Open World Compositional Zero-Shot Learning Massimiliano Mancini, Mohammad Ferjad Naeem, Yongqin Xian, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+
 ### 2020
 
 - Attribute Prototype Network for Zero-Shot Learning

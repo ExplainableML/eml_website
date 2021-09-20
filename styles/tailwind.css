@@ -7,13 +7,17 @@
 
 }
 
-
+a {
+  @apply text-purple-500;
+  @apply font-semibold;
+}
 
 h1 {
     @apply text-2xl;
     @apply text-center;
     @apply font-semibold;
     @apply mt-8;
+    @apply mb-2;
 
   }
   h2 {
