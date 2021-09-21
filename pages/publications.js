@@ -20,6 +20,21 @@ export default function Publications(props) {
     </style>
       <NavBar></NavBar>
       <div className="pt-24 flex flex-col items-center justify-top min-h-screen py-2">
+
+
+      {publicationsList.filter((pub)=>{return pub.year==2025}).length>0&&<><YearHeadline text="2025"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2025})}></PublicationGrid></>}
+
+          {publicationsList.filter((pub)=>{return pub.year==2024}).length>0&&<><YearHeadline text="2024"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2024})}></PublicationGrid></>}
+
+          {publicationsList.filter((pub)=>{return pub.year==2023}).length>0&&<><YearHeadline text="2023"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2023})}></PublicationGrid></>}
+
+          {publicationsList.filter((pub)=>{return pub.year==2022}).length>0&&<><YearHeadline text="2022"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2022})}></PublicationGrid></>}
+
+
           <YearHeadline text="2021"></YearHeadline>
           <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2021})}></PublicationGrid>
           <YearHeadline text="2020"></YearHeadline>

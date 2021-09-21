@@ -18,6 +18,12 @@ export default function TeachingCard(props) {
            <Image src="/seminars.png" objectFit="cover" width="200" height="200"></Image>
            </div>
         <div class="font-bold text-center text-xl">Seminars</div>
+
+        <div class="flex flex-row justify-center items-center pt-8">
+
+<a class="text-purple-500 font-semibold" href="/teaching/seminars">View Details</a>
+</div>
+
        </div>}
 
        {props.type == "Master Thesis" && <div>
@@ -25,13 +31,17 @@ export default function TeachingCard(props) {
            <Image src="/master.png" objectFit="cover" width="200" height="200"></Image>
            </div>
         <div class="font-bold text-center text-xl">Master Thesis</div>
-       </div>}
-
 
         <div class="flex flex-row justify-center items-center pt-8">
 
-            <button class="text-purple-500 font-semibold">View Details</button>
-        </div>
+<a class="text-purple-500 font-semibold" href="/teaching/thesis">View Details</a>
+</div>
+
+
+       </div>}
+
+
+  
 
 
     </div>)

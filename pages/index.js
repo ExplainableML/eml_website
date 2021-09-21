@@ -15,14 +15,13 @@ import NewsGrid from '../components/NewsGrid';
 
 export default function Home(props) {
 
-  console.log(props)
-
   const publications = props.publicationsData.map(pub => matter(pub));
   let publicationsList = publications.map(item => item.data);
-  console.log(publications)
 
   const team = props.teamData.map(person => matter(person));
   let teamList = team.map(person => person.data);
+
+
 
   return (<div class="bg-gray-50">
 
@@ -78,6 +77,7 @@ export const getStaticProps = async () => {
 
     return rawContent;
   });
+
 
 
 
