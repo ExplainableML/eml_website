@@ -1,7 +1,7 @@
 import NavBar from "../../components/NavBar";
 import ThesisCard from "../../components/ThesisCard";
 import matter from 'gray-matter';
-
+import YearHeadline from "../../components/YearHeadline";
 export default function Thesis(props) {
 
     const thesis = props.thesisData.map(thesis => matter(thesis));
@@ -14,8 +14,13 @@ export default function Thesis(props) {
         </style>
         <NavBar></NavBar>
 
+
         <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
-            <div class="grid grid-cols-1 overflow-y-scroll">
+
+            <YearHeadline text="Thesis Topics"></YearHeadline>
+
+            <p class="text-sm px-4 lg:px-32 mb-16">If you are a student at the University of Tübingen in a MSc degree program at the department for Computer Science, and are interested in working with us (e.g. for a masters thesis, research internship, research project), please send an enquiry to eml-sekretariat at inf.uni-tuebingen.de. Please include a current CV including a description of previous research/work experiences, a transcript of all previous courses and grades, and a brief statement of what research you want to do and why you want to join our group. A list of open topics is below— however, note that this list is not exhaustive, and we might have additional topics available.</p>
+            <div class="grid grid-cols-1 overflow-y-scroll gap-8">
 
 
                     {thesisList.map(item=>{
@@ -39,7 +44,7 @@ export const getStaticProps = async () => {
   
     const thesis = thesis_files.filter(fn => fn.endsWith(".md"));
   
-    const thesisData = thesis.map(team => {
+    const thesisData = thesis.map(thesis => {
       const path = `${process.cwd()}/content/teaching/thesis/${thesis}`;
       const rawContent = fs.readFileSync(path, {
         encoding: "utf-8"

@@ -1,9 +1,9 @@
 ---
 img: "/team/yonqin-xian.jpg"
-name: Yonqin Xian
+name: Yongqin Xian
 role: Visiting Postdoctoral Researcher
 order: 3
-link: yonqin-xian
+link: yongqin-xian
 mail: yxian at mpi-inf.mpg.de
 ---
 # Profile
