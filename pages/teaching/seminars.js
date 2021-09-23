@@ -21,10 +21,21 @@ export default function Thesis(props) {
 
   useEffect(()=>{
     setActiveSeminar(seminarsList[0].title)
-    console.log(seminars)
+    var els = document.getElementsByTagName("ul");
+    for(var i = 0, all = els.length; i < all; i++){   
+         els[i].classList.add('list-disc');
+         els[i].classList.add('pl-4');
+     }
   },[])
 
-  
+
+  useEffect(()=>{
+    var els = document.getElementsByTagName("ul");
+    for(var i = 0, all = els.length; i < all; i++){   
+         els[i].classList.add('list-disc');
+         els[i].classList.add('pl-4');
+     }
+  },[activeSeminar])
 
   return (<>
     <style>

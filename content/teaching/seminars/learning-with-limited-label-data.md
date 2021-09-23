@@ -43,31 +43,31 @@ Presentation on November 26th, December 3, 10 or 17th (20 minutes talk, 10 minut
 
 ## Topics to be covered
 
-Semi-supervised learning
+### Semi-supervised learning
 
-Temporal Ensembling for Semi-Supervised Learning, Laine et al., ICLR2017
-Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results, Tarvainen et al., NeuRIPS2017
-Semi-Supervised Classification with Graph Convolutional Networks, Kipf et al., ICLR2017
-Smooth Neighbors on Teacher Graphs for Semi-supervised Learning, Luo et al., CVPR2018
-Deep Co-Training for Semi-Supervised Image Recognition, Qiao et al., ECCV2018
-ReMixMatch: Semi-Supervised Learning with Distribution Matching and Augmentation Anchoring, Berthelot et al., ICLR2020
-Self-supervised learning/Unsupervised pre-training
+- Temporal Ensembling for Semi-Supervised Learning, Laine et al., ICLR2017
+- Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results, Tarvainen et al., NeuRIPS2017
+- Semi-Supervised Classification with Graph Convolutional Networks, Kipf et al., ICLR2017
+- Smooth Neighbors on Teacher Graphs for Semi-supervised Learning, Luo et al., CVPR2018
+- Deep Co-Training for Semi-Supervised Image Recognition, Qiao et al., ECCV2018
+- ReMixMatch: Semi-Supervised Learning with Distribution Matching and Augmentation Anchoring, Berthelot et al., ICLR2020
+### Self-supervised learning/Unsupervised pre-training
 
-Deep Clustering for Unsupervised Learning of Visual Features, Caron et al,. ECCV2018
+- Deep Clustering for Unsupervised Learning of Visual Features, Caron et al,. ECCV2018
 Self-Supervised GANs via Auxiliary Rotation Loss, Chen et at., CVPR2019
 A Simple Framework for Contrastive Learning of Visual Representations, Chen et al,. ICML2020
 Momentum Contrast for Unsupervised Visual Representation Learning, He et al,. CVPR2020
 Exploring Simple Siamese Representation Learning, Chen et al., CVPR2021
 Bootstrap Your Own Latent A New Approach to Self-Supervised Learning, Grill et al,. NeuRIPS2020
-Low-shot Learning (zero-shot/few-shot learning)
+### Low-shot Learning (zero-shot/few-shot learning)
 
-Prototypical Networks for Few-Shot Learning, Snell et al., NeurIPS 2017.
+- Prototypical Networks for Few-Shot Learning, Snell et al., NeurIPS 2017.
 Dynamic Few-Shot Visual Learning without Forgetting, Gidaris and Komodakis, CVPR 2018.
 Learning to Compare: Relation Network for Few-Shot Learning, Sung et al., CVPR 2018.
 Zero-Shot Learning - A Comprehensive Evaluation of the Good, the Bad and the Ugly, Xian et al., TPAMI 2018.
 Attribute Prototype Network for Zero-Shot Learning, Xu et al., NeurIPS 2020.
 f-VAEGAN-D2: A Feature Generating Framework for Any-Shot Learning Xian et al., CVPR 2019.
-Cross-domain learning
+### ross-domain learning
 
 Unsupervised Domain Adaptation by Backpropagation, Ganin et al., ICML 2015.
 AutoDIAL: Automatic DomaIn Alignment Layers, Carlucci et al., ICCV 2017.
@@ -75,7 +75,7 @@ CyCADA: Cycle-Consistent Adversarial Domain Adaptation, Hoffman et al., ICML 201
 Self-Ensembling for Visual Domain Adaptation, French et al., ICLR 2018.
 Maximum Classifier Discrepancy for Unsupervised Domain Adaptation, Saito et al., CVPR 2018.
 Domain Generalization by Solving Jigsaw Puzzles, Carlucci et al., CVPR 2019.
-Emerging trends
+### Emerging trends
 
 Semi-Supervised Learning under Class Distribution Mismatch, Chen et al., AAAI2020
 Barlow Twins: Self-Supervised Learning via Redundancy Reduction, Zbontar et al,. ICML2021
