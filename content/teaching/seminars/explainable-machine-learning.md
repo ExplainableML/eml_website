@@ -22,12 +22,15 @@ The schedule of the seminar is as follows:
 
 
 All seminars will take place on zoom. All the accepted participants will receive the zoom link on their email that they used in ILIAS.
+
 The course awards 3 LP Credits.
+
 ## Requirements
 A successful participation in the seminar includes:
-Active participation in the entire event: We have 70% attendance policy for this seminar. You need to attend at least 5 of the 7 sessions.
-Short presentation on October 27th or November 3rd (10 minutes talk, 5 min questions)
-Presentation on November 10th, November 17th, November 24th or December 1st (20 minutes talk, 10 minutes questions) on a selected topic
+- Active participation in the entire event: We have 70% attendance policy for this seminar. You need to attend at least 5 of the 7 sessions.
+- Short presentation on October 27th or November 3rd (10 minutes talk, 5 min questions)
+- Presentation on November 10th, November 17th, November 24th or December 1st (20 minutes talk, 10 minutes questions) on a selected topic
+
 ## Topics to be covered
 ### Interpretability in psychology and cognitive sciences:
 - [The structure and function of explanations](https://collaborate.princeton.edu/en/publications/the-structure-and-function-of-explanations), Tania Lombrozo, Trends in Cognitive Sciences, 2006
