@@ -6,7 +6,7 @@ export default function TeamMemberElement(props) {
   };
 
   return (
-    <a href={"/team/" + props.person.link}>
+    <a href={"/people/" + props.person.link}>
     <div class="flex flex-col items-center justify-center">
       <Image
         class="rounded-full mb-4"
@@ -18,7 +18,7 @@ export default function TeamMemberElement(props) {
         alt={props.name}
       ></Image>
       <a
-        href={"/team/" + props.person.link}
+        href={"/people/" + props.person.link}
         class="mt-3 text-purple-500 text-xs md:text-xl font-bold"
       >
         {props.person.name}
