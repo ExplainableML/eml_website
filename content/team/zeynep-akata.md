@@ -69,7 +69,7 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 
 ### 2021
 
-- [Keep CALM and Improve Visual Feature Attribution](https://www.google.com) Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh IEEE International Conference of Computer Vision, ICCV 2021
+- Keep CALM and Improve Visual Feature Attribution Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh IEEE International Conference of Computer Vision, ICCV 2021
 - e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz IEEE International Conference of Computer Vision, ICCV 2021
 - Uncertainty-Guided Progressive GANs for Medical Image Translation Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
 - Learning Decision Trees Recurrently Through Communication Stephan Alaniz, Diego Marcos, Bernt Schiele, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
