@@ -2,7 +2,7 @@
 img: "/team/ilke-cugu.jpg"
 name: Ilke Cugu
 role: Research Scientist
-order: 6
+order: 5
 link: ilke-cugu
 mail: cuguilke at gmail.com
 ---

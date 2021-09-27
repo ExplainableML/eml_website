@@ -1,8 +1,8 @@
 ---
 img: "/team/wenjia-xu.jpeg"
 name: Wenjia Xu
-role: Visiting PhD Researcher
-order: 5
+role: Collaborating PhD Researcher
+order: 8
 link: wenjia-xu
 mail: wexu at mpi-inf.mpg.de
 ---

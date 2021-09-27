@@ -1,8 +1,8 @@
 ---
 img: "/team/profile_dummy.png"
 name: Alumni
-role:  
-order: 9
+role:
+order: 10
 link: alumni
 ---
 
