@@ -28,35 +28,35 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021\
 
 &nbsp;
 
-* **Sight to sound: An end-to-end approach for visual piano transcription**
+* Sight to sound: An end-to-end approach for visual piano transcription
 A. Sophia Koepke, [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/), [Yael Moses](https://faculty.idc.ac.il/moses/), [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/)\
 The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2020\
 [Paper](https://www.robots.ox.ac.uk/~vgg/publications/2020/Koepke20/koepke20.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/sighttosound/)
 
 &nbsp;
 
-* **Self-supervised learning of class embeddings from video**
+* Self-supervised learning of class embeddings from video
 [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/), A. Sophia Koepke, [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/)\
 IEEE/CVF International Conference on Computer Vision Workshop (ICCV Workshop), 2019\
 [Paper](http://www.robots.ox.ac.uk/~vgg/publications/2019/Wiles19/wiles19.pdf)
 
 &nbsp;
 
-* **Visual pitch estimation**
+* Visual pitch estimation
 A. Sophia Koepke, [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/), [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/)\
 Sound and Music Compution Conference (SMC), 2019\
 [Paper](http://www.robots.ox.ac.uk/~vgg/publications/2019/Koepke19/koepke19.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/sighttosound/violinpitch.html)
 
 &nbsp;
 
-* **Self-supervised learning of a facial attribute embedding from video**
+* Self-supervised learning of a facial attribute embedding from video
 [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/)\*, A. Sophia Koepke\*, [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/)\
 British Machine Vision Conference (BMVC), 2018\
 [Paper](http://www.robots.ox.ac.uk/~vgg/publications/2018/Wiles18a/wiles18a.pdf) | [Supplementary material](http://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/resources/wiles18a_supp.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/fabnet.html) | [Code](https://github.com/oawiles/FAb-Net)
 
 &nbsp;
 
-* **X2Face: A network for controlling face generation by using images, audio, and pose codes**
+* X2Face: A network for controlling face generation by using images, audio, and pose codes
 [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/)\*, A. Sophia Koepke\*, [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/)\
 European Conference on Computer Vision (ECCV), 2018\
 [Paper](https://www.robots.ox.ac.uk/~vgg/publications/2018/Wiles18/wiles18.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/x2face.html) | [Code](https://github.com/oawiles/X2Face)
