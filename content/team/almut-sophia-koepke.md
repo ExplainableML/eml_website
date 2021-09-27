@@ -13,9 +13,9 @@ During her PhD, her research focussed on self-supervised learning and on audio-v
 
 # Publications
 
-* Audio retrieval with natural language queries  
-[Andreea-Maria Oncescu](https://www.robots.ox.ac.uk/~oncescu/)\*, A. Sophia Koepke\*, [Joao F. Henriques](https://www.robots.ox.ac.uk/~joao/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Samuel Albanie](https://www.robots.ox.ac.uk/~albanie/)  
-INTERSPEECH, 2021  
+* Audio retrieval with natural language queries\
+[Andreea-Maria Oncescu](https://www.robots.ox.ac.uk/~oncescu/)\*, A. Sophia Koepke\*, [Joao F. Henriques](https://www.robots.ox.ac.uk/~joao/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Samuel Albanie](https://www.robots.ox.ac.uk/~albanie/)\
+INTERSPEECH, 2021\
 [Paper](https://arxiv.org/pdf/2105.02192.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/) | [Code](https://github.com/oncescuandreea/audio-retrieval)
 
 * Distilling audio-visual knowledge by compositional contrastive learning Yanbei Chen, Yongqin Xian, A. Sophia Koepke, Ying Shan, Zeynep Akata IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021 Paper | Code
