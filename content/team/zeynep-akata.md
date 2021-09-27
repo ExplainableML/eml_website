@@ -4,7 +4,8 @@ name: Zeynep Akata
 role: Professor
 order: 1
 link: zeynep-akata
-linkedin: https://google.com
+twitter: @zeynepakata
+linkedin: https://www.linkedin.com/in/zeynep-akata-36182045/
 address: Office 40-30/A24, Maria von Linden Straße 6
 phone: (+49) 172 231412 1231
 mail: zeynep.akata (at) uni-tuebingen.de
@@ -32,7 +33,7 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 * Program Chair:
     * GCPR-DAGM 2020​
 * Area Chair:
-    * WACV 2016, IJCAI 2018, ECCV 2018, BMVC 2019, CVPR 2019, ICCV 2019, CVPR 2020, ICML 2020, ECCV 2020, ICLR 2021, ICML 2021
+    * WACV 2016, IJCAI 2018, ECCV 2018, BMVC 2019, CVPR 2019-2020, ICCV 2019, ICML 2020-2021, ECCV 2020, ICLR 2021
 * Associate Editor:
     * Pattern Recognition Journal (Appointment between Aug 2018 - Aug 2020)
     * Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2020 - Now)
@@ -42,8 +43,8 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 * Organization Committees and Invited Talks:
     * Gender Diversity in STEM fields, Springboard training program, 2015
     * Tutorial on Embeddings and Metric Learning, GCPR 2016
-    *   Tutorial on Zero-Shot Learning, CVPR 2017
-    *   CD-Make 2018, Cross Domain Conference on Machine Learning and Knowledge Extraction
+    * Tutorial on Zero-Shot Learning, CVPR 2017
+    * CD-Make 2018, Cross Domain Conference on Machine Learning and Knowledge Extraction
     * WiCV@ECCV 2018, Women in Computer Vision Workshop
     * Interpretable Machine Learning for Computer Vision Tutorial at CVPR 2020, Invited Speaker
     * Fair, Data-Efficient and Trusted Computer Vision Workshop at CVPR 2020, Invited Speaker
@@ -54,20 +55,24 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
     * RIIAA 2020 - International Meeting on Artificial Intelligence, Invited Speaker
     * Sketching for Human Expressivity (SHE) Workshop at ICCV 2021, Co-organizer
     * Human in the Loop Learning (HILL) Workshop at ICML 2021, Co-organizer
+    * Natural XAI: Natural Language Explanations Tutorial at ICML 2021, Co-organizer and Speaker
+    * ImageNet: The Past, The Present and The Future Workshop at NeurIPS 2021, Co-organizer
 
 ## Awards and Funding 
 * Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society in 2014
 * Explainable Artificial Intelligence (XAI) grant from DARPA in 2017
 * ERC Starting Grant from the European Research Council in 2019
 * Young Investigator honour from Werner-von-Siemens-Ring Foundation in 2019
+* DAGM German Pattern Recognition Award in 2021
+
+
 # Publications
 
 ### 2021
 
 - [Keep CALM and Improve Visual Feature Attribution](https://www.google.com) Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh IEEE International Conference of Computer Vision, ICCV 2021
 - e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz IEEE International Conference of Computer Vision, ICCV 2021
-- Uncertainty-Guided Progressive GANs for Medical Image Translation Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata
-- Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
+- Uncertainty-Guided Progressive GANs for Medical Image Translation Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
 - Learning Decision Trees Recurrently Through Communication Stephan Alaniz, Diego Marcos, Bernt Schiele, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
 - Learning Graph Embeddings for Compositional Zero-shot Learning Mohammad Ferjad Naeem, Yongqin Xian, Federico Tombari, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
 - Distilling Audio-Visual Knowledge by Compositional Contrastive Learning Yanbei Chen, Yongqin Xian, Almut Sophia Koepke, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
@@ -93,6 +98,7 @@ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2020
 - Manipulating Attributes of Natural Scenes via Hallucination
 Levent Karacan, Zeynep Akata, Aykut Erdem, Erkut Erdem
 ACM SIGGRAPH 2020 (invited paper)
+
 ### 2019
 
 - Modeling Conceptual Understanding in Image Reference Games
@@ -119,6 +125,7 @@ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
 - Zero-Shot Learning – A Comprehensive Evaluation of the Good, the Bad and the Ugly
 Yongqin Xian, Christoph Lampert, Bernt Schiele, Zeynep Akata
 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019
+
 ### 2018
 
 - Grounding Visual Explanations
@@ -180,17 +187,6 @@ Zeynep Akata, Florent Perronnin, Zaid Harchaoui and Cordelia Schmid,
 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014
 
 
-# Research
-Clearly explaining a rationale for a classification decision to an end-user can be as important as the decision itself. As decision makers, humans can justify their decisions with natural language and point to the evidence in the visual world which led to their decisions. In contrast, artificially intelligent systems are frequently seen as opaque and are unable to explain their decisions. This is particularly concerning as ultimately such systems fail in building trust with human users. 
-
-Explanations are valuable because they enable users to adapt themselves to the situations that are about to arise while allowing users to attain a stable environment and have the possibility to control it. Explanations in the medical domain can help patients identify and monitor the abnormal behaviour of their ailment. In the domain of self-driving vehicles they can warn the user of some critical state and collaborate with her to prevent a wrong decision. In the domain of satellite imagery, an explanatory monitoring system justifying the evidence of a future hurricane can save millions of lives. Hence, a learning machine that a user can trust and easily operate need to be fashioned with the ability of explanation. 
-
-While deep neural networks lead to impressive successes, e.g. they can now reliably identify 1000 object classes, argue about their interactions through natural language, answer questions about their attributes through interactive dialogues, integrated interpretability is still in its early stages. In other words, we do not know why these deep learning based visual classifications systems work when they are accurate and why they do not work when they make mistakes. Enabling such transparency requires the interplay of different modalities such as images and text, whereas current deep networks are designed as a combination of different tools each optimising a different learning objective with extremely weak and uninterpretable communication channels. However, deep neural networks draw their power from their ability to process large amounts of data in an end-to-end manner through a feedback loop with forward and backward processing. Although interventions on the feedback loop have been implemented by removing neurons and back propagating gradients, a generalizable multi-purpose interpretability is still far from reach. 
-
-Apart from the lack of an integrated interpretability module, deep neural networks require a large amount of labeled training data to reach reliable conclusions. In particular, they need to be trained for every possible situation using labeled data. For instance, the system needs to observe the driver’s behavior at the red light to be able to learn to stop at red light both in a sunny and rainy weather, both in daylight and in night, both in fog and in snow, and so on. This causes a significant overhead in labelling every possible situation. Hence, our aim is to build an explainable machine learning system that can learn the meaning of “red light” and use this knowledge to identify many other related situations, e.g. although red light may look different in darkness vs daylight, the most important aspect in such a situation is to identify that the vehicle needs to stop. In other words, we would like to transfer the explainable behaviour of a decision maker to novel situations.
-
-In summary, we propose an end-to-end trainable decision maker operating in sparse data regime with an integrated interpretability module. Our main research direction to build such a system is two folds: learning representations with weak supervision and generating multimodal explanations of classification decisions. 
-
 # Teaching 
 - Leren (Introduction to Machine Learning), 2017 (BSc AI, Y2, P2)
 - Leren (Introduction to Machine Learning), 2018 (BSc AI, Y2, P2)
@@ -199,12 +195,27 @@ In summary, we propose an end-to-end trainable decision maker operating in spars
 - Back2Basic 2018, Annual Computer Science Event, Amsterdam, Invited Speaker
 - DSSV 2018, Conference on Data Science, Statistics and Visualization, Invited speaker
 - BMVC 2018, British Machine Vision Conference, Invited Speaker
-# Students
+- Advanced topics in Explainable Machine Learning, WS 2019/2020 (MSc of CS, ML, MI)
+- TUM-AI Lecture Series 2021, Invited Speaker
+- SIKS-AI Lecture Series 2021, Invited Speaker
+- Advanced topics in Explainable Machine Learning, WS 2020/2021 (MSc of CS, ML, MI, CogSci)
+- Learning with Limited Labeled Data, WS 2020/2021 (MSc of CS, ML, MI, CogSci)
 
-- 2019-Now Lennart van Goten @ KTH Stockholm (with Prof. Kevin Smith) 
-- 2018-Now Marco Federici @ University of Amsterdam (with Dr. Nate Kushman, Dr. Patrick Forre)
+
+# PhD Students
+
+- 2021-Now Shyamgopal Karthik @ University of Tübingen (with Matthias Bethge)
+- 2021-Now Jae Myung Kim @ University of Tübingen and INRIA (ELLIS PhD with Cordelia Schmid)
+- 2021-Now Karsten Roth @ University of Tübingen and Deepmind (ELLIS PhD with Oriol Vinyals)
+- 2021-Now Anders Christensen @ Denmark Technical University and University of Tübingen (co-supervision, ELLIS PhD with Ole Winther)
+- 2021-Now Uddeshya Upadhyay @ University of Tübingen (with Sergios Gatidis)
+- 2021-Now Otniel Mercea @ University of Tübingen (with Andreas Geiger)
+- 2020-Now Thomas Hummel @ University of Tübingen 
+- 2020-Now Leonard Salewski @ University of Tübingen (with Hendrik Lensch)
+- 2019-Now Lennart van Goten @ KTH Stockholm (co-supervision, with Kevin Smith) 
 - 2017-Now Stephan Alaniz @ University of Tübingen and Max Planck Institute for Informatics
-- 2016-Now Yongqin Xian @ Max Planck Institute for Informatics (with Prof. Bernt Schiele)
+- 2016-2020 Yongqin Xian @ Max Planck Institute for Informatics (with Bernt Schiele)
+- 2018-2019 Marco Federici @ University of Amsterdam (with Nate Kushman, Patrick Forre)
 - 2017-2019 Victor Garcia @ University of Amsterdam (with Prof. Max Welling)
 - 2017-2019 Sadaf Gulshad @ University of Amsterdam (with Prof. Arnold Smeulders)
 - 2018-2019 Maartje ter Hoeve @ University of Amsterdam (with Prof. Maarten de Rijke)
