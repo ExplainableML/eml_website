@@ -7,13 +7,16 @@ link: almut-sophia-koepke
 ---
 
 # Profile
-Almut Sophia Koepke is a post-doctoral researcher in the EML group where she works with Zeynep Akata. Prior to that, she completed her DPhil in the Visual Geometry Group (VGG) at the University of Oxford, supervised by Andrew Zisserman.
+Almut Sophia Koepke is a post-doctoral researcher in the EML group where she works with Zeynep Akata. Prior to that, she completed her DPhil in the [Visual Geometry Group (VGG)][https://www.robots.ox.ac.uk/~vgg/] at the University of Oxford, supervised by [Andrew Zisserman][https://www.robots.ox.ac.uk/~az/].
 
 During her PhD, her research focussed on self-supervised learning and on audio-visual learning problems.
 
 # Publications
 
-* Audio retrieval with natural language queries Andreea-Maria Oncescu*, A. Sophia Koepke*, Joao F. Henriques, Zeynep Akata, Samuel Albanie INTERSPEECH, 2021 Paper | Project page | Code
+* **Audio retrieval with natural language queries**
+[Andreea-Maria Oncescu]\*[https://www.robots.ox.ac.uk/~oncescu/], A. Sophia Koepke\*, [Joao F. Henriques][https://www.robots.ox.ac.uk/~joao/], [Zeynep Akata][https://www.eml-unitue.de/people/zeynep-akata], [Samuel Albanie][https://www.robots.ox.ac.uk/~albanie/]
+INTERSPEECH, 2021
+[Paper][https://arxiv.org/pdf/2105.02192.pdf] | [Project page][https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/] | [Code][https://github.com/oncescuandreea/audio-retrieval]
 
 * Distilling audio-visual knowledge by compositional contrastive learning Yanbei Chen, Yongqin Xian, A. Sophia Koepke, Ying Shan, Zeynep Akata IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021 Paper | Code
 
