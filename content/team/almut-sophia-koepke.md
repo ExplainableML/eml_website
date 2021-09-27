@@ -14,37 +14,49 @@ During her PhD, her research focussed on self-supervised learning and on audio-v
 
 # Publications
 
-* Audio retrieval with natural language queries
+* **Audio retrieval with natural language queries**
 [Andreea-Maria Oncescu](https://www.robots.ox.ac.uk/~oncescu/)\*, A. Sophia Koepke\*, [Joao F. Henriques](https://www.robots.ox.ac.uk/~joao/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Samuel Albanie](https://www.robots.ox.ac.uk/~albanie/)\
 INTERSPEECH, 2021\
 [Paper](https://arxiv.org/pdf/2105.02192.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/) | [Code](https://github.com/oncescuandreea/audio-retrieval)
 
-* Distilling audio-visual knowledge by compositional contrastive learning
+&nbsp;
+
+* **Distilling audio-visual knowledge by compositional contrastive learning**
 [Yanbei Chen](https://www.eml-unitue.de/people/yanbei-chen), [Yongqin Xian](https://www.eml-unitue.de/people/yongqin-xian), A. Sophia Koepke, Ying Shan, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021\
 [Paper](https://arxiv.org/abs/2104.10955) | [Code](https://github.com/yanbeic/CCL)
 
-* Sight to sound: An end-to-end approach for visual piano transcription
+&nbsp;
+
+* **Sight to sound: An end-to-end approach for visual piano transcription**
 A. Sophia Koepke, Olivia Wiles, Yael Moses, Andrew Zisserman\
 The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2020\
 Paper | Project page
 
-* Self-supervised learning of class embeddings from video
+&nbsp;
+
+* **Self-supervised learning of class embeddings from video**
 Olivia Wiles, A. Sophia Koepke, Andrew Zisserman\
 IEEE/CVF International Conference on Computer Vision Workshop (ICCV Workshop), 2019\
 Paper
 
-* Visual pitch estimation
+&nbsp;
+
+* **Visual pitch estimation**
 A. Sophia Koepke, Olivia Wiles, Andrew Zisserman\
 Sound and Music Compution Conference (SMC), 2019\
 Paper | Project page
 
-* Self-supervised learning of a facial attribute embedding from video
+&nbsp;
+
+* **Self-supervised learning of a facial attribute embedding from video**
 Olivia Wiles\*, A. Sophia Koepke\*, Andrew Zisserman\
 British Machine Vision Conference (BMVC), 2018\
 Paper | Supplementary material | Project page | Code
 
-* X2Face: A network for controlling face generation by using images, audio, and pose codes
+&nbsp;
+
+* **X2Face: A network for controlling face generation by using images, audio, and pose codes**
 Olivia Wiles\*, A. Sophia Koepke\*, Andrew Zisserman\
 European Conference on Computer Vision (ECCV), 2018\
 Paper | Project page | Code
