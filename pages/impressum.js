@@ -11,22 +11,23 @@ export default function Impressum(props) {
 
     <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
       <YearHeadLine text="Impressum"></YearHeadLine>
-    </div>
-    <div>
-        <p><span style="text-decoration: underline;">Angaben gem. § 5 TMG:</span></p>
+
+
+      <div >
+        <p><span style={{textDecoration: "underline"}}>Angaben gem. § 5 TMG:</span></p>
         <p>&nbsp;</p>
         <p>Zeynep Akata</p>
         <p>AI Research Building, Maria-Von-Linden-Straße 6</p>
         <p>72076 Tübingen</p>
         <p>&nbsp;</p>
-        <p><span style="text-decoration: underline;">Kontaktaufnahme:</span></p>
+        <p><span style={{textDecoration: "underline"}}>Kontaktaufnahme:</span></p>
         <p>&nbsp;</p>
         <p>Telefon: +49 7071 2970824</p>
         <p>E-Mail: eml-sekretariat (at) inf.uni-tuebingen.de</p>
         <p>&nbsp;</p>
         <p><strong>Haftungsausschluss - Disclaimer:</strong></p>
         <p>&nbsp;</p>
-        <p><span style="text-decoration: underline;">Haftung für Inhalte</span></p>
+        <p><span style={{textDecoration: "underline"}}>Haftung für Inhalte</span></p>
         <p><strong>&nbsp;</strong></p>
         <p>Alle Inhalte unseres Internetauftritts wurden mit größter Sorgfalt und nach bestem Gewissen erstellt. Für die
             Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als
@@ -39,7 +40,7 @@ export default function Impressum(props) {
             Rechtsverletzung möglich. Bei Bekanntwerden von den o.g. Rechtsverletzungen werden wir diese Inhalte
             unverzüglich entfernen.</p>
         <p>&nbsp;</p>
-        <p><span style="text-decoration: underline;">Haftungsbeschränkung für externe Links</span></p>
+        <p><span style={{textDecoration: "underline"}}>Haftungsbeschränkung für externe Links</span></p>
         <p><strong>&nbsp;</strong></p>
         <p>Unsere Webseite enthält Links auf externe Webseiten Dritter. Auf die Inhalte dieser direkt oder indirekt
             verlinkten Webseiten haben wir keinen Einfluss. Daher können wir für die „externen Links“ auch keine Gewähr
@@ -60,7 +61,7 @@ export default function Impressum(props) {
             Veröffentlichung lediglich verweist.</p>
         <p>Werden uns Rechtsverletzungen bekannt, werden die externen Links durch uns unverzüglich entfernt.</p>
         <p>&nbsp;</p>
-        <p><span style="text-decoration: underline;">Urheberrecht</span></p>
+        <p><span style={{textDecoration: "underline"}}>Urheberrecht</span></p>
         <p><strong>&nbsp;</strong></p>
         <p>Die auf unserer Webseite veröffentlichen Inhalte und Werke unterliegen dem deutschen Urheberrecht (<a
                 href="http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf">http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf</a>)
@@ -77,6 +78,10 @@ export default function Impressum(props) {
             www.jurarat.de zur Verfügung gestellt.</p>
     </div>
 
+
+
+    </div>
+    
     </div>)
 }
 
