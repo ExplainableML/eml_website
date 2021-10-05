@@ -4,7 +4,7 @@ title: Audio retrieval using natural language queries
 authors: Andreea-Maria Oncescu, A. Sophia Koepke, Joao F. Henriques, Zeynep Akata, Samuel Albanie 
 publisher: INTERSPEECH
 year: 2021
-date: "2021-06-02"
+date: "2021-08-31"
 pdf: https://arxiv.org/pdf/2105.02192.pdf
 website: https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/ 
 demo: https://meru.robots.ox.ac.uk/audio-retrieval/
