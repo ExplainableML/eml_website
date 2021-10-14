@@ -15,7 +15,7 @@ export default function TeamMemberContent(props) {
              els[i].classList.add('pl-4');
          }
     }, [])
-    return (<div class="col-span-1 lg:col-span-4 min-h-screen lg:pl-72 mb-72">
+    return (<div class="col-span-1 lg:col-span-4 min-h-screen lg:pl-8 mb-72">
              <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
     rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
     </div>)

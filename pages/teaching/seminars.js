@@ -43,8 +43,8 @@ export default function Thesis(props) {
     </style>
     <NavBar></NavBar>
 
-    <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
-      <div class="grid grid-cols-1 lg:grid-cols-4 overflow-y-scroll w-full">
+    <div class=" pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+      <div class="container grid grid-cols-1 lg:grid-cols-4 overflow-y-scroll w-full">
         <div class="col-span-1 ">
           <div>
             <div class="flex flex-col justify-center items-center">

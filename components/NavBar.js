@@ -20,7 +20,9 @@ export default function NavBar() {
 	},[])
   return (
     <div class="fixed z-50 w-full">
-      <nav class="flex w-full items-center justify-between flex-wrap bg-gray-50 p-6 md:px-16">
+      <nav class="w-full bg-gray-50 p-6 md:px-16 flex items-center justify-center">
+
+		  <div class="flex  items-center justify-between flex-wrap  container">
         <a href="/" class="flex items-center flex-shrink-0 text-black mr-6">
         <svg x="0px" y="0px"
 	 width="32px" height="32px" viewBox="0 0 411.02 411.02" enable-background="new 0 0 411.02 411.02">
@@ -343,6 +345,7 @@ export default function NavBar() {
             </a>
           </div>
         </div>
+		</div>
       </nav>
     </div>
   );

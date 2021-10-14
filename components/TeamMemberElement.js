@@ -19,7 +19,7 @@ export default function TeamMemberElement(props) {
       ></Image>
       <a
         href={"/people/" + props.person.link}
-        class="mt-3 text-purple-500 text-xs md:text-xl font-bold"
+        class="mt-3 text-purple-500 text-xs md:text-lg font-bold"
       >
         {props.person.name}
       </a>

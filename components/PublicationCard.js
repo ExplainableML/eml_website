@@ -7,7 +7,7 @@ export default function PublicationCard(props) {
     }
 
     return (
-        <div class="relative overflow-hidden bg-white shadow-lg">
+        <a href={"/publication/"+props.publication.filename} class="relative overflow-hidden bg-white shadow-lg">
             <div class="w-full bg-white h-256 ">
 
             <Image width="500" height="256" objectFit="contain"  loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
@@ -28,6 +28,6 @@ export default function PublicationCard(props) {
                 </div>
 
 
-        </div>
+        </a>
             )
 }

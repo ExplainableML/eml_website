@@ -14,8 +14,10 @@ export default function Thesis(props) {
         </style>
         <NavBar></NavBar>
 
+        <div class="flex justify-center items-center ">
 
-        <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+        
+        <div class="container pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
 
             <YearHeadline text="Thesis Topics"></YearHeadline>
 
@@ -32,6 +34,7 @@ export default function Thesis(props) {
             </div>
 
 
+        </div>
         </div>
 
     </>)
