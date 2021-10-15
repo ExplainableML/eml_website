@@ -4,7 +4,7 @@ import { GitHub, FileText, Linkedin, Globe, Map, Phone, Mail} from 'react-feathe
 export default function References(props) {
     return(<>
 
-            {props.pdf && <span><a class="text-purple-500 font-semibold text-sm p-8" href={props.pdf}>PDF</a></span>}
+            {props.pdf && <span class="flex flex-row justify-left items-center p-4 py-1"><FileText color="#5A005B" size={18}/><a class="text-purple-500 font-semibold text-sm px-2" href={props.pdf}>PDF</a></span>}
 
 
             {props.arxiv && <span class="flex flex-row justify-left items-center p-4 py-1">     <FileText color="#5A005B" size={18}/><a class="text-purple-500 font-semibold text-sm  pl-2" href={props.arxiv}>Arxiv</a></span>}
