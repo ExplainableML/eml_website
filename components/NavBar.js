@@ -381,7 +381,7 @@ export default function NavBar(props) {
 							let mynav = document.getElementById("navbar")
 							mynav.classList.add("hidden")
 						  }}
-              href="#news"
+              href="/#news"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               News
@@ -391,7 +391,7 @@ export default function NavBar(props) {
 							let mynav = document.getElementById("navbar")
 							mynav.classList.add("hidden")
 						  }}
-              href="#contact"
+              href="/#contact"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               Contact
