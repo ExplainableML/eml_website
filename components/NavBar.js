@@ -7,7 +7,7 @@ export default function NavBar(props) {
 			let mynav = document.getElementById("navbar")
 			let nav_container = document.getElementById("nav-container")
 		
-			if (window.innerWidth < 500) {
+			if (window.innerWidth < 800) {
 			  mynav.classList.add("hidden")
 			  nav_container.classList.add("h-screen")
 			  nav_container.classList.add("flex")
@@ -289,7 +289,7 @@ export default function NavBar(props) {
           </button>
         </div>
         <div
-          class="w-full md:hidden flex-grow lg:flex lg:items-center lg:w-auto "
+          class="w-full  flex-grow lg:flex lg:items-center lg:w-auto "
           id="navbar"
         >
           {props.otherLink&& <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
