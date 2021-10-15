@@ -6,7 +6,7 @@ order: 1
 link: zeynep-akata
 linkedin: https://www.linkedin.com/in/zeynep-akata-36182045/
 address: Office 40-30/A24, Maria von Linden Straße 6
-twitter: ExplainableML
+twitter: zeynepakata
 phone: (+49) 172 231412 1231
 mail: zeynep.akata (at) uni-tuebingen.de
 profile: # hello
