@@ -43,6 +43,10 @@ export default function TeamMemberSidebar(props) {
 
     for (var i = 0, all = doc.length; i < all; i++) {
       doc[i].id = doc[i].innerText;
+      if (i > 0) {
+        doc[i].classList.add("pt-24")
+      }
+      
       arr.push(doc[i].innerText)
     }
     setMenuItems(arr)
