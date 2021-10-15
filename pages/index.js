@@ -51,13 +51,17 @@ export default function Home(props) {
     <NavBar></NavBar>
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Hero></Hero>
+      <div class="pt-24" id="team"></div>
       <Headline id="team" text="Team"></Headline>
       <TeamMemberGrid team={teamList}></TeamMemberGrid>
+      <div class="pt-24" id="publications"></div>
       <Headline id="publications" text="Publications"></Headline>
       <PublicationGrid viewAll={true} publications={publicationsList.sort(function(a,b) {return new Date(b.date)- new Date(a.date)}).slice(0,3)}></PublicationGrid>
+      <div class="pt-24" id="teaching"></div>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
-      <Headline text="News"></Headline>
+      <div class="pt-24" id="news"></div>
+      <Headline text="News" ></Headline>
       <NewsGrid></NewsGrid>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
