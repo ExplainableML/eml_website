@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function NavBar() {
+export default function NavBar(props) {
 
 	useEffect(()=>{
 
@@ -292,7 +292,60 @@ export default function NavBar() {
           class="w-full md:hidden flex-grow lg:flex lg:items-center lg:w-auto "
           id="navbar"
         >
-          <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
+          {props.otherLink&& <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
+            <a
+			  onClick={()=>{
+				let mynav = document.getElementById("navbar")
+				mynav.classList.add("hidden")
+			  }}
+              href="/#team"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+            >
+              Team
+            </a>
+            <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#publications"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+            >
+              Publications
+            </a>
+            <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#teaching"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+            >
+              Teaching
+            </a>
+			<a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#news"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+            >
+              News
+            </a>
+            <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#contact"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+            >
+              Contact
+            </a>
+          </div>}
+
+		  {!props.otherLink&& <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
             <a
 			  onClick={()=>{
 				let mynav = document.getElementById("navbar")
@@ -343,7 +396,9 @@ export default function NavBar() {
             >
               Contact
             </a>
-          </div>
+          </div>}
+
+
         </div>
 		</div>
       </nav>
