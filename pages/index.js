@@ -63,6 +63,7 @@ export default function Home(props) {
       <div class="pt-24" id="news"></div>
       <Headline text="News" ></Headline>
       <NewsGrid></NewsGrid>
+      <div class="pt-24" id="contact"></div>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
     </div>
