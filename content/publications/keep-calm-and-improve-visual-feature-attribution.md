@@ -22,17 +22,17 @@ It answers "which pixels are responsible for the prediction" for CNN models.
 
 Overview of CAM is...
 
-- CAM works great! Examples in [youtube](https://www.youtube.com/embed/fZvOy0VXWAI).
-- CAM has inspired 5000+ papers in ML and CV!
-- CAM also works great for weakly supervised object localization (WSOL) tasks. [[ref](https://arxiv.org/abs/2001.07437)]
+* CAM works great! Examples in [youtube](https://www.youtube.com/embed/fZvOy0VXWAI).
+* CAM has inspired 5000+ papers in ML and CV!
+* CAM also works great for weakly supervised object localization (WSOL) tasks. [[ref](https://arxiv.org/abs/2001.07437)]
 <br><br><br><br>
 
 
-BUT, there is a remaining weakness for CAM
+<span style="font-size:larger;">BUT</span>, there is a remaining weakness for CAM
 
-- Explaining the value of CAM in **human language** is difficult to understand.
--- "The pixel-wise pre-GAP, pre-softmax feature value at (h, w), measured in relative scale within the range of Values [0, A] where A is the maximum of the feature values in the entire image"
-- In a **technical manner**, CAM applies normalization on the score map only at test time but not at training time.
+* Explaining the value of CAM in **human language** is difficult to understand.
+  * "The pixel-wise pre-GAP, pre-softmax feature value at (h, w), measured in relative scale within the range of Values [0, A] where A is the maximum of the feature values in the entire image"
+* In a **technical manner**, CAM applies normalization on the score map only at test time but not at training time.
 
 <br>
 <p align="center">
@@ -43,13 +43,13 @@ BUT, there is a remaining weakness for CAM
 
 HERE is where we address these issues using **probabilistic ML**. A good way to normalize something is to use probabilities.
 
-- Probabilistic ML starts with definitions for random variables. (X,Y) are usual variables for (image, label).
-- Now, a new latent, unobserved variable Z is introduced: **Z = pixel index responsible for the prediction of X as Y**
-- We factorize: p(X,Y,Z) = p(Y|X,Z) p(Z|X) p(X)
-- Use probabilistic ML tools for learning with latent variables,
--- Marginal likelihood loss: L = - log ∫ p(Y|X,Z) p(Z|X) dZ
--- Expectation-Maximization: L = - ∫ p’(Y,Z|X) log p(Y,Z|X)
-- The resulting **p(Y=y, Z|X=x)** is the **CALM attribution map**.
+* Probabilistic ML starts with definitions for random variables. (X,Y) are usual variables for (image, label).
+* Now, a new latent, unobserved variable Z is introduced: **Z = pixel index responsible for the prediction of X as Y**
+* We factorize: p(X,Y,Z) = p(Y|X,Z) p(Z|X) p(X)
+* Use probabilistic ML tools for learning with latent variables,
+  * Marginal likelihood loss: L = - log ∫ p(Y|X,Z) p(Z|X) dZ
+  * Expectation-Maximization: L = - ∫ p’(Y,Z|X) log p(Y,Z|X)
+* The resulting **p(Y=y, Z|X=x)** is the **CALM attribution map**.
 
 <br>
 <p align="center">
@@ -60,11 +60,11 @@ HERE is where we address these issues using **probabilistic ML**. A good way to 
 
 CALM has several benefits.
 
-- Interpretaion-phase computational graph **is** part of training graph.
-- **Intuitive description** of the CALM attribution map values.
--- "The probability that the cue for recognition was at position z when the image x is predicted as y"
-- Diverse explanation is possible. (s(y) = p(Y=y, Z | X))
-- CALM is qualitatively better than CAM. Quantitative results are also better where results are in the paper.
+* Interpretaion-phase computational graph **is** part of training graph.
+* **Intuitive description** of the CALM attribution map values.
+  * "The probability that the cue for recognition was at position z when the image x is predicted as y"
+* Diverse explanation is possible. (s(y) = p(Y=y, Z | X))
+* CALM is qualitatively better than CAM. Quantitative results are also better where results are in the paper.
 
 <br>
 <p align="center">
@@ -78,9 +78,9 @@ CALM has several benefits.
 
 
 One Caveat is....
-- reduced accuracy. For ResNet50 on ImageNet, the top-1 accuracies are 74.5% and 70.5% for CAM and CALM, respectively.
-- But this is the classic interpretability-accuracy trade-off.
-- In certain applications, you may sacrifice 4/100 predictions for plainly better explainability.
+* reduced accuracy. For ResNet50 on ImageNet, the top-1 accuracies are 74.5% and 70.5% for CAM and CALM, respectively.
+* But this is the classic interpretability-accuracy trade-off.
+* In certain applications, you may sacrifice 4/100 predictions for plainly better explainability.
 <br><br><br>
 
 
