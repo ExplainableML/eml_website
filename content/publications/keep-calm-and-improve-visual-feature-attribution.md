@@ -28,7 +28,7 @@ Overview of CAM is...
 <span style="font-size:xx-large;">BUT</span>, there is a remaining weakness for CAM
 
 &nbsp;&nbsp;&nbsp;&nbsp;+ Explaining the value of CAM in **human language** is difficult to understand. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ "The pixel-wise pre-GAP, pre-softmax feature value at (h, w), measured in relative scale within the range of Values [0, A] where A is the maximum of the feature values in the entire image" <br>
+"The pixel-wise pre-GAP, pre-softmax feature value at (h, w), measured in relative scale within the range of Values [0, A] where A is the maximum of the feature values in the entire image" <br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ In a **technical manner**, CAM applies normalization on the score map only at test time but not at training time. <br>
 
 <br>
@@ -40,7 +40,8 @@ Overview of CAM is...
 
 <span style="font-size:xx-large;">HERE</span> is where we address these issues using **probabilistic ML**. A good way to normalize something is to use probabilities.
 
-&nbsp;&nbsp;&nbsp;&nbsp;+ Probabilistic ML starts with definitions for random variables. (X,Y) are usual variables for (image, label). <br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ Probabilistic ML starts with definitions for random variables. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ (X,Y) are usual variables for (image, label). <br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ Now, a new latent, unobserved variable Z is introduced:  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Z = pixel index responsible for the prediction of X as Y** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ We factorize: p(X,Y,Z) = p(Y|X,Z) p(Z|X) p(X) <br>
@@ -60,7 +61,7 @@ Overview of CAM is...
 
 &nbsp;&nbsp;&nbsp;&nbsp;+ Interpretaion-phase computational graph **is** part of training graph. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ **Intuitive description** of the CALM attribution map values. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ "The probability that the cue for recognition was at position z when the image x is predicted as y" <br>
+"The probability that the cue for recognition was at position z when the image x is predicted as y" <br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ Diverse explanation is possible. (s(y) = p(Y=y, Z | X)) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ CALM is qualitatively better than CAM. Quantitative results are also better where results are in the paper. <br>
 
