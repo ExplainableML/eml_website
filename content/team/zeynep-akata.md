@@ -70,6 +70,11 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 
 ### 2021
 
+- Robustness via Uncertainty-aware Cycle Consistency. Uddeshya Upadhyay, Yanbei Chen, Zeynep Akata, Neural Information Processing Systems, NeurIPS 2021
+- Fine-Grained Zero-Shot Learning with DNA as Side Information. Sarkhan Badirli, Zeynep Akata, George Mohler, Christine Picard, Murat Dundar, Neural Information Processing Systems, NeurIPS 2021
+- Human Attention in Fine-grained Classification. Yao Rong, Wenjia Xu, Zeynep Akata, Enkelejda Kasneci, British Machine Vision Conference, BMVC 2021
+- Prototype-based Incremental Few-Shot Segmentation. Fabio Cermelli, Massimiliano Mancini, Yongqin Xian, Zeynep Akata, Barbara Caputo, British Machine Vision Conference, BMVC 2021
+- Conditional De-Identification of 3D Magnetic Resonance Images. Lennart Van der Goten, Tobias Hepp, Zeynep Akata, Kevin Smith, British Machine Vision Conference, BMVC 2021
 - Keep CALM and Improve Visual Feature Attribution Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh IEEE International Conference of Computer Vision, ICCV 2021
 - e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz IEEE International Conference of Computer Vision, ICCV 2021
 - Uncertainty-Guided Progressive GANs for Medical Image Translation Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
