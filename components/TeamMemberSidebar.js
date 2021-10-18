@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import References from "./References";
+import TwitterCard from "./TwitterCard";
 const marked = require("marked")
 export default function TeamMemberSidebar(props) {
 
@@ -42,6 +43,10 @@ export default function TeamMemberSidebar(props) {
 
     for (var i = 0, all = doc.length; i < all; i++) {
       doc[i].id = doc[i].innerText;
+      if (i > 0) {
+        doc[i].classList.add("pt-24")
+      }
+      
       arr.push(doc[i].innerText)
     }
     setMenuItems(arr)
@@ -51,7 +56,7 @@ export default function TeamMemberSidebar(props) {
     return props.person.img;
   };
 
-  return (<div class="col-span-1 lg:fixed">
+  return (<div class="col-span-1 ">
     <div>
       <div class="flex flex-col items-center mb-4">
         <Image
@@ -91,6 +96,15 @@ export default function TeamMemberSidebar(props) {
 
       </div>
 
+<div class="m-8">
+
+</div>
+      {props.person.twitter && <TwitterCard class="max-w-16" account={props.person.twitter}>
+
+      </TwitterCard>}
+
     </div>
+
+    <div class="m-8"></div>
   </div>)
 }

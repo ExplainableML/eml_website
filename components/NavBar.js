@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 
-export default function NavBar() {
+export default function NavBar(props) {
 
 	useEffect(()=>{
 
 			let mynav = document.getElementById("navbar")
 			let nav_container = document.getElementById("nav-container")
 		
-			if (window.innerWidth < 500) {
+			if (window.innerWidth < 800) {
 			  mynav.classList.add("hidden")
 			  nav_container.classList.add("h-screen")
 			  nav_container.classList.add("flex")
@@ -20,7 +20,9 @@ export default function NavBar() {
 	},[])
   return (
     <div class="fixed z-50 w-full">
-      <nav class="flex w-full items-center justify-between flex-wrap bg-gray-50 p-6 md:px-16">
+      <nav class="w-full bg-gray-50 p-6 md:px-16 flex items-center justify-center">
+
+		  <div class="flex  items-center justify-between flex-wrap  container">
         <a href="/" class="flex items-center flex-shrink-0 text-black mr-6">
         <svg x="0px" y="0px"
 	 width="32px" height="32px" viewBox="0 0 411.02 411.02" enable-background="new 0 0 411.02 411.02">
@@ -287,10 +289,10 @@ export default function NavBar() {
           </button>
         </div>
         <div
-          class="w-full md:hidden flex-grow lg:flex lg:items-center lg:w-auto "
+          class="w-full  flex-grow lg:flex lg:items-center lg:w-auto "
           id="navbar"
         >
-          <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
+          {props.otherLink&& <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
             <a
 			  onClick={()=>{
 				let mynav = document.getElementById("navbar")
@@ -326,7 +328,7 @@ export default function NavBar() {
 							let mynav = document.getElementById("navbar")
 							mynav.classList.add("hidden")
 						  }}
-              href="#news"
+              href="/#news"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               News
@@ -336,13 +338,69 @@ export default function NavBar() {
 							let mynav = document.getElementById("navbar")
 							mynav.classList.add("hidden")
 						  }}
-              href="#contact"
+              href="/#contact"
               class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               Contact
             </a>
-          </div>
+          </div>}
+
+		  {!props.otherLink&& <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
+            <a
+			  onClick={()=>{
+				let mynav = document.getElementById("navbar")
+				mynav.classList.add("hidden")
+			  }}
+              href="/#team"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+            >
+              Team
+            </a>
+            <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#publications"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+            >
+              Publications
+            </a>
+            <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#teaching"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+            >
+              Teaching
+            </a>
+			<a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#news"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+            >
+              News
+            </a>
+            <a
+						  onClick={()=>{
+							let mynav = document.getElementById("navbar")
+							mynav.classList.add("hidden")
+						  }}
+              href="/#contact"
+              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+            >
+              Contact
+            </a>
+          </div>}
+
+
         </div>
+		</div>
       </nav>
     </div>
   );

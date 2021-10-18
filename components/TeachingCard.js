@@ -1,8 +1,19 @@
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 
 export default function TeachingCard(props) {
-    return (<div class=" overflow-hidden shadow-lg bg-white p-16 flex flex-col items-center justify-center">
+    const [link, setLink] = useState("thesis")
+    useEffect(()=>{
+        if (props.type =="Master Thesis") {
+            setLink("thesis");
+        } else if (props.type=="Seminars") {
+            setLink("seminars")
+        } else {
+            setLink("courses")
+        }
+    },[])
+    return (<a href={"/teaching/"+link}><div class=" overflow-hidden shadow-lg bg-white p-16 flex flex-col items-center justify-center">
        
 
        {props.type == "Courses" && <div>
@@ -44,5 +55,5 @@ export default function TeachingCard(props) {
   
 
 
-    </div>)
+    </div></a>)
 }
