@@ -26,7 +26,7 @@ export default function TeachingCard(props) {
 
        {props.type == "Seminars" && <div>
        <div class="pb-4">
-           <Image src="/seminars.png" objectFit="cover" width="200" height="200"></Image>
+           <Image src="/seminars_l.png" objectFit="cover" width="200" height="200"></Image>
            </div>
         <div class="font-bold text-center text-xl">Seminars</div>
 
@@ -39,7 +39,7 @@ export default function TeachingCard(props) {
 
        {props.type == "Master Thesis" && <div>
        <div class="pb-4">
-           <Image src="/master.png" objectFit="cover" width="200" height="200"></Image>
+           <Image src="/master_l.png" objectFit="cover" width="200" height="200"></Image>
            </div>
         <div class="font-bold text-center text-xl">Master Thesis</div>
 
