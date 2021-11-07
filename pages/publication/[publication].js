@@ -95,7 +95,7 @@ export default function Publication(props) {
                 Abstract
               </div>
 
-              <div class="w-90vw lg:w-800 text-left break-words" style={{maxWidth:'90vw'}}>
+              <div class="w-90vw lg:w-800 text-left break-words">
               {props.data.abstract}
               </div>
             

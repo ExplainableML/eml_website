@@ -16,8 +16,39 @@ export default function NavBar(props) {
 			  nav_container.classList.add("items-center")
 			  nav_container.classList.add("-pt-32")
 			}
+
+			function handleResize() {
+				console.log(window.innerWidth)
+		
+				if (window.innerWidth < 800) {
+					mynav.classList.add("hidden")
+					nav_container.classList.add("h-screen")
+					nav_container.classList.add("flex")
+					nav_container.classList.add("flex-col")
+					nav_container.classList.add("justify-center")
+					nav_container.classList.add("items-center")
+					nav_container.classList.add("-pt-32")
+				  } else {
+					mynav.classList.add("hidden")
+					nav_container.classList.remove("h-screen")
+					nav_container.classList.remove("flex")
+					nav_container.classList.remove("flex-col")
+					nav_container.classList.remove("justify-center")
+					nav_container.classList.remove("items-center")
+					nav_container.classList.remove("-pt-32")
+				  }
+			}
+
+			window.addEventListener('resize', handleResize)
+
+
+
 		
 	},[])
+
+
+
+
   return (
     <div class="fixed z-50 w-full">
       <nav class="w-full bg-gray-50 p-6 md:px-16 flex items-center justify-center">
