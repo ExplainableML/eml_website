@@ -11,9 +11,9 @@ export default function ThesisCard(props) {
             {props.topic.description}
             </div>
 
-            <div class="font-semibold text-lg mt-4">
+           {/* <div class="font-semibold text-lg mt-4">
             Contact: <a href={props.topic.contactlink}>{props.topic.contactname}</a>
-            </div>
+            </div>} */}
 
 
             

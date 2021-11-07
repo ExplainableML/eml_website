@@ -62,7 +62,7 @@ export default function Publication(props) {
               <div class="lg:text-md text-gray-400 text-center">{props.data.year}</div>
 
               <div class="flex lg:flex-row justify-center items-center">
-                <References {...props.data}></References>
+                <References {...props.data} large={true}></References>
               </div>
       <br></br>
               <div class="lg:text-xl  font-semibold">
@@ -78,7 +78,7 @@ export default function Publication(props) {
  
       <div class="bg-gray-50 w-screen flex flex-col items-center px-4" >
 
-        <div style={{maxWidth:784}}>
+        <div class="max-w-screen" style={{padding:16}}>
         <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
     rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
         </div>
