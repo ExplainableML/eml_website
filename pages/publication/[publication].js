@@ -29,6 +29,9 @@ export default function Publication(props) {
     return props.data.img
 }
 
+
+
+
   useEffect(()=>{
     console.log(props.content)
     console.log(props.data)
@@ -92,13 +95,13 @@ export default function Publication(props) {
                 Abstract
               </div>
 
-              <div class=" text-left break-words" style={{maxWidth:'90vw'}}>
+              <div class="w-90vw lg:w-800 text-left break-words" style={{maxWidth:'90vw'}}>
               {props.data.abstract}
               </div>
             
-              <div class="bg-gray-50  flex flex-col items-center px-4" >
+              <div class=" w-90vw lg:w-800 bg-gray-50  flex flex-col items-center px-4" >
 
-<div class="container" style={{marginRight:16, marginLeft:16, maxWidth:'90vw', overflowX:"auto"}}>
+<div class="container" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
 <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
 </div>
