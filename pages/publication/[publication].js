@@ -76,9 +76,9 @@ export default function Publication(props) {
 
           </div>
  
-      <div class="bg-gray-50 w-screen flex flex-col items-center px-4" >
+      <div class="bg-gray-50  flex flex-col items-center px-4" >
 
-        <div class="max-w-screen" style={{padding:16}}>
+        <div class="container" style={{marginRight:16, marginLeft:16, display:"flexbox",flexDirection:"column", justifyContent:"center", alignItems:"center", maxWidth:800}}>
         <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
     rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
         </div>
