@@ -98,7 +98,7 @@ export default function Publication(props) {
             
               <div class="bg-gray-50  flex flex-col items-center px-4" >
 
-<div class="container" style={{marginRight:16, marginLeft:16, maxWidth:'90vw'}}>
+<div class="container" style={{marginRight:16, marginLeft:16, maxWidth:'90vw', overflowX:"auto"}}>
 <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
 </div>
