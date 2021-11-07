@@ -31,8 +31,7 @@ export default function TeamMember(props) {
   }
 
   useEffect(() => {
-    console.log(props.content)
-    console.log(props.data)
+
   }, [])
 
 

@@ -18,7 +18,6 @@ export default function NavBar(props) {
 			}
 
 			function handleResize() {
-				console.log(window.innerWidth)
 		
 				if (window.innerWidth < 800) {
 					mynav.classList.add("hidden")

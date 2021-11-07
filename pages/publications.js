@@ -11,7 +11,6 @@ export default function Publications(props) {
   let publicationsList = publications.map(item => item.data);
 
   useEffect(()=>{
-    console.log(publications)
   },[])
   return (
     <div class="bg-gray-50">

@@ -33,8 +33,7 @@ export default function Publication(props) {
 
 
   useEffect(()=>{
-    console.log(props.content)
-    console.log(props.data)
+
   },[])
 
   const renderers = {

@@ -3,7 +3,7 @@ import { ChevronRight} from 'react-feather';
 
 export default function PublicationGrid(props) {
 
-    console.log(props.publications)
+
     return (
 
         <div id="publications" class="container flex flex-col items-center mb-16">
