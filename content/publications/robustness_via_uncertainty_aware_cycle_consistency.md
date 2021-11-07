@@ -102,6 +102,7 @@ $
 $
 
 The negative-log-likelihood is given by,
+
 $$
     -\ln{\mathscr{L}(\Theta | \mathcal{X})}
      = -\bm\sum_{ijpq}
@@ -110,6 +111,7 @@ $$
      + \ln\frac{\bar{\beta}^b_{pq}}{2\bar{\alpha}^b_{pq}\Gamma(\frac{1}{\bar{\beta}^b_{pq}})}e^{-\left(\frac{|\bar{b}_{pq}-b_{pq}|}{\bar{\alpha}^b_{pq}}\right)^{\bar{\beta}^b_{pq}}}
      \right ]
 $$
+
 minimizing the negative-log-likelihood yields a new cycle consistency loss, which we call as the uncertainty-aware generalized adaptive cycle consistency loss $\mathcal{L}_{\text{ucyc}}$, given $\mathscr{A}=\{\bar{a}_i, \bar{\alpha}^{a}_i, \bar{\beta}^{a}_i, a_i\}$ and $\mathscr{B}=\{\bar{b}_i, \bar{\alpha}^{b}_i, \bar{\beta}^{b}_i, b_i\}$,
 $$
     \mathcal{L}_{\text{ucyc}}(\mathscr{A}, \mathscr{B}) = 

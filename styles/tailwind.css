@@ -50,3 +50,8 @@ h1 {
   li {
     @apply: list-disc;
   }
+
+  span.katex-html {
+
+    
+}

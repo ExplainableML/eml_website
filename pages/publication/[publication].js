@@ -18,6 +18,9 @@ import rehypeRaw from 'rehype-raw'
 import Headline from '../../components/Headline'
 import Image from "next/image"
 import References from '../../components/References'
+import { BlockMath, InlineMath } from 'react-katex';
+import 'katex/dist/katex.min.css';
+
 
 export default function Publication(props) {
   const router = useRouter()
@@ -31,12 +34,32 @@ export default function Publication(props) {
     console.log(props.data)
   },[])
 
+  const renderers = {
+    //This custom renderer changes how images are rendered
+    //we use it to constrain the max width of an image to its container
+    image: ({
+        alt,
+        src,
+        title,
+    }) => (
+        <img 
+            alt={alt} 
+            src={src} 
+            title={title} 
+            style={{ maxWidth: 200 }}  />
+    ),
+    math: ({ value }) => <div style={{ maxWidth: 200 }}><BlockMath>{value}</BlockMath></div>,
+    inlineMath: ({ value }) => <div style={{ maxWidth: 200 }}><InlineMath>{value}</InlineMath></div>
+};
+
 
     return (
         <div class="">
                   <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+
+
         <NavBar otherLink={true}></NavBar>
 
         <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
@@ -45,7 +68,7 @@ export default function Publication(props) {
 
           <div class="mb-8 flex flex-col items-center">
           <div>
-          <Image width="784" height="256" objectFit="contain"  loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
+          <Image width="764" height="256" objectFit="contain"  loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
 
           </div>
 
@@ -69,22 +92,23 @@ export default function Publication(props) {
                 Abstract
               </div>
 
-              <div class="text-left" style={{maxWidth:784}}>
+              <div class=" text-left break-words" style={{maxWidth:'90vw'}}>
               {props.data.abstract}
               </div>
             
+              <div class="bg-gray-50  flex flex-col items-center px-4" >
+
+<div class="container" style={{marginRight:16, marginLeft:16, maxWidth:'90vw'}}>
+<ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
+rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
+</div>
+
+
+</div>
 
           </div>
  
-      <div class="bg-gray-50  flex flex-col items-center px-4" >
-
-        <div class="container" style={{marginRight:16, marginLeft:16, display:"flexbox",flexDirection:"column", justifyContent:"center", alignItems:"center", maxWidth:800}}>
-        <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
-    rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
-        </div>
-
-
-      </div>
+ 
 
         </div>
 <Footer></Footer>
