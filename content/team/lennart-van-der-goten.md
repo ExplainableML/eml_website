@@ -1,8 +1,8 @@
 ---
 img: "/team/lvdg.jpeg"
 name: Lennart Van der Goten
-role: PhD Researcher
-order: 4
+role: Collaborative PhD Researcher
+order: 8
 link: lennart-van-der-goten
 ---
 
