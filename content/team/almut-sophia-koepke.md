@@ -1,5 +1,5 @@
 ---
-img: "/team/profile_dummy.png"
+img: "/team/almutsophia.png"
 name: Almut Sophia Koepke
 role: Postdoctoral Researcher
 order: 2
