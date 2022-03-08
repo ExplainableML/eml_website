@@ -5,6 +5,7 @@ role: Postdoctoral Researcher
 order: 2
 link: almut-sophia-koepke
 mail: a.sophia-koepke (at) uni-tuebingen.de
+scholar: https://scholar.google.com/citations?user=q9zQhj8AAAAJ&hl=en
 ---
 
 # Profile
@@ -14,10 +15,26 @@ During her PhD, her research focussed on self-supervised learning and on audio-v
 
 # Publications
 
+* Audio-visual generalised zero-shot learning with cross-modal attention and language
+[Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), Lukas Riesch, A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022\
+[Paper](https://arxiv.org/pdf/2203.03598.pdf)
+
+&nbsp;
+
+* Audio retrieval with natural language queries: A benchmark study
+A. Sophia Koepke\*, [Andreea-Maria Oncescu](https://www.robots.ox.ac.uk/~oncescu/)\*, [Joao F. Henriques](https://www.robots.ox.ac.uk/~joao/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Samuel Albanie](https://samuelalbanie.com/)\
+Transactions on Multimedia, 2022\
+[Paper](https://arxiv.org/pdf/2112.09418.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/) | [Code](https://github.com/akoepke/audio-retrieval-benchmark)
+<span style="color:blue">Extension of the INTERSPEECH paper with a new dataset.</span>
+
+&nbsp;
+
 * Audio retrieval with natural language queries
-[Andreea-Maria Oncescu](https://www.robots.ox.ac.uk/~oncescu/)\*, A. Sophia Koepke\*, [Joao F. Henriques](https://www.robots.ox.ac.uk/~joao/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Samuel Albanie](https://www.robots.ox.ac.uk/~albanie/)\
+[Andreea-Maria Oncescu](https://www.robots.ox.ac.uk/~oncescu/)\*, A. Sophia Koepke\*, [Joao F. Henriques](https://www.robots.ox.ac.uk/~joao/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Samuel Albanie](https://samuelalbanie.com/)\
 INTERSPEECH, 2021\
 [Paper](https://arxiv.org/pdf/2105.02192.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/) | [Code](https://github.com/oncescuandreea/audio-retrieval)
+<span style="color:blue">Shortlisted for best student paper award.</span>
 
 &nbsp;
 
@@ -32,6 +49,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021\
 A. Sophia Koepke, [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/), [Yael Moses](https://faculty.idc.ac.il/moses/), [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/)\
 The International Conference on Acoustics, Speech, & Signal Processing (ICASSP), 2020\
 [Paper](https://www.robots.ox.ac.uk/~vgg/publications/2020/Koepke20/koepke20.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/sighttosound/)
+<span style="color:blue">Oral presentation.</span>
 
 &nbsp;
 
@@ -53,6 +71,7 @@ Sound and Music Compution Conference (SMC), 2019\
 [Olivia Wiles](https://www.robots.ox.ac.uk/~ow/)\*, A. Sophia Koepke\*, [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/)\
 British Machine Vision Conference (BMVC), 2018\
 [Paper](http://www.robots.ox.ac.uk/~vgg/publications/2018/Wiles18a/wiles18a.pdf) | [Supplementary material](http://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/resources/wiles18a_supp.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/fabnet.html) | [Code](https://github.com/oawiles/FAb-Net)
+<span style="color:blue">Oral presentation.</span>
 
 &nbsp;
 
