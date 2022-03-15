@@ -1,7 +1,7 @@
 ---
 img: "/publications/nir_0.png"
 title: Non-isotropy Regularization for Proxy-based Deep Metric Learning
-authors: Karsten Roth (Uni Tuebingen), Oriol Vinyals (Deepmind London), Zeynep Akata (Uni Tuebingen)
+authors: Karsten Roth, Oriol Vinyals, Zeynep Akata
 publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
 year: 2022
 date: "2022-03-28"
