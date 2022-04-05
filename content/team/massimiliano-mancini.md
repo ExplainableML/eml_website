@@ -19,6 +19,7 @@ Massimiliano Mancini's research interest is mainly in breaking the closed-world 
 
 # Publications
 ### 2022
+* "Learning Graph Embeddings for Open World Compositional Zero-Shot Learning", Massimiliano Mancini, Muhammad Ferjad Naeem, Yongqin Xian and Zeynep Akata, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2022
 
 * "KG-SP: Knowledge Guided Simple Primitives for Open World Compositional Zero-Shot Learning", Shyamgopal Karthik, Massimiliano Mancini and Zeynep Akata, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022
 ### 2021
@@ -36,7 +37,7 @@ Massimiliano Mancini's research interest is mainly in breaking the closed-world 
 
 * "Cluster-driven Graph Federated Learning over Multiple Domains", Debora Caldarola, Massimiliano Mancini, Fabio Galasso, Marco Ciccone, Emanuele Rodolà and Barbara Caputo, CVPR Workshop on Learning from Limited and Imperfect Data 2021
 
-* "Open World Compositional Zero-Shot Learning", Massimiliano Mancini, Mohammad Ferjad Naeem, Yongqin Xian and Zeynep Akata, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021
+* "Open World Compositional Zero-Shot Learning", Massimiliano Mancini, Muhammad Ferjad Naeem, Yongqin Xian and Zeynep Akata, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021
 
 * "On the Challenges of Open World Recognition under Shifting Visual Domains", Dario Fontanel, Fabio Cermelli, Massimiliano Mancini, and Barbara Caputo, IEEE Robotics and Automation Letters (IEEE RA-L) 2021
 ### 2020

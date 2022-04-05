@@ -68,6 +68,16 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 
 # Publications
 
+### 2022
+- Learning Graph Embeddings for Open World Compositional Zero-shot Learning. Massimiliano Mancini, Muhammed Ferjad Naeem, Yongqin Xian, Zeynep Akata.  IEEE Transactions on Pattern Recognition and Machine Intelligence, TPAMI 2022
+- KG-SP: Knowledge Guided Simple Primitives for Open World Compositional Zero-Shot Learning. Shyamgopal Karthik, Massimilano Mancini, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Integrating Language Guidance into Vision-based Deep Metric Learning, Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Non-isotropy Regularization for Proxy-based DML, Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Large Loss Matters in Weakly Supervised Multi-Label Classification, Youngwoo Kim, Jae Myung Kim, Zeynep Akata, Jungwoo Lee, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language, Otniel-Bogdan Mercea, Lukas Riesch, Almut Sophia Koepke, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- VGSE: Visually-Grounded Semantic Embeddings for Zero-Shot Learning, Wenjia Xu, Yongqin Xian, Jiuniu Wang, Bernt Schiele, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+
+
 ### 2021
 
 - Robustness via Uncertainty-aware Cycle Consistency. Uddeshya Upadhyay, Yanbei Chen, Zeynep Akata, Neural Information Processing Systems, NeurIPS 2021
