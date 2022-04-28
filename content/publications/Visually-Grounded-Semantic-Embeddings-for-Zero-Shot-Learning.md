@@ -27,7 +27,7 @@ Our Visually-Grounded Semantic Embedding(VGSE) Network consists of two main modu
 
 
 ## Patch clustering module
-Each image $x_n$ is croped into $N_t$ patches $\{ x_{nt} \}_{t=1}^{N_t}$ that cover different parts of the image. In this way, we reconstruct our training set consisting of image patches $\{\left ( x_{nt}, y_n \right )  | x_{nt} \in X^{sp}, y_{n} \in Y^{s}\} _{n=1}^{N_s}$. Our patch clustering module is a differentiable middle layer, that simultaneously learns image patch representations and clustering. 
+Each image $x_n$ is cropped into $N_t$ patches $\{ x_{nt} \}_{t=1}^{N_t}$ that cover different parts of the image. In this way, we reconstruct our training set consisting of image patches $\{\left ( x_{nt}, y_n \right )  | x_{nt} \in X^{sp}, y_{n} \in Y^{s}\} _{n=1}^{N_s}$. Our patch clustering module is a differentiable middle layer, that simultaneously learns image patch representations and clustering. 
 
 We start from a deep neural network that extracts patch feature  $\theta \left ( x_{nt} \right ) \in \mathbb{R}^{D_f}$. Afterwards, a clustering layer $H: \mathbb{R}^{D_f} \to \mathbb{R}^{D_v} $ converts the feature representation into cluster scores: 
 $$
@@ -38,8 +38,9 @@ where $a_{nt}^k$ (the $k$-th element of $a_{nt}$) indicates the probability of a
 To impose class discrimination information into the learnt clusters, we apply an cluster-to-class layer $Q: \mathbb{R}^{D_v} \to \mathbb{R}^{|Y^s|}$ to map the cluster prediction of each image to the class probability, i.e., $p(y|x_{nt}) = softmax \left (Q \circ \theta \left ( x_{nt} \right ) \right )$, and train this module with cross-entropy loss:
 
 
+
 $$
-\mathcal{L}_{cls} = -\log\frac{\exp \left ( p\left ( y_{n} | x_{nt} \right ) \right ) }{\sum_{\hat{y} \in Y^s}{\exp \left ( p\left ( \hat{y} | x_{nt} \right ) \right )} } \,.
+\mathcal{L}_{cls} = -\log \frac{\exp \left ( p\left ( y_{n} | x_{nt} \right ) \right ) }{\sum_{\hat{y} \in Y^s}{\exp \left ( p\left ( \hat{y} | x_{nt} \right ) \right )} } \,.
 $$
 
 We further encourage the learned visual clusters to be transferable between classes. We implement this by mapping the learned cluster probability to the semantic space constructed by w2v embeddings $\Phi^w$. The cluster-to-semantic layer $S: \mathbb{R}^{D_v} \to \mathbb{R}^{D_w}$ is trained by regressing the w2v embedding for each class,
@@ -76,6 +77,6 @@ We show the 2D visualization of image patches in the AWA2, where $10,000$ image 
 
 ![](/publications/VGSE/t-SNE-2.png)
 
-We observe that samples in the same cluster tend to gather together, indicating that the embeddings provide discriminative information. Besides, images patches in one cluster do convey consistent visual properties, though coming from disjoint categories. For instance, the white fur appears on rabbit, polar bear, and fox are clustered into one group. We further observe that nearly all clusters consist images from more than one categories. It indicates that the clusters we learned contain semantic properties shared across seen classes, and can be transferred to unseen classes. Another interesting observation is that our VGSE clusters discover visual properties that my be neglected by human-annotated attributes, e.g., the cage appear for hamsters and rat. 
+We observe that samples in the same cluster tend to gather together, indicating that the embeddings provide discriminative information. Besides, images patches in one cluster do convey consistent visual properties, though coming from disjoint categories. For instance, the white fur appears on rabbit, polar bear, and fox are clustered into one group. We further observe that nearly all clusters consist images from more than one categories. It indicates that the clusters we learned contain semantic properties shared across seen classes, and can be transferred to unseen classes. Another interesting observation is that our VGSE clusters discover visual properties that may be neglected by human-annotated attributes, e.g., the cage appear for hamsters and rat. 
 
 For more quantitative results, please refer to the [paper](https://arxiv.org/abs/2203.10444).
