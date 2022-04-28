@@ -83,10 +83,10 @@ We binarize the informative attention map $\tilde{M}$ with the average attention
 $$ 
 A_{i,j} = 
 \begin{cases}
-1  & \text{ if } \tilde{M}_{i,j} \geq \overline{m} \\
-0 & \text{ if } \tilde{M}_{i,j} < \overline{m}
+1  & \text{ if } \tilde{M}_{i,j} \geq \bar{m} \\
+0 & \text{ if } \tilde{M}_{i,j} < \bar{m}
 \end{cases} \,, 
-\text{ where  } \overline{m} = \frac{1}{HW} \sum_{i=1}^{H}  \sum_{j=1}^{W} \tilde{M}_{i,j} \,. 
+\text{ where  } \bar{m} = \frac{1}{HW} \sum_{i=1}^{H}  \sum_{j=1}^{W} \tilde{M}_{i,j} \,. 
 $$
 The binary mask $A$ is upsampled to the size of the input image, and we use the smallest bounding box covering the non-zero area to crop the original image.
 
