@@ -1,6 +1,6 @@
 ---
 img: "/publications/UGAC/Lucyc.gif"
-title: "Robustness via Uncertainy-aware Cycle Consistency"
+title: "Robustness via Uncertainty-aware Cycle Consistency"
 authors: Uddeshya Upadhyay, Yanbei Chen, Zeynep Akata
 publisher: Neural Information Processing Systems, NeurIPS
 year: 2021
