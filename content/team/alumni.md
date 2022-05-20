@@ -16,3 +16,5 @@ link: alumni
 * Lukas Riesch (Master Thesis Student)
 * Sam Tureski (Master Thesis Student)
 * Ilke Cugu (Research Scientist)
+* Yanbei Chen (Postdoc Oct 2020 - May 2022) at EML, now a research scientist at Amazon Seattle
+* Wenjia Xu (Visiting researcher Oct 2019 - Mar 2022) at EML, now an assistant professor at UCAS
