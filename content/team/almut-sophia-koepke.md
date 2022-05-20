@@ -18,7 +18,14 @@ During her PhD, her research focussed on self-supervised learning and on audio-v
 * Audio-visual generalised zero-shot learning with cross-modal attention and language
 [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), Lukas Riesch, A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022\
-[Paper](https://arxiv.org/pdf/2203.03598.pdf)
+[Paper](https://arxiv.org/pdf/2203.03598.pdf) | [Code](https://github.com/ExplainableML/AVCA-GZSL)
+
+&nbsp;
+
+* CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations
+[Leonard Salewski](https://www.eml-unitue.de/people/leonard-salewski), A. Sophia Koepke, [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+Springer Lecture Notes on Artificial Intelligence, 2022\
+[Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)
 
 &nbsp;
 
@@ -26,7 +33,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022\
 A. Sophia Koepke\*, [Andreea-Maria Oncescu](https://www.robots.ox.ac.uk/~oncescu/)\*, [Joao F. Henriques](https://www.robots.ox.ac.uk/~joao/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Samuel Albanie](https://samuelalbanie.com/)\
 Transactions on Multimedia, 2022\
 [Paper](https://arxiv.org/pdf/2112.09418.pdf) | [Project page](https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/) | [Code](https://github.com/akoepke/audio-retrieval-benchmark)\
-<span style="color:blue; font-style:italic">Extension of the INTERSPEECH paper with a new dataset.</span>
+<span style="color:blue; font-style:italic">Extension of the INTERSPEECH paper with a new dataset and new results.</span>
 
 &nbsp;
 
