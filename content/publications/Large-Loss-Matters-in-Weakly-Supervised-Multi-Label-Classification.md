@@ -47,7 +47,7 @@ where $f(\cdot) \in [0,1]^{K}$ and $\mathrm{BCELoss}(\cdot, \cdot)$ is the binar
 
 ## Memorization effect in WSML
 
-![](/publications/CVPR2022_large_loss_matters/memorization.png)
+![](/publications/CVPR2022_large_loss_matters/memorization.PNG)
 
 We observe that a memorization effect occurs in WSML when the model is trained with the dataset with AN target. To confirm this, we make the following experimental setting. We convert Pascal VOC 2012 dataset into partial label one by randomly remaining only one positive label for each image and regard other labels as unknown (dataset $D$). These unknown labels are then assumed as negative (dataset $D^{\prime}$). We train ResNet-50 model with $D^{\prime}$ using the loss function $L$ in the equation above. We look at the trend of loss value corresponding to each label $y_i^{AN}$ in a training dataset while the model is trained. A single example for true negative label and false negative label is shown in the above figure. For a true negative label, the corresponding loss value keeps decreasing as the number of iteration increases (blue line). Meanwhile, the loss of a false negative label slightly increases in the initial learning phase, and then reaches the highest in the middle phase followed by decreasing to reach near $0$ at the end (red line). This implies that the model starts to memorize the wrong label from the middle phase.
 
@@ -65,7 +65,7 @@ $$
 
 We define $l_i = \mathrm{BCELoss} \, (f(x)_i, y_i^{AN})$ where arguments of function $l_i$, that are $f(x)$ and $y^{AN}$, are omitted for convenience. The term $\lambda_i$ is defined as a function, $\lambda_i=\lambda(f(x)_i, y_i^{AN})$, where arguments are also omitted for convenience. $\lambda_i$ is the weighted value for how much the loss $l_i$ should be considered in the loss function. Intuitively, $\lambda_i$ should be small when $i \in S^{u}$ and the loss $l_i$ has high value in the middle of the training, that is, to ignore that loss since it is likely to be the loss from a false negative sample. We set $\lambda_i=1$ when $i \in S^{p}\cup S^{n}$ since the label $y_i^{AN}$ from these indices is a clean label. We present three different schemes of offering the weight $\lambda_i$ for $i\in S^{u}$. The schematic description is shown below.
 
-![](/publications/CVPR2022_large_loss_matters/model.png)
+![](/publications/CVPR2022_large_loss_matters/model.PNG)
 
 Large Loss Rejection. This is to gradually increase the rejection rate during the training process. We set the function $\lambda_i$ as
 
@@ -82,6 +82,6 @@ where $t$ is the number of current epochs in the training process and $R(t)$ is 
 
 ## Results
 
-![](/publications/CVPR2022_large_loss_matters/qualitative_result.png)
+![](/publications/CVPR2022_large_loss_matters/qualitative_result.PNG)
 
 The figure above shows the qualitative result of LL-R. The arrow indicates the change of categories with positive labels during training and GT indicates actual ground truth positive labels for a training image. We see that although not all ground truth positive labels are given, our proposed method progressively corrects the category of unannotated GT as positive. We also observe in the first three columns that a category that has been corrected once continues to be corrected in subsequent epochs, even though we perform correction temporarily for each epoch. This conveys that LL-R successfully keeps the model from memorizing false negatives. We also report the failure case of our method on the rightmost side where the model confuses the car as truck which is a similar category and misunderstands the absent category person as present. The quantitative comparison and more analysis of our method can be found in the [paper](https://arxiv.org/abs/2206.03740).
