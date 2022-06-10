@@ -6,7 +6,7 @@
   src: url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 }
-
+.frac-line {border-color: #000}
 a {
   @apply text-purple-500;
   @apply font-semibold;
@@ -52,6 +52,7 @@ h1 {
   }
 
   span.katex-html {
+  
 
     
 }

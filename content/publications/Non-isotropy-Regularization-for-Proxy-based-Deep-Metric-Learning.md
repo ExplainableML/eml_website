@@ -1,0 +1,11 @@
+---
+img: "/publications/nir_0.png"
+title: Non-isotropy Regularization for Proxy-based Deep Metric Learning
+authors: Karsten Roth, Oriol Vinyals, Zeynep Akata
+publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
+year: 2022
+date: "2022-03-28"
+filename: Non-isotropy-Regularization-for-Proxy-based-Deep-Metric-Learning
+
+abstract: Deep Metric Learning (DML) aims to learn representation spaces on which semantic relations can simply be expressed through predefined distance metrics. Best performing approaches commonly leverage class proxies as sample stand-ins for better convergence and generalization. However, these proxy-methods solely optimize for sample-proxy distances. Given the inherent non-bijectiveness of used distance functions, this can induce locally isotropic sample distributions, leading to crucial semantic context being missed due to difficulties resolving local structures and intraclass relations between samples. To alleviate this problem, we propose non-isotropy regularization (NIR) for proxy-based Deep Metric Learning. By leveraging Normalizing Flows, we enforce unique translatability of samples from their respective class proxies. This allows us to explicitly induce a non-isotropic distribution of samples around a proxy to optimize for. In doing so, we equip proxy-based objectives to better learn local structures. Extensive experiments highlight consistent generalization benefits of NIR while achieving competitive and state-of-the-art performance on the standard benchmarks CUB200-2011, Cars196 and Stanford Online Products. In addition, we find the superior  convergence properties of proxy-based methods to still be retained or even improved, making NIR very attractive for practical usage.
+---
