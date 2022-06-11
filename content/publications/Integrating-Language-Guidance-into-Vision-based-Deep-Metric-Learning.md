@@ -18,7 +18,7 @@ Deep Metric Learning, and by extension visual similarity learning has proven imp
 
 However, the majority of DML methods introduce training paradigms based only around class labels provided in given datasets, which does not account for high-level semantic connections between <b>different</b> classes (e.g. sports cars vs. pickup trucks) can’t be accounted for. To address this problem, we propose to leverage large-scale pretrained natural language models to provide generic and task-independent contextualization for class labels and encourage DML models to learn semantically more consistent visual representation spaces.
 
-![text](../../public/publications/CVPR2022_LanguageGuidance/semantics.png)
+![](publications/CVPR2022_LanguageGuidance/semantics.png)
 
 Using language-based pretraining for contextualization of visual similarities is long overdue - for vision-based DML,
 image pretraining (on ImageNet) has already become standard, providing a strong and readily available starting point and ensuring ranking tasks underlying most DML methods to be much better defined initially. Thus, there is little reason to bottleneck DML to only leverage visual pretraining while disregarding the potential benefits of language context.
@@ -47,7 +47,7 @@ These methods optimize for a simple non-parametric distance metric such as the e
 
 Most standard, supervised DML objectives $\mathcal{L}_\text{DML}$ rely on the available class-level supervision to define for example ranking objectives. But as this is insufficient to capture higher-level semantic relations between classes, we now propose a first simple approach to leverage expert label information to update the visual similarity space.
 
-![text](../../public/publications/CVPR2022_LanguageGuidance/arch.png)
+![](publications/CVPR2022_LanguageGuidance/arch.png)
 
 ## With Expert Labels
 
@@ -61,23 +61,23 @@ In doing so, $\mathcal{S}^\text{lang}$ represents the semantic relations between
 
 This is done by optimzing the language distillation loss
 
-$\begin{equation}
+$
 \mathcal{L}_\text{match}(\mathcal{S}^\text{img}, \mathcal{S}^\text{lang}) = \frac{1}{|\mathcal{B}|} \sum_i^{|\mathcal{B}|} \sigma(\mathcal{S}_i^{\text{img, X}})\log \left(\frac{\sigma(\mathcal{S}_i^{\text{img, X}})}{\sigma(\mathcal{S}_i^\text{lang} + \gamma_\text{lang})}\right)
-\end{equation}$
+$
 
 which computes the KL-Divergence between all similarities for a given anchor sample $i$, with softmax function $\sigma(\cdot)$ and shift $\gamma_\text{lang}$ to address the "exactness" of the distribution match.
 Finally, as $S^\text{lang}$ does not resolve similarities for samples within a class unlike $S^\text{img}$ (for $x_i \neq x_j$ and $y_i = y_j$ we have $\psi_i \neq \psi_j$ and thus $S^\text{img}_{i,j} < 1$, but, since the classes are the same, $S^\text{lang} = 1$). To ensure that we do not lose intraclass resolution during distillation, we thus adapt $S^\text{img}$: 
 
-$\begin{equation}
+$
 S^{\text{img}, X}_{i, j} = 
 \mathbb{I}_{y_i=y_j}\left[1 + \gamma_\text{lang}\right] + \mathbb{I}_{y_i\neq y_j}\left[S^\text{img}_{i, j}\right]
-\end{equation}$
+$
 
 The total objective is thus given as
 
-$\begin{equation}
+$
 \mathcal{L}_\text{ELG} = \mathcal{L}_\text{DML} + \omega\cdot\mathcal{L}_\text{match}
-\end{equation}$
+$
 
 with ELG abbreviating *Expert Language Guidance*. A visual summary of this approached is given in above figure.
 
@@ -87,28 +87,28 @@ However, expert labels aren't easy to come buy and often not available. For prac
 
 For a given training dataset $\mathcal{X}_\text{train}$, we thus take the ImageNet-pretrained backbone $\phi_\text{ImageNet}$ **including** the classification head $f_\text{ImageNet}$ and for each image $x_i\in\mathcal{X}_\text{train}$ compute the **top-k** ImageNet classes $\{y^\text{IN,k}_i\}_k$.
 
-![text](../../public/publications/CVPR2022_LanguageGuidance/sample_pseudo_labels.png)
+![](publications/CVPR2022_LanguageGuidance/sample_pseudo_labels.png)
 
 This gives a sample-level semantic supervision, which we can also aggregate for each class to give the **top-k** respective pseudoclasses. Then, in a similar fashion to the expert label setup, we can for each pseudoclass label compute respective pseudo-label semantic similarity matrices $\{\mathcal{S}^\text{pseudolang}\}_k$ and aggregate these into a pseudo-label distillation objective:
 
-$\begin{equation}
+$
 \mathcal{L}^{\text{top-k}}_\text{pseudomatch} = \mathcal{L}_\text{match}\left(\mathcal{S}^\text{img}, \frac{1}{k}\sum_j^k\mathcal{S}^{\text{pseudolang},j}\right)
-\end{equation}$
+$
 
 
 # Experiments Results
 
 When applying language guidance both with expert labels and with pseudo-labels, we find significant improvements in generalization performance:
 
-![text](../../public/publications/CVPR2022_LanguageGuidance/performance.png)
+![](publications/CVPR2022_LanguageGuidance/performance.png)
 
 As the results show, performance are majorily increased for strong baseline objectives as well as for already heavily regularized approaches, supporting the notable benefits of language-guidance for visual similarity systems and our proposed method as a strong proof-of-concept.
 
 In addition to that, as all language embeddings are computed with a single forward pass over the training dataset $\mathcal{X}_\text{train}$, impact on training time is minimal, with training convergence in parts even speeding up.
-![text](../../public/publications/CVPR2022_LanguageGuidance/convergence.png)
+![](publications/CVPR2022_LanguageGuidance/convergence.png)
 
 # Impact on retrieval behaviour
 Finally, we also find that language-guided models are on average more likely to retrieve from semantically related classes than those without language-guidance.
-![text](../../public/publications/CVPR2022_LanguageGuidance/qualitative_cub.png)
+![](publications/CVPR2022_LanguageGuidance/qualitative_cub.png)
 
 For even more ablations and evaluations of our proposed approach, we refer to out paper.
