@@ -110,7 +110,7 @@ For a given training dataset $\mathcal{X}_\text{train}$, we thus take the ImageN
 
 </br>
 
-![](/publications/CVPR2022_LanguageGuidance/sample_pseudo_labels.png)
+<img src="/publications/CVPR2022_LanguageGuidance/sample_pseudo_labels.png" alt="drawing" width="150"/>
 
 </br>
 
@@ -130,7 +130,7 @@ When applying language guidance both with expert labels and with pseudo-labels, 
 
 </br>
 
-![](/publications/CVPR2022_LanguageGuidance/performance.png)
+<img src="/publications/CVPR2022_LanguageGuidance/performance.png" alt="drawing" width="150"/>
 
 </br>
 
