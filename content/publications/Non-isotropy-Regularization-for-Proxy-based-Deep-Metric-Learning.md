@@ -33,13 +33,13 @@ However, a lot of recent work has shown that understanding and incorporating the
 ## Contributions
 To address this, we propose a novel method that
 
-&nbsp;&nbsp;&nbsp;&nbsp;1. introduces a principled **Non-Isotropy Regularization**-module ($\mathbb{NIR}$) for proxy-based DML on the basis of class-conditioned normalizing flows,
+* introduces a principled **Non-Isotropy Regularization**-module ($\mathbb{NIR}$) for proxy-based DML on the basis of class-conditioned normalizing flows,
 
-&nbsp;&nbsp;&nbsp;&nbsp;2. avoids the use of sample-to-sample relations, thus maintaining fast convergence speeds of proxy-based methods,
+* avoids the use of sample-to-sample relations, thus maintaining fast convergence speeds of proxy-based methods,
 
-&nbsp;&nbsp;&nbsp;&nbsp;3. has minimal impact of overall training time while signficantly and reliably improving generalization performance of proxy-based DML,
+* has minimal impact of overall training time while signficantly and reliably improving generalization performance of proxy-based DML,
 
-&nbsp;&nbsp;&nbsp;&nbsp;4. consistently improves upon structures (such as Uniformity or feature variety) often related to better out-of-distribution generalization performance, as shown in multiple ablational studies.
+* consistently improves upon structures (such as Uniformity or feature variety) often related to better out-of-distribution generalization performance, as shown in multiple ablational studies.
 
 
 ---
@@ -55,7 +55,11 @@ Non-isotropy can be achieved by breaking down the fundamental issue of non-bijec
 
 Consequently, we propose to enforce that each sample representation $\psi$ can be mapped by a **bijective** and thus **invertible** (deterministic) translation $\psi = \tau(\zeta|\rho)$ which, given some residual $\zeta$ from some prior distribution $q(\zeta)$, allows to uniquely translate from the respective proxy $\rho$ to $\psi$. 
 
+</br>
+
 ![text](/publications/CVPR2022_NonIsotropyRegularization/setup.png)
+
+</br>
 
 ## Normalizing Flows
 Such invertible, ideally non-linear translations $\tau$ are naturally expressed through Normalizing Flows (NF), which can be generally seen as a transformation between two probability distributions, most commonly between simple, well-defined ones and complex multimodal ones.
@@ -67,21 +71,33 @@ By conditioning $\tau$ on respective classproxies $\rho$, we can induce a new sa
 
 In more detail, $\mathbb{NIR}$ can be naturally approached through maximization of the expected log-likelihood $\mathbb{E}_{x, \rho_{y_x}}\left[\log p\left(\psi(x)|\rho_{y_x}\right)\right]$ over sample-proxy pairs $(x, \rho_{y_x})$, but under the constraint that each distribution of samples around a respective proxy, $p(\psi|\rho)$, is a *pushforward* of $\tau$ from our residual distribution $q(\zeta)$. This gives 
 
+</br>
+
 $
 \mathcal{L}_\mathbb{NIR} = -\mathbb{E}_{x, \rho_{y_x}}[\log q\left(\tau^{-1}(\psi(x)|\rho_{y_x})\right) + \log|\det J_{\tau^{-1}}(\tau^{-1}(\psi(x)|\rho_{y_x})|\rho_{y_x})|]
 $
 
+</br>
+
 with Jacobian $J$ for translation $\tau^{-1}$ and proxies $\rho_{y_x}$, where $y_x$ denotes the class of sample $x$. To arrive at above equation, we simply leveraged the change of variables formula
+
+</br>
 
 $
 p(\psi|\rho) = q(\tau^{-1}(\psi|\rho))|\det J_{\tau^{-1}}(\tau^{-1}(\psi|\rho)|\rho)|
 $
 
+</br>
+
 In practice, by setting our prior $q(\zeta)$ to be a standard zero-mean unit-variance normal distribution $\mathcal{N}(0, 1)$, we get
+
+</br>
 
 $
 \mathcal{L}_\mathbb{NIR} = \frac{1}{|\mathcal{B}|}\sum_{(x, \rho_{y_x})\sim\mathcal{B}}\left\Vert \tau^{-1}(\psi(x)|\rho_{y_x})\right\Vert^2_2 - \log |\det J_{\tau^{-1}}(\tau^{-1}(\psi(x)|\rho_{y_x})|\rho_{y_x})|
 $
+
+</br>
 
 i.e. given sample representations $\psi(x)$, we project them onto our residual space $\zeta$ via $\tau^{-1}$ and compute our $\mathbb{NIR}$-objective. By selecting suitable normalizing flows such as GLOW, we make sure that the Jacobian is cheap to compute.
 
@@ -92,12 +108,24 @@ i.e. given sample representations $\psi(x)$, we project them onto our residual s
 
 By applying $\mathbb{NIR}$ to various strong proxy-based DML objectives such as *ProxyNCA*, *ProxyAnchor* or *SoftTriplet*, we find consistent improvements in generalization performance across all methods and in particular across all kinds of benchmarks.
 
+</br>
+
 ![text](/publications/CVPR2022_NonIsotropyRegularization/performance.png)
+
+</br>
 
 In addition to that, these performance improvements come at no relevant impact to training time, as $\mathbb{NIR}$ only operates in the much lower-dimensional representation space. Furthermore, and importantly, convergence speeds are retained and in parts even improved!
 
+</br>
+
 ![text](/publications/CVPR2022_NonIsotropyRegularization/convergence_vert.png)
+
+</br>
 
 Finally, when evaluating $\mathbb{NIR}$-regularized objectives, we find consistent increases in feature space uniformity ($G_2$) and feature variety ($\rho$), reduced overclustering ($\pi_\text{density}$) as well as higher variability in class-cluster sizes $\sigma_\kappa^2$. While the former three are commonly linked to better generalization performance, the latter provides nice additional support on $\mathbb{NIR}$ encouraging more class-specific sample-distributions to be learned!
 
+</br>
+
 ![text](/publications/CVPR2022_NonIsotropyRegularization/structure.png)
+
+</br>
