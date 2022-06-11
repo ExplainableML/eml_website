@@ -101,6 +101,8 @@ $
 
 i.e. given sample representations $\psi(x)$, we project them onto our residual space $\zeta$ via $\tau^{-1}$ and compute our $\mathbb{NIR}$-objective. By selecting suitable normalizing flows such as GLOW, we make sure that the Jacobian is cheap to compute.
 
+</br>
+
 *In applying $\mathbb{NIR}$, we effectively enforce that all sample representations around each proxies are defineable through unique translations. This means that our underlying Normalizing Flow retains implicit knowledge about class-internal structures without our overall setup having to ever rely on sample-to-sample relations!*
 
 

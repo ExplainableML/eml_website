@@ -108,12 +108,6 @@ However, expert labels aren't easy to come buy and often not available. For prac
 
 For a given training dataset $\mathcal{X}_\text{train}$, we thus take the ImageNet-pretrained backbone $\phi_\text{ImageNet}$ **including** the classification head $f_\text{ImageNet}$ and for each image $x_i\in\mathcal{X}_\text{train}$ compute the **top-k** ImageNet classes $\{y^\text{IN,k}_i\}_k$.
 
-</br>
-
-<img src="/publications/CVPR2022_LanguageGuidance/sample_pseudo_labels.png" alt="drawing" width="150"/>
-
-</br>
-
 This gives a sample-level semantic supervision, which we can also aggregate for each class to give the **top-k** respective pseudoclasses. Then, in a similar fashion to the expert label setup, we can for each pseudoclass label compute respective pseudo-label semantic similarity matrices $\{\mathcal{S}^\text{pseudolang}\}_k$ and aggregate these into a pseudo-label distillation objective:
 
 </br>
@@ -130,7 +124,7 @@ When applying language guidance both with expert labels and with pseudo-labels, 
 
 </br>
 
-<img src="/publications/CVPR2022_LanguageGuidance/performance.png" alt="drawing" width="150"/>
+![](/publications/CVPR2022_LanguageGuidance/performance.png)
 
 </br>
 
