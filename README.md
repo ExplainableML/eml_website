@@ -17,6 +17,8 @@ npm i
 npm run dev
 ```
 
+For the above commands, you should have ```node version 16``` and ```openssl version 1.1.1``` installed
+
 The webpage should now run in `localhost:3000`
 
 ## Pages
