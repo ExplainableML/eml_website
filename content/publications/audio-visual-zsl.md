@@ -1,7 +1,7 @@
 ---
 img: "/publications/audio-visual-zsl.png"
 title: Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language
-authors: Otniel-Bogdan Mercea, Lukas Riesch, Almut Sophia Koepke, Zeynep Akata
+authors: Otniel-Bogdan Mercea, Lukas Riesch, A. Sophia Koepke, Zeynep Akata
 publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
 year: 2022
 date: "2022-03-28"

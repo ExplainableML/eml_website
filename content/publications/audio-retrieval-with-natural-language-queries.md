@@ -5,7 +5,7 @@ authors: Andreea-Maria Oncescu, A. Sophia Koepke, Joao F. Henriques, Zeynep Akat
 publisher: INTERSPEECH
 year: 2021
 date: "2021-08-31"
-pdf: https://arxiv.org/pdf/2105.02192.pdf
+arxiv: https://arxiv.org/pdf/2105.02192.pdf
 website: https://www.robots.ox.ac.uk/~vgg/research/audio-retrieval/ 
 demo: https://meru.robots.ox.ac.uk/audio-retrieval/
 github: https://github.com/oncescuandreea/audio-retrieval
