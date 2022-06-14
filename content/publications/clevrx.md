@@ -1,6 +1,6 @@
 ---
 img: "/publications/clevrx.png"
-title: CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations
+title: "CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations"
 authors: Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata
 publisher: Springer LNAI 13200 xxAI – Beyond explainable Artificial Intelligence
 year: 2022
@@ -8,7 +8,6 @@ date: "2022-01-20"
 filename: clevrx
 arxiv: https://arxiv.org/abs/2204.02380
 github: https://github.com/ExplainableML/CLEVR-X
-website: https://explainableml.github.io/CLEVR-X/
+website: https://explainableml.github.io/CLEVR-X
 
-abstract: Learning to classify video data from classes not included in the training data, i.e. video-based zero-shot learning, is challenging. We conjecture that the natural alignment between the audio and visual modalities in video data provides a rich training signal for learning discriminative multi-modal representations. Focusing on the relatively underexplored task of audio-visual zero-shot learning, we propose to learn multi-modal representations from audio-visual data using cross-modal attention and exploit textual label embeddings for transferring knowledge from seen classes to unseen classes. Taking this one step further, in our generalised audio-visual zero-shot learning setting,  we include all the training classes in the test-time search space which act as distractors and increase the difficulty while making the setting more realistic. Due to the lack of a unified benchmark in this domain, we introduce a (generalised) zero-shot learning benchmark on three audio-visual datasets of varying sizes and difficulty, VGGSound, UCF, and ActivityNet, ensuring that the unseen test classes do not appear in the dataset used for supervised training of the backbone deep models. Comparing multiple relevant and recent methods, we demonstrate that our proposed AVCA model achieves state-of-the-art performance on all three datasets.
- 
+abstract: To obtain detailed insights into the process of generating natural language explanations for VQA, we introduce the large-scale CLEVR-X dataset that extends the CLEVR dataset with natural language explanations. For each image-question pair in the CLEVR dataset, CLEVR-X contains multiple structured textual explanations which are derived from the original scene graphs. By construction, the CLEVR-X explanations are correct and describe the reasoning and visual information that is necessary to answer a given question. We conducted a user study to confirm that the ground-truth explanations in our proposed dataset are indeed complete and relevant. We present baseline results for generating natural language explanations in the context of VQA using two state-of-the-art frameworks on the CLEVR-X dataset. Furthermore, we provide a detailed analysis of the explanation generation quality for different question and answer types. Additionally, we study the influence of using different numbers of ground-truth explanations on the convergence of natural language generation (NLG) metrics. 
