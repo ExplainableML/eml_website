@@ -8,7 +8,6 @@ mail: meghal.dani (at) gmail.com
 linkedin: https://www.linkedin.com/in/meghal-dani-84825525/
 github: https://github.com/meghalD
 scholar: https://scholar.google.com/citations?user=VOaQuLUAAAAJ&hl=en
-
 ---
 
 # Profile
