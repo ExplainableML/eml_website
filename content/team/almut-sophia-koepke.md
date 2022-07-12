@@ -28,7 +28,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022\
 
 &nbsp;
 
-* CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations
+* CLEVR-X: A visual reasoning dataset for natural language explanations
 [Leonard Salewski](https://www.eml-unitue.de/people/leonard-salewski), A. Sophia Koepke, [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 Springer Lecture Notes on Artificial Intelligence, 2022\
 [Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)
