@@ -15,6 +15,12 @@ During her PhD, her research focussed on self-supervised learning and on audio-v
 
 # Publications
 
+* Temporal and cross-modal attention for audio-visual zero-shot learning
+[Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea)\*, [Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel)\*, A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+European Conference on Computer Vision (ECCV), 2022
+
+&nbsp;
+
 * Audio-visual generalised zero-shot learning with cross-modal attention and language
 [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), Lukas Riesch, A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022\
