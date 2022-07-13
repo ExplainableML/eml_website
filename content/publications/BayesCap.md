@@ -5,7 +5,7 @@ authors: Uddeshya Upadhyay*, Shyamgopal Karthik*, Yanbei Chen, Massimiliano Manc
 publisher: European Conference on Computer Vision, ECCV
 year: 2022
 date: "2022-07-11"
-filename: BayesCap Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural Networks
+filename: BayesCap
 arxiv: https://arxiv.org/
 github: https://github.com/ExplainableML/BayesCap
 
