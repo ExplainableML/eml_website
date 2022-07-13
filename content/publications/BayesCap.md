@@ -1,5 +1,5 @@
 ---
-img: "/publications/BayesCap.gif"
+img: "/publications/BayesCap/BayesCap.gif"
 title: "BayesCap: Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural Networks"
 authors: Uddeshya Upadhyay*, Shyamgopal Karthik*, Yanbei Chen, Massimiliano Mancini, Zeynep Akata
 publisher: European Conference on Computer Vision, ECCV
