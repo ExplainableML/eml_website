@@ -16,7 +16,26 @@ abstract: High-quality calibrated uncertainty estimates are crucial for numerous
 Image enhancement tasks like super-resolution, deblurring, inpainting, colorization, denoising, medical image synthesis and monocular depth estimation among others have been effectively tackled using deep learning methods generating high-fidelity outputs. But, the respective state-of-the-art models usually learn a deterministic one-to-one mapping between the input and the output, without modeling the uncertainty in the prediction. While there have been works that try to learn a probabilistic mapping instead, they are often difficult to train and more expensive compared to their deterministic counterparts. In this work, we propose BayesCap, an architecture agnostic, plug-and-play method to generate uncertainty estimates for pre-trained models. The key idea is to train a Bayesian autoencoder over the output images of the pretrained network, approximating the underlying output distribution. Due to its Bayesian design, in addition to reconstructing the input, BayesCap also estimates the parameters of the underlying distribution, allowing us to compute the uncertainties. BayesCap is highly data-efficient and can be trained on a small fraction of the original dataset.
 
 
-# Approach
+# Problem Formulation
+Let $\mathcal{D} = \{(\mathbf{x}_i, \mathbf{y}_i)\}_{i=1}^{N}$ be the training set with pairs from domain $\mathbf{X}$ and $\mathbf{Y}$ (i.e., $\mathbf{x}_i \in \mathbf{X}, \mathbf{y}_i \in \mathbf{Y}, \forall i$), where $\mathbf{X}, \mathbf{Y}$ lies in $\mathbb{R}^m$ and $\mathbb{R}^n$, respectively. 
+While our proposed solution is valid for data of arbitrary dimension, we present the formulation for images with applications for image enhancement and translation tasks, such as super-resolution, inpainting, etc. 
+Therefore, ($\mathbf{x}_i, \mathbf{y}_i$) represents a pair of images, where $\mathbf{x}_i$ refers to the input and $\mathbf{y}_i$ denotes the transformed/enhanced output. 
+For instance, in super-resolution $\mathbf{x}_i$ is a low-resolution image and $\mathbf{y}_i$ its high-resolution version.
+Let $\mathbf{\Psi}(\cdot; \theta): \mathbb{R}^m \rightarrow \mathbb{R}^n$ represent a Deep Neural Network parametrized by $\theta$ that maps images from the set $\mathbf{X}$ to the set $\mathbf{Y}$, e.g. from corrupted to the non-corrupted/enhanced output images. 
+
+We consider a real-world scenario, where $\mathbf{\Psi}(\cdot; \theta)$ has already been trained using the dataset $\mathcal{D}$ and it is in a \textit{frozen state} with parameters set to the learned optimal parameters $\theta^{*}$. In this state, given an input %
+$\mathbf{x}$, the model returns %
+a point estimate of the output, i.e., $\hat{\mathbf{y}} = \mathbf{\Psi}(\mathbf{x}; \theta^{*})$.
+However, %
+point estimates %
+do not %
+capture the distributions of the output ($\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$) and thus %
+the uncertainty in the prediction that is crucial in many real-world  applications~\cite{kendall2017uncertainties}.
+Therefore, we propose to estimate $\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$ for the pretrained model in a fast and cheap manner, quantifying the uncertainties of the output without re-training the model itself.
+
+# Preliminaries: Uncertainty Estimation
+
+# Constructing BayesCap
 <br/><br/>
 ![](/publications/BayesCap/BayesCap.gif)
 <br/><br/>
