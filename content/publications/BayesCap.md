@@ -99,19 +99,21 @@ Here $\lambda$ represents the hyperparameter controlling the contribution of the
 
 # Results
 We test our method BayesCap on the tasks of image super-resolution, deblurring, inpatining and medical image translation. In all the tasks, we are able to retain the outputs of the base model while also providing uncertainty estimates. 
+For all tasks, we compare BayesCap against 7 methods in total, out of which 6 baselines can estimate uncertainty of a pretrained model without re-training and one baseline modifies the base network and train it from scratch to estimate the uncertainty. The first set of baselines belong to *test-time data augmentation* (TTDA) technique, where we generate multiple perturbed copies of the input and use the set of corresponding outputs to compute the uncertainty. We consider three different ways of perturbing the input, (i) per-pixel noise perturbations (TTDAp), (ii) affine transformations (TTDAa) and (iii) random corruptions from Gaussian blurring, contrast enhancement, and color jittering (TTDAc). As additional baseline, we also consider TTDApac that generates the multiple copies by combining pixel-level perturbations, affine transformations, and corruptions as described above.
+
 Some results are illustrated below:
 
-Super-Resolution
+**Super-Resolution**
 <br/><br/>
 ![](/publications/BayesCap/sr_qual1.png)
 <br/><br/>
 
-Deblurring and Inpainting
+**Deblurring and Inpainting**
 <br/><br/>
 ![](/publications/BayesCap/deblur_inpaint_qual.png)
 <br/><br/>
 
-Medical Image Translation
+**Medical Image Translation**
 <br/><br/>
 ![](/publications/BayesCap/MRI_qual.png)
 <br/><br/>
@@ -120,7 +122,6 @@ In addition to this, we also show the downstream benefits of uncertainty estimat
 <br/><br/>
 ![](/publications/BayesCap/depth_qual_n_quant.png)
 <br/><br/>
-
 
 For more results and analysis, please refer to the [paper](https://arxiv.org/).
 You can also find a demo of our work [here](https://huggingface.co/spaces/udion/BayesCap).
