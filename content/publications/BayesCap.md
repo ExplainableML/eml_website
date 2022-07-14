@@ -13,6 +13,7 @@ abstract: High-quality calibrated uncertainty estimates are crucial for numerous
 ---
 
 # Introduction
+![](/publications/BayesCap/motivation4.png)
 Image enhancement tasks like super-resolution, deblurring, inpainting, colorization, denoising, medical image synthesis and monocular depth estimation among others have been effectively tackled using deep learning methods generating high-fidelity outputs. But, the respective state-of-the-art models usually learn a deterministic one-to-one mapping between the input and the output, without modeling the uncertainty in the prediction. While there have been works that try to learn a probabilistic mapping instead, they are often difficult to train and more expensive compared to their deterministic counterparts. In this work, we propose BayesCap, an architecture agnostic, plug-and-play method to generate uncertainty estimates for pre-trained models. The key idea is to train a Bayesian autoencoder over the output images of the pretrained network, approximating the underlying output distribution. Due to its Bayesian design, in addition to reconstructing the input, BayesCap also estimates the parameters of the underlying distribution, allowing us to compute the uncertainties. BayesCap is highly data-efficient and can be trained on a small fraction of the original dataset.
 
 
@@ -24,6 +25,7 @@ While our proposed solution is valid for data of arbitrary dimension, we present
 We consider a real-world scenario, where $\mathbf{\Psi}(\cdot; \theta)$ has already been trained using the dataset $\mathcal{D}$ and it is in a *frozen state* with parameters set to the learned optimal parameters $\theta^{*}$. In this state, given an input $\mathbf{x}$, the model returns a point estimate of the output, i.e., $\hat{\mathbf{y}} = \mathbf{\Psi}(\mathbf{x}; \theta^{*})$. However, point estimates do not capture the distributions of the output ($\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$) and thus the uncertainty in the prediction that is crucial in many real-world  applications. Therefore, we propose to estimate $\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$ for the pretrained model in a fast and cheap manner, quantifying the uncertainties of the output without re-training the model itself.
 
 # Preliminaries: Uncertainty Estimation
+![](/publications/BayesCap/BayesCap.gif)
 To understand the functioning of our BayesCap that produces uncertainty estimates for the *frozen or pretrained* neural networks, we first consider a model trained from scratch to address the target task and estimate uncertainty. Let us denote this model by $\mathbf{\Psi}_s(\cdot; \zeta): \mathbb{R}^m \rightarrow \mathbb{R}^n$, with a set of trainable parameters given by $\zeta$. To capture the *irreducible* (i.e., aleatoric) uncertainty in the output distribution $\mathcal{P}_{Y|X}$, the model must estimate the parameters of the distribution. These are then used to maximize the likelihood function. That is, for an input $\mathbf{x}_i$, the model produces a set of parameters representing the output given by, $\{\hat{\mathbf{y}}_i, \hat{\nu}_i \dots \hat{\rho}_i \} := \mathbf{\Psi}_s(\mathbf{x}_i; \zeta)$, that characterizes the distribution $\mathcal{P}_{Y|X}(\mathbf{y}; \{\hat{\mathbf{y}}_i, \hat{\nu}_i \dots \hat{\rho}_i \})$, such that $\mathbf{y}_i \sim \mathcal{P}_{Y|X}(\mathbf{y}; \{\hat{\mathbf{y}}_i, \hat{\nu}_i \dots \hat{\rho}_i \})$. The likelihood $\mathscr{L}(\zeta; \mathcal{D}) := \prod_{i=1}^{N} \mathcal{P}_{Y|X}(\mathbf{y}_i; \{\hat{\mathbf{y}}_i, \hat{\nu}_i \dots \hat{\rho}_i \})$ is then maximized in order to estimate the optimal parameters of the network. Moreover, the distribution $\mathcal{P}_{Y|X}$ is often chosen such that uncertainty can be estimated using a closed form solution $\mathscr{F}$ depending on the estimated parameters of the neural network, i.e.,
 $$
 \begin{gather}
@@ -63,17 +65,15 @@ e^{-(|\hat{\mathbf{y}}_i - \mathbf{y}_i|/\hat{\alpha}_i)^{\hat{\beta}_i}}
 $$
 Here $\Gamma(z) = \int_{0}^{\infty}x^{z-1}e^{-x} dx \text{, } \forall z>0$, represents the Gamma function.
 While the above formulation shows the dependence of various predicted distribution parameters on one another when maximizing the likelihood, it requires training the model from scratch, that we want to avoid. In the following, we describe how we address this problem through our BayesCap.
-![](/publications/BayesCap/BayesCap.gif)
 
 # Constructing BayesCap
-In the above, $\mathbf{\Psi}_s(\cdot; \zeta)$ was trained from scratch to predict all the parameters of distribution and does *not* leverage the *frozen* model $\mathbf{\Psi}(\cdot; \theta^*)$ estimating $\mathbf{y}_i$ using $\hat{\mathbf{y}}_i$ in a deterministic fashion. To circumvent the training from scratch, we notice that one only needs to estimate the remaining parameters of the underlying distribution. Therefore, to augment the frozen point estimation model, we learn a Bayesian identity mapping represented by $\mathbf{\Omega}(\cdot; \phi): \mathbb{R}^n \rightarrow \mathbb{R}^n$, that reconstructs the output of the frozen model $\mathbf{\Psi}(\cdot; \theta^*)$ and also produces the parameters of the distribution modeling the reconstructed output. We refer to this network as BayesCap (schematic in Figure~\ref{fig:arch}). We use heteroscedastic generalized Gaussian to model output distribution, i.e.,
+In the above, $\mathbf{\Psi}_s(\cdot; \zeta)$ was trained from scratch to predict all the parameters of distribution and does *not* leverage the *frozen* model $\mathbf{\Psi}(\cdot; \theta^*)$ estimating $\mathbf{y}_i$ using $\hat{\mathbf{y}}_i$ in a deterministic fashion. To circumvent the training from scratch, we notice that one only needs to estimate the remaining parameters of the underlying distribution. Therefore, to augment the frozen point estimation model, we learn a Bayesian identity mapping represented by $\mathbf{\Omega}(\cdot; \phi): \mathbb{R}^n \rightarrow \mathbb{R}^n$, that reconstructs the output of the frozen model $\mathbf{\Psi}(\cdot; \theta^*)$ and also produces the parameters of the distribution modeling the reconstructed output. We refer to this network as BayesCap. We use heteroscedastic generalized Gaussian to model output distribution, i.e.,
 $$
 \begin{gather}
 \mathbf{\Omega}(\hat{\mathbf{y}}_i = \mathbf{\Psi}(\mathbf{x}_i; \theta^*); \phi) = \{\tilde{\mathbf{y}}_i, \tilde{\alpha}_i, \tilde{\beta}_i\} 
 \text{, with } 
 \mathbf{y}_i \sim \frac{\tilde{\beta}_i}{2 \tilde{\alpha}_i \Gamma(\frac{1}{\tilde{\beta}_i})} 
 e^{-(|\tilde{\mathbf{y}}_i - \mathbf{y}_i|/\tilde{\alpha}_i)^{\tilde{\beta}_i}} 
-\label{eq:omega}
 \end{gather}
 $$
 To enforce the identity mapping, for every input $\mathbf{x}_i$, we regress the reconstructed output of the BayesCap ($\tilde{\mathbf{y}}_i$) with the output of the pretrained base network ($\hat{\mathbf{y}}_i$). This ensures that, the distribution predicted by *BayesCap* for an input $\mathbf{x}_i$, i.e., $\mathbf{\Omega}(\mathbf{\Psi}(\mathbf{x}_i; \theta^*); \phi)$, is such that the point estimates $\tilde{\mathbf{y}}_i$ match the point estimates of the pretrained network $\hat{\mathbf{y}}_i$. Therefore, as the quality of the reconstructed output improves, the uncertainty estimated by $\mathbf{\Omega}(\cdot; \phi)$ also approximates the uncertainty for the prediction made by the pretrained $\mathbf{\Psi}(\cdot; \theta^*)$, i.e.,
@@ -93,7 +93,6 @@ $$
 \frac{|\tilde{\mathbf{y}}_{i}-\mathbf{y}_{i}|}{\tilde{\alpha}_{i}} \right)^{\tilde{\beta}_{i}} - 
     \log\frac{\tilde{\beta}_{i}}{\tilde{\alpha}_{i}} + \log\Gamma(\frac{1}{\tilde{\beta}_{i}})
 }_{\text{Negative log-likelihood}}
-\label{eq:bayescap}
 \end{gather}
 $$
 Here $\lambda$ represents the hyperparameter controlling the contribution of the fidelity term in the overall loss function. Extremely high $\lambda$ will lead to improper estimation of the ($\tilde{\alpha}$) and ($\tilde{\beta}$) parameters as other terms are ignored. Above equation allows BayesCap to estimate the underlying distribution and uncertainty.
