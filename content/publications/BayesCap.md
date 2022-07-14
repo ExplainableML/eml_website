@@ -18,7 +18,8 @@ Image enhancement tasks like super-resolution, deblurring, inpainting, colorizat
 
 # Problem Formulation
 Let $\mathcal{D} = \{(\mathbf{x}_i, \mathbf{y}_i)\}_{i=1}^{N}$ be the training set with pairs from domain $\mathbf{X}$ and $\mathbf{Y}$ (i.e., $\mathbf{x}_i \in \mathbf{X}, \mathbf{y}_i \in \mathbf{Y}, \forall i$), where $\mathbf{X}, \mathbf{Y}$ lies in $\mathbb{R}^m$ and $\mathbb{R}^n$, respectively. 
-While our proposed solution is valid for data of arbitrary dimension, we present the formulation for images with applications for image enhancement and translation tasks, such as super-resolution, inpainting, etc. Therefore, ($\mathbf{x}_i, \mathbf{y}_i$) represents a pair of images, where $\mathbf{x}_i$ refers to the input and $\mathbf{y}_i$ denotes the transformed/enhanced output. For instance, in super-resolution $\mathbf{x}_i$ is a low-resolution image and $\mathbf{y}_i$ its high-resolution version. Let $\mathbf{\Psi}(\cdot; \theta): \mathbb{R}^m \rightarrow \mathbb{R}^n$ represent a Deep Neural Network parametrized by $\theta$ that maps images from the set $\mathbf{X}$ to the set $\mathbf{Y}$, e.g. from corrupted to the non-corrupted/enhanced output images. 
+While our proposed solution is valid for data of arbitrary dimension, we present the formulation for images with applications for image enhancement and translation tasks, such as super-resolution, inpainting, etc. Therefore, ($\mathbf{x}_i, \mathbf{y}_i$) represents a pair of images, where $\mathbf{x}_i$ refers to the input and $\mathbf{y}_i$ denotes the transformed / enhanced output. For instance, in super-resolution $\mathbf{x}_i$ is a low-resolution image and $\mathbf{y}_i$ its high-resolution version. Let $\mathbf{\Psi}(\cdot; \theta): \mathbb{R}^m \rightarrow \mathbb{R}^n$ represent a Deep Neural Network parametrized by $\theta$ that maps images from the set $\mathbf{X}$ to the set $\mathbf{Y}$, e.g. from corrupted to the non-corrupted/enhanced output images. 
+
 
 We consider a real-world scenario, where $\mathbf{\Psi}(\cdot; \theta)$ has already been trained using the dataset $\mathcal{D}$ and it is in a *frozen state* with parameters set to the learned optimal parameters $\theta^{*}$. In this state, given an input $\mathbf{x}$, the model returns a point estimate of the output, i.e., $\hat{\mathbf{y}} = \mathbf{\Psi}(\mathbf{x}; \theta^{*})$. However, point estimates do not capture the distributions of the output ($\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$) and thus the uncertainty in the prediction that is crucial in many real-world  applications. Therefore, we propose to estimate $\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$ for the pretrained model in a fast and cheap manner, quantifying the uncertainties of the output without re-training the model itself.
 
@@ -38,7 +39,7 @@ $$
 = \underset{\zeta}{\text{argmax}} \prod_{i=1}^{N} \frac{1}{\sqrt{2 \pi \hat{\sigma}_i^2}} 
 e^{-\frac{|\hat{\mathbf{y}}_i - \mathbf{y}_i|^2}{2\hat{\sigma}_i^2}} 
 = 
-\underset{\zeta}{\text{argmin}} \sum_{i=1}^{N} \frac{|\hat{\mathbf{y}}_i - \mathbf{y}_i|^2}{2\hat{\sigma}_i^2} + \frac{\log(\hat{\sigma}_i^2)}{2} \label{eq:scratch_gauss}\\
+\underset{\zeta}{\text{argmin}} \sum_{i=1}^{N} \frac{|\hat{\mathbf{y}}_i - \mathbf{y}_i|^2}{2\hat{\sigma}_i^2} + \frac{\log(\hat{\sigma}_i^2)}{2} \\
 \text{Uncertainty}(\hat{\mathbf{y}}_i) = \hat{\sigma}_i^2.
 \end{gather}
 $$
@@ -50,7 +51,6 @@ $$
 = \underset{\zeta}{\text{argmax}} \prod_{i=1}^{N} \frac{\hat{\beta}_i}{2 \hat{\alpha}_i \Gamma(\frac{1}{\hat{\beta}_i})} 
 e^{-(|\hat{\mathbf{y}}_i - \mathbf{y}_i|/\hat{\alpha}_i)^{\hat{\beta}_i}} 
 = \underset{\zeta}{\text{argmin}} -\log\mathscr{L}(\zeta)
-\nonumber \\ 
 = 
 \underset{\zeta}{\text{argmin}} \sum_{i=1}^{N} 
 \left(
@@ -58,7 +58,6 @@ e^{-(|\hat{\mathbf{y}}_i - \mathbf{y}_i|/\hat{\alpha}_i)^{\hat{\beta}_i}}
     \log\frac{\hat{\beta}_{i}}{\hat{\alpha}_{i}} + \log\Gamma(\frac{1}{\hat{\beta}_{i}})
 \\
 \text{Uncertainty}(\hat{\mathbf{y}}_i) = \frac{\hat{\alpha}_i^2\Gamma(\frac{3}{\hat{\beta}}_i)}{\Gamma(\frac{1}{\hat{\beta}}_i)}.
-\label{eq:sratch_ggd}
 \end{gather}
 $$
 Here $\Gamma(z) = \int_{0}^{\infty}x^{z-1}e^{-x} dx \text{, } \forall z>0$, represents the Gamma function.
