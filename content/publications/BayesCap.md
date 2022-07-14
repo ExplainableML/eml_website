@@ -18,7 +18,7 @@ Image enhancement tasks like super-resolution, deblurring, inpainting, colorizat
 
 # Problem Formulation
 Let $\mathcal{D} = \{(\mathbf{x}_i, \mathbf{y}_i)\}_{i=1}^{N}$ be the training set with pairs from domain $\mathbf{X}$ and $\mathbf{Y}$ (i.e., $\mathbf{x}_i \in \mathbf{X}, \mathbf{y}_i \in \mathbf{Y}, \forall i$), where $\mathbf{X}, \mathbf{Y}$ lies in $\mathbb{R}^m$ and $\mathbb{R}^n$, respectively. 
-While our proposed solution is valid for data of arbitrary dimension, we present the formulation for images with applications for image enhancement and translation tasks, such as super-resolution, inpainting, etc. Therefore, ($\mathbf{x}_i, \mathbf{y}_i$) represents a pair of images, where $\mathbf{x}_i$ refers to the input and $\mathbf{y}_i$ denotes the transformed / enhanced output. For instance, in super-resolution $\mathbf{x}_i$ is a low-resolution image and $\mathbf{y}_i$ its high-resolution version. Let $\mathbf{\Psi}(\cdot; \theta): \mathbb{R}^m \rightarrow \mathbb{R}^n$ represent a Deep Neural Network parametrized by $\theta$ that maps images from the set $\mathbf{X}$ to the set $\mathbf{Y}$, e.g. from corrupted to the non-corrupted/enhanced output images. 
+While our proposed solution is valid for data of arbitrary dimension, we present the formulation for images with applications for image enhancement and translation tasks, such as super-resolution, inpainting, etc. Therefore, ($\mathbf{x}_i, \mathbf{y}_i$) represents a pair of images, where $\mathbf{x}_i$ refers to the input and $\mathbf{y}_i$ denotes the transformed / enhanced output. For instance, in super-resolution $\mathbf{x}_i$ is a low-resolution image and $\mathbf{y}_i$ its high-resolution version. Let $\mathbf{\Psi}(\cdot; \theta): \mathbb{R}^m \rightarrow \mathbb{R}^n$ represent a Deep Neural Network parametrized by $\theta$ that maps images from the set $\mathbf{X}$ to the set $\mathbf{Y}$, e.g. from corrupted to the non-corrupted / enhanced output images. 
 
 
 We consider a real-world scenario, where $\mathbf{\Psi}(\cdot; \theta)$ has already been trained using the dataset $\mathcal{D}$ and it is in a *frozen state* with parameters set to the learned optimal parameters $\theta^{*}$. In this state, given an input $\mathbf{x}$, the model returns a point estimate of the output, i.e., $\hat{\mathbf{y}} = \mathbf{\Psi}(\mathbf{x}; \theta^{*})$. However, point estimates do not capture the distributions of the output ($\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$) and thus the uncertainty in the prediction that is crucial in many real-world  applications. Therefore, we propose to estimate $\mathcal{P}_{\mathbf{Y}|\mathbf{X}}$ for the pretrained model in a fast and cheap manner, quantifying the uncertainties of the output without re-training the model itself.
@@ -51,6 +51,7 @@ $$
 = \underset{\zeta}{\text{argmax}} \prod_{i=1}^{N} \frac{\hat{\beta}_i}{2 \hat{\alpha}_i \Gamma(\frac{1}{\hat{\beta}_i})} 
 e^{-(|\hat{\mathbf{y}}_i - \mathbf{y}_i|/\hat{\alpha}_i)^{\hat{\beta}_i}} 
 = \underset{\zeta}{\text{argmin}} -\log\mathscr{L}(\zeta)
+\\ 
 = 
 \underset{\zeta}{\text{argmin}} \sum_{i=1}^{N} 
 \left(
@@ -65,9 +66,37 @@ While the above formulation shows the dependence of various predicted distributi
 ![](/publications/BayesCap/BayesCap.gif)
 
 # Constructing BayesCap
-<br/><br/>
-![](/publications/BayesCap/BayesCap.gif)
-<br/><br/>
+In the above, $\mathbf{\Psi}_s(\cdot; \zeta)$ was trained from scratch to predict all the parameters of distribution and does *not* leverage the *frozen* model $\mathbf{\Psi}(\cdot; \theta^*)$ estimating $\mathbf{y}_i$ using $\hat{\mathbf{y}}_i$ in a deterministic fashion. To circumvent the training from scratch, we notice that one only needs to estimate the remaining parameters of the underlying distribution. Therefore, to augment the frozen point estimation model, we learn a Bayesian identity mapping represented by $\mathbf{\Omega}(\cdot; \phi): \mathbb{R}^n \rightarrow \mathbb{R}^n$, that reconstructs the output of the frozen model $\mathbf{\Psi}(\cdot; \theta^*)$ and also produces the parameters of the distribution modeling the reconstructed output. We refer to this network as BayesCap (schematic in Figure~\ref{fig:arch}). We use heteroscedastic generalized Gaussian to model output distribution, i.e.,
+$$
+\begin{gather}
+\mathbf{\Omega}(\hat{\mathbf{y}}_i = \mathbf{\Psi}(\mathbf{x}_i; \theta^*); \phi) = \{\tilde{\mathbf{y}}_i, \tilde{\alpha}_i, \tilde{\beta}_i\} 
+\text{, with } 
+\mathbf{y}_i \sim \frac{\tilde{\beta}_i}{2 \tilde{\alpha}_i \Gamma(\frac{1}{\tilde{\beta}_i})} 
+e^{-(|\tilde{\mathbf{y}}_i - \mathbf{y}_i|/\tilde{\alpha}_i)^{\tilde{\beta}_i}} 
+\label{eq:omega}
+\end{gather}
+$$
+To enforce the identity mapping, for every input $\mathbf{x}_i$, we regress the reconstructed output of the BayesCap ($\tilde{\mathbf{y}}_i$) with the output of the pretrained base network ($\hat{\mathbf{y}}_i$). This ensures that, the distribution predicted by *BayesCap* for an input $\mathbf{x}_i$, i.e., $\mathbf{\Omega}(\mathbf{\Psi}(\mathbf{x}_i; \theta^*); \phi)$, is such that the point estimates $\tilde{\mathbf{y}}_i$ match the point estimates of the pretrained network $\hat{\mathbf{y}}_i$. Therefore, as the quality of the reconstructed output improves, the uncertainty estimated by $\mathbf{\Omega}(\cdot; \phi)$ also approximates the uncertainty for the prediction made by the pretrained $\mathbf{\Psi}(\cdot; \theta^*)$, i.e.,
+$$
+\begin{gather}
+    \tilde{\mathbf{y}}_i \rightarrow \hat{\mathbf{y}}_i \implies \tilde{\mathbf{\sigma}}_i^2 = \frac{\tilde{\alpha}_i^2 \Gamma(3/\tilde{\beta}_i)}{\Gamma(1/\tilde{\beta}_i)} \rightarrow \hat{\mathbf{\sigma}}_i^2 
+\end{gather}
+$$
+To train $\mathbf{\Omega}(\cdot; \phi)$ and obtain optimal parameters ($\phi^*$), we minimize the fidelity term between $\tilde{\mathbf{y}}_i$ and $\hat{\mathbf{y}}_i$, along with the negative log-likelihood for $\mathbf{\Omega}(\cdot; \phi)$, i.e.,
+$$
+\begin{gather}
+\phi^*
+= \underset{\phi}{\text{argmin}} \sum_{i=1}^{N} \lambda \underbrace{|\tilde{\mathbf{y}}_i - \hat{\mathbf{y}}_i|^2}_{\text{Identity mapping}}
++
+\underbrace{
+\left(
+\frac{|\tilde{\mathbf{y}}_{i}-\mathbf{y}_{i}|}{\tilde{\alpha}_{i}} \right)^{\tilde{\beta}_{i}} - 
+    \log\frac{\tilde{\beta}_{i}}{\tilde{\alpha}_{i}} + \log\Gamma(\frac{1}{\tilde{\beta}_{i}})
+}_{\text{Negative log-likelihood}}
+\label{eq:bayescap}
+\end{gather}
+$$
+Here $\lambda$ represents the hyperparameter controlling the contribution of the fidelity term in the overall loss function. Extremely high $\lambda$ will lead to improper estimation of the ($\tilde{\alpha}$) and ($\tilde{\beta}$) parameters as other terms are ignored. Above equation allows BayesCap to estimate the underlying distribution and uncertainty.
 
 # Results
 We test our method BayesCap on the tasks of image super-resolution, deblurring, inpatining and medical image translation. In all the tasks, we are able to retain the outputs of the base model while also providing uncertainty estimates. 
