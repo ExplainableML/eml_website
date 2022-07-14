@@ -4,7 +4,7 @@ name: Almut Sophia Koepke
 role: Postdoctoral Researcher
 order: 2
 link: almut-sophia-koepke
-mail: a.sophia-koepke (at) uni-tuebingen.de
+mail: a-sophia.koepke (at) uni-tuebingen.de
 scholar: https://scholar.google.com/citations?user=q9zQhj8AAAAJ&hl=en
 ---
 
@@ -31,7 +31,8 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022\
 * CLEVR-X: A visual reasoning dataset for natural language explanations
 [Leonard Salewski](https://www.eml-unitue.de/people/leonard-salewski), A. Sophia Koepke, [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 Springer Lecture Notes on Artificial Intelligence, 2022\
-[Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)
+[Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)\
+<span style="color:black; font-style:italic">This was also presented at the CVPR 2022 Workshop on Explainable AI for Computer Vision (XAI4CV).</span>
 
 &nbsp;
 
