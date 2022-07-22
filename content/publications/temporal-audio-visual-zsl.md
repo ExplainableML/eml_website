@@ -2,7 +2,7 @@
 img: "/publications/TCAF/temporal-audio-visual-zsl.png"
 title: Temporal and cross-modal attention for audio-visual zero-shot learning
 authors: Otniel-Bogdan Mercea *, Thomas Hummel *, A. Sophia Koepke, Zeynep Akata
-publisher: The European Conference on Computer Vision, ECCV
+publisher: European Conference on Computer Vision, ECCV
 year: 2022
 date: "2022-07-21"
 filename: temporal-audio-visual-zsl
