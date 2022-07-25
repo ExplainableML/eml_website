@@ -17,7 +17,8 @@ Her research focusses on multi-modal learning problems with sound, vision, and l
 
 * Temporal and cross-modal attention for audio-visual zero-shot learning
 [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea)\*, [Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel)\*, A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
-European Conference on Computer Vision (ECCV), 2022
+European Conference on Computer Vision (ECCV), 2022\
+[Paper](https://arxiv.org/pdf/2207.09966.pdf) | [Code](https://github.com/ExplainableML/TCAF-GZSL)
 
 &nbsp;
 
