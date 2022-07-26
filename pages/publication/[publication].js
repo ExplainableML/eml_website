@@ -95,7 +95,8 @@ export default function Publication(props) {
               </div>
 
               <div class="w-90vw lg:w-800 text-left break-words">
-              {props.data.abstract}
+              <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
+		rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.data.abstract} />
               </div>
             
               <div class=" w-90vw lg:w-800 bg-gray-50  flex flex-col items-center px-4" >
