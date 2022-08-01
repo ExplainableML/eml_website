@@ -1,0 +1,15 @@
+---
+img: "/publications/sketch-primitives/PMN_teaser.png"
+title: Abstracting Sketches through Simple Primitives
+arxiv: http://arxiv.org/abs/2207.13543
+github: https://github.com/ExplainableML/sketch-primitives
+filename: abstracting-sketches-through-simple-primitives
+
+authors: Stephan Alaniz, Massimiliano Mancini, Anjan Dutta, Diego Marcos, Zeynep Akata
+publisher: European Conference on Computer Vision, ECCV
+year: 2022
+month: 8
+day: 1
+date: "2022-08-01"
+abstract: Humans show high-level of abstraction capabilities in games that require quickly communicating object information. They decompose the message content into multiple parts and communicate them in an interpretable protocol. Toward equipping machines with such capabilities, we propose the Primitive-based Sketch Abstraction task where the goal is to represent sketches using a fixed set of drawing primitives under the influence of a budget. To solve this task, our Primitive-Matching Network (PMN), learns interpretable abstractions of a sketch in a self supervised manner. Specifically, PMN maps each stroke of a sketch to its most similar primitive in a given set, predicting an affine transformation that aligns the selected primitive to the target stroke. We learn this stroke-to-primitive mapping end-to-end with a distance-transform loss that is minimal when the original sketch is precisely reconstructed with the predicted primitives. Our PMN abstraction empirically achieves the highest performance on sketch recognition and sketch-based image retrieval given a communication budget, while at the same time being highly interpretable. This opens up new possibilities for sketch analysis, such as comparing sketches by extracting the most relevant primitives that define an object category. Code is available at https://github.com/ExplainableML/sketch-primitives.
+---
