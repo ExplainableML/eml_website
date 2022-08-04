@@ -20,20 +20,10 @@ Deep Metric Learning (DML) is concerned with learning an encoder that casts imag
 Hence, instead of seeing embeddings as points, we treat them as natural parameters of von Mises-Fisher (vMF) distributions, with the norm encoding the distribution's variance in the embedding space. Further, we develop a non-isotropic von Mises-Fisher (nivMF) distribution to model class distributions in the embedding space that are capable of representing different variances across different latent features. Just as in traditional DML, we need a metric to compare the similarity of these distributions. To this end, we use an expected-likelihood-kernel based distribution-to-distribution metric. This metric gives a scalar similarity value that can be used in any contrastive loss and, in contrast to traditional DML, incorporates uncertainty information. We find that this leads to better-behaved gradients that incorporate certainty-awareness into the training, which ultimately reflects in improved generalization performance on common DML benchmarks.
 <br/><br/>
 
-To summarize our contributions:
-
-&nbsp;&nbsp;&nbsp;&nbsp;1. We propose a framework for probabilistic DML to go from point to distributional embeddings, along with distribution-to-distribution similarity metrics.
-<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2. We extend the vMF model to a non-isotropic one for each class proxy to better incorporate intra-class substructures for better generalization.
-<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3. We compare our approach both to the current state-of-the-art and run various ablation studies on different distribution and distance metric choices.
-<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;4. We provide analytical results on how the embedding norm as uncertainty information benefits the training, and how it qualitatively reflects in the structure of the embedding space.
-
 
 # Three steps to probabilistic Deep Metric Learning
 
-A proxy-based DML method comprises three main parts: A representation of images and class-proxies, a similarity metric between them, and a contrastive loss over the similarities. We treat the image embeddings output by our encoder as the natural parameters of a vMF distribution. This casts each embedding into a distribution on the hyperspherical embedding space. To treat intra-class variance structures, we extend the vMF into nivMF. These two distributions are compared via the Expected Likelihood Kernel (ELK), as shown below. Since we are now back to a scalar similarity value per comparison, we can finally plug the ELK into a traditional ProxyNCA++ contrastive loss. This completes our ambiguity-aware training. Since the image distribution's mode is just its normalized embedding vector, we can still fall back to comparing their cosine similarity instead of the ELK at test-time for rapid retrieval.
+A proxy-based DML method comprises three main parts: A representation of images and class-proxies, a similarity metric between them, and a contrastive loss over the similarities. We treat the image embeddings output by our encoder as the natural parameters of a vMF distribution. This casts each embedding $e$ into a distribution $\zeta$ on the hyperspherical embedding space. To treat intra-class variance structures, we extend the vMF into nivMF for class distributions $\rho$. These two distributions are compared via the Expected Likelihood Kernel (ELK), as shown below. Since we are now back to a scalar similarity value per comparison, we can plug the ELK into a traditional ProxyNCA++ contrastive loss. This completes our ambiguity-aware training. Since the image distribution's mode is just its normalized embedding vector, we can still fall back to comparing their cosine similarity instead of the ELK at test-time for rapid retrieval.
 <br/><br/>
 ![](/publications/noniso-probabilistic-dml/distribution-to-distribution-distances.png)
 <br/><br/>
