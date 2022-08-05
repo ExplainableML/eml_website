@@ -17,7 +17,7 @@ export default function Thesis(props) {
         <div class="flex justify-center items-center ">
 
         
-        <div class="container pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+        <div class="container pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4  text-justify">
 
             <YearHeadline text="Thesis Topics"></YearHeadline>
 
