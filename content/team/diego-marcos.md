@@ -1,7 +1,7 @@
 ---
 img: "/team/diego-marcos.jpg"
 name: Diego Marcos
-role: Collaborating Assistant Professor
+role: Collaborating Faculty
 order: 7
 link: diego-marcos
 mail: diego.marcos at wur.nl
