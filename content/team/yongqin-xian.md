@@ -11,15 +11,10 @@ Yongqin Xian is currently a post-doctoral researcher with [Luc Van Gool](https:/
 
 # Publications
 * Zero-shot Learning - A Comprehensive Evaluation of the Good, the Bad and the Ugly Yongqin Xian, Christoph H. Lampert, Bernt Schiele and Zeynep Akata IEEE TPAMI link: https://arxiv.org/pdf/1703.04394.pdf
-
 * Latent Embeddings for Zero-shot Classification Yongqin Xian , Zeynep Akata , Gaurav Sharma,Quynh Nguyen, Matthias Hein and Bernt Schiele IEEE CVPR 2016 link: https://arxiv.org/pdf/1603.08895.pdf
-
 * Zero-shot learning - The Good, the Bad and the Ugly Yongqin Xian, Bernt Schiele, and Zeynep Akata. IEEE CVPR 2017 link: https://arxiv.org/pdf/1707.00600.pdf
-
 * Feature Generating Networks for Zero-Shot Learning. Yongqin Xian, Tobias Lorenz, Bernt Schiele, and Zeynep Akata. IEEE CVPR 2018 link: https://arxiv.org/pdf/1712.00981v2.pdf
-
 * f-VAEGAN-D2: A Feature Generating Framework for Any-Shot Learning Yongqin Xian, Saurabh Sharma, Bernt Schiele, and Zeynep Akata. IEEE CVPR 2019 link: https://arxiv.org/pdf/1903.10132.pdf
-
 * SPNet: Semantic Projection Network for Zero- and Few-Label Semantic Segmentation Yongqin Xian*, Subhabrata Choudhury*, Yang He, Bernt Schiele, and Zeynep Akata. (*indicate equal contribution) IEEE CVPR 2019 link: https://pdfs.semanticscholar.org/ea8d/6c2de162e0f9ad89af7b950333cb29e94622.pdf
 
 # Research
