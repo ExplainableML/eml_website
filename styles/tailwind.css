@@ -77,15 +77,22 @@ h1 {
   iframe {
 
   }
-
-  ul {
-    @apply: list-disc;
-  }
-
-  li {
-    @apply: list-disc;
-  }
-
+  ol li {
+  display: list-item;
+  padding-left: 20px !important;
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+  ul li {
+  display: list-item;
+  padding-left: 20px !important;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+.equal-size table{
+table-layout: fixed;
+  width: fit-content;
+}
   span.katex-html {
   
 

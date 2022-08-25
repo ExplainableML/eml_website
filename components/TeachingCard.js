@@ -9,7 +9,9 @@ export default function TeachingCard(props) {
             setLink("thesis");
         } else if (props.type=="Seminars") {
             setLink("seminars")
-        } else {
+        } else if (props.type=="Workshop") {
+            setLink("workshop")
+        }else {
             setLink("courses")
         }
     },[])
@@ -47,13 +49,19 @@ export default function TeachingCard(props) {
 
 <a class="text-purple-500 font-semibold" href="/teaching/thesis">View Details</a>
 </div>
+           </div>}
 
+                  {props.type == "Workshop" && <div>
+       <div class="pb-4">
+           <Image src="/master_l.png" objectFit="cover" width="200" height="200"></Image>
+           </div>
+        <div class="font-bold text-center text-xl">Workshop</div>
 
-       </div>}
+        <div class="flex flex-row justify-center items-center pt-8">
 
-
-  
-
+<a class="text-purple-500 font-semibold" href="/teaching/workshop">View Details</a>
+</div>
+                  </div>}
 
     </div></a>)
 }
