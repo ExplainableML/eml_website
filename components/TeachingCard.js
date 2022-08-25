@@ -41,7 +41,7 @@ export default function TeachingCard(props) {
        <div class="pb-4">
            <Image src="/master_l.png" objectFit="cover" width="200" height="200"></Image>
            </div>
-        <div class="font-bold text-center text-xl">Master Thesis</div>
+        <div class="font-bold text-center text-xl">Master&#39;s Thesis</div>
 
         <div class="flex flex-row justify-center items-center pt-8">
 
