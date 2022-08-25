@@ -79,15 +79,18 @@ h1 {
   }
   ol li {
   display: list-item;
+  padding-left: 20px !important;
   list-style-position: inside;
   list-style-type: decimal;
 }
   ul li {
   display: list-item;
+  padding-left: 20px !important;
   list-style-position: inside;
   list-style-type: disc;
 }
- 
+
+
 
   span.katex-html {
   
