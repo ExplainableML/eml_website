@@ -5,8 +5,6 @@ export default function TeachingGrid (props) {
 { /*           <TeachingCard type="Courses"></TeachingCard>*/}
             <TeachingCard type="Seminars"></TeachingCard>  
             <TeachingCard type ="Master Thesis"></TeachingCard>
-            <TeachingCard type ="Workshop"></TeachingCard>
-
         </div>
     )
 }

@@ -1,8 +1,8 @@
 import matter from 'gray-matter'
 import marked from 'marked'
 import Link from 'next/link'
-import NavBar from "../../components/NavBar"
-import Footer from "../../components/Footer"
+import NavBar from "../components/NavBar"
+import Footer from "../components/Footer"
 
 import { useRouter } from 'next/router'
 import ReactMarkdown from "react-markdown";
@@ -15,9 +15,9 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
 import rehypeRaw from 'rehype-raw'
-import Headline from '../../components/Headline'
+import Headline from '../components/Headline'
 import Image from "next/image"
-import References from '../../components/References'
+import References from '../components/References'
 import { BlockMath, InlineMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
 
@@ -102,7 +102,7 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
 
 export async function getStaticProps() {
    const markdownWithMetadata = fs
-    .readFileSync(path.join(`${process.cwd()}/content/teaching/workshop/explainability-in-machine-learning.md`))
+    .readFileSync(path.join(`${process.cwd()}/content/eml-workshop.md`))
     .toString();
 
   const { data, content } = matter(markdownWithMetadata);

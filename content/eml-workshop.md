@@ -52,7 +52,7 @@ The workshop will take place at the [Alte Aula](https://uni-tuebingen.de/einrich
 <br/>
 
 <div class="mb-8 flex flex-col items-center">
-<img src="/teaching/workshop/alte-aula.jpg" width="60%"/>  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Alte-aula-tuebingen-2018.jpg/640px-Alte-aula-tuebingen-2018.jpg" width="60%"/>  
 </div> 
 
 ### Program
@@ -68,9 +68,9 @@ ___
 
 <div class="equal-size">
 
-| <img src="/teaching/workshop/darrell.png" width="100%"/>                                                     |                                                         |                                                          |   |
+| <img src="/workshop/darrell.png" width="100%"/>                                                     |                                                         |                                                          |   |
 |--------------------------------------------------------------------------------------------------------------|---|---|---|
-| <p style="text-align: center;">[Trevor Darrell](https://mancinimassimiliano.github.io/)<br/> UC Berkley </p> |  | |   |
+| <p style="text-align: center;">[Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)<br/> UC Berkley </p> |  | |   |
 
 </div>
 <br/>
@@ -82,7 +82,7 @@ ___
 
 <div class="equal-size">
 
-| <img src="/teaching/workshop/zeynep.png" width="100%"/>                                                                   | <p align="center"> <img src="/teaching/workshop/stephan.png" width="100%"/>                                                   | <p align="center"><img src="/teaching/workshop/christian.png" width="100%"/>     </p>                           | <img src="/teaching/workshop/sophia.png" width="100%"/>                                                                             |
+| <img src="/workshop/zeynep.png" width="100%"/>                                                                   | <p align="center"> <img src="/workshop/stephan.png" width="100%"/>                                                   | <p align="center"><img src="/workshop/christian.png" width="100%"/>     </p>                           | <img src="/workshop/sophia.png" width="100%"/>                                                                             |
 |---|---|-----------------------------------------------------------------------------------------------------------------|---|
 | <p style="text-align: center;">[Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) <br/> Univ. of Tübingen </p> | <p style="text-align: center;">[Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz)<br/> Univ. of Tübingen </p>  | <p style="text-align: center;">[Christian Baumgartner](https://baumgach.github.io/)<br/> Univ. of Tübingen </p> | <p style="text-align: center;">[A. Sophia Koepke](https://www.eml-unitue.de/people/almut-sophia-koepke)<br/> Univ. of Tübingen </p> | 
 
@@ -90,7 +90,7 @@ ___
 
 <div class="equal-size">
 
-| <img src="/teaching/workshop/massi.png" width="100%"/>                                                                    |  <img src="/teaching/workshop/joon.png" width="100%"/>                                                        |                                                          |   |
+| <img src="/workshop/massi.png" width="100%"/>                                                                    |  <img src="/workshop/joon.png" width="100%"/>                                                        |                                                          |   |
 |---|---|---|---|
 | <p style="text-align: center;">[Massimiliano Mancini](https://mancinimassimiliano.github.io/)<br/> Univ. of Tübingen </p> |  <p style="text-align: center;">[Seong Joon Oh](https://coallaoh.github.io/)<br/> Univ. of Tübingen </p> | |   |
 
@@ -102,6 +102,6 @@ ___
 
 <br/>
 
-| Workshop funded by the Cluster of Excellence "Machine Learning" | <img src="/teaching/workshop/cluster.png" width="500"/> | <img src="/teaching/workshop/uni-tue.png" width="500"/> |
+| Workshop funded by the Cluster of Excellence "Machine Learning" | <img src="/workshop/cluster.png" width="500"/> | <img src="/workshop/uni-tue.png" width="500"/> |
 |-----------------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
 
