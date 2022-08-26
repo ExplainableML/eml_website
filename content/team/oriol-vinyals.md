@@ -13,3 +13,9 @@ Oriol Vinyals is a Principal Scientist at Google DeepMind, and a team lead of th
 At DeepMind he continues working on his areas of interest, which include artificial intelligence, with particular emphasis on machine learning, deep learning and reinforcement learning.
 
 [Oriol Vinyals](https://research.google/people/OriolVinyals/) together with [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) are supervising a PhD student through the [ELLIS PhD program](https://ellis.eu/).
+
+
+# Publications
+
+- "Non-isotropy Regularization for Proxy-based Deep Metric Learning", Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- "Integrating Language Guidance into Vision-based Deep Metric Learning", Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022

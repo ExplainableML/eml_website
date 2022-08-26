@@ -20,3 +20,8 @@ Earlier, I spent some time as a research intern at **Microsoft Research**, **Hon
 <br>
 
 For more details about me, please check my [homepage](https://udion.github.io/).
+
+# Publications
+- "BayesCap: Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural - Networks", Uddeshya Upadhyay*, Shyamgopal Karthik*, Yanbei Chen, Massimiliano Mancini, Zeynep Akata, European Conference on Computer Vision, ECCV 2022
+- "Robustness via Uncertainty-aware Cycle Consistency", Uddeshya Upadhyay, Yanbei Chen, Zeynep Akata, Neural Information Processing Systems, NeurIPS 2021
+- "Uncertainty-Guided Progressive GANs for Medical Image Translation", Uddeshya Upadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata, Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
