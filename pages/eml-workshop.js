@@ -20,6 +20,7 @@ import Image from "next/image"
 import References from '../components/References'
 import { BlockMath, InlineMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
+import WorkshopMemberElement from "../components/WorkshopMemberElement";
 
 
 export default function Workshop(props) {
@@ -84,16 +85,39 @@ export default function Workshop(props) {
 <div class="container text-justify" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
 <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
-</div>
-
 
 </div>
 
+<h1>Speakers</h1>
+    <div id="speakers" className="border-b-2 grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-16 text-center">
+             <WorkshopMemberElement name="Trevor Darrell" img="/workshop/darrell.png" link="https://people.eecs.berkeley.edu/~trevor/" institute="UC Berkley"></WorkshopMemberElement>
+    </div>
+<h1>Organizers</h1>
+                        <div id="organizers" className="border-b-2 text-center grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-16">
+             <WorkshopMemberElement name="Zeynep Akata" img="/workshop/zeynep.png" link="https://www.eml-unitue.de/people/zeynep-akata" institute="Univ. of Tübingen"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Stephan Alaniz" img="/workshop/stephan.png" link="https://www.eml-unitue.de/people/stephan-alaniz" institute="Univ. of Tübingen"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Christian Baumgartner" img="/workshop/christian.png" link="https://baumgach.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
+             <WorkshopMemberElement name="A. Sophia Koepke" img="/workshop/sophia.png" link="https://www.eml-unitue.de/people/almut-sophia-koepke" institute="Univ. of Tübingen"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Massimiliano Mancini" img="/workshop/massi.png" link="https://mancinimassimiliano.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Seong Joon Oh" img="/workshop/joon.png" link="https://coallaoh.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
+        </div>
+                              <div>
+                <table>
+                    <tr>
+                        <th width={"40%"} align={"left"}>Workshop funded by the <br/>"Cluster of Excellence - <br/>Machine Learning for Science"</th>
+                        <th><img src="/workshop/cluster.png" width="500"/></th>
+                        <th><img src="/workshop/uni-tue.png" width="500"/></th>
+                    </tr>
+                </table>
+            </div>
+
+</div>
           </div>
  
  
 
         </div>
+
 <Footer></Footer>
         </div>
     )

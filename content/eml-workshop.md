@@ -26,7 +26,7 @@ ___
 
 <br/>
 
-Deep learning has enabled major advances in machine learning. However, the deployment of deep learning frameworks in settings that are safety-critical or that impact society requires their decision-making to be explainable. This is fundamental for building trustworthy and user-oriented machine learning models. The aim of this workshop is to generate awareness around explainability in machine learning which is a topic of growing interest. Furthermore, we aim to encourage interdisciplinary interaction and collaboration between researchers from the Univ. of Tübingen and other European research institutions that focus on different aspects of explainability, in particular in the context of computer vision.
+Deep learning has enabled major advances in machine learning. However, the deployment of deep learning frameworks in settings that are safety-critical or that impact society requires their decision-making to be explainable. This is fundamental for building trustworthy and user-oriented machine learning models. The aim of this workshop is to generate awareness around explainability in machine learning which is a topic of growing interest. Furthermore, we aim to encourage interdisciplinary interaction and collaboration between researchers from the University of Tübingen and other international institutions that work on different aspects of explainability, in particular in the context of computer vision.
 
 <br/>
 
@@ -41,9 +41,21 @@ Our workshop will consider research on approaches to explainability and on appli
 
 <br/>
 
-___
+
+<div class="border-b-2"></div>
+
+<div align="center">
 
 ## Program and Venue
+
+</div>
+
+
+### Program
+
+The workshop will contain both keynote talks from known researchers in the field as well as invited talks and spotlight presentations of recent advancements in the field of explainability. <br/> <br/> The final program will be announced soon.
+
+
 
 ### Venue
 
@@ -54,54 +66,4 @@ The workshop will take place at the [Alte Aula](https://uni-tuebingen.de/einrich
 <div class="mb-8 flex flex-col items-center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Alte-aula-tuebingen-2018.jpg/640px-Alte-aula-tuebingen-2018.jpg" width="60%"/>  
 </div> 
-
-### Program
-
-The workshop will contain both keynote talks from known researchers in the field as well as invited talks and spotlight presentations of recent advancements in the field of explainability. <br/> <br/> The final program will be announced soon.
-
-<br/>
-
-___
-
-### Speakers
-<br/>
-
-<div class="equal-size">
-
-| <img src="/workshop/darrell.png" width="100%"/>                                                     |                                                         |                                                          |   |
-|--------------------------------------------------------------------------------------------------------------|---|---|---|
-| <p style="text-align: center;">[Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)<br/> UC Berkley </p> |  | |   |
-
-</div>
-<br/>
-
-___
-
-### Organizers
-<br/>
-
-<div class="equal-size">
-
-| <img src="/workshop/zeynep.png" width="100%"/>                                                                   | <p align="center"> <img src="/workshop/stephan.png" width="100%"/>                                                   | <p align="center"><img src="/workshop/christian.png" width="100%"/>     </p>                           | <img src="/workshop/sophia.png" width="100%"/>                                                                             |
-|---|---|-----------------------------------------------------------------------------------------------------------------|---|
-| <p style="text-align: center;">[Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) <br/> Univ. of Tübingen </p> | <p style="text-align: center;">[Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz)<br/> Univ. of Tübingen </p>  | <p style="text-align: center;">[Christian Baumgartner](https://baumgach.github.io/)<br/> Univ. of Tübingen </p> | <p style="text-align: center;">[A. Sophia Koepke](https://www.eml-unitue.de/people/almut-sophia-koepke)<br/> Univ. of Tübingen </p> | 
-
-</div>
-
-<div class="equal-size">
-
-| <img src="/workshop/massi.png" width="100%"/>                                                                    |  <img src="/workshop/joon.png" width="100%"/>                                                        |                                                          |   |
-|---|---|---|---|
-| <p style="text-align: center;">[Massimiliano Mancini](https://mancinimassimiliano.github.io/)<br/> Univ. of Tübingen </p> |  <p style="text-align: center;">[Seong Joon Oh](https://coallaoh.github.io/)<br/> Univ. of Tübingen </p> | |   |
-
-</div>
-
-<br/>
-
-___
-
-<br/>
-
-| Workshop funded by the Cluster of Excellence "Machine Learning" | <img src="/workshop/cluster.png" width="500"/> | <img src="/workshop/uni-tue.png" width="500"/> |
-|-----------------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
-
+<div class="border-b-2"></div>

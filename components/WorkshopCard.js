@@ -20,7 +20,9 @@ export default function WorkshopCard(props) {
 
         {props.type == "XAI" && <div>
            <div className="font-bold text-center text-xl"     style={{ height: "100px", width: "800px", display: "table-cell", verticalAlign:"middle"}}>
-               <p style={{  fontSize: "24pt", color:"white"}}>Explainability in Machine Learning</p></div>
+               <p style={{  fontSize: "24pt", color:"white"}}>Explainability in Machine Learning</p>
+
+<p style={{  fontSize: "12pt", color:"white"}}> March 28-29th, 2023  |  Alte Aula, Tübingen, Germany</p></div>
 
            <div className="flex flex-row justify-center items-center pt-8">
                {/*<a class="text-purple-500 font-semibold" href="/eml-workshop">View Details</a>*/}
