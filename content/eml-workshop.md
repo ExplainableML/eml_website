@@ -7,10 +7,6 @@
         </div>
     </div>
 
-[//]: # ()
-[//]: # (# Explainability in Machine Learning )
-
-[//]: # (<p style="text-align: center;"><b> March 28-29th, 2023  |  Alte Aula, Tübingen, Germany </b></p>)
 
 <br/>
 <div class="mb-8 flex flex-col items-center">
@@ -66,4 +62,9 @@ The workshop will take place at the [Alte Aula](https://uni-tuebingen.de/einrich
 <div class="mb-8 flex flex-col items-center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Alte-aula-tuebingen-2018.jpg/640px-Alte-aula-tuebingen-2018.jpg" width="60%"/>  
 </div> 
+
+Participants will also have the chance to explore the old university town of Tübingen. The city combines the ancient medieval atmosphere with the vibrant life of a cosmopolitan student town. You can get lost in the narrow alleys and timber-framed houses that lead to the 500-years old castle, take a boat trip in the famous "Stocherkahn" or enjoy the tasteful Swabian cuisine. For more information on the city, visit [www.tuebingen.de](https://www.tuebingen.de/en/).
+<br/>
+<br/>
+
 <div class="border-b-2"></div>
