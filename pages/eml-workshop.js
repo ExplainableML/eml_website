@@ -90,7 +90,7 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
 
 <h1>Speakers</h1>
     <div id="speakers" className="border-b-2 grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2 text-center">
-             <WorkshopMemberElement name="Trevor Darrell" img="/workshop/darrell.png" link="https://people.eecs.berkeley.edu/~trevor/" institute="UC Berkley"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Trevor Darrell" img="/workshop/darrell.png" link="https://people.eecs.berkeley.edu/~trevor/" institute="UC Berkeley"></WorkshopMemberElement>
     </div>
 <h1>Organizers</h1>
                         <div id="organizers" className="border-b-2 text-center grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2">
