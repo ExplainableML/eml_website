@@ -24,11 +24,9 @@ Finally, past works used temporally averaged features as inputs that were extrac
 
 To summarize our contributions:
 
-&nbsp;&nbsp;&nbsp;&nbsp;1. We propose a temporal cross-attention framework TCAF for audio-visual (G)ZSL
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2. Our proposed model achieves state-of-the-art results on UCF-GZSL<sup>cls</sup>, VGGSound-GZSL<sup>cls</sup> and ActivityNet-GZSL<sup>cls</sup>
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3. We perform a detailed analysis of the use of enhanced cross-attention across modalities and time, demonstrating the benefits of our proposed model architecture and training setup
+1. We propose a temporal cross-attention framework TCAF for audio-visual (G)ZSL
+2. Our proposed model achieves state-of-the-art results on UCF-GZSL<sup>cls</sup>, VGGSound-GZSL<sup>cls</sup> and ActivityNet-GZSL<sup>cls</sup>
+3. We perform a detailed analysis of the use of enhanced cross-attention across modalities and time, demonstrating the benefits of our proposed model architecture and training setup
 
 
 
@@ -50,11 +48,9 @@ $$
 
 We also use different types of losses such as:
 
-&nbsp;&nbsp;&nbsp;&nbsp;1. Cross-entropy loss updates the probabilities for both the correct and incorrect classes.
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2. Regression loss directly focuses on reducing the distance between the output embedding for a sample and the corresponding projected word2vec embedding
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3. Reconstruction loss, which makes sure that the projection of the output embedding and the projection of the class embedding contain a significant amount of information about the semantics of the correct class.
+1. Cross-entropy loss updates the probabilities for both the correct and incorrect classes.
+2. Regression loss directly focuses on reducing the distance between the output embedding for a sample and the corresponding projected word2vec embedding
+3. Reconstruction loss, which makes sure that the projection of the output embedding and the projection of the class embedding contain a significant amount of information about the semantics of the correct class.
 
 
 # Quantitative results

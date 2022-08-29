@@ -33,13 +33,10 @@ However, a lot of recent work has shown that understanding and incorporating the
 ## Contributions
 To address this, we propose a novel method that
 
-* introduces a principled **Non-Isotropy Regularization**-module ($\mathbb{NIR}$) for proxy-based DML on the basis of class-conditioned normalizing flows,
-
-* avoids the use of sample-to-sample relations, thus maintaining fast convergence speeds of proxy-based methods,
-
-* has minimal impact of overall training time while signficantly and reliably improving generalization performance of proxy-based DML,
-
-* consistently improves upon structures (such as Uniformity or feature variety) often related to better out-of-distribution generalization performance, as shown in multiple ablational studies.
+1. introduces a principled **Non-Isotropy Regularization**-module ($\mathbb{NIR}$) for proxy-based DML on the basis of class-conditioned normalizing flows,
+2. avoids the use of sample-to-sample relations, thus maintaining fast convergence speeds of proxy-based methods,
+3. has minimal impact of overall training time while signficantly and reliably improving generalization performance of proxy-based DML,
+4. consistently improves upon structures (such as Uniformity or feature variety) often related to better out-of-distribution generalization performance, as shown in multiple ablational studies.
 
 
 ---

@@ -30,17 +30,14 @@ image pretraining (on ImageNet) has already become standard, providing a strong 
 ## Contributions
 To address this issue, we thus
 
-* describe how pretrained language models can be used to re-align vision representation spaces when expert labels are available,
-
-* and showcase approaches for re-alignment when only ImageNet pretraining is given via pseudolabels,
+1. describe how pretrained language models can be used to re-align vision representation spaces when expert labels are available,
+2. and showcase approaches for re-alignment when only ImageNet pretraining is given via pseudolabels,
 
 Utilising language guidance, we are able to
 
-* easily achieve new state-of-the-art performance with little hyperparameter tuning,
-
-* show through multiple ablations the validity of our approach and the impact on language guidance on improved retrieval capabilities based on actual semantics,
-
-* and intregrate language guidance with little impact on the overall training times.
+1. easily achieve new state-of-the-art performance with little hyperparameter tuning,
+2. show through multiple ablations the validity of our approach and the impact on language guidance on improved retrieval capabilities based on actual semantics,
+3. and intregrate language guidance with little impact on the overall training times.
 
 ---
 

@@ -28,27 +28,21 @@ More formally, we denote the training set consisting only of samples from seen c
 <br/><br/>
 
 To summarize our contributions:
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1. We introduce three novel benchmarks for audio-visual generalized zero-shot learning(GZSL) curated from VGGSound, UCF101 and ActivityNet datasets.
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2. We propose AVCA (**A**udio-**V**isual **C**ross-**A**ttention) framework which leverages cross-modal attention between audio and visual information.
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3. We show that AVCA yields state-of-the-art performance on all proposed audio-visual GZSL benchmarks, outperforming the state-of-the-art unimodal and multi-modal zero-shot learning methods. Furthermore, we provide qualitative analysis of the learnt multi-modal embedding space, demonstrating well-separated clusters for both seen and unseen classes.
+
+1. We introduce three novel benchmarks for audio-visual generalized zero-shot learning(GZSL) curated from VGGSound, UCF101 and ActivityNet datasets.
+2. We propose AVCA (**A**udio-**V**isual **C**ross-**A**ttention) framework which leverages cross-modal attention between audio and visual information.
+3. We show that AVCA yields state-of-the-art performance on all proposed audio-visual GZSL benchmarks, outperforming the state-of-the-art unimodal and multi-modal zero-shot learning methods. Furthermore, we provide qualitative analysis of the learnt multi-modal embedding space, demonstrating well-separated clusters for both seen and unseen classes.
+
 
 
 # Audio-Visual GZSL Benchmarks
 We introduce three new benchmarks based on VGGSound, UCF101 and ActivityNet. The previous benchmarks for audio-visual GZSL had an overlap between validation and test classes, which would leak information about test classes during training. To avoid this, our benchmarks are split into training (TRAIN), validation (VAL) and testing (TEST). The unseen classes from VAL do not overlap with the unseen classes from TEST. Moreover, the samples from TRAIN+VAL are different from those in TEST. 
 <br/><br/>
 To correctly set the hyperparameters and train the system, we employ a 2-stage training protocol:
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1. The first stage comprises on training on TRAIN and choosing the hyperparameters on VAL. VAL also contain classes unseen in TRAIN, so VAL tries to approximate the ZSL scenario.
-<br/><br/>
+1. The first stage comprises on training on TRAIN and choosing the hyperparameters on VAL. VAL also contain classes unseen in TRAIN, so VAL tries to approximate the ZSL scenario.
+2. In the second stage, we retrain the system on TRAIN+VAL using the previously selected hyperparameters. 
+3. Finally, we evaluate the system on TEST.
 
-&nbsp;&nbsp;&nbsp;&nbsp;2. In the second stage, we retrain the system on TRAIN+VAL using the previously selected hyperparameters. 
-<br/><br/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;3. Finally, we evaluate the system on TEST.
-<br/><br/>
 
 # Model and losses
 
@@ -66,12 +60,10 @@ $$
 $$
 
 We also use different types of losses, such as:
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1. Triplet losses on different components in our model, whose goal is to help the model learn a discriminative representation.
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2. Reconstruction losses, which makes sure that each modality contain a significant amount of information about the semantics of the correct class.
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3. Regularization losses, whose goal is to make sure that each branch still contains a significant amount of information about itself.
+
+1. Triplet losses on different components in our model, whose goal is to help the model learn a discriminative representation.
+2. Reconstruction losses, which makes sure that each modality contain a significant amount of information about the semantics of the correct class.
+3. Regularization losses, whose goal is to make sure that each branch still contains a significant amount of information about itself.
 
 
 # Quantitative results
