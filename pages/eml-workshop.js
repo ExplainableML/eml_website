@@ -89,11 +89,11 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
 </div>
 
 <h1>Speakers</h1>
-    <div id="speakers" className="border-b-2 grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-16 text-center">
+    <div id="speakers" className="border-b-2 grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2 text-center">
              <WorkshopMemberElement name="Trevor Darrell" img="/workshop/darrell.png" link="https://people.eecs.berkeley.edu/~trevor/" institute="UC Berkley"></WorkshopMemberElement>
     </div>
 <h1>Organizers</h1>
-                        <div id="organizers" className="border-b-2 text-center grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-16">
+                        <div id="organizers" className="border-b-2 text-center grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2">
              <WorkshopMemberElement name="Zeynep Akata" img="/workshop/zeynep.png" link="https://www.eml-unitue.de/people/zeynep-akata" institute="Univ. of Tübingen"></WorkshopMemberElement>
              <WorkshopMemberElement name="Stephan Alaniz" img="/workshop/stephan.png" link="https://www.eml-unitue.de/people/stephan-alaniz" institute="Univ. of Tübingen"></WorkshopMemberElement>
              <WorkshopMemberElement name="Christian Baumgartner" img="/workshop/christian.png" link="https://baumgach.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
