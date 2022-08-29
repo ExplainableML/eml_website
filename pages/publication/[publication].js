@@ -94,13 +94,14 @@ export default function Publication(props) {
                 Abstract
               </div>
 
-              <div class="w-90vw lg:w-800 text-left break-words">
-              {props.data.abstract}
+              <div class="w-90vw lg:w-800 text-justify break-words">
+              <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
+		rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.data.abstract} />
               </div>
             
               <div class=" w-90vw lg:w-800 bg-gray-50  flex flex-col items-center px-4" >
 
-<div class="container" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
+<div class="container text-justify" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
 <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
 </div>

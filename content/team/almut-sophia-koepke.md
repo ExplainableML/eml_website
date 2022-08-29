@@ -4,16 +4,23 @@ name: Almut Sophia Koepke
 role: Postdoctoral Researcher
 order: 2
 link: almut-sophia-koepke
-mail: a.sophia-koepke (at) uni-tuebingen.de
+mail: a-sophia.koepke (at) uni-tuebingen.de
 scholar: https://scholar.google.com/citations?user=q9zQhj8AAAAJ&hl=en
 ---
 
 # Profile
 Almut Sophia Koepke is a post-doctoral researcher in the EML group where she works with [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata). Prior to that, she completed her DPhil in the [Visual Geometry Group (VGG)](https://www.robots.ox.ac.uk/~vgg/) at the University of Oxford, supervised by [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/).
 
-During her PhD, her research focussed on self-supervised learning and on audio-visual learning problems.
+Her research focusses on multi-modal learning problems with sound, vision, and language.
 
 # Publications
+
+* Temporal and cross-modal attention for audio-visual zero-shot learning
+[Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea)\*, [Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel)\*, A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+European Conference on Computer Vision (ECCV), 2022\
+[Paper](https://arxiv.org/pdf/2207.09966.pdf) | [Code](https://github.com/ExplainableML/TCAF-GZSL)
+
+&nbsp;
 
 * Audio-visual generalised zero-shot learning with cross-modal attention and language
 [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), Lukas Riesch, A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
@@ -22,10 +29,11 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022\
 
 &nbsp;
 
-* CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations
+* CLEVR-X: A visual reasoning dataset for natural language explanations
 [Leonard Salewski](https://www.eml-unitue.de/people/leonard-salewski), A. Sophia Koepke, [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 Springer Lecture Notes on Artificial Intelligence, 2022\
-[Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)
+[Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)\
+<span style="color:black; font-style:italic">This was also presented at the CVPR 2022 Workshop on Explainable AI for Computer Vision (XAI4CV).</span>
 
 &nbsp;
 

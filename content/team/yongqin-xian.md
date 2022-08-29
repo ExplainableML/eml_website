@@ -4,10 +4,10 @@ name: Yongqin Xian
 role: Collaborating Postdoctoral Researcher
 order: 7
 link: yongqin-xian
-mail: yxian at mpi-inf.mpg.de
+mail: yongqin.xian at vision.ee.ethz.ch
 ---
 # Profile
-Yongqin Xian is currently a Postdoc at the Max Planck Institute for Informatics. He received his master degree in computer science with honors at Saarland University, Germany and bachelor degree in computer science at Beijing Institute of Technology, China. He was a research intern at Facebook AI with Lorenzo Torresani.
+Yongqin Xian is currently a post-doctoral researcher with [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html) in the [Computer Vision Lab](https://vision.ee.ethz.ch/) at ETH Zurich. He completed his PhD summa cum laude at the [Max Planck Institute Informatics](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/) under the supervision of [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele) and [Zeynep Akata](https://eml-unitue.de/people/zeynep-akata). He was a research intern with [Lorenzo Torresani](https://www.cs.dartmouth.edu/~lorenzo/home.html) at Facebook AI. His research focuses on learning with limited supervision for computer vision tasks.
 
 # Publications
 * Zero-shot Learning - A Comprehensive Evaluation of the Good, the Bad and the Ugly Yongqin Xian, Christoph H. Lampert, Bernt Schiele and Zeynep Akata IEEE TPAMI link: https://arxiv.org/pdf/1703.04394.pdf

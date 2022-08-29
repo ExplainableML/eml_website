@@ -1,8 +1,8 @@
 ---
 img: "/team/stephan-alaniz.jpg"
 name: Stephan Alaniz
-role: PhD Researcher
-order: 4
+role: Postdoctoral Researcher
+order: 2
 link: stephan-alaniz
 ---
 
