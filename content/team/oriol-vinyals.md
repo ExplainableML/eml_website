@@ -1,7 +1,7 @@
 ---
 img: "/team/oriol-vinyals.png"
 name: Oriol Vinyals
-role: Collaborating Faculty
+role: Collaborating ELLIS Fellow
 order: 7
 link: oriol-vinyals
 website: https://research.google/people/OriolVinyals/
