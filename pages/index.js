@@ -4,6 +4,7 @@ import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import Headline from '../components/Headline'
 import TeamMemberGrid from '../components/TeamMemberGrid'
+import WorkshopGrid from '../components/WorkshopGrid'
 import Hero from '../components/Hero'
 
 import PublicationGrid from '../components/PublicationGrid'
@@ -60,6 +61,9 @@ export default function Home(props) {
       <div class="pt-24" id="teaching"></div>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
+      <div className="pt-24" id="workshop"></div>
+      <Headline text="Workshop"></Headline>
+      <WorkshopGrid></WorkshopGrid>
       <div class="pt-24" id="news"></div>
       <Headline text="News" ></Headline>
       <NewsGrid></NewsGrid>

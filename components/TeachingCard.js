@@ -9,7 +9,7 @@ export default function TeachingCard(props) {
             setLink("thesis");
         } else if (props.type=="Seminars") {
             setLink("seminars")
-        } else {
+        }else {
             setLink("courses")
         }
     },[])
@@ -47,12 +47,7 @@ export default function TeachingCard(props) {
 
 <a class="text-purple-500 font-semibold" href="/teaching/thesis">View Details</a>
 </div>
-
-
-       </div>}
-
-
-  
+           </div>}
 
 
     </div></a>)
