@@ -1,8 +1,8 @@
 ---
 img: "/team/ole_winther.jpg"
 name: Ole Winther
-role: Collaborating ELLIS Faculty
-order: 11
+role: Collaborating ELLIS Fellows
+order: 12
 link: ole-winther
 website: https://olewinther.github.io/
 ---
