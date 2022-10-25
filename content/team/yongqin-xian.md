@@ -7,7 +7,12 @@ link: yongqin-xian
 mail: yongqin.xian at vision.ee.ethz.ch
 ---
 # Profile
-Yongqin Xian is currently a post-doctoral researcher with [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html) in the [Computer Vision Lab](https://vision.ee.ethz.ch/) at ETH Zurich. He completed his PhD summa cum laude at the [Max Planck Institute Informatics](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/) under the supervision of [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele) and [Zeynep Akata](https://eml-unitue.de/people/zeynep-akata). He was a research intern with [Lorenzo Torresani](https://www.cs.dartmouth.edu/~lorenzo/home.html) at Facebook AI. His research focuses on learning with limited supervision for computer vision tasks.
+
+I am currently a research scientist at Google Zurich. Prior to that, I was a post-doctoral researcher with [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html) in the [Computer Vision Lab](https://vision.ee.ethz.ch/) at ETH Zurich. I completed my PhD summa cum laude at the [Max Planck Institute Informatics](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/) under the supervision of [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele) and [Zeynep Akata](https://eml-unitue.de/people/zeynep-akata). My research focuses on zero-shot learning, few-shot learning and visual-language models.
+
+
+
+
 
 
 # Research
