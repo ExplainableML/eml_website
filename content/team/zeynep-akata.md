@@ -71,135 +71,73 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 ### 2022
 - Learning Graph Embeddings for Open World Compositional Zero-shot Learning. Massimiliano Mancini, Muhammed Ferjad Naeem, Yongqin Xian, Zeynep Akata.  IEEE Transactions on Pattern Recognition and Machine Intelligence, TPAMI 2022
 - KG-SP: Knowledge Guided Simple Primitives for Open World Compositional Zero-Shot Learning. Shyamgopal Karthik, Massimilano Mancini, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
-- Integrating Language Guidance into Vision-based Deep Metric Learning, Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
-- Non-isotropy Regularization for Proxy-based DML, Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
-- Large Loss Matters in Weakly Supervised Multi-Label Classification, Youngwoo Kim, Jae Myung Kim, Zeynep Akata, Jungwoo Lee, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
-- Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language, Otniel-Bogdan Mercea, Lukas Riesch, Almut Sophia Koepke, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
-- VGSE: Visually-Grounded Semantic Embeddings for Zero-Shot Learning, Wenjia Xu, Yongqin Xian, Jiuniu Wang, Bernt Schiele, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Integrating Language Guidance into Vision-based Deep Metric Learning. Karsten Roth, Oriol Vinyals, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Non-isotropy Regularization for Proxy-based DML. Karsten Roth, Oriol Vinyals, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Large Loss Matters in Weakly Supervised Multi-Label Classification. Youngwoo Kim, Jae Myung Kim, Zeynep Akata, Jungwoo Lee. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language. Otniel-Bogdan Mercea, Lukas Riesch, Almut Sophia Koepke, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+- VGSE: Visually-Grounded Semantic Embeddings for Zero-Shot Learning. Wenjia Xu, Yongqin Xian, Jiuniu Wang, Bernt Schiele, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 
 ### 2021
 
-- Robustness via Uncertainty-aware Cycle Consistency. Uddeshya Upadhyay, Yanbei Chen, Zeynep Akata, Neural Information Processing Systems, NeurIPS 2021
-- Fine-Grained Zero-Shot Learning with DNA as Side Information. Sarkhan Badirli, Zeynep Akata, George Mohler, Christine Picard, Murat Dundar, Neural Information Processing Systems, NeurIPS 2021
-- Human Attention in Fine-grained Classification. Yao Rong, Wenjia Xu, Zeynep Akata, Enkelejda Kasneci, British Machine Vision Conference, BMVC 2021
-- Prototype-based Incremental Few-Shot Segmentation. Fabio Cermelli, Massimiliano Mancini, Yongqin Xian, Zeynep Akata, Barbara Caputo, British Machine Vision Conference, BMVC 2021
-- Conditional De-Identification of 3D Magnetic Resonance Images. Lennart Van der Goten, Tobias Hepp, Zeynep Akata, Kevin Smith, British Machine Vision Conference, BMVC 2021
-- Keep CALM and Improve Visual Feature Attribution Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh IEEE International Conference of Computer Vision, ICCV 2021
-- e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz IEEE International Conference of Computer Vision, ICCV 2021
-- Uncertainty-Guided Progressive GANs for Medical Image Translation Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
-- Learning Decision Trees Recurrently Through Communication Stephan Alaniz, Diego Marcos, Bernt Schiele, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
-- Learning Graph Embeddings for Compositional Zero-shot Learning Mohammad Ferjad Naeem, Yongqin Xian, Federico Tombari, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
-- Distilling Audio-Visual Knowledge by Compositional Contrastive Learning Yanbei Chen, Yongqin Xian, Almut Sophia Koepke, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
-- Open World Compositional Zero-Shot Learning Massimiliano Mancini, Mohammad Ferjad Naeem, Yongqin Xian, Zeynep Akata IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Robustness via Uncertainty-aware Cycle Consistency. Uddeshya Upadhyay, Yanbei Chen, Zeynep Akata. Neural Information Processing Systems, NeurIPS 2021
+- Fine-Grained Zero-Shot Learning with DNA as Side Information. Sarkhan Badirli, Zeynep Akata, George Mohler, Christine Picard, Murat Dundar. Neural Information Processing Systems, NeurIPS 2021
+- Human Attention in Fine-grained Classification. Yao Rong, Wenjia Xu, Zeynep Akata, Enkelejda Kasneci. British Machine Vision Conference, BMVC 2021
+- Prototype-based Incremental Few-Shot Segmentation. Fabio Cermelli, Massimiliano Mancini, Yongqin Xian, Zeynep Akata, Barbara Caputo. British Machine Vision Conference, BMVC 2021
+- Conditional De-Identification of 3D Magnetic Resonance Images. Lennart Van der Goten, Tobias Hepp, Zeynep Akata, Kevin Smith. British Machine Vision Conference, BMVC 2021
+- Keep CALM and Improve Visual Feature Attribution. Jae Myung Kim, Junsuk Choe, Zeynep Akata, Seong Joon Oh. IEEE International Conference of Computer Vision, ICCV 2021
+- e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks. Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz. IEEE International Conference of Computer Vision, ICCV 2021
+- Uncertainty-Guided Progressive GANs for Medical Image Translation. Uddeshya Uppadhyay, Yanbei Chen, Tobias Hepp, Sergios Gatidis, Zeynep Akata. Medical Image Computing and Computer Assisted Interventions, MICCAI 2021
+- Learning Decision Trees Recurrently Through Communication. Stephan Alaniz, Diego Marcos, Bernt Schiele, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Learning Graph Embeddings for Compositional Zero-shot Learning. Mohammad Ferjad Naeem, Yongqin Xian, Federico Tombari, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Distilling Audio-Visual Knowledge by Compositional Contrastive Learning. Yanbei Chen, Yongqin Xian, Almut Sophia Koepke, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
+- Open World Compositional Zero-Shot Learning. Massimiliano Mancini, Mohammad Ferjad Naeem, Yongqin Xian, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2021
 
 ### 2020
 
-- Attribute Prototype Network for Zero-Shot Learning
-Wenjia Xu, Yongqin Xian, Jiuniu Wang, Bernt Schiele, Zeynep Akata
-- Neural Information Processing Systems (NeurIPS) 2020
-- Semantically Tied Paired Cycle Consistency for Any-Shot Sketch-based Image Retrieval
-Anjan Dutta, Zeynep Akata
-International Journal of Computer Vision (IJCV), accepted in June 2020
-- Towards Recognizing Unseen Categories in Unseen Domains
-Massimiliano Mancini, Zeynep Akata, Elisa Ricci, Barbara Caputo
-European Conference of Computer Vision (ECCV) 2020
-- Learning Robust Representations via Multi-View Information Bottleneck
-Marco Federici, Anjan Dutta, Patrick Forre, Nate Kushmann, Zeynep Akata
-International Conference on Learning Representations (ICLR) 2020
-- Evaluating Weakly Supervised Object Localization Methods Right
-Junsuk Choe, Seong Joon Oh, Seungho Lee,  Sanghyuk Chun, Zeynep Akata, Hyunjung Shim
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2020
-- Manipulating Attributes of Natural Scenes via Hallucination
-Levent Karacan, Zeynep Akata, Aykut Erdem, Erkut Erdem
-ACM SIGGRAPH 2020 (invited paper)
+- Attribute Prototype Network for Zero-Shot Learning. Wenjia Xu, Yongqin Xian, Jiuniu Wang, Bernt Schiele, Zeynep Akata. Neural Information Processing Systems (NeurIPS) 2020
+- Semantically Tied Paired Cycle Consistency for Any-Shot Sketch-based Image Retrieval. Anjan Dutta, Zeynep Akata. International Journal of Computer Vision (IJCV), accepted in June 2020
+- Towards Recognizing Unseen Categories in Unseen Domains. Massimiliano Mancini, Zeynep Akata, Elisa Ricci, Barbara Caputo. European Conference of Computer Vision (ECCV) 2020
+- Learning Robust Representations via Multi-View Information Bottleneck. Marco Federici, Anjan Dutta, Patrick Forre, Nate Kushmann, Zeynep Akata. International Conference on Learning Representations (ICLR) 2020
+- Evaluating Weakly Supervised Object Localization Methods Right. Junsuk Choe, Seong Joon Oh, Seungho Lee,  Sanghyuk Chun, Zeynep Akata, Hyunjung Shim. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2020
+- Manipulating Attributes of Natural Scenes via Hallucination. Levent Karacan, Zeynep Akata, Aykut Erdem, Erkut Erdem. ACM SIGGRAPH 2020 (invited paper)
 
 ### 2019
 
-- Modeling Conceptual Understanding in Image Reference Games
-Rodolfo Corona, Stephan Alaniz, Zeynep Akata
-- Neural Information Processing Systems, NeurIPS 2019 (Spotlight)
-- Combining Generative and Discriminative Models for Hybrid Inference
-Victor Garcia Satorras, Zeynep Akata, Max Welling
-- Neural Information Processing Systems, NeurIPS 2019 (Spotlight)
-- Manipulating Attributes of Natural Scenes via Hallucination
-Levent Karacan, Zeynep Akata, Aykut Erdem, Erkut Erdem
-ACM Transactions on Graphics, TOG 2019 (full paper)
-- Semantically Tied Paired Cycle Consistency for Zero-Shot Sketch-based Image Retrieval
-Anjan Dutta, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
-- f-VAEGAN-D2: A Feature Generating Framework for Any-Shot Learning
-Yongqin Xian, Saurabh Sharma, Bernt Schiele, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
-- Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders
-Edgar Schoenfeld, Sayna Ebrahimi, Samarth Sinha, Trevor Darrell, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
-- SPNet: Semantic Projection Network for Zero-Label and Few-Label Semantic Segmentation
-Yongqin Xian, Subharata Choudhury, Yang He, Bernt Schiele, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
-- Zero-Shot Learning – A Comprehensive Evaluation of the Good, the Bad and the Ugly
-Yongqin Xian, Christoph Lampert, Bernt Schiele, Zeynep Akata
-IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019
+- Modeling Conceptual Understanding in Image Reference Games. Rodolfo Corona, Stephan Alaniz, Zeynep Akata. Neural Information Processing Systems, NeurIPS 2019 (Spotlight)
+- Combining Generative and Discriminative Models for Hybrid Inference. Victor Garcia Satorras, Zeynep Akata, Max Welling. Neural Information Processing Systems, NeurIPS 2019 (Spotlight)
+- Manipulating Attributes of Natural Scenes via Hallucination. Levent Karacan, Zeynep Akata, Aykut Erdem, Erkut Erdem. ACM Transactions on Graphics, TOG 2019 (full paper)
+- Semantically Tied Paired Cycle Consistency for Zero-Shot Sketch-based Image Retrieval. Anjan Dutta, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
+- f-VAEGAN-D2: A Feature Generating Framework for Any-Shot Learning. Yongqin Xian, Saurabh Sharma, Bernt Schiele, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
+- Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders. Edgar Schoenfeld, Sayna Ebrahimi, Samarth Sinha, Trevor Darrell, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
+- SPNet: Semantic Projection Network for Zero-Label and Few-Label Semantic Segmentation. Yongqin Xian, Subharata Choudhury, Yang He, Bernt Schiele, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019
+- Zero-Shot Learning – A Comprehensive Evaluation of the Good, the Bad and the Ugly. Yongqin Xian, Christoph Lampert, Bernt Schiele, Zeynep Akata. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019
 
 ### 2018
 
-- Grounding Visual Explanations
-Lisa Anne Hendricks, Ronghang Hu, Trevor Darrell, Zeynep Akata
-European Conference of Computer Vision, ECCV 2018
-- Textual Explanations for Self-Driving Vehicles
-Jinkyu Kim, Anna Rohrbach, Trevor Darrell, John Canny, Zeynep Akata
-European Conference of Computer Vision, ECCV 2018
-- Multimodal Explanations: Justifying Decisions and Pointing to the Evidence
-Dong Huk Park, Lisa Anne Hendricks, Zeynep Akata, Anna Rohrbach, Bernt Schiele, Trevor Darrell, Marcus Rohrbach
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018 (Spotlight Presentation)
-- Feature Generating Networks for Zero-Shot Learning
-Yongqin Xian, Tobias Lorenz, Bernt Schiele, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018
+- Grounding Visual Explanations. Lisa Anne Hendricks, Ronghang Hu, Trevor Darrell, Zeynep Akata. European Conference of Computer Vision, ECCV 2018
+- Textual Explanations for Self-Driving Vehicles. Jinkyu Kim, Anna Rohrbach, Trevor Darrell, John Canny, Zeynep Akata. European Conference of Computer Vision, ECCV 2018
+- Multimodal Explanations: Justifying Decisions and Pointing to the Evidence. Dong Huk Park, Lisa Anne Hendricks, Zeynep Akata, Anna Rohrbach, Bernt Schiele, Trevor Darrell, Marcus Rohrbach. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018 (Spotlight Presentation)
+- Feature Generating Networks for Zero-Shot Learning. Yongqin Xian, Tobias Lorenz, Bernt Schiele, Zeynep Akata. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018
 ### 2017
 
-- Gaze Embeddings for Zero-Shot Image Classification
-Nour Karessli, Zeynep Akata, Bernt Schiele, Andreas Bulling
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017 (Spotlight Presentation)
-- Zero-Shot Learning – The Good, the Bad and the Ugly
-Yongqin Xian, Bernt Schiele, Zeynep Akata
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017
-- Exploiting saliency for object segmentation from image level labels
-Seong Joon Oh, Rodrigo Benenson, Anna Khoreva, Zeynep Akata, Mario Fritz, Bernt Schiele
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017
+- Gaze Embeddings for Zero-Shot Image Classification. Nour Karessli, Zeynep Akata, Bernt Schiele, Andreas Bulling. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017 (Spotlight Presentation)
+- Zero-Shot Learning – The Good, the Bad and the Ugly. Yongqin Xian, Bernt Schiele, Zeynep Akata .IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017
+- Exploiting saliency for object segmentation from image level labels. Seong Joon Oh, Rodrigo Benenson, Anna Khoreva, Zeynep Akata, Mario Fritz, Bernt Schiele. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017
 ### 2016
 
-- Learning What and Where to Draw
-Scott Reed, Zeynep Akata, Santosh Mohan, Samuel Tenka, Bernt Schiele and Honglak Lee
-- Neural Information Processing Systems, NIPS 2016 (Oral Presentation)
-- Generating Visual Explanations
-Lisa Hendricks, Zeynep Akata, Marcus Rohrbach, Jeff Donahue, Bernt Schiele and Trevor Darrell
-European Conference of Computer Vision, ECCV 2016
-- Generative Adversarial Text to Image Synthesis
-Scott Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Honglak Lee and Bernt Schiele
-International Conference of Machine Learning, ICML 2016 (Oral Presentation)
-- Learning Deep Representations of Fine-Grained Visual Descriptions
-Scott Reed, Zeynep Akata, Honglak Lee and Bernt Schiele
-IEEE Conference of Computer Vision and Patter Recognition, CVPR 2016 (Spotlight Presentation)
-- Multi-Cue Zero-Shot Learning with Strong Supervision
-Zeynep Akata, Mateusz Malinowski, Mario Fritz and Bernt Schiele
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016 (Spotlight Presentation)
-- Latent Embeddings for Zero-Shot Classification
-Yongqin Xian, Zeynep Akata, Gaurav Sharma, Quynh Nguyen, Matthias Hein and Bernt Schiele
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016 (Spotlight Presentation)
-- Label Embeddings for Image Classification
-Zeynep Akata, Florent Perronnin, Zaid Harchaoui, Cordelia Schmid
-IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Vol:38, No:7, July 2016
+- Learning What and Where to Draw. Scott Reed, Zeynep Akata, Santosh Mohan, Samuel Tenka, Bernt Schiele and Honglak Lee. Neural Information Processing Systems, NIPS 2016 (Oral Presentation)
+- Generating Visual Explanations. Lisa Hendricks, Zeynep Akata, Marcus Rohrbach, Jeff Donahue, Bernt Schiele and Trevor Darrell. European Conference of Computer Vision, ECCV 2016
+- Generative Adversarial Text to Image Synthesis. Scott Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Honglak Lee and Bernt Schiele. International Conference of Machine Learning, ICML 2016 (Oral Presentation)
+- Learning Deep Representations of Fine-Grained Visual Descriptions. Scott Reed, Zeynep Akata, Honglak Lee and Bernt Schiele. IEEE Conference of Computer Vision and Patter Recognition, CVPR 2016 (Spotlight Presentation)
+- Multi-Cue Zero-Shot Learning with Strong Supervision. Zeynep Akata, Mateusz Malinowski, Mario Fritz and Bernt Schiele. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016 (Spotlight Presentation)
+- Latent Embeddings for Zero-Shot Classification. Yongqin Xian, Zeynep Akata, Gaurav Sharma, Quynh Nguyen, Matthias Hein and Bernt Schiele. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016 (Spotlight Presentation)
+- Label Embeddings for Image Classification. Zeynep Akata, Florent Perronnin, Zaid Harchaoui, Cordelia Schmid. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Vol:38, No:7, July 2016
 ### 2015 and Earlier
 
-- Evaluation of Output Embeddings for Image Classification
-Zeynep Akata, Scott Reed, Daniel Walter, Honglak Lee and Bernt Schiele
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2015
-- Label-Embedding for Attribute-Based Classification,
-Zeynep Akata, Florent Perronnin, Zaid Harchaoui and Cordelia Schmid,
-IEEE Computer Vision and Pattern Recognition (CVPR) 2013
-- Good Practice in Large-Scale Learning for Image Classification,
-Zeynep Akata, Florent Perronnin, Zaid Harchaoui and Cordelia Schmid,
-IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014
+- Evaluation of Output Embeddings for Image Classification. Zeynep Akata, Scott Reed, Daniel Walter, Honglak Lee and Bernt Schiele. IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2015
+- Label-Embedding for Attribute-Based Classification. Zeynep Akata, Florent Perronnin, Zaid Harchaoui and Cordelia Schmid. IEEE Computer Vision and Pattern Recognition (CVPR) 2013
+- Good Practice in Large-Scale Learning for Image Classification. Zeynep Akata, Florent Perronnin, Zaid Harchaoui and Cordelia Schmid. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2014
 
 
 # Teaching 
