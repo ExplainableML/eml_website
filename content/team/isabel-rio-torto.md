@@ -2,7 +2,7 @@
 img: "/team/isabel-rio-torto.jpg"
 name: Isabel Rio-Torto
 role: Visiting PhD Researcher
-order: 8
+order: 5
 link: isabel-rio-torto
 ---
 
