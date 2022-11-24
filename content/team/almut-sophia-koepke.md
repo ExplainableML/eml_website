@@ -1,7 +1,7 @@
 ---
 img: "/team/almutsophia.png"
 name: Almut Sophia Koepke
-role: Postdoctoral Researcher
+role: Research Fellow
 order: 2
 link: almut-sophia-koepke
 mail: a-sophia.koepke (at) uni-tuebingen.de
@@ -9,7 +9,7 @@ scholar: https://scholar.google.com/citations?user=q9zQhj8AAAAJ&hl=en
 ---
 
 # Profile
-Almut Sophia Koepke is a post-doctoral researcher in the EML group where she works with [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata). Prior to that, she completed her DPhil in the [Visual Geometry Group (VGG)](https://www.robots.ox.ac.uk/~vgg/) at the University of Oxford, supervised by [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/).
+Almut Sophia Koepke is a post-doctoral research fellow in the EML group where she works with [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata). Prior to that, she completed her DPhil in the [Visual Geometry Group (VGG)](https://www.robots.ox.ac.uk/~vgg/) at the University of Oxford, supervised by [Andrew Zisserman](https://www.robots.ox.ac.uk/~az/).
 
 Her research focusses on multi-modal learning problems with sound, vision, and language.
 
