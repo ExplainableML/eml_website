@@ -4,7 +4,7 @@ name: Lukas Thede
 role: Research Scientist
 order: 5
 link: lukas-thede
-linkedin: www.linkedin.com/in/lukas-thede-3b6700166
+linkedin: https://www.linkedin.com/in/lukas-thede-3b6700166
 mail: Lukas.Thede at t-online.de
 github:  https://github.com/lukasthede
 ---
