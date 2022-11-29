@@ -65,7 +65,13 @@ The workshop will take place at the [Alte Aula](https://uni-tuebingen.de/einrich
 
 Participants will also have the chance to explore the old university town of Tübingen. The city combines the ancient medieval atmosphere with the vibrant life of a cosmopolitan student town. You can get lost in the narrow alleys and timber-framed houses that lead to the 500-years old castle, take a boat trip in the famous "Stocherkahn" or enjoy the tasteful Swabian cuisine. For more information on the city, visit [www.tuebingen.de](https://www.tuebingen.de/en/).
 <br/>
-<br/>
 
+### Attending
+
+There is no registration fee, however the venue has limited capacity. If you plan to attend, please register in advance using this [form](https://forms.gle/ohFWR9uMeDBSkzaX6): we will then contact you for confirming your participation.
+
+<br/>
+<br/>
 <div class="border-b-2"></div>
+
 
