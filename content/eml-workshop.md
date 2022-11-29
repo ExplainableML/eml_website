@@ -68,7 +68,7 @@ Participants will also have the chance to explore the old university town of Tü
 
 ### Attending
 
-There is no registration fee, however the venue has limited capacity. If you would like to attend, please register in advance using this [form](https://forms.gle/ohFWR9uMeDBSkzaX6): we will then contact you for confirming your participation.
+There is no registration fee, however the venue has limited capacity. If you would like to attend, please register in advance using this [form](https://forms.gle/ohFWR9uMeDBSkzaX6): we will then contact you to confirm your attendance.
 
 <br/>
 <br/>
