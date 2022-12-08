@@ -14,5 +14,6 @@ His primary research interests lie at the intersection of explainability and int
 
 # Publications
 
+- "PlanT: Explainable Planning Transformers via Object-Level Representations", Katrin Renz, Kashyap Chitta, Otniel-Bogdan Mercea, A. Sophia Koepke, Zeynep Akata, Andreas Geiger, CoRL 2022
 - "Temporal and cross-modal attention for audio-visual zero-shot learning", Otniel-Bogdan Mercea *, Thomas Hummel *, A. Sophia Koepke, Zeynep Akata, European Conference on Computer Vision, ECCV 2022
 - "Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language", Otniel-Bogdan Mercea, Lukas Riesch, A. Sophia Koepke, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
