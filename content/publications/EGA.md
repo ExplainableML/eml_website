@@ -5,7 +5,7 @@ title: Distilling Knowledge from Self-Supervised  Teacher by Embedding Graph Ali
 authors: Yuchen Ma*, Yanbei Chen*, Zeynep Akata
 publisher: The British Machine Vision Conference (BMVC)
 year: 2022
-date: 21st - 24th November
+date: "2022-11-21"
 filename: EGA
 arxiv: https://arxiv.org/abs/2211.13264
 
