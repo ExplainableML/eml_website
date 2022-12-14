@@ -1,5 +1,5 @@
 ---
-img: "/team/michael_mergner.png"
+img: "/team/michael-mergner.png"
 name: Michael Mergner
 role: Administrative assistant
 order: 10

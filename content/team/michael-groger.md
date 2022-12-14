@@ -1,8 +1,8 @@
 ---
 img: "/team/michael-groger.jpeg"
 name: Michael Gröger
-role: HiWi MSc student
-order: 6
+role: MSc student
+order: 7
 link: michael-groger
 ---
 
