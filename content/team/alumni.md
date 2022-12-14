@@ -19,3 +19,4 @@ link: alumni
 * Yanbei Chen (Postdoc Oct 2020 - May 2022) at EML, now Applied Scientist-II at Amazon Seattle
 * Wenjia Xu (Visiting researcher Oct 2019 - Mar 2022) at EML, now an assistant professor at UCAS
 * Yao Rong (Collaborating PhD Researcher) at EML, now at TU Munich
+* Charlotte Wenner (Administrative Assistant)
