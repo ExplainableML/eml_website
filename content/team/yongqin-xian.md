@@ -2,7 +2,7 @@
 img: "/team/yonqin-xian.jpg"
 name: Yongqin Xian
 role: Collaborating Research Scientist
-order: 7
+order: 8
 link: yongqin-xian
 mail: yongqin.xian at vision.ee.ethz.ch
 ---

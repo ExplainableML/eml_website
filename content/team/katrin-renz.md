@@ -2,7 +2,7 @@
 img: "/team/katrin-renz.jpeg"
 name: Katrin Renz
 role: Collaborating PhD Researcher
-order: 7
+order: 8
 link: katrin-renz
 website: https://www.katrinrenz.de/
 ---

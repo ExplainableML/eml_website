@@ -1,8 +1,8 @@
 ---
 img: "/team/stefan-fauth.jpg"
 name: Stefan Fauth
-role: HiWi MSc student
-order: 6
+role: MSc student
+order: 7
 link: stefan-fauth
 ---
 

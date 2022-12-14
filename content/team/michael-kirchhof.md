@@ -2,7 +2,7 @@
 img: "/team/michael-kirchhof.jpeg"
 name: Michael Kirchhof
 role: Collaborating PhD Researcher
-order: 7
+order: 8
 link: michael-kirchhof
 mail:  michael.kirchhof(at)uni-tuebingen.de
 linkedin: https://de.linkedin.com/in/michael-kirchhof
