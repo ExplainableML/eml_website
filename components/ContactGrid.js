@@ -11,7 +11,7 @@ export default function ContactGrid(props) {
 
 
   return (
-    <div id="contact" className="container grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 mb-16">
+    <div id="contact" class="container grid grid-cols-1 lg:grid-cols-2 gap-8 p-6 mb-16">
       
       <ContactCard ></ContactCard>
 

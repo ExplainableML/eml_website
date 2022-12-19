@@ -1,14 +1,14 @@
 
 export default function Footer() {
   return (
-    <div className="min-w-screen p-16 min-h-128  text-white bg-purple-500 flex  justify-between items-center">
+    <div class="min-w-screen p-16 min-h-128  text-white bg-purple-500 flex  justify-between items-center">
 
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 min-w-screen" style={{maxWidth:512}}>
-      <span className="font-normal text-xs">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 min-w-screen" style={{maxWidth:512}}>
+      <span class="font-normal text-xs">
         {"(c) 2021 Explainable Machine Learning Tübingen "}
       </span>{" "}
-      <a className="text-white text-xs" href="/impressum">
+      <a class="text-white text-xs" href="/impressum">
         Impressum
       </a>
 

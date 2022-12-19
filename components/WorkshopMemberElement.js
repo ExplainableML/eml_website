@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function WorkshopMemberElement(props) {
   const myLoader = ({ src, width, quality }) => {
@@ -7,9 +7,9 @@ export default function WorkshopMemberElement(props) {
 
   return (
     <a href={props.link}>
-    <div className="flex flex-col items-center justify-center">
+    <div class="flex flex-col items-center justify-center">
       <Image
-        className="rounded-full mb-4"
+        class="rounded-full mb-4"
         width="200"
         height="200"
         objectFit="cover"
@@ -17,13 +17,13 @@ export default function WorkshopMemberElement(props) {
         src="Zeynep-Akata-2.jpg"
         alt={props.name}
       ></Image>
-      <div
+      <a
         href={props.link}
-        className="mt-3 text-purple-500 text-lg md:text-base font-bold"
+        class="mt-3 text-purple-500 text-lg md:text-base font-bold"
       >
         {props.name}
-      </div>
-      <p className="mt-3 text-purple-500 text-base md:text-xs font-bold">{props.institute}</p>
+      </a>
+      <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">{props.institute}</p>
     </div></a>
   );
 }

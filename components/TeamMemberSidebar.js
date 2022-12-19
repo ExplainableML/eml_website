@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import References from "./References";
 import TwitterCard from "./TwitterCard";
@@ -56,11 +56,11 @@ export default function TeamMemberSidebar(props) {
     return props.person.img;
   };
 
-  return (<div className="col-span-1 ">
+  return (<div class="col-span-1 ">
     <div>
-      <div className="flex flex-col items-center mb-4">
+      <div class="flex flex-col items-center mb-4">
         <Image
-          className="rounded-full mb-4"
+          class="rounded-full mb-4"
           width="156"
           height="156"
           objectFit="cover"
@@ -70,41 +70,41 @@ export default function TeamMemberSidebar(props) {
         ></Image>
         <div
 
-          className="mt-3 text-purple-500 text-xs md:text-xl font-semibold"
+          class="mt-3 text-purple-500 text-xs md:text-xl font-semibold"
         >
           {props.person.name}
         </div>
-        <div className="text-xs md:text-md font-semibold break-words text-center">{props.person.role}</div>
+        <div class="text-xs md:text-md font-semibold break-words text-center">{props.person.role}</div>
       </div>
 
-      <div className="flex flex-col justify-left items-left w-64">
+      <div class="flex flex-col justify-left items-left w-64">
 
         <References {...props.person}></References>
 
       </div>
 
-      <div className="flex flex-col justify-center items-center mt-8">
+      <div class="flex flex-col justify-center items-center mt-8">
 
         {menuItems.map(item => {
           return (<>
 
-            {props.activeSection != item && <a className="w-full" href={"#" + item}><div className="text-xs font-semibold hover:bg-purple-500 hover:text-white w-full text-center py-2 rounded-sm">{item}</div></a>}
-            {props.activeSection == item && <a className="w-full" href={"#" + item}><div className="text-xs font-semibold bg-purple-500 text-white w-full text-center py-2 rounded-sm">{item}</div></a>}
+            {props.activeSection != item && <a class="w-full" href={"#" + item}><div class="text-xs font-semibold hover:bg-purple-500 hover:text-white w-full text-center py-2 rounded-sm">{item}</div></a>}
+            {props.activeSection == item && <a class="w-full" href={"#" + item}><div class="text-xs font-semibold bg-purple-500 text-white w-full text-center py-2 rounded-sm">{item}</div></a>}
 
           </>)
         })}
 
       </div>
 
-<div className="m-8">
+<div class="m-8">
 
 </div>
-      {props.person.twitter && <TwitterCard className="max-w-16" account={props.person.twitter}>
+      {props.person.twitter && <TwitterCard class="max-w-16" account={props.person.twitter}>
 
       </TwitterCard>}
 
     </div>
 
-    <div className="m-8"></div>
+    <div class="m-8"></div>
   </div>)
 }
