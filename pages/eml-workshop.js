@@ -16,7 +16,7 @@ import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
 import rehypeRaw from 'rehype-raw'
 import Headline from '../components/Headline'
-import Image from "next/image"
+import Image from "next/legacy/image";
 import References from '../components/References'
 import { BlockMath, InlineMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
@@ -57,32 +57,30 @@ export default function Workshop(props) {
 
 
     return (
-        <div class="">
-                  <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+        <div className="">
+                
 
 
         <NavBar otherLink={true}></NavBar>
 
-        <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+        <div className="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
 
 
 
-          <div class="mb-8 flex flex-col items-center">
+          <div className="mb-8 flex flex-col items-center">
 
 
       <br></br>
 
 
-              <div class="w-90vw lg:w-800 text-justify break-words">
+              <div className="w-90vw lg:w-800 text-justify break-words">
               <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 		rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.data.abstract} />
               </div>
             
-              <div class=" w-90vw lg:w-800 bg-gray-50  flex flex-col items-center px-4" >
+              <div className=" w-90vw lg:w-800 bg-gray-50  flex flex-col items-center px-4" >
 
-<div class="container text-justify" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
+<div className="container text-justify" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
 <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
 
@@ -107,11 +105,13 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
         </div>
                               <div>
                 <table>
+                <tbody>
                     <tr>
                         <th width={"40%"} align={"left"}>Workshop funded by the <br/>"Cluster of Excellence - <br/>Machine Learning for Science"</th>
                         <th><img src="/workshop/cluster.png" width="500"/></th>
                         <th><img src="/workshop/uni-tue.png" width="500"/></th>
                     </tr>
+                </tbody>
                 </table>
             </div>
 

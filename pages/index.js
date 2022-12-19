@@ -23,7 +23,7 @@ export default function Home(props) {
 
 
 
-  return (<div class="bg-gray-50">
+  return (<div className="bg-gray-50">
 
     <Head>
 
@@ -41,9 +41,7 @@ export default function Home(props) {
 
       </Head>
 
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+    
 
 
 
@@ -51,26 +49,28 @@ export default function Home(props) {
     <NavBar></NavBar>
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Hero></Hero>
-      <div class="pt-24" id="team"></div>
+      <div className="pt-24" id="team"></div>
       <Headline id="team" text="Team"></Headline>
       <TeamMemberGrid team={teamList}></TeamMemberGrid>
-      <div class="pt-24" id="publications"></div>
+      <div className="pt-24" id="publications"></div>
       <Headline id="publications" text="Publications"></Headline>
       <PublicationGrid viewAll={true} publications={publicationsList.sort(function(a,b) {return new Date(b.date)- new Date(a.date)}).slice(0,3)}></PublicationGrid>
-      <div class="pt-24" id="teaching"></div>
+      <div className="pt-24" id="teaching"></div>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
-      <div class="pt-24" id="news"></div>
+      <div className="pt-24" id="news"></div>
       <Headline text="News" ></Headline>
       <NewsGrid></NewsGrid>
-      <div class="pt-24" id="contact"></div>
+      <div className="pt-24" id="contact"></div>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
     </div>
+    )
     <Footer></Footer>
     </div>
   )
 }
+
 
 export const getStaticProps = async () => {
   const fs = require("fs");
