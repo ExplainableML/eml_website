@@ -38,22 +38,20 @@ export default function Thesis(props) {
   },[activeSeminar])
 
   return (<>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+  
     <NavBar otherLink={true}></NavBar>
 
-    <div class=" pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
-      <div class="container grid grid-cols-1 lg:grid-cols-4 overflow-y-scroll w-full">
-        <div class="col-span-1 ">
+    <div className=" pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+      <div className="container grid grid-cols-1 lg:grid-cols-4 overflow-y-scroll w-full">
+        <div className="col-span-1 ">
           <div>
-            <div class="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center">
 
               {seminarsList.map(item => {
                 return (<>
 
-                  {activeSeminar != item.title && <a class="w-full" onClick={()=>{setActiveSeminar(item.title)}}><div class="text-xs font-semibold hover:bg-purple-500 hover:text-white w-full text-center py-2 rounded-sm ">{item.title}</div></a>}
-                  {activeSeminar == item.title && <a class="w-full" onClick={()=>{setActiveSeminar(item.title)}}><div class="text-xs font-semibold bg-purple-500 text-white w-full text-center py-2 rounded-sm ">{item.title}</div></a>}
+                  {activeSeminar != item.title && <a className="w-full" onClick={()=>{setActiveSeminar(item.title)}}><div className="text-xs font-semibold hover:bg-purple-500 hover:text-white w-full text-center py-2 rounded-sm ">{item.title}</div></a>}
+                  {activeSeminar == item.title && <a className="w-full" onClick={()=>{setActiveSeminar(item.title)}}><div className="text-xs font-semibold bg-purple-500 text-white w-full text-center py-2 rounded-sm ">{item.title}</div></a>}
 
                 </>)
               })}
@@ -63,7 +61,7 @@ export default function Thesis(props) {
           </div>
         </div>
 
-        <div class="col-span-3">
+        <div className="col-span-3">
 
           {seminars.filter((item)=>{return item.data.title == activeSeminar}).map(item=>{
             return <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}

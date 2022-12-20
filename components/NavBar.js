@@ -49,13 +49,13 @@ export default function NavBar(props) {
 
 
   return (
-    <div class="fixed z-50 w-full">
-      <nav class="w-full bg-gray-50 p-6 md:px-16 flex items-center justify-center">
+    <div className="fixed z-50 w-full">
+      <nav className="w-full bg-gray-50 p-6 md:px-16 flex items-center justify-center">
 
-		  <div class="flex  items-center justify-between flex-wrap  container">
-        <a href="/" class="flex items-center flex-shrink-0 text-black mr-6">
+		  <div className="flex  items-center justify-between flex-wrap  container">
+        <a href="/" className="flex items-center flex-shrink-0 text-black mr-6">
         <svg x="0px" y="0px"
-	 width="32px" height="32px" viewBox="0 0 411.02 411.02" enable-background="new 0 0 411.02 411.02">
+	 width="32px" height="32px" viewBox="0 0 411.02 411.02" enableBackground="new 0 0 411.02 411.02">
 <g>
 	<path fill="#5A005B" d="M411,209.068c-0.559,0.584-1.344,1.072-1.642,1.768c-4.265,9.969-19.968,10.449-24.589,0.357
 		c-1.323-2.892-3.738-2.289-5.967-2.293c-19.632-0.031-39.265,0.037-58.896-0.07c-3.208-0.018-8.152,1.27-8.07-3.935
@@ -290,13 +290,13 @@ export default function NavBar(props) {
 		C179.516,216.646,177.539,211.275,177.745,207.717z"/>
 </g>
 </svg>
-          <span class="ml-2 font-normal text-xl tracking-tight">
-            <span class="font-bold">EML</span>Tübingen
+          <span className="ml-2 font-normal text-xl tracking-tight">
+            <span className="font-bold">EML</span>Tübingen
           </span>
         </a>
-        <div class="block lg:hidden">
+        <div className="block lg:hidden">
           <button
-            class="flex items-center px-3 py-2 text-teal-100 z-50"
+            className="flex items-center px-3 py-2 text-teal-100 z-50"
             id="navbar-btn"
 			onClick={()=>{
 				let mynav = document.getElementById("navbar")
@@ -309,7 +309,7 @@ export default function NavBar(props) {
 			  }}
           >
             <svg
-              class="fill-purple-500 stroke-purple-500 h-4 w-4"
+              className="fill-purple-500 stroke-purple-500 h-4 w-4"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -319,17 +319,17 @@ export default function NavBar(props) {
           </button>
         </div>
         <div
-          class="w-full  flex-grow lg:flex lg:items-center lg:w-auto "
+          className="w-full  flex-grow lg:flex lg:items-center lg:w-auto "
           id="navbar"
         >
-          {props.otherLink&& <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
+          {props.otherLink&& <div id="nav-container" className="text-lg lg:text-sm lg:flex-grow lg:text-right">
             <a
 			  onClick={()=>{
 				let mynav = document.getElementById("navbar")
 				mynav.classList.add("hidden")
 			  }}
               href="/#team"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Team
             </a>
@@ -339,7 +339,7 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#publications"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Publications
             </a>
@@ -349,7 +349,7 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#teaching"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Teaching
             </a>
@@ -369,7 +369,7 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#news"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               News
             </a>
@@ -380,20 +380,20 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#contact"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               Contact
             </a>
           </div>}
 
-		  {!props.otherLink&& <div id="nav-container" class="text-lg lg:text-sm lg:flex-grow lg:text-right">
+		  {!props.otherLink&& <div id="nav-container" className="text-lg lg:text-sm lg:flex-grow lg:text-right">
             <a
 			  onClick={()=>{
 				let mynav = document.getElementById("navbar")
 				mynav.classList.add("hidden")
 			  }}
               href="/#team"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Team
             </a>
@@ -403,7 +403,7 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#publications"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Publications
             </a>
@@ -413,7 +413,7 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#teaching"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
             >
               Teaching
             </a>
@@ -433,7 +433,7 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#news"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               News
             </a>
@@ -443,7 +443,7 @@ export default function NavBar(props) {
 							mynav.classList.add("hidden")
 						  }}
               href="/#contact"
-              class="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+              className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
             >
               Contact
             </a>
