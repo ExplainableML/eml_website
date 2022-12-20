@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 
@@ -12,7 +12,7 @@ export default function WorkshopCard(props) {
             setLink("courses")
         }
     },[])
-    return (<a href={"/"+link}><div className=" overflow-hidden shadow-lg bg-cover p-16 flex flex-col items-center justify-center"
+    return (<a href={"/"+link}><div class=" overflow-hidden shadow-lg bg-cover p-16 flex flex-col items-center justify-center"
     style={{backgroundImage: "url('https://c.pxhere.com/photos/b8/4b/autumn_t_bingen_nature_fall_leaves_southern_germany_october_colorful_fall_color-845134.jpg!d')",
         height: "350px",
         backgroundRepeat: "no-repeat",
@@ -25,8 +25,8 @@ export default function WorkshopCard(props) {
 <p style={{  fontSize: "12pt", color:"white"}}> March 28-29th, 2023  |  Alte Aula, Tübingen, Germany</p></div>
 
            <div className="flex flex-row justify-center items-center pt-8">
-               {/*<a className="text-purple-500 font-semibold" href="/eml-workshop">View Details</a>*/}
-               <a className="text-white font-semibold" href="/eml-workshop">View Details</a>
+               {/*<a class="text-purple-500 font-semibold" href="/eml-workshop">View Details</a>*/}
+               <a class="text-white font-semibold" href="/eml-workshop">View Details</a>
 
 </div>
 

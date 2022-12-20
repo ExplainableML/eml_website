@@ -1,10 +1,10 @@
 export default function YearHeadline(props) {
     return (
         <>
-            <div className="text-2xl xl:text-4xl font-bold">
+            <div class="text-2xl xl:text-4xl font-bold">
                 {props.text}
             </div>
-            <div className="m-2 w-8 h-2 bg-purple-900"></div>
+            <div class="m-2 w-8 h-2 bg-purple-900"></div>
         </>
     )
 }

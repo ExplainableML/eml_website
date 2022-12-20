@@ -14,7 +14,7 @@ class MyDocument extends Document {
                     <meta name="description" content="Explainable Machine Learning Tübingen" />
 
                 </Head>
-                <body className="bg-gray-50">
+                <body class="bg-gray-50">
                     <Main />
                     <NextScript />
                 </body>

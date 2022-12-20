@@ -16,7 +16,7 @@ import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
 import rehypeRaw from 'rehype-raw'
 import Headline from '../../components/Headline'
-import Image from "next/legacy/image";
+import Image from "next/image"
 import References from '../../components/References'
 import { BlockMath, InlineMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
@@ -56,50 +56,52 @@ export default function Publication(props) {
 
 
     return (
-        <div className="">
-               
+        <div class="">
+                  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
 
 
         <NavBar otherLink={true}></NavBar>
 
-        <div className="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
+        <div class="pt-32 bg-gray-50 mb-32 lg:px-20 flex flex-col items-center px-4">
 
 
 
-          <div className="mb-8 flex flex-col items-center">
+          <div class="mb-8 flex flex-col items-center">
           <div>
           <Image width="764" height="256" objectFit="contain"  loader={myLoader} src="Zeynep-Akata-2.jpg" alt={props.name}/>
 
           </div>
 
-              <div className="lg:text-3xl font-bold text-center">
+              <div class="lg:text-3xl font-bold text-center">
                 {props.data.title}
               </div>
-              <div className="bg-purple-500 h-2 w-8 mb-2 mt-2">
+              <div class="bg-purple-500 h-2 w-8 mb-2 mt-2">
 
 
               </div>
 
-              <div className="lg:text-md text-gray-800 text-center">{props.data.authors}</div>
-              <div className="lg:text-md text-gray-400 text-center">{props.data.publisher}</div>
-              <div className="lg:text-md text-gray-400 text-center">{props.data.year}</div>
+              <div class="lg:text-md text-gray-800 text-center">{props.data.authors}</div>
+              <div class="lg:text-md text-gray-400 text-center">{props.data.publisher}</div>
+              <div class="lg:text-md text-gray-400 text-center">{props.data.year}</div>
 
-              <div className="flex lg:flex-row justify-center items-center">
+              <div class="flex lg:flex-row justify-center items-center">
                 <References {...props.data} large={true}></References>
               </div>
       <br></br>
-              <div className="lg:text-xl  font-semibold">
+              <div class="lg:text-xl  font-semibold">
                 Abstract
               </div>
 
-              <div className="w-90vw lg:w-800 text-justify break-words">
+              <div class="w-90vw lg:w-800 text-justify break-words">
               <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 		rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.data.abstract} />
               </div>
             
-              <div className=" w-90vw lg:w-800 bg-gray-50  flex flex-col items-center px-4" >
+              <div class=" w-90vw lg:w-800 bg-gray-50  flex flex-col items-center px-4" >
 
-<div className="container text-justify" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
+<div class="container text-justify" style={{marginRight:16, marginLeft:16, overflowX:"auto"}}>
 <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
 rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={props.content} />
 </div>
