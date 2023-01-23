@@ -22,7 +22,8 @@ His primary interests cover zero- and few-shot learning problems and understandi
 
 
 # Publications
-- "Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning", Zafir Stojanovski *, Karsten Roth *, Zeynep Akata, INTERPOLATE Workshop at Conference on Neural Information Processing Systems, NeurIPS 2022 (Spotlight)
+- "Disentanglement of Correlated Factors via Hausdorff Factorized Support", Karsten Roth, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt * at International Conference on Learning Representations, ICLR 2023
+- "Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning", Zafir Stojanovski *, Karsten Roth *, Zeynep Akata, Best Paper at INTERPOLATE Workshop @ Conference on Neural Information Processing Systems, NeurIPS 2022
 - "A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning", Michael Kirchhof *, Karsten Roth *, Zeynep Akata, Enkelejda Kasneci, European Conference on Computer Vision, ECCV 2022
 - "Non-isotropy Regularization for Proxy-based Deep Metric Learning", Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 - "Integrating Language Guidance into Vision-based Deep Metric Learning", Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022 (Oral)
