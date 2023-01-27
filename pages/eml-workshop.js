@@ -95,6 +95,7 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
              <WorkshopMemberElement name="Mauricio Reyes" img="/workshop/mauricio.png" link="https://mauricioreyes.me/" institute="Univ. of Bern"></WorkshopMemberElement>
              <WorkshopMemberElement name="Ulrike von Luxburg" img="/workshop/ulrike.png" link="http://www.tml.cs.uni-tuebingen.de/team/luxburg/" institute="Univ. of Tübingen"></WorkshopMemberElement>
              <WorkshopMemberElement name="Ruth Fong" img="/workshop/ruth.png" link="https://www.ruthfong.com/" institute="Princeton University"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Wojciech Samek" img="/workshop/samek.png" link="https://iphome.hhi.de/samek/" institute="Fraunhofer HHI & TU Berlin"></WorkshopMemberElement>
 
     </div>
 <h1>Organizers</h1>
