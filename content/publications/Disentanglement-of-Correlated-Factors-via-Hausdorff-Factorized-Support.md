@@ -65,8 +65,11 @@ Most unsupervised disentanglement methods follow the formalization of VAEs and e
 
 </br>
 
-$p(\mathbf{z})=p(z_1) p(z_2) \ldots p(z_k),
-
+$$
+\begin{equation}
+p(\mathbf{z})=p(z_1) p(z_2) \ldots p(z_k),
+\end{equation}
+$$
 </br>
 
 and conflate the goal of learning a disentangled representation with that of learning a representation with statically independent components. This assumption naturally translates to a factorial model prior $p_\theta(\mathbf{z})$.
@@ -78,7 +81,11 @@ We say that $\mathcal{S}(p(\mathbf{z}))$ is factorized if it equals to the Carte
 
 </br>
 
-$\mathcal{S}(p(\mathbf{z})) = \mathcal{S}(p(z_1))\times\mathcal{S}(p(z_2))\times ... \times\mathcal{S}(p(z_k)) \stackrel{\text{def}}{=}  \mathcal{S}^X(p(\mathbf{z}))$
+$$
+\begin{equation}
+\mathcal{S}(p(\mathbf{z})) = \mathcal{S}(p(z_1))\times\mathcal{S}(p(z_2))\times ... \times\mathcal{S}(p(z_k)) \stackrel{\text{def}}{=}  \mathcal{S}^X(p(\mathbf{z}))
+\end{equation}
+$$
 
 </br>
 
@@ -97,7 +104,11 @@ To guide the learning, we thus need a divergence or metric to tell us how far $\
 
 </br>
 
-$d_H(\mathcal{S}, \mathcal{S}^X) = \max\left(\sup_{\mathbf{z}\in\mathcal{S}^X}\left[\inf_{\mathbf{z}'\in\mathcal{S}} d(\mathbf{z},\mathbf{z}')\right], \sup_{\mathbf{z}\in\mathcal{S}}\left[\inf_{\mathbf{z}'\in\mathcal{S}^X} d(\mathbf{z},\mathbf{z}')\right]\right) =\sup_{\mathbf{z}\in\mathcal{S}^X}\left[\inf_{\mathbf{z}'\in\mathcal{S}} d(\mathbf{z},\mathbf{z}')\right]$
+$$
+\begin{equation}
+d_H(\mathcal{S}, \mathcal{S}^X) = \max\left(\sup_{\mathbf{z}\in\mathcal{S}^X}\left[\inf_{\mathbf{z}'\in\mathcal{S}} d(\mathbf{z},\mathbf{z}')\right], \sup_{\mathbf{z}\in\mathcal{S}}\left[\inf_{\mathbf{z}'\in\mathcal{S}^X} d(\mathbf{z},\mathbf{z}')\right]\right) =\sup_{\mathbf{z}\in\mathcal{S}^X}\left[\inf_{\mathbf{z}'\in\mathcal{S}} d(\mathbf{z},\mathbf{z}')\right]
+\end{equation}
+$$
 
 </br>
 
@@ -107,7 +118,11 @@ In practial settings with a finite sample of observations $\{\mathbf{x}\}_i^N$, 
 
 </br>
 
-$\mathcal{S} \approx \mathbf{Z}$ and $\mathcal{S}^X \approx \mathbf{Z}_{:, 1}\times\mathbf{Z}_{:, 2}\times...\times\mathbf{Z}_{:, k} = \{ (z_1, \ldots, z_k),\; z_1 \in \mathbf{Z}_{:, 1}, \ldots, z_k \in \mathbf{Z}_{:, k} \}$. 
+$$
+\begin{equation}
+\mathcal{S} \approx \mathbf{Z}$ and $\mathcal{S}^X \approx \mathbf{Z}_{:, 1}\times\mathbf{Z}_{:, 2}\times...\times\mathbf{Z}_{:, k} = \{ (z_1, \ldots, z_k),\; z_1 \in \mathbf{Z}_{:, 1}, \ldots, z_k \in \mathbf{Z}_{:, k} \}$.
+\end{equation}
+$$
 
 </br>
 
@@ -115,7 +130,11 @@ Here $\mathbf{Z}_{:, j}$ must be understood as the _set_ (not vector) of all ele
 
 </br>
 
-$\hat{d}_{H}(\mathbf{Z}) = \max_{\mathbf{z}\in \mathbf{Z}_{:, 1}\times\mathbf{Z}_{:, 2}\times...\times\mathbf{Z}_{:, k}} \left[\min_{\mathbf{z}'\in \mathbf{Z}} d(\mathbf{z},\mathbf{z}')\right]$
+$$
+\begin{equation}
+\hat{d}_{H}(\mathbf{Z}) = \max_{\mathbf{z}\in \mathbf{Z}_{:, 1}\times\mathbf{Z}_{:, 2}\times...\times\mathbf{Z}_{:, k}} \left[\min_{\mathbf{z}'\in \mathbf{Z}} d(\mathbf{z},\mathbf{z}')\right]
+\end{equation}
+$$
 
 </br>
 
@@ -128,7 +147,11 @@ To encourage such a pairwise factorized support, we minimize a sliced, pairwise 
 
 </br>
 
-$\hat{d}^{(2)}_{H}(\mathbf{Z}) = \sum_{i=1}^{k-1}\sum_{j=i+1}^k\max_{\mathbf{z}\in\mathbf{Z}_{:,i}\times\mathbf{Z}_{:,j}} \left[\min_{\mathbf{z}'\in \mathbf{Z}_{:, (i,j)}} d(\mathbf{z},\mathbf{z}')\right]$
+$$
+\begin{equation}
+\hat{d}^{(2)}_{H}(\mathbf{Z}) = \sum_{i=1}^{k-1}\sum_{j=i+1}^k\max_{\mathbf{z}\in\mathbf{Z}_{:,i}\times\mathbf{Z}_{:,j}} \left[\min_{\mathbf{z}'\in \mathbf{Z}_{:, (i,j)}} d(\mathbf{z},\mathbf{z}')\right]
+\end{equation}
+$$
 
 </br>
 
