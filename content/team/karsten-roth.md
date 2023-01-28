@@ -12,13 +12,20 @@ scholar: https://scholar.google.com/citations?user=93ZjIs0AAAAJ
 ---
 
 # Profile
-Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the European Laboratory for Learning and Intelligent Systems (ELLIS) co-supervised by Prof. Zeynep Akata and Dr. Oriol Vinyals at Deepmind.
+Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ and the _International Max-Planck Research School for Intelligent Systems (IMPRS-IS)_ co-supervised by Prof. Zeynep Akata and Dr. Oriol Vinyals at Deepmind.
 
-Karsten has completed both Bachelor and Master studies in Physics at Heidelberg University (2021). 
-He has spent time abroad in Canada as a research intern at the Montreal Institute for Learning Algorithms (MILA) supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the Vector Institute supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. 
-As research intern, Karsten has also worked at the Amazon AWS research lablet in Tuebingen on Anomaly Detection with Peter Gehler and Thomas Brox, and Meta AI in Paris on Disentangled Representation Learning with Pascal Vincent and Diane Bouchacourt.
+</br>
 
-His primary interests cover zero- and few-shot learning problems and understanding generalisation behaviour of learned (multimodal) representations, as well as their application to medicine and the sciences.
+He has completed both Bachelor and Master studies in Physics at Heidelberg University (2021). 
+During that time, Karsten has spent time abroad in Canada as a research intern at the _Montreal Institute for Learning Algorithms (MILA)_ supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the _Vector Institute_ supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. 
+
+</br>
+
+As research intern, Karsten has also worked at the Amazon AWS research lablet in Tuebingen on Anomaly Detection with Peter Gehler and Thomas Brox, and Meta AI in Paris on Disentangled Representation Learning with Mark Ibrahim, Pascal Vincent and Diane Bouchacourt.
+
+</br>
+
+His primary interests cover approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations. He is also very interested in their application to medicine and the sciences.
 
 
 # Publications
