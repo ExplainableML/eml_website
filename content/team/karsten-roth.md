@@ -22,9 +22,24 @@ His primary interests cover zero- and few-shot learning problems and understandi
 
 
 # Publications
-- __"_Disentanglement of Correlated Factors via Hausdorff Factorized Support_"__, __Karsten Roth__, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt * at International Conference on Learning Representations, ICLR 2023
-- __"_Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning_"__, Zafir Stojanovski *, __Karsten Roth__ *, Zeynep Akata, Best Paper at INTERPOLATE Workshop @ Conference on Neural Information Processing Systems, NeurIPS 2022
-- __"_A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning_"__, Michael Kirchhof *, __Karsten Roth__ *, Zeynep Akata, Enkelejda Kasneci, European Conference on Computer Vision, ECCV 2022
-- __"_Non-isotropy Regularization for Proxy-based Deep Metric Learning_"__, __Karsten Roth__, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
-- __"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__, __Karsten Roth__, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022 (Oral)
+
+</br>
+
+- __"_Disentanglement of Correlated Factors via Hausdorff Factorized Support_"__, _Karsten Roth_, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt * at International Conference on Learning Representations, ICLR 2023
+
+</br>
+
+- __"_Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning_"__, Zafir Stojanovski *, _Karsten Roth_ *, Zeynep Akata, Best Paper at INTERPOLATE Workshop @ Conference on Neural Information Processing Systems, NeurIPS 2022
+
+</br>
+
+- __"_A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning_"__, Michael Kirchhof *, _Karsten Roth_ *, Zeynep Akata, Enkelejda Kasneci, European Conference on Computer Vision, ECCV 2022
+
+</br>
+
+- __"_Non-isotropy Regularization for Proxy-based Deep Metric Learning_"__, _Karsten Roth_, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+
+</br>
+
+- __"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__, _Karsten Roth_, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022 (Oral)
 
