@@ -53,6 +53,8 @@ We still rely, just as standard unsupervised disentanglement methods, on the ind
 
 ---
 
+</br>
+</br>
 
 # Method
 On this basis, we propose a concrete pairwise Hausdorff Factorized Support (__HFS__) training criterion to disentangle correlated factors, by aiming for all pairs of latents to have a factorized support.
@@ -182,17 +184,16 @@ $$
 </br>
 
 where typically $q_\phi(\mathbf{z}|\mathbf{x}) = \mathcal{N}(f_\phi(\mathbf{x}), \Sigma_\phi(\mathbf{x}))$ with mean given by our deterministic mapping $f_\phi$, $\Sigma_\phi(\mathbf{x})$ producing a diagonal covariance parameter, and e.g. $\log p_\theta(\mathbf{x}|\mathbf{z}) = \|r_\theta(z) - x \|^2$ with $r_\theta$ a parameterized decoder.
-The autoencoder term ensures representations $f_\phi(\mathbf{x})$ retaining as much information as possible about $\mathbf{x}$ for reconstruction, preventing collapse of representations to a single point. A minimum scale can also be ensured by imposing by construction $\Sigma_\phi(\mathbf{x])$ to be above a minimal threshold.
+The autoencoder term ensures representations $f_\phi(\mathbf{x})$ retaining as much information as possible about $\mathbf{x}$ for reconstruction, preventing collapse of representations to a single point. A minimum scale can also be ensured by imposing by construction $\Sigma_\phi(\mathbf{x})$ to be above a minimal threshold.
 
 Consequently, this gives a standard __HFS__ objective:
 
 $$
 \begin{equation}
     \textstyle\mathcal{L}_\mathrm{HFS}(\mathcal{D}; \phi, \theta) = 
-    \mathbb{E}_{\bX \overset{b}{\sim} \mathcal{D}}  \left[
-    \gamma \hat{d}^{(2)}_{H}(f_\phi(\bX))
-    + \frac{1}{b} \sum_{\bx\in \bX} \ell_\mathrm{SAE}(\bx; \phi, \theta) \right]
-    \label{eq:HFS}
+    \mathbb{E}_{\mathbf{X} \overset{b}{\sim} \mathcal{D}}  \left[
+    \gamma \hat{d}^{(2)}_{H}(f_\phi(\mathbf{X}))
+    + \frac{1}{b} \sum_{\mathbf{x}\in \mathbf{X}} \ell_\mathrm{SAE}(\mathbf{x}; \phi, \theta) \right]
 \end{equation}
 $$
 
@@ -200,6 +201,10 @@ or, alternatively, one may also leverage __HFS__ as a regularizer alongside othe
 
 
 ---
+
+
+</br>
+</br>
 
 # Experiments
 Across large-scale experiments on standard disentanglement benchmarks and novel extensions with correlated factors, __HFS__ consistently facilitates disentanglement.
