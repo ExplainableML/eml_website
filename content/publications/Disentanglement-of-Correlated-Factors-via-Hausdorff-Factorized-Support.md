@@ -128,7 +128,7 @@ In practial settings with a finite sample of observations $\{\mathbf{x}\}_i^N$, 
 
 $$
 \begin{equation}
-\mathcal{S} \approx \mathbf{Z}$ and $\mathcal{S}^X \approx \mathbf{Z}_{:, 1}\times\mathbf{Z}_{:, 2}\times...\times\mathbf{Z}_{:, k} = \{ (z_1, \ldots, z_k),\; z_1 \in \mathbf{Z}_{:, 1}, \ldots, z_k \in \mathbf{Z}_{:, k} \}.
+\mathcal{S} \approx \mathbf{Z} \text{ and } \mathcal{S}^X \approx \mathbf{Z}_{:, 1}\times\mathbf{Z}_{:, 2}\times...\times\mathbf{Z}_{:, k} = \{ (z_1, \ldots, z_k),\; z_1 \in \mathbf{Z}_{:, 1}, \ldots, z_k \in \mathbf{Z}_{:, k} \}.
 \end{equation}
 $$
 
