@@ -91,11 +91,11 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
 <h1>Speakers</h1>
     <div id="speakers" className="border-b-2 grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2 text-center">
              <WorkshopMemberElement name="Trevor Darrell" img="/workshop/darrell.png" link="https://people.eecs.berkeley.edu/~trevor/" institute="UC Berkeley"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Ruth Fong" img="/workshop/ruth.png" link="https://www.ruthfong.com/" institute="Princeton University"></WorkshopMemberElement>
              <WorkshopMemberElement name="Michela Paganini" img="/workshop/michela.png" link="https://mickypaganini.github.io/" institute="DeepMind"></WorkshopMemberElement>
              <WorkshopMemberElement name="Mauricio Reyes" img="/workshop/mauricio.png" link="https://mauricioreyes.me/" institute="Univ. of Bern"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Ulrike von Luxburg" img="/workshop/ulrike.png" link="http://www.tml.cs.uni-tuebingen.de/team/luxburg/" institute="Univ. of Tübingen"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Ruth Fong" img="/workshop/ruth.png" link="https://www.ruthfong.com/" institute="Princeton University"></WorkshopMemberElement>
              <WorkshopMemberElement name="Wojciech Samek" img="/workshop/samek.png" link="https://iphome.hhi.de/samek/" institute="Fraunhofer HHI & TU Berlin"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Ulrike von Luxburg" img="/workshop/ulrike.png" link="http://www.tml.cs.uni-tuebingen.de/team/luxburg/" institute="Univ. of Tübingen"></WorkshopMemberElement>
 
     </div>
 <h1>Organizers</h1>
