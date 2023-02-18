@@ -61,7 +61,7 @@ table th {
   height: 25pt;
 }
 table tbody tr:nth-child(odd) td:nth-child(7) {
-    background: white;
+    background: rgb(249,250,251);
 }
 
 table tbody tr:nth-child(odd) {
@@ -69,29 +69,29 @@ table tbody tr:nth-child(odd) {
 }
 
 table tbody tr:nth-child(11) td:nth-child(12) {
-    background: white;
+    background: rgb(249,250,251);
 }
 table tbody tr:nth-child(11) td:nth-child(8) {
-    background: white;
+    background: rgb(249,250,251);
 }
 table tbody tr:nth-child(11) td:nth-child(9) {
-    background: white;
+    background: rgb(249,250,251);
 }
 table tbody tr:nth-child(11) td:nth-child(10) {
-    background: white;
+    background: rgb(249,250,251);
 }
 table tbody tr:nth-child(11) td:nth-child(10) {
-    background: white;
+    background: rgb(249,250,251);
 }
 table tbody tr:nth-child(11) td:nth-child(11) {
-    background: white;
+    background: rgb(249,250,251);
 }
 table tbody tr:nth-child(11) td:nth-child(12) {
-    background: white;
+    background: rgb(249,250,251);
 }
 
 table tbody tr:nth-child(11) td:nth-child(13) {
-    background: white;
+    background: rgb(249,250,251);
 }
 
 
@@ -104,8 +104,6 @@ table thead b, strong {
 </style>
 
 
-
-<br/>
 
 |  March|    |  28th   | <img width=10/> |                                         | <img width=80/> |     |                                        March |       |  29th | <img width=10/>|                                    | <img width=80/> |
 |------:|:---:|:-----------|-----------------|-------------------------------------------|-----------------|-----|---------------------------------------------:|:-----:|:------|------|------------------------------------|-----------------|
@@ -122,7 +120,6 @@ table thead b, strong {
 | 16:00 | -   | 16:50      |                 | Invited talk: **Trevor Darrell**          |                 |     |  |       |       |      |                                    |                 |
 | 17:00 | -   | 18:00      |                 | Panel discussion                          |                 |     |                                              |       |       |      |                                    |                 |
 
-<br/>
 
 ### Venue
 
