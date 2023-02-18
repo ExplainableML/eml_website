@@ -141,6 +141,10 @@ Participants will also have the chance to explore the old university town of Tü
 
 There is no registration fee, however the venue has limited capacity. If you would like to attend, please register **by February 28th** using this [form](https://forms.gle/ohFWR9uMeDBSkzaX6): we will then contact you by **March 3rd** to confirm your attendance.
 <br/>
+### Contact
+
+Do you have any questions? Please send an email to **eml-workshop@inf.uni-tuebingen.de**.
+<br/>
 <br/>
 <div class="border-b-2"></div>
 
