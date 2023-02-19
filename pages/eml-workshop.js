@@ -95,7 +95,7 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
              <WorkshopMemberElement name="Michela Paganini" img="/workshop/michela.png" link="https://mickypaganini.github.io/" institute="DeepMind"></WorkshopMemberElement>
              <WorkshopMemberElement name="Mauricio Reyes" img="/workshop/mauricio.png" link="https://mauricioreyes.me/" institute="Univ. of Bern"></WorkshopMemberElement>
              <WorkshopMemberElement name="Wojciech Samek" img="/workshop/samek.png" link="https://iphome.hhi.de/samek/" institute="Fraunhofer HHI & TU Berlin"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Bernt Schiele" img="/workshop/placeholder.png" link="https://https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/" institute="MPI for Informatics & Saarland University"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Bernt Schiele" img="/workshop/bernt.png" link="https://https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/" institute="MPI for Informatics & Saarland University"></WorkshopMemberElement>
              <WorkshopMemberElement name="Ulrike von Luxburg" img="/workshop/ulrike.png" link="http://www.tml.cs.uni-tuebingen.de/team/luxburg/" institute="Univ. of Tübingen"></WorkshopMemberElement>
 
     </div>
