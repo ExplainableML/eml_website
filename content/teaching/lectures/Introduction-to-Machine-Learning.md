@@ -1,7 +1,7 @@
 ---
-title: INF3151 - Foundations of Machine Learning (“Grundlagen des maschinellen Lernens”)
+title: INF3151 - Introduction to Machine Learning (“Grundlagen des maschinellen Lernens”)
 ---
-# INF3151 - Foundations of Machine Learning (“Grundlagen des maschinellen Lernens”)
+# INF3151 - Introduction to Machine Learning <br/> (“Grundlagen des maschinellen Lernens”)
 
 ## Lecturers
 Prof. Dr. Zeynep Akata, Dr. Almut Sophia Koepke, Dr. Stephan Alaniz.
@@ -26,25 +26,25 @@ This is a Bachelor's level course, awarding 6 LP.<br>
 
 The course will follow the book ["Introduction to Machine Learning, fourth edition"](https://mitpress.ublish.com/book/introduction-to-machine-learning--4) by Ethem Alpaydin. 
 
-## Organisation (to be confirmed)
+## Organisation
 The schedule of the course is as follows:
-- April 19th, 1-3pm
-- April 26th, 1-3pm
-- May 3rd, 1-3pm
-- May 10th, 1-3pm
-- May 17th, 1-3pm
-- May 24th, 1-3pm
-- May 31st, 1-3pm
-- June 14th, 1-3pm
-- June 21st, 1-3pm
-- June 28th, 1-3pm
-- July 5th, 1-3pm
-- July 12th, 1-3pm
-- July 19th, 1-3pm
+- April 19th, 12-2pm
+- April 26th, 12-2pm
+- May 3rd, 12-2pm
+- May 10th, 12-2pm
+- May 17th, 12-2pm
+- May 24th, 12-2pm
+- May 31st, 12-2pm
+- June 14th, 12-2pm
+- June 21st, 12-2pm
+- June 28th, 12-2pm
+- July 5th, 12-2pm
+- July 12th, 12-2pm
+- July 19th, 12-2pm
 
 <br>
-The lectures will take place in-person (lecture hall to be announced).<br>
-Each lecture will be integrated with exercise classes (day, time, and halls to be announced).
+The lectures will take place in-person in room N2, Morgenstelle.<br>
+Each lecture will be integrated with exercise classes (days, times, and halls to be announced).
 
 ## Registration and requirements
 To be announced.
