@@ -9,7 +9,7 @@ Please consider applying if you are interested in joining us!
 
 # Postdoctoral Researchers
 
-we are always looking for talented postdoctoral researchers. If your profile fits the following criteria, please contact Zeynep directly.
+We are always looking for talented postdoctoral researchers. If your profile fits the following criteria, please contact Zeynep directly.
 
 <br/>
 
