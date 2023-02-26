@@ -363,7 +363,18 @@ export default function NavBar(props) {
 			  >
 				  Workshop
 			  </a>
-			<a
+						  <a
+				  onClick={() => {
+					  let mynav = document.getElementById("navbar")
+					  mynav.classList.add("hidden")
+				  }}
+				  href="/jobs"
+				  className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+			  >
+				  Jobs
+			  </a>
+
+			  <a
 						  onClick={()=>{
 							let mynav = document.getElementById("navbar")
 							mynav.classList.add("hidden")
@@ -426,6 +437,16 @@ export default function NavBar(props) {
 				  className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4 "
 			  >
 				  Workshop
+			  </a>
+			  <a
+				  onClick={() => {
+					  let mynav = document.getElementById("navbar")
+					  mynav.classList.add("hidden")
+				  }}
+				  href="/jobs"
+				  className="block mt-8 font-semibold lg:inline-block lg:mt-0  hover:text-purple-500 mr-4"
+			  >
+				  Jobs
 			  </a>
 			<a
 						  onClick={()=>{
