@@ -111,9 +111,8 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
                               <div>
                 <table>
                     <tr>
-                        <th width={"40%"} align={"left"}>Workshop funded by the <br/>"Cluster of Excellence - <br/>Machine Learning for Science"</th>
-                        <th><img src="/workshop/cluster.png" width="500"/></th>
-                        <th><img src="/workshop/uni-tue.png" width="500"/></th>
+                        <th width={"30%"} align={"left"}>Workshop funded by the <br/>"Cluster of Excellence - <br/>Machine Learning: New Perspectives for Science"</th>
+                        <th><img src="/workshop/cluster.png"/></th>
                     </tr>
                 </table>
             </div>
