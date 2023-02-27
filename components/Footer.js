@@ -6,7 +6,7 @@ export default function Footer() {
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 min-w-screen" style={{maxWidth:512}}>
       <span class="font-normal text-xs">
-        {"(c) 2021 Explainable Machine Learning Tübingen "}
+        {"(c) 2023 Explainable Machine Learning Tübingen "}
       </span>{" "}
       <a class="text-white text-xs" href="/impressum">
         Impressum
