@@ -7,8 +7,7 @@ title: INF3151 - Introduction to Machine Learning (“Grundlagen des maschinelle
 Prof. Dr. Zeynep Akata, Dr. Almut Sophia Koepke, Dr. Stephan Alaniz.
 
 ## Content
-Machine learning is a rapidly growing field, whose progresses have already an impact on our daily life. 
-The aim of this course, is to provide an introduction to machine learning. We will cover various topics, such as: 
+Machine learning is a rapidly growing field that already impacts our daily life. The aim of this course is to provide an introduction to machine learning. We will cover various topics, such as:
 - Supervised Learning
 - Bayesian Decision Theory
 - Parametric Methods
@@ -34,7 +33,7 @@ The schedule of the course is as follows:
 - May 10th, 12-2pm
 - May 17th, 12-2pm
 - May 24th, 12-2pm
-- May 31st, 12-2pm
+- June 7th, 12-2pm
 - June 14th, 12-2pm
 - June 21st, 12-2pm
 - June 28th, 12-2pm
@@ -43,8 +42,8 @@ The schedule of the course is as follows:
 - July 19th, 12-2pm
 
 <br>
-The lectures will take place in-person in room N2, Morgenstelle.<br>
-Each lecture will be integrated with exercise classes (days, times, and halls to be announced).
+The lectures will take place in person in room N2, Morgenstelle.<br>
+Each lecture will be accompanied by exercise classes (days, times, and rooms to be announced).
 
 ## Registration and requirements
 To be announced.

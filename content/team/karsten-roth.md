@@ -25,7 +25,7 @@ As research intern, Karsten has also worked at the Amazon AWS research lablet in
 
 </br>
 
-His primary interests cover approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations. He is also very interested in their application to medicine and the sciences.
+His primary interests cover approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations and foundation models. He is also very interested in their application to medicine and the sciences.
 
 
 # Publications
@@ -41,6 +41,10 @@ His primary interests cover approaches to effective representation learning unde
 </br>
 
 - __"_A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning_"__, Michael Kirchhof *, _Karsten Roth_ *, Zeynep Akata, Enkelejda Kasneci, European Conference on Computer Vision, ECCV 2022
+
+</br>
+
+- __"_Uniform Priors for Data-Efficient Learning_"__, Samarth Sinha *, _Karsten Roth_ *, Anirudh Goyal, Marzyeh Ghassemi, Zeynep Akata, Hugo Larochelle, Animesh Garg, Workshop on Learning with Limited Labels @ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 </br>
 

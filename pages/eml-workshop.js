@@ -92,7 +92,7 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
     <div id="speakers" className="border-b-2 grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2 text-center">
              <WorkshopMemberElement name="Trevor Darrell" img="/workshop/darrell.png" link="https://people.eecs.berkeley.edu/~trevor/" institute="UC Berkeley"></WorkshopMemberElement>
              <WorkshopMemberElement name="Ruth Fong" img="/workshop/ruth.png" link="https://www.ruthfong.com/" institute="Princeton University"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Michela Paganini" img="/workshop/michela.png" link="https://mickypaganini.github.io/" institute="DeepMind"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Mara Graziani" img="/workshop/mara.png" link="https://maragraziani.com/" institute="IBM & HES-SO Valais"></WorkshopMemberElement>
              <WorkshopMemberElement name="Mauricio Reyes" img="/workshop/mauricio.png" link="https://mauricioreyes.me/" institute="Univ. of Bern"></WorkshopMemberElement>
              <WorkshopMemberElement name="Wojciech Samek" img="/workshop/samek.png" link="https://iphome.hhi.de/samek/" institute="Fraunhofer HHI & TU Berlin"></WorkshopMemberElement>
              <WorkshopMemberElement name="Bernt Schiele" img="/workshop/bernt.png" link="https://https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/" institute="MPI for Informatics & Saarland University"></WorkshopMemberElement>

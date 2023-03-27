@@ -60,39 +60,70 @@ table th {
   font-size: 14px;
   height: 25pt;
 }
-table tbody tr:nth-child(odd) td:nth-child(7) {
+
+
+
+
+
+table tbody tr:nth-child(13){
+    background: rgba(128,128,128,0.2);
+}
+table tbody tr:nth-child(14){
+    background: rgba(128,128,128,0.1);
+    height: 50pt;
+    text-align: left;
+}
+
+table tbody tr:nth-child(8){
+    background: rgba(128,128,128,0.2);
+}
+
+table tbody tr:nth-child(9){
+    background: rgba(128,128,128,0.1);
+    height: 50pt;
+    text-align: left;
+}
+
+
+table tbody tr:nth-child(1) td:nth-child(n+8){
+    background: rgba(128,128,128,0.2);
+}
+table tbody tr:nth-child(2) td:nth-child(n+8){
+    background: rgba(128,128,128,0.1);
+    height: 50pt;
+    text-align: left;
+}
+
+table tbody tr:nth-child(3) td:nth-child(-n+6){
+    background: rgba(128,128,128,0.2);
+}
+table tbody tr:nth-child(4) td:nth-child(-n+6){
+    background: rgba(128,128,128,0.1);
+    height: 50pt;
+    text-align: left;
+}
+
+table tbody tr:nth-child(18) td:nth-child(-n+6){
+    background: rgba(128,128,128,0.2);
+}
+table tbody tr:nth-child(19) td:nth-child(-n+6){
+    background: rgba(128,128,128,0.1);
+    height: 50pt;
+    text-align: left;
+}
+
+
+
+
+table tbody tr:nth-child(n+15) td:nth-child(n+8){
     background: rgb(249,250,251);
 }
 
-table tbody tr:nth-child(odd) {
-    background: rgb(128,128,128,0.2)
-}
-
-table tbody tr:nth-child(11) td:nth-child(12) {
-    background: rgb(249,250,251);
-}
-table tbody tr:nth-child(11) td:nth-child(8) {
-    background: rgb(249,250,251);
-}
-table tbody tr:nth-child(11) td:nth-child(9) {
-    background: rgb(249,250,251);
-}
-table tbody tr:nth-child(11) td:nth-child(10) {
-    background: rgb(249,250,251);
-}
-table tbody tr:nth-child(11) td:nth-child(10) {
-    background: rgb(249,250,251);
-}
-table tbody tr:nth-child(11) td:nth-child(11) {
-    background: rgb(249,250,251);
-}
-table tbody tr:nth-child(11) td:nth-child(12) {
+table tbody td:nth-child(7) {
     background: rgb(249,250,251);
 }
 
-table tbody tr:nth-child(11) td:nth-child(13) {
-    background: rgb(249,250,251);
-}
+
 
 
 table tbody b, strong {
@@ -105,20 +136,28 @@ table thead b, strong {
 
 
 
-|  March|    |  28th   | <img width=10/> |                                         | <img width=80/> |     |                                        March |       |  29th | <img width=10/>|                                    | <img width=80/> |
-|------:|:---:|:-----------|-----------------|-------------------------------------------|-----------------|-----|---------------------------------------------:|:-----:|:------|------|------------------------------------|-----------------|
-|  9:00 | -   | 9:20       |                 | Opening remarks                           |                 |     |                                         9:00 |   -   | 9:50  |      | Invited talk: **Bernt Schiele**    |                 |
-|  9:20 | -   | 10:10      |                 | Invited talk: **Wojciech Samek** |                 |     |                                         9:50 |   -   | 10:10 |      | Spotlights                         |                 |
-| 10:10 | -   | 10:40      |                 | _Coffee break_                            |                 |     |                                        10:10 |   -   | 10:40 |      | _Coffee break_                     |                 | 
-| 10:40 | -   | 11:25      |                 | Spotlights                                |                 |     |                                        10:40 |   -   | 11:25 |      | Spotlights                         |                 | 
-| 11:25 | -   | 12:15      |                 | Invited talk: **Ulrike von Luxburg**          |                 |     |                                        11:25 |   -   | 12:15 |      | Invited talk: **Mauricio Reyes**   |                 |
-| 12:15 | -   | 13:30      |                 | _Lunch break_                             |                 |     |                                        12:15 |   -   | 13:30 |      | _Lunch break_                      |                 |
-| 13:30 | -   | 14:00      |                 | Spotlights                                |                 |     |                                        13:30 |   -   | 14:20 |      | Spotlights                         |                 |
-| 14:00 | -   | 14:50      |                 | Invited talk: **Ruth Fong**               |                 |     |                                        14:20 |   -   | 15:10 |      | Invited talk: **Michela Paganini** |                 |
-| 14:50 | -   | 15:15      |                 | _Coffee break_                            |                 |     |                                        15:10 |   -   | 15:30 |      | Closing remarks                    |                 |
-| 15:15 | -   | 16:00      |                 | Spotlights                                |                 |     |                                              |       |       |      |                                    |                 | 
-| 16:00 | -   | 16:50      |                 | Invited talk: **Trevor Darrell**          |                 |     |  |       |       |      |                                    |                 |
-| 17:00 | -   | 18:00      |                 | Panel discussion                          |                 |     |                                              |       |       |      |                                    |                 |
+| March |     | 28th  | <img width=10/> |                                                                                                                                                                   | <img width=80/> |     | March |     | 29th  | <img width=10/>|                                                                                                                    | <img width=80/> |
+|------:|:---:|:------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|-----|------:|:---:|:------|------|--------------------------------------------------------------------------------------------------------------------|-----------------|
+|  9:00 |  -  | 9:20  |                 | Opening remarks                                                                                                                                                   |                 |     |  9:00 |  -  | 9:50  |      | Invited talk: **Bernt Schiele**                                                                                    |                 |
+|       |     |       |                 | <span style ="color: rgb(249,250,251);">*"Interpretability of Deep Learning Medical Image Computing Technologies: Insights, Challenges and Opportunities"*</span> |                 |     |       |     |       |      | *"Interpretability for Deep Learning in Computer Vision"*                                                          |                 |
+|  9:20 |  -  | 10:10 |                 | Invited talk: **Wojciech Samek**                                                                                                                                  |                 |     |  9:50 |  -  | 10:15 |      | Spotlight: **Moritz Böhle**                                                                                        |                 |
+|       |     |       |                 | *"Concept-Level Explainable AI"*                                                                                                                                  |                 |     |       |     |       |      |                                                                                                                    |                 |
+| 10:10 |  -  | 10:40 |                 | _Coffee break_                                                                                                                                                    |                 |     | 10:15 |  -  | 10:40 |      | _Coffee break_                                                                                                     |                 | 
+| 10:40 |  -  | 11:05 |                 | Spotlight: **Diego Marcos**                                                                                                                                       |                 |     | 10:40 |  -  | 11:05 |      | Spotlight:    **Leon Sixt**                                                                                    |                 | 
+| 11:05 |  -  | 11:30 |                 | Spotlight: **Valentyn Boreiko**                                                                                                                                   |                 |     | 11:05 |  -  | 11:30 |      | Spotlight: **Seong Joon Oh**                                                                                                    |                 | 
+| 11:30 |  -  | 12:20 |                 | Invited talk: **Ulrike von Luxburg**                                                                                                                              |                 |     | 11:30 |  -  | 12:20 |      | Invited talk: **Mara Graziani**                                                                                    |                 |
+|       |     |       |                 | *"Explanation and Regulation"*                                                                                                                                    |                 |     |       |     |       |      | *"Concept discovery and Dataset exploration with Singular Value Decomposition"*                                    |                 |
+| 12:20 |  -  | 13:20 |                 | _Lunch break_                                                                                                                                                     |                 |     | 12:20 |  -  | 13:20 |      | _Lunch break_                                                                                                      |                 |
+| 13:20 |  -  | 13:45 |                 | Spotlight: **Stephan Alaniz**                                                                                                                                     |                 |     | 13:20 |  -  | 13:45 |      | Spotlight: **Sara Blanco**                                                                                         |                 |
+|  |    | |                 |                                                                                                                                       |                 |     | 13:45 |  -  | 14:10 |      | Spotlight: **Julius von Klügelen**                                                                                 |                 |
+| 13:45 |  -  | 14:35 |                 | Invited talk: **Ruth Fong**                                                                                                                                       |                 |     | 14:10 |  -  | 15:00 |      | Invited talk: **Mauricio Reyes**                                                                                   |                 |
+|       |     |       |                 | *"Directions in Interpretability"*                                                                                                                                |                 |     |       |     |       |      | *"Interpretability of Deep Learning Medical Image Computing Technologies: Insights, Challenges and Opportunities"* |                 |
+| 14:35 |  -  | 15:05 |                 | _Coffee break_                                                                                                                                                    |                 |     | 15:00 |  -  | 15:15 |      | Closing remarks                                                                                                    |                 |
+| 15:05 |  -  | 15:30 |                 | Spotlight: **Katrin Renz**                                                                                                                                        |                 |     |       |     |       |      |                                                                                                                    |                 | 
+| 15:30 |  -  | 15:55 |                 | Spotlight: **Roland Zimmermann**                                                                                                                                  |                 |     |       |     |       |      |                                                                                                                    |                 | 
+| 16:00 |  -  | 16:50 |                 | Invited talk (hybrid): </br> **Trevor Darrell** and **Lisa Dunlap**                                                                                               |                 |     |       |     |       |      |                                                                                                                    |                 |
+|       |     |       |                 | *"Moving from Explainable models to Advisable models"*                                                                                                            |                 |     |       |     |       |      |                                                                                                                    |                 |
+| 17:00 |  -  | 18:00 |                 | Panel discussion                                                                                                                                                  |                 |     |       |     |       |      |                                                                                                                    |                 |
 
 
 ### Venue
@@ -136,7 +175,8 @@ Participants will also have the chance to explore the old university town of Tü
 
 ### Attending
 
-There is no registration fee, however the venue has limited capacity. If you would like to attend, please register **by February 28th** using this [form](https://forms.gle/ohFWR9uMeDBSkzaX6): we will then contact you by **March 3rd** to confirm your attendance.
+There is no registration fee, however the venue has limited capacity. ~~If you would like to attend, please register by February 28th using this **form**.~~
+Sorry, registrations are closed now!
 <br/>
 
 ### Childcare funds
