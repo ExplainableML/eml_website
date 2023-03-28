@@ -104,7 +104,7 @@ rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} chi
              <WorkshopMemberElement name="Zeynep Akata" img="/workshop/zeynep.png" link="https://www.eml-unitue.de/people/zeynep-akata" institute="Univ. of Tübingen"></WorkshopMemberElement>
              <WorkshopMemberElement name="Stephan Alaniz" img="/workshop/stephan.png" link="https://www.eml-unitue.de/people/stephan-alaniz" institute="Univ. of Tübingen"></WorkshopMemberElement>
              <WorkshopMemberElement name="Christian Baumgartner" img="/workshop/christian.png" link="https://baumgach.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
-             <WorkshopMemberElement name="A. Sophia Koepke" img="/workshop/placeholder.png" link="https://www.eml-unitue.de/people/almut-sophia-koepke" institute="Univ. of Tübingen"></WorkshopMemberElement>
+             <WorkshopMemberElement name="Almut Sophia Koepke" img="/workshop/placeholder.png" link="https://www.eml-unitue.de/people/almut-sophia-koepke" institute="Univ. of Tübingen"></WorkshopMemberElement>
              <WorkshopMemberElement name="Massimiliano Mancini" img="/workshop/massi.png" link="https://mancinimassimiliano.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
              <WorkshopMemberElement name="Seong Joon Oh" img="/workshop/joon.png" link="https://coallaoh.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
         </div>
