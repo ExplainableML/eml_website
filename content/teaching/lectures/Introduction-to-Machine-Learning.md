@@ -46,4 +46,5 @@ The lectures will take place in person in room N2, Morgenstelle.<br>
 Each lecture will be accompanied by exercise classes (days, times, and rooms to be announced).
 
 ## Registration and requirements
-To be announced.
+The registration is open via [ILIAS](https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=crs_4127118&client_id=pr02).
+
