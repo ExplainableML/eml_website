@@ -43,8 +43,10 @@ The schedule of the course is as follows:
 
 <br>
 The lectures will take place in person in room N2, Morgenstelle.<br>
-Each lecture will be accompanied by exercise classes (days, times, and rooms to be announced).
+Each lecture will be accompanied by exercise classes.
+
+Please refer to [ILIAS](https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=crs_4127118) for up-to-date information.
 
 ## Registration and requirements
-The registration is open via [ILIAS](https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=crs_4127118&client_id=pr02).
+The registration is open via [ILIAS](https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=crs_4127118).
 
