@@ -10,6 +10,7 @@ import PublicationGrid from '../components/PublicationGrid'
 import TeachingGrid from '../components/TeachingGrid'
 import JobGrid from '../components/JobGrid'
 import ContactGrid from '../components/ContactGrid'
+import WorkshopGrid from '../components/WorkshopGrid'
 
 import Footer from '../components/Footer';
 import NewsGrid from '../components/NewsGrid';
@@ -62,6 +63,9 @@ export default function Home(props) {
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
       <div className="pt-24" id="jobs"></div>
+      <div className="pt-24" id="events"></div>
+      <Headline text="Events"></Headline>
+      <WorkshopGrid></WorkshopGrid>
       <div class="pt-24" id="news"></div>
       <Headline text="News" ></Headline>
       <NewsGrid></NewsGrid>
