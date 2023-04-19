@@ -42,7 +42,7 @@ The schedule of the course is as follows:
 - July 19th, 12-2pm
 
 <br>
-The lectures will take place in person in room N2, Morgenstelle.<br>
+The lectures will take place in person in room N7, Morgenstelle.<br>
 Each lecture will be accompanied by exercise classes.
 
 Please refer to [ILIAS](https://ovidius.uni-tuebingen.de/ilias3/goto.php?target=crs_4127118) for up-to-date information.
