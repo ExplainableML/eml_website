@@ -8,6 +8,7 @@ link: alumni
 
 # List of Alumni
 
+* Yongqin Xian (Collaborating Research Scientist) at EML, now Research Scientist at Google Zurich
 * Ferjad Naeem (Master Thesis Student) at EML, now PhD Student at ETH Zurich
 * Robin Schmidt (Master Thesis Student) at EML, now AI Resident at Apple, Germany
 * Hanqi Zhou (Visiting MSc Student)

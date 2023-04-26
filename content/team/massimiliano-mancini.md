@@ -1,8 +1,8 @@
 ---
 img: "/team/massimiliano-mancini.jpg"
 name: Massimiliano Mancini
-role: Postdoctoral Researcher
-order: 2
+role: Collaborating Faculty
+order: 9
 link: massimiliano-mancini
 mail: massimiliano.mancini at uni-tuebingen.de
 website: https://mancinimassimiliano.github.io
