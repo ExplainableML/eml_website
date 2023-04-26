@@ -8,6 +8,7 @@ link: alumni
 
 # List of Alumni
 
+* Zafir Stojanovski (Master Thesis Student) at EML, now Machine Learning Engineer at Aimino in Karlsruhe 
 * Yongqin Xian (Collaborating Research Scientist) at EML, now Research Scientist at Google Zurich
 * Ferjad Naeem (Master Thesis Student) at EML, now PhD Student at ETH Zurich
 * Robin Schmidt (Master Thesis Student) at EML, now AI Resident at Apple, Germany
