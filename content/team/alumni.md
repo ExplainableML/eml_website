@@ -8,13 +8,13 @@ link: alumni
 
 # List of Alumni
 
-* Zafir Stojanovski (Master Thesis Student) at EML, now Machine Learning Engineer at Aimino in Karlsruhe 
+* Zafir Stojanovski (Master Thesis Student) at EML, now Machine Learning Engineer at Aimino in Karlsruhe
 * Yongqin Xian (Collaborating Research Scientist) at EML, now Research Scientist at Google Zurich
 * Ferjad Naeem (Master Thesis Student) at EML, now PhD Student at ETH Zurich
 * Robin Schmidt (Master Thesis Student) at EML, now AI Resident at Apple, Germany
 * Hanqi Zhou (Visiting MSc Student)
 * Ozgur Kara (Visiting BSc Student)
-* Andrei Neculai (Master Thesis Student)
+* Andrei Neculai (Master Thesis Student) at EML, now Machine Learning Engineer at Booking.com in Amsterdam, Netherlands
 * Lukas Riesch (Master Thesis Student) at EML, now AI Engineer at Bosch research, Germany
 * Sam Tureski (Master Thesis Student) at EML, now NLP Research Engineer at Posh, New york
 * Ilke Cugu (Research Scientist) at EML, now Engineer at Microsoft, Turkey
