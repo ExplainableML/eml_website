@@ -16,7 +16,7 @@ export default function EventCard(props) {
 
        {props.type == "External Events" && <div>
        <div class="pb-4">
-           <Image src="/external.png" objectFit="cover" width="200" height="200"></Image>
+           <center><Image src="/external.png" objectFit="cover" width="150" height="150"></Image></center>
            </div>
         <div class="font-bold text-center text-xl">External Events</div>
         <div class="flex flex-row justify-center items-center pt-8">
@@ -28,7 +28,7 @@ export default function EventCard(props) {
 
        {props.type == "Internal Events" && <div>
        <div class="pb-4">
-           <Image src="/internal.png" objectFit="cover" width="200" height="200"></Image>
+           <center><Image src="/internal.png" objectFit="cover" width="150" height="150"></Image></center>
            </div>
         <div class="font-bold text-center text-xl">Internal Events</div>
 
