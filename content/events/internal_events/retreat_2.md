@@ -1,5 +1,5 @@
 ---
-title: EML retreat at Schloss Lautrach
+title: EML Retreat at Schloss Lautrach
 ---
-# EML retreat at Schloss Lautrach
+# EML Retreat at Schloss Lautrach
 
