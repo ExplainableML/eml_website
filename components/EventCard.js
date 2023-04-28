@@ -18,7 +18,7 @@ export default function EventCard(props) {
        <div class="pb-4">
            <center><Image src="/external.png" objectFit="cover" width="150" height="150"></Image></center>
            </div>
-        <div class="font-bold text-center text-xl">External Events</div>
+        <div class="font-bold text-center text-xl">Workshops</div>
         <div class="flex flex-row justify-center items-center pt-8">
        <a class="text-purple-500 font-semibold" href="/events/external_events">View Details</a>
 </div> 
@@ -30,7 +30,7 @@ export default function EventCard(props) {
        <div class="pb-4">
            <center><Image src="/internal.png" objectFit="cover" width="150" height="150"></Image></center>
            </div>
-        <div class="font-bold text-center text-xl">Internal Events</div>
+        <div class="font-bold text-center text-xl">Retreats</div>
 
         <div class="flex flex-row justify-center items-center pt-8">
 
