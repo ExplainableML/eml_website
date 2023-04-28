@@ -69,36 +69,8 @@ export default function Thesis(props) {
           {seminars.filter((item)=>{return item.data.title == activeSeminar}).map(item=>{
             return <ReactMarkdown   remarkPlugins={[remarkMath, gfm]}
             rehypePlugins={[rehypeKatex, rehypeRaw]} skipHtml={false} escapeHtml={false} children={item.content} />
-          })}
-			<h1>Speakers</h1>
-    <div id="speakers" className="border-b-2 grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2 text-center">
-             <WorkshopMemberElement name="Trevor Darrell" img="/workshop/darrell.png" link="https://people.eecs.berkeley.edu/~trevor/" institute="UC Berkeley"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Ruth Fong" img="/workshop/ruth.png" link="https://www.ruthfong.com/" institute="Princeton University"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Mara Graziani" img="/workshop/mara.png" link="https://maragraziani.com/" institute="IBM & HES-SO Valais"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Mauricio Reyes" img="/workshop/mauricio.png" link="https://mauricioreyes.me/" institute="Univ. of Bern"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Wojciech Samek" img="/workshop/samek.png" link="https://iphome.hhi.de/samek/" institute="Fraunhofer HHI & TU Berlin"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Bernt Schiele" img="/workshop/bernt.png" link="https://https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/" institute="MPI for Informatics & Saarland University"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Ulrike von Luxburg" img="/workshop/ulrike.png" link="http://www.tml.cs.uni-tuebingen.de/team/luxburg/" institute="Univ. of Tübingen"></WorkshopMemberElement>
-
-    </div>
-    
-    
-    <h1>Organizers</h1>
-                        <div id="organizers" className="border-b-2 text-center grid container grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6 mb-2">
-             <WorkshopMemberElement name="Zeynep Akata" img="/workshop/zeynep.png" link="https://www.eml-unitue.de/people/zeynep-akata" institute="Univ. of Tübingen"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Stephan Alaniz" img="/workshop/stephan.png" link="https://www.eml-unitue.de/people/stephan-alaniz" institute="Univ. of Tübingen"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Christian Baumgartner" img="/workshop/christian.png" link="https://baumgach.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Almut Sophia Koepke" img="/workshop/placeholder.png" link="https://www.eml-unitue.de/people/almut-sophia-koepke" institute="Univ. of Tübingen"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Massimiliano Mancini" img="/workshop/massi.png" link="https://mancinimassimiliano.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
-             <WorkshopMemberElement name="Seong Joon Oh" img="/workshop/joon.png" link="https://coallaoh.github.io/" institute="Univ. of Tübingen"></WorkshopMemberElement>
-        </div>
-        <table>
-                    <tr>
-                        <th width={"30%"} align={"left"}>Workshop funded by the <br/>"Cluster of Excellence - <br/>Machine Learning: New Perspectives for Science"</th>
-                        <th><img src="/workshop/cluster.png"/></th>
-                    </tr>
-                </table>
-    
+          })}          	
+          	
         </div>
 
       </div>

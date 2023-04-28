@@ -185,10 +185,86 @@ Sorry, registrations are closed now!
 The workshop can offer limited childcare grants. Please indicate if you require childcare support when registering your interest to attend.
 <br/>
 
+
+
+
+
 ### Contact
 Do you have any questions? Please send an email to **eml-workshop@inf.uni-tuebingen.de**.
-<br/>
-<br/>
-<div class="border-b-2"></div>
+
+
+<h1>Speakers</h1>
+
+<div class="mb-8 flex flex-col items-center">
+<table cellpadding="14">
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href=https://people.eecs.berkeley.edu/~trevor/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/darrell.png alt=Trevor Darrell ></Image> <a href=https://people.eecs.berkeley.edu/~trevor/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Trevor Darrell </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">UC Berkeley</p> </div></a>
+ </td>
+            <td><a href=https://www.ruthfong.com/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover"  src=/workshop/ruth.png alt=Ruth Fong ></Image> <a href=https://www.ruthfong.com/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Ruth Fong </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Princeton University</p> </div></a>
+ </td>
+ 			<td><a href=https://maragraziani.com/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/mara.png alt=Mara Graziani ></Image> <a href=https://maragraziani.com/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Mara Graziani </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">IBM & HES-SO Valais</p> </div></a>
+ </td>
+            <td><a href=https://mauricioreyes.me/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/mauricio.png alt=Mauricio Reyes ></Image> <a href=https://mauricioreyes.me/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Mauricio Reyes </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Bern</p> </div></a>
+ </td>
+         </tr>
+         <tr>
+ 			<td><a href=https://iphome.hhi.de/samek/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/samek.png alt=Wojciech Samek ></Image> <a href=https://iphome.hhi.de/samek/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Wojciech Samek </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Fraunhofer HHI & TU Berlin</p> </div></a>
+ </td>
+ 			<td><a href=https://https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/bernt.png alt=Bernt Schiele ></Image> <a href=https://https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Bernt Schiele </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">MPI for Informatics &  Saarland <br></p><p class="mt-3 text-purple-500 text-base md:text-xs font-bold">University</p> </div></a>
+ </td>
+ 			<td><a href=http://www.tml.cs.uni-tuebingen.de/team/luxburg/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/ulrike.png alt=Ulrike von Luxburg ></Image> <a href=http://www.tml.cs.uni-tuebingen.de/team/luxburg/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Ulrike von Luxburg </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+ </td>
+        </tr>
+    </tbody>
+</table>
+</div> 
+
+<h1>Organizers</h1>
+
+<div class="mb-8 flex flex-col items-center">
+<table cellpadding="14">
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href=https://www.eml-unitue.de/people/zeynep-akata> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/zeynep.png alt=Zeynep Akata ></Image> <a href=https://www.eml-unitue.de/people/zeynep-akata class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Zeynep Akata </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+ </td>
+            <td><a href=https://www.eml-unitue.de/people/stephan-alaniz> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover"  src=/workshop/stephan.png alt=Stephan Alaniz ></Image> <a href=https://www.eml-unitue.de/people/stephan-alaniz class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Stephan Alaniz </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+ </td>
+ 			<td><a href=https://baumgach.github.io/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/christian.png alt=Christian Baumgartner ></Image> <a href=https://baumgach.github.io/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Christian Baumgartner </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+ </td>
+            <td><a href=https://www.eml-unitue.de/people/almut-sophia-koepke> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/placeholder.png alt=Almut Sophia Koepke ></Image> <a href=https://www.eml-unitue.de/people/almut-sophia-koepke class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Almut Sophia Koepke </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+ </td>
+         </tr>
+         <tr>
+ 			<td><a href=https://mancinimassimiliano.github.io/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/massi.png alt=Massimiliano Mancini ></Image> <a href=https://mancinimassimiliano.github.io/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Massimiliano Mancini </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+ </td>
+ 			<td><a href=https://coallaoh.github.io/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/joon.png alt=Seong Joon Oh ></Image> <a href=https://coallaoh.github.io/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" >Seong Joon Oh </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+ </td>
+        </tr>
+    </tbody>
+</table>
+</div> 
+
+
+
+<div class="mb-8 flex flex-col items-center">
+<table>
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td ><p class="mt-3 text-black-500 text-base font-bold">Workshop funded by the <br/>"Cluster of Excellence - <br/>Machine Learning: New Perspectives for Science"</p> </td>
+                        <td><img src="/workshop/cluster.png"/ width="870" height="870"></td>
+        </tr>
+    </tbody>
+</table>
+</div> 
+
+
+
 
 
