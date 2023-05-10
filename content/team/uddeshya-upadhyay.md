@@ -23,7 +23,7 @@ For more details about me, please check my [homepage](https://udion.github.io/).
 
 # Publications
 
-* **full list of publication @ [Google Scholar]](https://scholar.google.com/citations?hl=en&user=Zgk0Z6kAAAAJ&view_op=list_works&sortby=pubdate)**
+**Full list of publication @ [Google Scholar](https://scholar.google.com/citations?hl=en&user=Zgk0Z6kAAAAJ&view_op=list_works&sortby=pubdate)**
 
 - "USIM-DAL: Uncertainty-aware Statistical Image Modeling-based Dense Active Learning for Super-resolution", Vikrant Rangnekar*, Uddeshya Upadhyay*, Zeynep Akata, Biplab Banerjee, The Conference on Uncertainty in Artificial Intelligence (UAI), 2023
 - "The Manifold Hypothesis for Gradient-Based Explanations",Sebastian Bordt, Uddeshya Upadhyay, Zeynep Akata, Urlike von Luxburg, Explainable AI for Computer Vision (XAI4CV) Workshop - The IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2023
