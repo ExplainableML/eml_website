@@ -13,7 +13,7 @@ profile: # hello
 ---
 
 # Profile
-Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excellence Machine Learning at the University of Tübingen. After completing her PhD at the INRIA Rhone Alpes with Prof Cordelia Schmid (2014), she worked as a post-doctoral researcher at the Max Planck Institute for Informatics with Prof Bernt Schiele (2014-17) and at University of California Berkeley with Prof Trevor Darrell (2016-17). Before moving to Tübingen in October 2019, she was an assistant professor at the University of Amsterdam with Prof Max Welling (2017-19). She received a Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society in 2014, a young scientist honour from the Werner-von-Siemens-Ring foundation in 2019 and an ERC-2019 Starting Grant from the European Commission. Her research interests include multimodal learning and explainable AI.
+Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excellence Machine Learning at the University of Tübingen. After completing her PhD at the INRIA Rhone Alpes with Prof Cordelia Schmid (2014), she worked as a post-doctoral researcher at the Max Planck Institute for Informatics with Prof Bernt Schiele (2014-17) and at University of California Berkeley with Prof Trevor Darrell (2016-17). Before moving to Tübingen in October 2019, she was an assistant professor at the University of Amsterdam with Prof Max Welling (2017-19). She received a Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society in 2014, a young scientist honour from the Werner-von-Siemens-Ring foundation in 2019, an ERC-2019 Starting Grant from the European Commission, The DAGM German Pattern Recognition Award in 2021 and The ECVA Young Researcher Award in 2022. Her research interests include multimodal learning and explainable AI.
 
 ## Experience
 - Professor of Computer Science, University of Tübingen, 2019 – Now
@@ -31,9 +31,9 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 ## External Activities
 
 * Program Chair:
-    * GCPR-DAGM 2020​
+    * GCPR-DAGM 2020, IEEE CVPR 2024, IEEE ICCV 2026​
 * Area Chair:
-    * WACV 2016, IJCAI 2018, ECCV 2018, BMVC 2019, CVPR 2019-2020, ICCV 2019, ICML 2020-2021, ECCV 2020, ICLR 2021
+    * WACV 2016, IJCAI 2018, ECCV 2018, BMVC 2019, CVPR 2019-2023, ICCV 2019-2023, ICML 2020-2023, ECCV 2020-2022, ICLR 2021-2023
 * Associate Editor:
     * Pattern Recognition Journal (Appointment between Aug 2018 - Aug 2020)
     * Transactions on Pattern Analysis and Machine Intelligence (TPAMI) (2020 - Now)
@@ -64,6 +64,7 @@ Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excel
 * ERC Starting Grant from the European Research Council in 2019
 * Young Investigator honour from Werner-von-Siemens-Ring Foundation in 2019
 * DAGM German Pattern Recognition Award in 2021
+* ECVA Young Researcher Award in 2022
 
 
 # Publications
