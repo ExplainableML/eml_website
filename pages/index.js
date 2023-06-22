@@ -72,6 +72,8 @@ export default function Home(props) {
       <div class="pt-24" id="contact"></div>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
+      <img src="Logo_Uni_Cluster.png"  width="800" height="800" />
+      <br></br>
     </div>
     <Footer></Footer>
     </div>
