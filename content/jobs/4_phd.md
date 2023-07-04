@@ -11,7 +11,7 @@ Please consider applying if you are interested in joining us!
 
 ## Applying as a Ph.D. student to our group
 
-We usually hire students via centralized calls, i.e. the *European Laboratory for Learning and Intelligent* ([ELLIS](https://ellis.eu/phd-postdoc)) Ph.D. Program and *International Max Planck Research School for Intelligent Systems* ([IMPRS-IS](https://imprs.is.mpg.de/application)). 
+We usually hire students via centralized calls, i.e. the *European Laboratory for Learning and Intelligent Systems* ([ELLIS](https://ellis.eu/phd-postdoc)) Ph.D. Program and *International Max Planck Research School for Intelligent Systems* ([IMPRS-IS](https://imprs.is.mpg.de/application)). 
 Both ELLIS and IMPRS-IS are vibrant research communities, with top researchers in various fields of machine learning, AI, and robotics. If you want to join us for your Ph.D., consider applying through these calls!
 
 
