@@ -2,7 +2,7 @@
 title: Seminar Learning with Limited Label Data
 ---
 
-# Seminar Learning with Limited Label Data (WS 21 / 22)
+# Seminar: Learning with Limited Label Data (WS 21 / 22)
 ## Content
 
 Current publications on machine learning / computer vision are covered in this seminar. In this seminar, we will discuss research papers related to visual learning with limited labeled data, including deep learning methods for zero-shot and few-shot learning, semi-supervised learning, unsupervised pre-training, and self-supervised learning.
