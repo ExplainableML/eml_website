@@ -5,7 +5,7 @@ authors: Shyamgopal Karthik, Massimiliano Mancini, Zeynep Akata
 publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
 year: 2022
 date: "2022-03-28"
-filename: KG-SP:-Knowledge-Guided-Simple-Primitives-for-Open-World-Compositional-Zero-Shot-Learning
+filename: KG-SP-Knowledge-Guided-Simple-Primitives-for-Open-World-Compositional-Zero-Shot-Learning
 arxiv: https://arxiv.org/abs/2205.06784
 github: https://github.com/ExplainableML/KG-SP
 
