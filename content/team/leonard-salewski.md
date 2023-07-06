@@ -33,7 +33,7 @@ German Conference on Pattern Recognition, 2022\
 &nbsp;
 
 CLEVR-X: A visual reasoning dataset for natural language explanations.\
-**Leonard Salewski**, [A. Sophia Koepke](https://www.eml-unitue.de/people/almut-sophia-koepke), [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+**Leonard Salewski**, [A. Sophia Koepke](https://www.eml-unitue.de/people/almut-sophia-koepke), [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 Springer Lecture Notes on Artificial Intelligence, 2022\
 [Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)\
 <span style="color:black; font-style:italic">This was also presented at the CVPR 2022 Workshop on Explainable AI for Computer Vision (XAI4CV).</span>
@@ -41,7 +41,7 @@ Springer Lecture Notes on Artificial Intelligence, 2022\
 &nbsp;
 
 e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks.\
-[Maxime Kayser](https://www.bdi.ox.ac.uk/Team/maxime-kayser), [Oana-Maria Camburu](https://www.cs.ox.ac.uk/people/oana-maria.camburu/), **Leonard Salewski**, [Cornelius Emde](https://www.bdi.ox.ac.uk/Team/cornelius-emde), [Virginie Do](https://virginie-do.github.io/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata), [Thomas Lukasiewicz](https://www.cs.ox.ac.uk/people/thomas.lukasiewicz/).\
+[Maxime Kayser](https://www.bdi.ox.ac.uk/Team/maxime-kayser), [Oana-Maria Camburu](https://www.cs.ox.ac.uk/people/oana-maria.camburu/), **Leonard Salewski**, [Cornelius Emde](https://www.bdi.ox.ac.uk/Team/cornelius-emde), [Virginie Do](https://virginie-do.github.io/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Thomas Lukasiewicz](https://www.cs.ox.ac.uk/people/thomas.lukasiewicz/)\
 IEEE International Conference of Computer Vision, ICCV 2021\
 [Paper](https://arxiv.org/pdf/2105.03761.pdf) | [Code](https://github.com/maximek3/e-ViL)
 
