@@ -16,6 +16,8 @@ Leonard Salewski is a Ph.D. candidate in the [International Max-Planck Research 
 
 His primary research interests lie in the intersection of computer vision and natural language processing as well as in the properties of large language models.
 
+Additionally, he is working on *scholarGPT*, an academic chatbot, that does not hallucinate its sources, but instead gives reliable and traceable answers based on >2.25 arXiv pre-prints. Further applications for scholarGPT, lay in law, journalism and education.
+
 # Publications
 
 In-Context Impersonation Reveals Large Language Models' Strengths and Biases.\
@@ -59,3 +61,4 @@ British Machine Vision Conference, 2020\
 - MULA 2022
 - CVPR 2023 (Emergency)
 - IJCV 2023
+- BMVC 2023 (Emergency)
