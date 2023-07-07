@@ -4,13 +4,14 @@ import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import Headline from '../components/Headline'
 import TeamMemberGrid from '../components/TeamMemberGrid'
-import WorkshopGrid from '../components/WorkshopGrid'
 import Hero from '../components/Hero'
 
 import PublicationGrid from '../components/PublicationGrid'
 import TeachingGrid from '../components/TeachingGrid'
+import JobGrid from '../components/JobGrid'
 import ContactGrid from '../components/ContactGrid'
-
+import WorkshopGrid from '../components/WorkshopGrid'
+import EventGrid from '../components/EventGrid'
 import Footer from '../components/Footer';
 import NewsGrid from '../components/NewsGrid';
 
@@ -61,15 +62,18 @@ export default function Home(props) {
       <div class="pt-24" id="teaching"></div>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
-      <div className="pt-24" id="workshop"></div>
-      <Headline text="Workshop"></Headline>
-      <WorkshopGrid></WorkshopGrid>
+      <div className="pt-24" id="jobs"></div>
+      <div className="pt-24" id="events"></div>
+      <Headline text="Events"></Headline>
+      <EventGrid></EventGrid>
       <div class="pt-24" id="news"></div>
       <Headline text="News" ></Headline>
       <NewsGrid></NewsGrid>
       <div class="pt-24" id="contact"></div>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
+      <img src="Logo_Uni_Cluster.png"  width="800" height="800" />
+      <br></br>
     </div>
     <Footer></Footer>
     </div>

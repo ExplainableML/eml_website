@@ -4,15 +4,58 @@ name: Leonard Salewski
 role: PhD Researcher
 order: 4
 link: leonard-salewski
-mail: leonard.salewski at uni-tuebingen.de
+linkedin: https://www.linkedin.com/in/leonard-salewski/
+github: l-salewski
+mail: leonard.salewski (at) uni-tuebingen.de
+twitter: L_Salewski
+scholar: https://scholar.google.de/citations?user=jJz3mXcAAAAJ&hl=de&oi=ao
 ---
 
 # Profile
-Leonard Salewski is a Ph.D. candidate in the International Max-Planck Research School for Intelligent Systems (IMPRS-IS) under the supervision of Prof. Zeynep Akata and Prof. Hendrik Lensch. He received his bachelor’s degree in Aerospace Engineering at the University of Stuttgart in 2016 and focused on Information Technology and Flight Control and Systems Technology for his master’s degree in Aerospace Engineering. In 2018 he was a research intern at the Bosch Center for Artificial Intelligence.
+Leonard Salewski is a Ph.D. candidate in the [International Max-Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) under the supervision of [Prof. Zeynep Akata]((https://www.eml-unitue.de/people/zeynep-akata)) and [Prof. Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/). He received his bachelor’s degree in Aerospace Engineering at the University of Stuttgart in 2016 and focused on Information Technology and Flight Control and Systems Technology for his master’s degree in Aerospace Engineering. In 2018 he was a research intern at the Bosch Center for Artificial Intelligence.
 
-His primary research interests lie in the intersection of computer vision and natural language processing as well as in meta learning.
+His primary research interests lie in the intersection of computer vision and natural language processing as well as in the properties of large language models.
 
 # Publications
 
-- "CLEVR-X: A Visual Reasoning Dataset for Natural Language Explanations", Leonard Salewski, A. Sophia Koepke, Hendrik P. A. Lensch, Zeynep Akata, Springer LNAI 13200 xxAI – Beyond explainable Artificial Intelligence 2022
-- "e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks", Maxime Kayser, Oana-Maria Camburu, Leonard Salewski, Cornelius Emde, Virginie Do, Zeynep Akata, Thomas Lukasiewicz, IEEE International Conference of Computer Vision, ICCV 2021
+In-Context Impersonation Reveals Large Language Models' Strengths and Biases.\
+**Leonard Salewski**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), [Isabel Rio-Torto](https://www.eml-unitue.de/people/isabel-rio-torto), [Eric Schulz](https://www.kyb.tuebingen.mpg.de/person/103915/2537) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+ArXiv abs/2305.14930, 2023\
+[Paper](https://arxiv.org/pdf/2305.14930.pdf)
+
+&nbsp;
+
+Diverse Video Captioning by Adaptive Spatio-temporal Attention.\
+[Zohreh Ghaderi](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/zohreh-ghaderi/), **Leonard Salewski** and [Hendrik P. A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/)\
+German Conference on Pattern Recognition, 2022\
+[Paper](https://arxiv.org/pdf/2208.09266.pdf)
+
+&nbsp;
+
+CLEVR-X: A visual reasoning dataset for natural language explanations.\
+**Leonard Salewski**, [A. Sophia Koepke](https://www.eml-unitue.de/people/almut-sophia-koepke), [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+Springer Lecture Notes on Artificial Intelligence, 2022\
+[Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)\
+<span style="color:black; font-style:italic">This was also presented at the CVPR 2022 Workshop on Explainable AI for Computer Vision (XAI4CV).</span>
+
+&nbsp;
+
+e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks.\
+[Maxime Kayser](https://www.bdi.ox.ac.uk/Team/maxime-kayser), [Oana-Maria Camburu](https://www.cs.ox.ac.uk/people/oana-maria.camburu/), **Leonard Salewski**, [Cornelius Emde](https://www.bdi.ox.ac.uk/Team/cornelius-emde), [Virginie Do](https://virginie-do.github.io/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Thomas Lukasiewicz](https://www.cs.ox.ac.uk/people/thomas.lukasiewicz/)\
+IEEE International Conference of Computer Vision, ICCV 2021\
+[Paper](https://arxiv.org/pdf/2105.03761.pdf) | [Code](https://github.com/maximek3/e-ViL)
+
+&nbsp;
+
+Relational Generalized Few-Shot Learning.\
+[Xiahan Shi](https://ivi.fnwi.uva.nl/uvaboschdeltalab/team-details/xiahan-shi/), **Leonard Salewski**, [Martin Schiegg](https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_84.html), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Max Welling](https://staff.fnwi.uva.nl/m.welling/)\
+British Machine Vision Conference, 2020\
+[Paper](https://arxiv.org/pdf/1907.09557.pdf)\
+*This publication is the result of my master thesis.*
+
+# Reviewing
+
+- TPAMI 2021
+- MULA 2022
+- CVPR 2023 (Emergency)
+- IJCV 2023

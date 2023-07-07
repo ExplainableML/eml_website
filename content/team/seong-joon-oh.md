@@ -2,7 +2,7 @@
 img: "/team/seong-joon-oh.png"
 name: Seong Joon Oh
 role: Collaborating Faculty
-order: 7
+order: 9
 link: seong-joon-oh
 scholar: https://scholar.google.com/citations?user=kmXOOdsAAAAJ&hl=en
 website: https://coallaoh.github.io/

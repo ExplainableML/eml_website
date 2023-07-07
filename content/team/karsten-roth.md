@@ -12,15 +12,45 @@ scholar: https://scholar.google.com/citations?user=93ZjIs0AAAAJ
 ---
 
 # Profile
-Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the European Laboratory for Learning and Intelligent Systems (ELLIS) co-supervised by Prof. Zeynep Akata and Dr. Oriol Vinyals at Deepmind.
+Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ and the _International Max-Planck Research School for Intelligent Systems (IMPRS-IS)_ co-supervised by Prof. Zeynep Akata and Dr. Oriol Vinyals at Deepmind.
 
-Karsten has completed both Bachelor and Master studies in Physics at Heidelberg University, with the latter completed in 2021. He has spent time abroad in Canada as a research intern at the Montreal Institute for Learning Algorithms (MILA) supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the Vector Institute supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. He has also worked as a research intern at the Amazon AWS research lablet in Tuebingen working on Anomaly Detection.
+</br>
 
-His primary interests cover zero- and few-shot learning problems and understanding generalisation behaviour of learned representation as well as medical applications and multi-modal representation learning.
+He has completed both Bachelor and Master studies in Physics at Heidelberg University (2021). 
+During that time, Karsten has spent time abroad in Canada as a research intern at the _Montreal Institute for Learning Algorithms (MILA)_ supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the _Vector Institute_ supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. 
+
+</br>
+
+As research intern, Karsten has also worked at the Amazon AWS research lablet in Tuebingen on Anomaly Detection with Peter Gehler and Thomas Brox, and Meta AI in Paris on Disentangled Representation Learning with Mark Ibrahim, Pascal Vincent and Diane Bouchacourt.
+
+</br>
+
+His primary interests cover approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations and foundation models. He is also very interested in their application to medicine and the sciences.
 
 
 # Publications
-- "A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning", Michael Kirchhof *, Karsten Roth *, Zeynep Akata, Enkelejda Kasneci, European Conference on Computer Vision, ECCV 2022
-- "Non-isotropy Regularization for Proxy-based Deep Metric Learning", Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
-- "Integrating Language Guidance into Vision-based Deep Metric Learning", Karsten Roth, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+
+</br>
+
+- __"_Disentanglement of Correlated Factors via Hausdorff Factorized Support_"__, _Karsten Roth_, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt * at International Conference on Learning Representations, ICLR 2023
+
+</br>
+
+- __"_Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning_"__, Zafir Stojanovski *, _Karsten Roth_ *, Zeynep Akata, Best Paper at INTERPOLATE Workshop @ Conference on Neural Information Processing Systems, NeurIPS 2022
+
+</br>
+
+- __"_A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning_"__, Michael Kirchhof *, _Karsten Roth_ *, Zeynep Akata, Enkelejda Kasneci, European Conference on Computer Vision, ECCV 2022
+
+</br>
+
+- __"_Uniform Priors for Data-Efficient Learning_"__, Samarth Sinha *, _Karsten Roth_ *, Anirudh Goyal, Marzyeh Ghassemi, Zeynep Akata, Hugo Larochelle, Animesh Garg, Workshop on Learning with Limited Labels @ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+
+</br>
+
+- __"_Non-isotropy Regularization for Proxy-based Deep Metric Learning_"__, _Karsten Roth_, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+
+</br>
+
+- __"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__, _Karsten Roth_, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022 (Oral)
 
