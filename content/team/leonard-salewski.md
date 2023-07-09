@@ -16,7 +16,7 @@ Leonard Salewski is a Ph.D. candidate in the [International Max-Planck Research 
 
 His primary research interests lie in the intersection of computer vision and natural language processing as well as in the properties of large language models.
 
-Additionally, he is working on *scholarGPT*, an academic chatbot, that does not hallucinate its sources, but instead gives reliable and traceable answers based on >2.25 arXiv pre-prints. Further applications for scholarGPT, lay in law, journalism and education.
+Additionally, he is working on *scholarGPT*, an academic chatbot, that does not hallucinate its sources, but instead gives reliable and traceable answers based on >2.25M arXiv pre-prints. Further applications for scholarGPT, can be found in law, journalism and education.
 
 # Publications
 
