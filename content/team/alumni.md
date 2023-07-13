@@ -2,12 +2,14 @@
 img: "/team/profile_dummy.png"
 name: Alumni
 role:
-order: 12
+order: 13
 link: alumni
 ---
 
 # List of Alumni
 
+* Stefan Fauth (Master Thesis Student)
+* Michael Gröger (Master Thesis Student)
 * Zafir Stojanovski (Master Thesis Student) at EML, now Machine Learning Engineer at Aimino in Karlsruhe
 * Yongqin Xian (Collaborating Research Scientist) at EML, now Research Scientist at Google Zurich
 * Ferjad Naeem (Master Thesis Student) at EML, now PhD Student at ETH Zurich

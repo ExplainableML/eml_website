@@ -1,8 +1,8 @@
 ---
 img: "/team/lukas-thede.jpg"
 name: Lukas Thede
-role: Research Scientist
-order: 5
+role: PhD Researcher
+order: 4
 link: lukas-thede
 linkedin: https://www.linkedin.com/in/lukas-thede-3b6700166
 mail: Lukas.Thede at t-online.de
