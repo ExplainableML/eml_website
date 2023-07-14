@@ -1,5 +1,5 @@
 ---
-img: "/team/karsten-roth-2.jpg"
+img: "/team/karsten-roth.jpg"
 name: Karsten Roth
 role: PhD Researcher
 order: 4
