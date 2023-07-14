@@ -5,10 +5,10 @@ role: PhD Researcher
 order: 4
 link: leonard-salewski
 linkedin: https://www.linkedin.com/in/leonard-salewski/
-github: l-salewski
+github: https://github.com/l-salewski
 mail: leonard.salewski (at) uni-tuebingen.de
 twitter: L_Salewski
-scholar: https://scholar.google.de/citations?user=jJz3mXcAAAAJ&hl=de&oi=ao
+scholar: https://scholar.google.de/citations?user=jJz3mXcAAAAJ
 ---
 
 # Profile
