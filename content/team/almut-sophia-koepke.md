@@ -5,6 +5,7 @@ role: Research Fellow
 order: 2
 link: almut-sophia-koepke
 mail: a-sophia.koepke (at) uni-tuebingen.de
+website: https://akoepke.github.io
 scholar: https://scholar.google.com/citations?user=q9zQhj8AAAAJ&hl=en
 ---
 
