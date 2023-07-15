@@ -15,7 +15,28 @@ Her research focusses on multi-modal learning problems with sound, vision, and l
 
 # Publications
 
-Exposing and Mitigating Spurious Correlations for Cross-Modal Retrieval\
+Waffling around for performance: Visual classification with random words and broad concepts\
+[Karsten Roth](https://karroth.com/), [Jae Myung Kim](https://jaemyung-kim.github.io/)\, A. Sophia Koepke, [Oriol Vinyals](https://research.google/people/OriolVinyals/), [Cordelia Schmid](https://thoth.inrialpes.fr/~schmid/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+IEEE/CVF International Conference on Computer Vision (ICCV), 2023\
+[Paper](https://arxiv.org/pdf/2306.07282.pdf) | [Code](https://github.com/ExplainableML/WaffleCLIP)
+
+&nbsp;
+
+Image-free classifier injection for zero-shot classification\
+[Anders Christensen](https://www.eml-unitue.de/people/anders-christensen), [Massimiliano Mancini](https://mancinimassimiliano.github.io/), A. Sophia Koepke, [Ole Winther](https://olewinther.github.io/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+IEEE/CVF International Conference on Computer Vision (ICCV), 2023\
+[Paper](#) | [Code](#)
+
+&nbsp;
+
+Zero-shot translation of attention patterns in VQA models to natural language\
+[Leonard Salewski](https://www.eml-unitue.de/people/leonard-salewski), A. Sophia Koepke, [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+DAGM German Conference on Pattern Recognition (GCPR), 2023\
+[Paper](#) | [Code](#)
+
+&nbsp;
+
+Exposing and mitigating spurious correlations for cross-modal retrieval\
 [Jae Myung Kim](https://jaemyung-kim.github.io/)\, A. Sophia Koepke, [Cordelia Schmid](https://thoth.inrialpes.fr/~schmid/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 Multimodal Learning and Applications Workshop at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPRW), 2023\
 [Paper](https://arxiv.org/pdf/2304.03391.pdf) | [Code](https://github.com/ExplainableML/Spurious_CM_Retrieval)
