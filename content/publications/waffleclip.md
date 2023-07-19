@@ -2,7 +2,7 @@
 img: "/publications/ICCV23_WaffleCLIP/first_page.png"
 title: Waffling around for Performance - Visual Classification with Random Words and Broad Concepts
 authors: Karsten Roth, Jae Myung Kim, Almut Sophia Koepke, Oriol Vinyals, Cordelia Schmid, Zeynep Akata
-publisher: International Conference on Computer Vision, ICLR
+publisher: International Conference on Computer Vision, ICCV
 year: 2023
 date: "2023-07-13"
 filename: waffleclip
