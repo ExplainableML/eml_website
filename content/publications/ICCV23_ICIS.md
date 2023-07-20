@@ -1,7 +1,7 @@
 ---
 img: "/publications/ICCV23_ICIS/ICIS_teaser.png"
 title: Image-free Classifier Injection for Zero-Shot Classification
-authors: Anders Christensen, Massimiliano Mancini, A. Sophia Koepke, Zeynep Akata
+authors: Anders Christensen, Massimiliano Mancini, A. Sophia Koepke, Ole Winther, Zeynep Akata
 publisher: IEEE International Conference on Computer Vision, ICCV
 year: 2023
 date: "2023-07-19"
