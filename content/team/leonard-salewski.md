@@ -12,7 +12,7 @@ scholar: https://scholar.google.de/citations?user=jJz3mXcAAAAJ
 ---
 
 # Profile
-Leonard Salewski is a Ph.D. candidate in the [International Max-Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) under the supervision of [Prof. Zeynep Akata]((https://www.eml-unitue.de/people/zeynep-akata)) and [Prof. Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/). He received his bachelor’s degree in Aerospace Engineering at the University of Stuttgart in 2016 and focused on Information Technology and Flight Control and Systems Technology for his master’s degree in Aerospace Engineering. In 2018 he was a research intern at the Bosch Center for Artificial Intelligence.
+Leonard Salewski is a Ph.D. candidate in the [International Max-Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) under the supervision of [Prof. Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Prof. Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/). He received his bachelor’s degree in Aerospace Engineering at the University of Stuttgart in 2016 and focused on Information Technology and Flight Control and Systems Technology for his master’s degree in Aerospace Engineering. In 2018 he was a research intern at the Bosch Center for Artificial Intelligence.
 
 His primary research interests lie in the intersection of computer vision and natural language processing as well as in the properties of large language models.
 
