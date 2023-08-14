@@ -20,6 +20,12 @@ Additionally, he is working on *scholarGPT*, an academic chatbot, that does not 
 
 # Publications
 
+Zero-shot Translation of Attention Patterns in VQA Models to Natural Language.\
+**Leonard Salewski**, [A. Sophia Koepke](https://akoepke.github.io/), [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+To appear in: German Conference on Pattern Recognition, 2023
+
+&nbsp;
+
 In-Context Impersonation Reveals Large Language Models' Strengths and Biases.\
 **Leonard Salewski**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), [Isabel Rio-Torto](https://www.eml-unitue.de/people/isabel-rio-torto), [Eric Schulz](https://www.kyb.tuebingen.mpg.de/person/103915/2537) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 ArXiv abs/2305.14930, 2023\
