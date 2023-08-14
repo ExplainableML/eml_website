@@ -61,6 +61,8 @@ British Machine Vision Conference, 2020\
 [Paper](https://arxiv.org/pdf/1907.09557.pdf)\
 *This publication is the result of my master thesis.*
 
+For up-to-date information please also check: [Semantic Scholar](https://www.semanticscholar.org/author/Leonard-Salewski/151097297) or [Google Scholar](https://scholar.google.de/citations?user=jJz3mXcAAAAJ).
+
 # Reviewing
 
 - TPAMI 2021
