@@ -56,7 +56,7 @@ IEEE International Conference of Computer Vision, ICCV 2021\
 &nbsp;
 
 Relational Generalized Few-Shot Learning.\
-[Xiahan Shi](https://ivi.fnwi.uva.nl/uvaboschdeltalab/team-details/xiahan-shi/), **Leonard Salewski**, [Martin Schiegg](https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_84.html), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Max Welling](https://staff.fnwi.uva.nl/m.welling/)\
+[Xiahan Shi](https://ivi.fnwi.uva.nl/uvaboschdeltalab/team-details/xiahan-shi/), **Leonard Salewski**, [Martin Schiegg](https://www.bosch-ai.com/about-us/our-people/martin-schiegg/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Max Welling](https://staff.fnwi.uva.nl/m.welling/)\
 British Machine Vision Conference, 2020\
 [Paper](https://arxiv.org/pdf/1907.09557.pdf)\
 *This publication is the result of my master thesis.*
