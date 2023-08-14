@@ -12,7 +12,7 @@ scholar: https://scholar.google.de/citations?user=jJz3mXcAAAAJ
 ---
 
 # Profile
-Leonard Salewski is a Ph.D. candidate in the [International Max-Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) under the supervision of [Prof. Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Prof. Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/). He received his bachelor’s degree in Aerospace Engineering at the University of Stuttgart in 2016 and focused on Information Technology and Flight Control and Systems Technology for his master’s degree in Aerospace Engineering. In 2018 he was a research intern at the Bosch Center for Artificial Intelligence.
+Leonard Salewski is a Ph.D. candidate in the [International Max-Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) under the supervision of [Prof. Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata) and [Prof. Hendrik P.A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/). He received his bachelor’s degree in Aerospace Engineering at the University of Stuttgart in 2016 and focused on Information Technology and Flight Control and Systems Technology for his master’s degree in Aerospace Engineering. In 2018 he was a research intern at the Bosch Center for Artificial Intelligence.
 
 His primary research interests lie in the intersection of computer vision and natural language processing as well as in the properties of large language models.
 
@@ -21,7 +21,7 @@ Additionally, he is working on *scholarGPT*, an academic chatbot, that does not 
 # Publications
 
 Zero-shot Translation of Attention Patterns in VQA Models to Natural Language.\
-**Leonard Salewski**, [A. Sophia Koepke](https://akoepke.github.io/), [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+**Leonard Salewski**, [A. Sophia Koepke](https://akoepke.github.io/), [Hendrik P.A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 To appear in: German Conference on Pattern Recognition, 2023
 
 &nbsp;
@@ -41,7 +41,7 @@ German Conference on Pattern Recognition, 2022\
 &nbsp;
 
 CLEVR-X: A visual reasoning dataset for natural language explanations.\
-**Leonard Salewski**, [A. Sophia Koepke](https://akoepke.github.io/), [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+**Leonard Salewski**, [A. Sophia Koepke](https://akoepke.github.io/), [Hendrik P.A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 Springer Lecture Notes on Artificial Intelligence, 2022\
 [Paper](https://arxiv.org/pdf/2204.02380.pdf) | [Project page](https://explainableml.github.io/CLEVR-X/) | [Code](https://github.com/ExplainableML/CLEVR-X)\
 <span style="color:black; font-style:italic">This was also presented at the CVPR 2022 Workshop on Explainable AI for Computer Vision (XAI4CV).</span>
@@ -74,4 +74,4 @@ British Machine Vision Conference, 2020\
 ### Master Thesis
 
 - _Using large pre-trained language models for audio captioning_, Stefan Fauth, July 2023, supervised with [Dr. A. Sophia Koepke](https://akoepke.github.io/) and [Prof. Dr. Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata).
-- _Infilling of Structured Documents through Causally Masked Language Modelling_, Jan Quintus, Jan 2023, supervised with [Prof. Dr. Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/)
+- _Infilling of Structured Documents through Causally Masked Language Modelling_, Jan Quintus, Jan 2023, supervised with [Prof. Dr. Hendrik P.A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/)
