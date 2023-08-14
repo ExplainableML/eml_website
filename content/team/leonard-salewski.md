@@ -62,3 +62,10 @@ British Machine Vision Conference, 2020\
 - CVPR 2023 (Emergency)
 - IJCV 2023
 - BMVC 2023 (Emergency)
+
+# Supervision
+
+### Master Thesis
+
+- _Using large pre-trained language models for audio captioning_, Stefan Fauth, July 2023, supervised with [Dr. A. Sophia Koepke](https://akoepke.github.io/) and [Prof. Dr. Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata).
+- _Infilling of Structured Documents through Causally Masked Language Modelling_, Jan Quintus, Jan 2023, supervised with [Prof. Dr. Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/)
