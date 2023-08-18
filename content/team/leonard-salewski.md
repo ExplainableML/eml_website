@@ -68,7 +68,7 @@ For up-to-date information please also check: [Semantic Scholar](https://www.sem
 - TPAMI 2021
 - MULA 2022
 - CVPR 2023 (Emergency)
-- IJCV 2023
+- IJCV 2023 (2x)
 - BMVC 2023 (Emergency)
 
 # Supervision
