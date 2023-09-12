@@ -16,6 +16,13 @@ Her research focusses on multi-modal learning problems with sound, vision, and l
 
 # Publications
 
+Video-adverb retrieval with compositional adverb-action embeddings\
+[Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel), [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+British Machine Vision Conference (BMVC), 2023\
+[Paper](#) | [Project page](https://hummelth.github.io/ReGaDa/) | [Code](https://github.com/ExplainableML/ReGaDa)
+
+&nbsp;
+
 Waffling around for performance: Visual classification with random words and broad concepts\
 [Karsten Roth](https://karroth.com/), [Jae Myung Kim](https://jaemyung-kim.github.io/)\, A. Sophia Koepke, [Oriol Vinyals](https://research.google/people/OriolVinyals/), [Cordelia Schmid](https://thoth.inrialpes.fr/~schmid/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 IEEE/CVF International Conference on Computer Vision (ICCV), 2023\
@@ -26,7 +33,14 @@ IEEE/CVF International Conference on Computer Vision (ICCV), 2023\
 Image-free classifier injection for zero-shot classification\
 [Anders Christensen](https://www.eml-unitue.de/people/anders-christensen), [Massimiliano Mancini](https://mancinimassimiliano.github.io/), A. Sophia Koepke, [Ole Winther](https://olewinther.github.io/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 IEEE/CVF International Conference on Computer Vision (ICCV), 2023\
-[Paper](#) | [Code](#)
+[Paper](https://arxiv.org/pdf/2308.10599.pdf) | [Code](https://github.com/ExplainableML/ImageFreeZSL)
+
+&nbsp;
+
+Text-to-feature diffusion for audio-visual few-shot learning\
+[Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), [Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel), A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+DAGM German Conference on Pattern Recognition (GCPR), 2023\
+[Paper](https://arxiv.org/pdf/2309.03869.pdf) | [Code](https://github.com/ExplainableML/AVDIFF-GFSL)
 
 &nbsp;
 
