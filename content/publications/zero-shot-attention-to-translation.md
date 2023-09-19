@@ -1,5 +1,5 @@
 ---
-img: "/publications/Translation of Attribution - Model Figure.png"
+img: "/publications/Translation-of-Attribution-Model-Figure.png"
 title: Zero-shot Translation of Attention Patterns in VQA Models to Natural Language
 authors: Leonard Salewski, A. Sophia Koepke, Hendrik P.A. Lensch, Zeynep Akata
 publisher: DAGM German Conference on Pattern Recognition, GCPR
