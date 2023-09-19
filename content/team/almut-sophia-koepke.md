@@ -5,6 +5,7 @@ role: Research Fellow
 order: 2
 link: almut-sophia-koepke
 mail: a-sophia.koepke (at) uni-tuebingen.de
+website: https://akoepke.github.io
 scholar: https://scholar.google.com/citations?user=q9zQhj8AAAAJ&hl=en
 ---
 
@@ -15,7 +16,42 @@ Her research focusses on multi-modal learning problems with sound, vision, and l
 
 # Publications
 
-Exposing and Mitigating Spurious Correlations for Cross-Modal Retrieval\
+Video-adverb retrieval with compositional adverb-action embeddings\
+[Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel), [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+British Machine Vision Conference (BMVC), 2023\
+[Paper](#) | [Project page](https://hummelth.github.io/ReGaDa/) | [Code](https://github.com/ExplainableML/ReGaDa)
+
+&nbsp;
+
+Waffling around for performance: Visual classification with random words and broad concepts\
+[Karsten Roth](https://karroth.com/), [Jae Myung Kim](https://jaemyung-kim.github.io/)\, A. Sophia Koepke, [Oriol Vinyals](https://research.google/people/OriolVinyals/), [Cordelia Schmid](https://thoth.inrialpes.fr/~schmid/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+IEEE/CVF International Conference on Computer Vision (ICCV), 2023\
+[Paper](https://arxiv.org/pdf/2306.07282.pdf) | [Code](https://github.com/ExplainableML/WaffleCLIP)
+
+&nbsp;
+
+Image-free classifier injection for zero-shot classification\
+[Anders Christensen](https://www.eml-unitue.de/people/anders-christensen), [Massimiliano Mancini](https://mancinimassimiliano.github.io/), A. Sophia Koepke, [Ole Winther](https://olewinther.github.io/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+IEEE/CVF International Conference on Computer Vision (ICCV), 2023\
+[Paper](https://arxiv.org/pdf/2308.10599.pdf) | [Code](https://github.com/ExplainableML/ImageFreeZSL)
+
+&nbsp;
+
+Text-to-feature diffusion for audio-visual few-shot learning\
+[Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), [Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel), A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+DAGM German Conference on Pattern Recognition (GCPR), 2023\
+[Paper](https://arxiv.org/pdf/2309.03869.pdf) | [Code](https://github.com/ExplainableML/AVDIFF-GFSL)
+
+&nbsp;
+
+Zero-shot translation of attention patterns in VQA models to natural language\
+[Leonard Salewski](https://www.eml-unitue.de/people/leonard-salewski), A. Sophia Koepke, [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+DAGM German Conference on Pattern Recognition (GCPR), 2023\
+[Paper](#) | [Code](#)
+
+&nbsp;
+
+Exposing and mitigating spurious correlations for cross-modal retrieval\
 [Jae Myung Kim](https://jaemyung-kim.github.io/)\, A. Sophia Koepke, [Cordelia Schmid](https://thoth.inrialpes.fr/~schmid/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 Multimodal Learning and Applications Workshop at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPRW), 2023\
 [Paper](https://arxiv.org/pdf/2304.03391.pdf) | [Code](https://github.com/ExplainableML/Spurious_CM_Retrieval)

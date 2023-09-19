@@ -1,8 +1,8 @@
 ---
 img: "/team/leander-girrbach.jpg"
 name: Leander Girrbach
-role: HiWi MSc student
-order: 6
+role: PhD researcher
+order: 4
 link: leander-girrbach
 linkedin: https://de.linkedin.com/in/leander-girrbach-6b4b52251
 github: https://github.com/LGirrbach

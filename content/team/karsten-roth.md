@@ -12,7 +12,8 @@ scholar: https://scholar.google.com/citations?user=93ZjIs0AAAAJ
 ---
 
 # Profile
-Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ and the _International Max-Planck Research School for Intelligent Systems (IMPRS-IS)_ co-supervised by Prof. Zeynep Akata and Dr. Oriol Vinyals at Deepmind.
+
+Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ and the _International Max-Planck Research School for Intelligent Systems (IMPRS-IS)_ co-supervised by Prof. Zeynep Akata and Hon. Prof. Oriol Vinyals at Deepmind. He is supported by the Qualcomm Innovation Fellowship 2023.
 
 </br>
 
@@ -27,9 +28,12 @@ As research intern, Karsten has also worked at the Amazon AWS research lablet in
 
 His primary interests cover approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations and foundation models. He is also very interested in their application to medicine and the sciences.
 
-
 # Publications
 
+</br>
+
+- __"_Waffling around for Performance: Visual Classification with Random Words and Broad Concepts_"__, _Karsten Roth_, Jae Myung Kim, Almut Sophia Koepke, Oriol Vinyals, Cordelia Schmid, Zeynep Akata at International Conference for Comptuer Vision, ICCV 2023
+  
 </br>
 
 - __"_Disentanglement of Correlated Factors via Hausdorff Factorized Support_"__, _Karsten Roth_, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt * at International Conference on Learning Representations, ICLR 2023

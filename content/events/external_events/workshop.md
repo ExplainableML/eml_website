@@ -236,7 +236,7 @@ Do you have any questions? Please send an email to **eml-workshop@inf.uni-tuebin
  </td>
  			<td><a href=https://baumgach.github.io/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/christian.png alt=Christian Baumgartner ></Image> <a href=https://baumgach.github.io/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Christian Baumgartner </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
  </td>
-            <td><a href=https://www.eml-unitue.de/people/almut-sophia-koepke> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/placeholder.png alt=Almut Sophia Koepke ></Image> <a href=https://www.eml-unitue.de/people/almut-sophia-koepke class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Almut Sophia Koepke </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
+<td><a href=https://akoepke.github.io/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/placeholder.png alt=Almut Sophia Koepke ></Image> <a href=https://akoepke.github.io/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Almut Sophia Koepke </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Univ. of Tübingen</p> </div></a>
  </td>
          </tr>
          <tr>

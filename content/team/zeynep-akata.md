@@ -9,11 +9,12 @@ address: Office 40-30/A24, Maria von Linden Straße 6
 twitter: zeynepakata
 phone: (+49) 172 231412 1231
 mail: zeynep.akata (at) uni-tuebingen.de
+cv: "/team/CV_ZeynepAKATA_Sept23.pdf"
 profile: # hello
 ---
 
 # Profile
-Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excellence Machine Learning at the University of Tübingen. After completing her PhD at the INRIA Rhone Alpes with Prof Cordelia Schmid (2014), she worked as a post-doctoral researcher at the Max Planck Institute for Informatics with Prof Bernt Schiele (2014-17) and at University of California Berkeley with Prof Trevor Darrell (2016-17). Before moving to Tübingen in October 2019, she was an assistant professor at the University of Amsterdam with Prof Max Welling (2017-19). She received a Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society in 2014, a young scientist honour from the Werner-von-Siemens-Ring foundation in 2019, an ERC-2019 Starting Grant from the European Commission, The DAGM German Pattern Recognition Award in 2021 and The ECVA Young Researcher Award in 2022. Her research interests include multimodal learning and explainable AI.
+Zeynep Akata is a professor of Computer Science (W3) within the Cluster of Excellence Machine Learning at the University of Tübingen. After completing her PhD at the INRIA Rhone Alpes with Prof Cordelia Schmid (2014), she worked as a post-doctoral researcher at the Max Planck Institute for Informatics with Prof Bernt Schiele (2014-17) and at University of California Berkeley with Prof Trevor Darrell (2016-17). Before moving to Tübingen in October 2019, she was an assistant professor at the University of Amsterdam with Prof Max Welling (2017-19). She received a Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society in 2014, a young scientist honour from the Werner-von-Siemens-Ring foundation in 2019, an ERC-2019 Starting Grant from the European Commission, The DAGM German Pattern Recognition Award in 2021 and The ECVA Young Researcher Award in 2022. Her research interests include multimodal learning and explainable AI. 
 
 ## Experience
 - Professor of Computer Science, University of Tübingen, 2019 – Now
