@@ -63,13 +63,19 @@ British Machine Vision Conference, 2020\
 
 For up-to-date information please also check: [Semantic Scholar](https://www.semanticscholar.org/author/Leonard-Salewski/151097297) or [Google Scholar](https://scholar.google.de/citations?user=jJz3mXcAAAAJ).
 
-# Reviewing
+# Community Service
+
+## Reviewing
 
 - TPAMI 2021 / 2023
 - MULA 2022
 - CVPR 2023 (Emergency)
 - IJCV 2023 (2x)
 - BMVC 2023 (Emergency)
+
+## Other
+
+- Digital Volunteer for the NeurIPS '21 workshop "ImageNet: Past, Present, Future"
 
 # Supervision
 
