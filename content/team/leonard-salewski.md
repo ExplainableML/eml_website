@@ -29,7 +29,7 @@ To appear in: German Conference on Pattern Recognition, 2023
 
 In-Context Impersonation Reveals Large Language Models' Strengths and Biases.\
 **Leonard Salewski**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), [Isabel Rio-Torto](https://www.eml-unitue.de/people/isabel-rio-torto), [Eric Schulz](https://www.kyb.tuebingen.mpg.de/person/103915/2537) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
-NeurIPS 2023 (spotlight)\
+NeurIPS 2023 (*spotlight*)\
 [Paper](https://arxiv.org/pdf/2305.14930.pdf)
 
 &nbsp;
