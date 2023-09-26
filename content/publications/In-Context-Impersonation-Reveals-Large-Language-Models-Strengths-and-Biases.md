@@ -2,7 +2,7 @@
 img: "/publications/In-Context-Impersonation-Reveals-Large-Language-Models-Strengths-and-Biases.png"
 title: In-Context Impersonation Reveals Large Language Models' Strengths and Biases
 authors: Leonard Salewski, Stephan Alaniz, Isabel Rio-Torto, Eric Schulz, Zeynep Akata
-publisher: Neural Information Processing Systems, NeurIPS (spotlight)
+publisher: Neural Information Processing Systems, NeurIPS (Spotlight)
 year: 2023
 date: "2023-09-25"
 filename: In-Context-Impersonation-Reveals-Large-Language-Models-Strengths-and-Biases
