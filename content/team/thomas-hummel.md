@@ -22,7 +22,7 @@ His primary research interests are in multi-modal learning and video understandi
 Video-adverb retrieval with compositional adverb-action embeddings\
 **Thomas Hummel**, [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), [A. Sophia Koepke](https://www.eml-unitue.de/people/almut-sophia-koepke), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 British Machine Vision Conference (BMVC), 2023\
-[Paper](arxiv.org/pdf/2309.15086.pdf) / [Project page](https://hummelth.github.io/ReGaDa/) / [Code](https://github.com/ExplainableML/ReGaDa)\
+[Paper](https://arxiv.org/pdf/2309.15086.pdf) / [Project page](https://hummelth.github.io/ReGaDa/) / [Code](https://github.com/ExplainableML/ReGaDa)\
 <span style="color:blue; font-style:italic">Oral presentation.</span>
 
 &nbsp;
