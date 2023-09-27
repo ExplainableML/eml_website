@@ -1,7 +1,7 @@
 ---
 img: "/publications/trd.png"
 title: "Transitivity Recovering Decompositions: Interpretable and Robust Fine-Grained Relationships"
-filename: relational-proxies-emergent-relationships-as-fine-grained-discriminators
+filename: transitivity-recovering-decompositions
 authors: Abhra Chaudhuri, Massimiliano Mancini, Zeynep Akata, Anjan Dutta
 publisher: Neural Information Processing Systems, NeurIPS
 year: 2023
