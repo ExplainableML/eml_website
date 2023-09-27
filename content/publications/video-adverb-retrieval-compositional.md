@@ -5,6 +5,7 @@ authors: Thomas Hummel, Otniel-Bogdan Mercea, A. Sophia Koepke, Zeynep Akata
 publisher: British Machine Vision Conference, BMVC
 year: 2023
 date: "2023-09-12"
+arxiv: arxiv.org/abs/2309.15086
 website: https://hummelth.github.io/ReGaDa/index.html 
 github: https://github.com/ExplainableML/ReGaDa
 filename: video-adverb-retrieval-compositional
