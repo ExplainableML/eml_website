@@ -19,7 +19,8 @@ Her research focusses on multi-modal learning problems with sound, vision, and l
 Video-adverb retrieval with compositional adverb-action embeddings\
 [Thomas Hummel](https://www.eml-unitue.de/people/thomas-hummel), [Otniel-Bogdan Mercea](https://www.eml-unitue.de/people/otniel-mercea), A. Sophia Koepke, [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 British Machine Vision Conference (BMVC), 2023\
-[Paper](#) | [Project page](https://hummelth.github.io/ReGaDa/) | [Code](https://github.com/ExplainableML/ReGaDa)
+[Paper](#) | [Project page](https://hummelth.github.io/ReGaDa/) | [Code](https://github.com/ExplainableML/ReGaDa)\
+<span style="color:blue; font-style:italic">Oral presentation.</span>
 
 &nbsp;
 
@@ -47,7 +48,6 @@ DAGM German Conference on Pattern Recognition (GCPR), 2023\
 Zero-shot translation of attention patterns in VQA models to natural language\
 [Leonard Salewski](https://www.eml-unitue.de/people/leonard-salewski), A. Sophia Koepke, [Hendrik Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/), [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 DAGM German Conference on Pattern Recognition (GCPR), 2023\
-[Paper](#) | [Code](#)
 
 &nbsp;
 

@@ -1,6 +1,6 @@
 ---
 img: "/publications/ProbVLM/ProbVLM_motivation.png"
-title: "ProbVLM: Probabilistic Adapter for Frozen Vison-Language Models"
+title: "ProbVLM: Probabilistic Adapter for Frozen Vision-Language Models"
 authors: Uddeshya Upadhyay*, Shyamgopal Karthik*, Massimiliano Mancini, Zeynep Akata
 publisher: IEEE International Conference on Computer Vision, ICCV
 year: 2023
