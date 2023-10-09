@@ -4,6 +4,8 @@ name: Stephan Alaniz
 role: Postdoctoral Researcher
 order: 2
 link: stephan-alaniz
+mail: stephan.alaniz (at) uni-tuebingen.de
+scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
 ---
 
 # Profile
