@@ -8,4 +8,4 @@ We are always looking for motivated students and researchers to join our group, 
 Please consider applying if you are interested in joining us!
 
 # B.Sc. and M.Sc. Students
- If you are a student at the University of Tübingen, you may be interested in joining us for your thesis, research project, or as a HiWi. You can find possible topics for theses/projects at [this link](/teaching/thesis) while advertisements for HiWi positions on the left menu.
+Unfortunately, we currently have no open B.Sc. and M.Sc. student positions. We will update this page as soon as positions will be available.
