@@ -22,8 +22,8 @@ Additionally, he is working on *scholarGPT*, an academic chatbot, that does not 
 
 Zero-shot Translation of Attention Patterns in VQA Models to Natural Language.\
 **Leonard Salewski**, [A. Sophia Koepke](https://akoepke.github.io/), [Hendrik P.A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
-To appear in: German Conference on Pattern Recognition, 2023
-[Code](https://github.com/ExplainableML/ZS-A2T)
+German Conference on Pattern Recognition, 2023\
+[Paper](https://www.dagm-gcpr.de/fileadmin/dagm-gcpr/pictures/2023_Heidelberg/Paper_MainTrack/024.pdf) | [Code](https://github.com/ExplainableML/ZS-A2T)
 
 &nbsp;
 
@@ -37,7 +37,7 @@ NeurIPS 2023 (*spotlight*)\
 Diverse Video Captioning by Adaptive Spatio-temporal Attention.\
 [Zohreh Ghaderi](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/zohreh-ghaderi/), **Leonard Salewski** and [Hendrik P. A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/)\
 German Conference on Pattern Recognition, 2022\
-[Paper](https://arxiv.org/pdf/2208.09266.pdf)
+[Paper](https://arxiv.org/pdf/2208.09266.pdf) | [Code](https://github.com/zohrehghaderi/vasta)
 
 &nbsp;
 
