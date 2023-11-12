@@ -6,8 +6,8 @@ publisher: The IEEE/CVF Conference on Computer Vision and Pattern Recognition 20
 year: 2023
 date: "2023-03-15"
 filename: Bridging-the-Gap-between-Model-Explanations-in-PAML
-arxiv: TBD
-github: TBD
+arxiv: https://arxiv.org/pdf/2304.01804.pdf
+github: https://github.com/youngwk/BridgeGapExplanationPAMC
 
 abstract: _Due to the expensive costs of collecting labels in multi-label classification datasets, partially annotated multi-label classification has become an emerging field in computer vision. One baseline approach to this task is to assume unobserved labels as negative labels, but this assumption induces label noise as a form of false negative. To understand the negative impact caused by false negative labels, we study how the model's explanation is affected by these labels. We observe that the explanation of the model trained with full labels and partial labels highlights similar regions but with different scaling where the latter tends to have lower attribution scores. Based on these findings, we propose to boost the attribution scores of the model trained with partial labels to make its explanation resemble that of the model trained with full labels. Even with the conceptually simple approach, the multi-label classification performance improves by a large margin in three different datasets on single positive label setting and one dataset on large-scale partial label setting._
 ---
