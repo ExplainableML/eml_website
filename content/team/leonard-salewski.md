@@ -20,6 +20,13 @@ Additionally, he is working on *scholarGPT*, an academic chatbot, that does not 
 
 # Publications
 
+Zero-shot audio captioning with audio-language model guidance and audio context keywords.\
+**Leonard Salewski**, Stefan Fauth, [A. Sophia Koepke](https://akoepke.github.io/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+NeurIPS 2023 Machine Learning for Audio Workshop (**Oral**)\
+[Paper](https://arxiv.org/pdf/2311.08396v1.pdf) | [Code](https://github.com/ExplainableML/ZerAuCap)
+
+&nbsp;
+
 Zero-shot Translation of Attention Patterns in VQA Models to Natural Language.\
 **Leonard Salewski**, [A. Sophia Koepke](https://akoepke.github.io/), [Hendrik P.A. Lensch](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/prof-dr-ing-hendrik-lensch/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 German Conference on Pattern Recognition, 2023\
