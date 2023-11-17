@@ -16,7 +16,7 @@ export default function ContactGrid(props) {
       <ContactCard ></ContactCard>
 
       <iframe
-              src="https://maps.google.com/maps?q=Maria-Von-Linden-Stra%C3%9Fe%206&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Maria-von-Linden-Stra%C3%9Fe%206%2C%2072076%20T%C3%BCbingen%2C%20Germany&t=&z=13&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="290"
               frameBorder="0"
