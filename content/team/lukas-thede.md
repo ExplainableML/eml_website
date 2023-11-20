@@ -10,9 +10,9 @@ github:  https://github.com/lukasthede
 ---
 
 # Profile
-Lukas is a research scientist with the EML research group. He received both his bachelor's degree and master's degree in Industrial Engineering and Management from the Karlsruhe Institute of Technology (KIT). During his studies, Lukas worked as an intern at Mercedes-Benz in Stuttgart and at Ernst & Young in Berlin.
+Lukas is currently pursuing his PhD with the EML research group. He obtained his bachelor's and master's degrees in Industrial Engineering and Management from the Karlsruhe Institute of Technology (KIT). While studying, Lukas completed internships at Mercedes-Benz in Stuttgart and at Ernst & Young in Berlin.
 
-His primary research interests are explainable AI as well as zero- and few-shot learning problems, particularly with applications in the medical domain.
+His main research interest is to understand model transfer across distribution shifts. Currently, his work focuses on continually shifting data distributions, i.e. continual learning.
 
 
 
