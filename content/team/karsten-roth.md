@@ -18,43 +18,76 @@ Karsten Roth is a PhD researcher at the Explainable Machine Learning group as pa
 </br>
 
 He has completed both Bachelor and Master studies in Physics at Heidelberg University (2021). 
-During that time, Karsten has spent time abroad in Canada as a research intern at the _Montreal Institute for Learning Algorithms (MILA)_ supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the _Vector Institute_ supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. 
+During that time, Karsten spent time abroad in Canada as a research intern at the _Montreal Institute for Learning Algorithms (MILA)_ supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the _Vector Institute_ supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. 
 
 </br>
 
-As research intern, Karsten has also worked at the Amazon AWS research lablet in Tuebingen on Anomaly Detection with Peter Gehler and Thomas Brox, and Meta AI in Paris on Disentangled Representation Learning with Mark Ibrahim, Pascal Vincent and Diane Bouchacourt.
+As a research intern, Karsten has also worked at the Amazon AWS research lablet in Tuebingen on Anomaly Detection with Peter Gehler and Thomas Brox, and Meta AI in Paris on Disentangled Representation Learning with Mark Ibrahim, Pascal Vincent and Diane Bouchacourt.
 
 </br>
 
 His primary interests cover approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations and foundation models. He is also very interested in their application to medicine and the sciences.
 
+
 # Publications
 
-</br>
 
-- __"_Waffling around for Performance: Visual Classification with Random Words and Broad Concepts_"__, _Karsten Roth_, Jae Myung Kim, Almut Sophia Koepke, Oriol Vinyals, Cordelia Schmid, Zeynep Akata at International Conference for Comptuer Vision, ICCV 2023
+__"_Waffling around for Performance: Visual Classification with Random Words and Broad Concepts_"__   
+__Karsten Roth__ *, Jae Myung Kim *, Almut Sophia Koepke, Oriol Vinyals, Cordelia Schmid, Zeynep Akata\
+IEEE International Conference for Computer Vision, ICCV 2023
   
 </br>
 
-- __"_Disentanglement of Correlated Factors via Hausdorff Factorized Support_"__, _Karsten Roth_, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt * at International Conference on Learning Representations, ICLR 2023
+__"_Disentanglement of Correlated Factors via Hausdorff Factorized Support_"__   
+__Karsten Roth__, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt *  
+International Conference on Learning Representations, ICLR 2023
 
 </br>
 
-- __"_Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning_"__, Zafir Stojanovski *, _Karsten Roth_ *, Zeynep Akata, Best Paper at INTERPOLATE Workshop @ Conference on Neural Information Processing Systems, NeurIPS 2022
+__"_Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning_"__  
+Zafir Stojanovski *, __Karsten Roth__ *, Zeynep Akata  
+Best Paper at INTERPOLATE Workshop @ Conference on Neural Information Processing Systems, NeurIPS 2022  
+_Result of Master Thesis_
 
 </br>
 
-- __"_A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning_"__, Michael Kirchhof *, _Karsten Roth_ *, Zeynep Akata, Enkelejda Kasneci, European Conference on Computer Vision, ECCV 2022
+__"_A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning_"__  
+Michael Kirchhof *, __Karsten Roth__ *, Zeynep Akata, Enkelejda Kasneci  
+European Conference on Computer Vision, ECCV 2022
 
 </br>
 
-- __"_Uniform Priors for Data-Efficient Learning_"__, Samarth Sinha *, _Karsten Roth_ *, Anirudh Goyal, Marzyeh Ghassemi, Zeynep Akata, Hugo Larochelle, Animesh Garg, Workshop on Learning with Limited Labels @ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+__"_Uniform Priors for Data-Efficient Learning_"__  
+Samarth Sinha *, __Karsten Roth__ *, Anirudh Goyal, Marzyeh Ghassemi, Zeynep Akata, Hugo Larochelle, Animesh Garg  
+Workshop on Learning with Limited Labels @ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 </br>
 
-- __"_Non-isotropy Regularization for Proxy-based Deep Metric Learning_"__, _Karsten Roth_, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+__"_Non-isotropy Regularization for Proxy-based Deep Metric Learning_"__   
+__Karsten Roth__, Oriol Vinyals, Zeynep Akata
+IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 </br>
 
-- __"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__, _Karsten Roth_, Oriol Vinyals, Zeynep Akata, IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022 (Oral)
+__"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__  
+__Karsten Roth__, Oriol Vinyals, Zeynep Akata
+Oral at IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
+
+# Community Service
+
+Reviewer for
+- ECCV '22, CVPR '22 and '23 (all outstanding reviewer)
+- MICCAI '20,'21, ICCV '23, IJCV \& TPAMI since '22
+- NeurIPS '23, ICLR '24
+- Lots of CVPR/NeurIPS workshops
+
+# Supervision
+
+- _Continual Learning with Foundation Models_, Zafir Stojanovski. Master Thesis May 2023. Workshop Submission.
+- _Scene Sketch-based Image Retrieval_, Jessica Bader. Master Thesis May 2023.
+- _Topological Properties of Metric Spaces_, Zafir Stojanovski, Jessica Bader. Research Project 2023.
+- _Realistic Concept Bottleneck Models_, Nishad Singhi. Master Thesis (_ongoing_, with Jae Myung Kim).
+- _Effective Decoder-free Disentanglement_, Jasper Touissant. Research Project (with Shyamgopal Karthik) Nov 2023.
+- _Topological and Equivariant Self-Supervised Learning_, Madhav Iyengar. Master Thesis Nov 2023.
+- _Improving Industrial Anomaly Detection_, Stefan Wezel. Master Thesis July 2023. Collaboration with Maddox AI. Workshop Submission.
