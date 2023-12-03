@@ -64,13 +64,13 @@ Workshop on Learning with Limited Labels @ IEEE Conference on Computer Vision an
 </br>
 
 __"_Non-isotropy Regularization for Proxy-based Deep Metric Learning_"__   
-__Karsten Roth__, Oriol Vinyals, Zeynep Akata
+__Karsten Roth__, Oriol Vinyals, Zeynep Akata  
 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 </br>
 
 __"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__  
-__Karsten Roth__, Oriol Vinyals, Zeynep Akata
+__Karsten Roth__, Oriol Vinyals, Zeynep Akata  
 Oral at IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 
