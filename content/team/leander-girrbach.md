@@ -4,9 +4,9 @@ name: Leander Girrbach
 role: PhD researcher
 order: 4
 link: leander-girrbach
-linkedin: https://de.linkedin.com/in/leander-girrbach-6b4b52251
 github: https://github.com/LGirrbach
-
+mail: leander.girrbach (at) uni-tuebingen.de
+scholar: https://scholar.google.com/citations?user=xk6HHiAAAAAJ
 ---
 
 # Profile
