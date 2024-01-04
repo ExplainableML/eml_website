@@ -30,7 +30,7 @@ export default function EventCard(props) {
        <div class="pb-4">
            <center><Image src="/internal.png" objectFit="cover" width="150" height="150"></Image></center>
            </div>
-        <div class="font-bold text-center text-xl">Gallery</div>
+        <div class="font-bold text-center text-xl">Social</div>
 
         <div class="flex flex-row justify-center items-center pt-8">
 
