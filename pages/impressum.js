@@ -15,8 +15,8 @@ export default function Impressum(props) {
                 <p><span style={{ textDecoration: "underline" }}>Angaben gem. § 5 TMG:</span></p>
                 <p>&nbsp;</p>
                 <p>Zeynep Akata</p>
-                <p>AI Research Building, Maria-Von-Linden-Straße 6</p>
-                <p>72076 Tübingen</p>
+                <p>Ingolstädter Landstraße 1</p>
+                <p>7180939 Oberschleißheim</p>
                 <p>&nbsp;</p>
                 <p><span style={{ textDecoration: "underline" }}>Kontaktaufnahme:</span></p>
                 <p>&nbsp;</p>

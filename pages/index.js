@@ -29,7 +29,7 @@ export default function Home(props) {
 
     <Head>
 
-<title>EML Tübingen</title>
+<title>EML Munich</title>
 <description text="Explainable Machine Learning Munich"></description>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -72,7 +72,7 @@ export default function Home(props) {
       <div class="pt-24" id="contact"></div>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
-      <img src="Logo_Uni_Cluster.png"  width="800" height="800" />
+      <img src="Logo_munich.png"  width="800" height="800" />
       <br></br>
     </div>
     <Footer></Footer>
