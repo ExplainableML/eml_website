@@ -16,7 +16,7 @@ export default function Impressum(props) {
                 <p>&nbsp;</p>
                 <p>Zeynep Akata</p>
                 <p>Ingolstädter Landstraße 1</p>
-                <p>7180939 Oberschleißheim</p>
+                <p>85764 Oberschleißheim</p>
                 <p>&nbsp;</p>
                 <p><span style={{ textDecoration: "underline" }}>Kontaktaufnahme:</span></p>
                 <p>&nbsp;</p>

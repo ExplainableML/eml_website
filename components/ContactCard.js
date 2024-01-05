@@ -2,7 +2,7 @@ export default function ContactCard() {
     return ( <div class=" overflow-hidden shadow-lg lg:h-72 bg-white p-8">
             <div class="font-semibold">Explainable Machine Learning Munich</div>
             <div>Ingolstädter Landstraße 1</div>
-            <div>7180939 Oberschleißheim</div>
+            <div>85764 Oberschleißheim</div>
             <div class="mb-16"></div>
             <div class="font-semibold">Office</div>
             <div>Michael Mergner</div>
