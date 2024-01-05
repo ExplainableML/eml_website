@@ -291,7 +291,7 @@ export default function NavBar(props) {
 </g>
 </svg>
           <span class="ml-2 font-normal text-xl tracking-tight">
-            <span class="font-bold">EML</span>Tübingen
+            <span class="font-bold">EML</span>Munich
           </span>
         </a>
         <div class="block lg:hidden">

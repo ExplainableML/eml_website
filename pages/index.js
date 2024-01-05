@@ -30,7 +30,7 @@ export default function Home(props) {
     <Head>
 
 <title>EML Tübingen</title>
-<description text="Explainable Machine Learning Universität Tübingen"></description>
+<description text="Explainable Machine Learning Munich"></description>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>

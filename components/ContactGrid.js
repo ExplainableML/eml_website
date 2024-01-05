@@ -16,7 +16,8 @@ export default function ContactGrid(props) {
       <ContactCard ></ContactCard>
 
       <iframe
-              src="https://maps.google.com/maps?q=Maria-von-Linden-Stra%C3%9Fe%206%2C%2072076%20T%C3%BCbingen%2C%20Germany&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.2529056824073!2d11.589403400000004!3d48.2210045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e73fc7ee90c4b%3A0x1cdbeb4d46a2c415!2sIngolst%C3%A4dter%20Landstra%C3%9Fe%201%2C%2080939%20Oberschlei%C3%9Fheim%2C%20Germany!5e0!3m2!1sen!2sro!4v1704451795801!5m2!1sen!2sro"
               width="100%"
               height="290"
               frameBorder="0"
@@ -29,3 +30,4 @@ export default function ContactGrid(props) {
     </div>
   );
 }
+
