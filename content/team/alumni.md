@@ -8,6 +8,7 @@ link: alumni
 
 # List of Alumni
 
+* David Kurzendörfer (Master Thesis Student) at EML, now Software Developer at Localyzer GmbH, Germany
 * Almut Sophia Koepke (Research Fellow) at EML, now independent postdoc with the Cluster of Excellence Machine Learning at the University of Tübingen
 * Uddeshya Upadhyay (PhD Student) at EML, now Staff ML Scientist, Nference
 * Stefan Fauth (Master Thesis Student)
