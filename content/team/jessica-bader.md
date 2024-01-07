@@ -1,7 +1,7 @@
 ---
 img: "/team/jessica-bader.jpg"
 name: Jessica Bader
-role: PhD researcher
+role: PhD Researcher
 order: 4
 link: jessica-bader
 ---

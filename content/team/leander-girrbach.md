@@ -1,7 +1,7 @@
 ---
 img: "/team/leander-girrbach.jpg"
 name: Leander Girrbach
-role: PhD researcher
+role: PhD Researcher
 order: 4
 link: leander-girrbach
 github: https://github.com/LGirrbach
