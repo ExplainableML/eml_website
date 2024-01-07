@@ -1,8 +1,8 @@
 ---
 img: "/team/jessica-bader.jpg"
 name: Jessica Bader
-role: HiWi MSc student
-order: 6
+role: PhD researcher
+order: 4
 link: jessica-bader
 ---
 
