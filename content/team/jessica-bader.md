@@ -7,6 +7,6 @@ link: jessica-bader
 ---
 
 # Profile
-Jessie Bader is a Machine Learning M.Sc. student at the University of Tübingen. In 2020 she received her B.Sc. in Computer Engineering from Iowa State University (Ames, IA, USA). During her Bachelors, she participated in a Research Experience for Undergraduates program at Worcester Polytechnic Institute (Wocester, MA, USA) under the supervision of Dr. Elke Rundensteiner. Before working with the EML Tübingen group, she worked as a student assistant for the Methods of Machine Learning group led by Prof. Dr. Philipp Hennig.
+Jessie Bader is a PhD researcher in the Explainable Machine Learning group supervised by Zeynep Akata at the Technical University of Munich, starting in 2024. She completed her Master’s degree in Machine Learning at the University of Tübingen in 2023 and her Bachelor’s degree in Computer Engineering at Iowa State University in 2020. 
 
-Her research interests include Compositional Zero-Shot Learning, Sketch-Based Image Retrieval, and Deep Metric Learning.
+Her primary research interests are in effective generalization after distribution shifts. Some topics she has worked on include Visual Question Answering, Compositional Zero-Shot Learning, Deep Metric Learning, and Sketch-Based Image Retrieval.
