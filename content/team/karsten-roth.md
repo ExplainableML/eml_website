@@ -31,6 +31,19 @@ His primary interests cover approaches to effective representation learning unde
 
 # Publications
 
+</br>
+
+__"_Fantastic Gains and Where to Find Them: On the Existence and Prospect of General Knowledge Transfer between Any Pretrained Model_"__   
+__Karsten Roth *__, Lukas Thede *, A. Sophia Koepke, Oriol Vinyals, Olivier Henaff, Zeynep Akata     
+**Spotlight** at International Conference on Learning Representations, ICLR 2024
+
+</br>
+
+__"_Vision-by-Language for Training-Free Compositional Image Retrieval_"__   
+Shyamgopal Karthik *, __Karsten Roth *__, Massimilano Mancini, Zeynep Akata  
+International Conference on Learning Representations, ICLR 2024
+
+</br>
 
 __"_Waffling around for Performance: Visual Classification with Random Words and Broad Concepts_"__   
 __Karsten Roth__ *, Jae Myung Kim *, Almut Sophia Koepke, Oriol Vinyals, Cordelia Schmid, Zeynep Akata\
@@ -71,7 +84,7 @@ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 __"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__  
 __Karsten Roth__, Oriol Vinyals, Zeynep Akata  
-Oral at IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+**Oral** at IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
 
 
 # Community Service
