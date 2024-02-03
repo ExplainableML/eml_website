@@ -12,10 +12,13 @@ github: https://arxiv.org/abs/2310.17653
 abstract: _Training deep networks requires various design decisions regarding for instance their architecture, data augmentation, or optimization. In this work, we find these training variations to result in networks learning unique feature sets from the data. Using public model libraries comprising thousands of models trained on canonical datasets like ImageNet, we observe that for arbitrary pairings of pretrained models, one model extracts significant data context unavailable in the other -- independent of overall performance. Given any arbitrary pairing of pretrained models and no external rankings (such as separate test sets, e.g. due to data privacy), we investigate if it is possible to transfer such "complementary" knowledge from one model to another without performance degradation -- a task made particularly difficult as additional knowledge can be contained in stronger, equiperformant or weaker models. Yet facilitating robust transfer in scenarios agnostic to pretrained model pairings would unlock auxiliary gains and knowledge fusion from any model repository without restrictions on model and problem specifics - including from weaker, lower-performance models. This work therefore provides an initial, in-depth exploration on the viability of such general-purpose knowledge transfer. Across large-scale experiments, we first reveal the shortcomings of standard knowledge distillation techniques, and then propose a much more general extension through data partitioning for successful transfer between nearly all pretrained models, which we show can also be done unsupervised. Finally, we assess both the scalability and impact of fundamental model properties on successful model-agnostic knowledge transfer._
 ---
 
+</br>
 
 </br>
 
-# $\downarrow$ Start Here $\downarrow$
+# $\downarrow$ Start Here $\downarrow$   
+
+</br>
 
 Modern deep networks are (pre)trained on canonical datasets such as ImageNet under various design decisions - covering for instance their architecture, data augmentation, optimization method and even smaller, but still important factors such as the data ordering. This means that training data is received and integrated in differing fashions. But does this mean that each model acquires a somewhat "unique" understanding of the data? And if so, what can we do with that?
 
@@ -23,7 +26,11 @@ Modern deep networks are (pre)trained on canonical datasets such as ImageNet und
 
 In our work, we try to provide insights and answers into both questions. Using large public model libraries, which comprise thousands of models trained on canonical datasets such as ImageNet, we first observe that for any pair of (sufficiently) trained model, complementary knowledge exists.
 
+</br>
+
 ---
+
+</br>
 
 # Finding complementary knowledge:   
 
@@ -35,11 +42,19 @@ __Definition__ (Complementary Knowledge). _On a high level, it refers to context
 
 Indeed, plotting this complementary knowledge as a function of the test accuracy differences gives us this figure:
 
+</br>
+
 ![text](/publications/ICLR24_Fantastic/teaser.png)
+
+</br>
 
 For ___any pairing we tested___ (and by extension the majority of model pairings available in public repositories such as `timm` or `huggingface`), the ___complementary knowledge is significant___ ($>\approx 2\%$ $\rightarrow$ where e.g. a randomized ResNet50 teacher may give $\approx0.03\%$).   
 
+</br>
+
 ---
+
+</br>
 
 # So what does this complementary knowledge look like?   
 
@@ -51,17 +66,31 @@ __Definition__ (Positive and Negative Flips). _We denote a sample as being "posi
 
 Looking at the distribution of positive flips from exemplary "weak", "equiperformant" and "strong" teachers (which can be seen as the complementary knowledge from the teacher w.r.t. the student), we find that these tend to ___focused around certain classes___:
 
+</br>
+
 ![text](/publications/ICLR24_Fantastic/knowledge_1.png)
+
+</br>
 
 This means that there are consistently some classes where a teacher can disproportionally support the student on. And it turns out that more likely than not, these "important" classes are semantically related (measuring similarity via LLM embeddings for respective classnames):
 
+</br>
+
 ![text](/publications/ICLR24_Fantastic/knowledge_2.png)
+
+</br>
 
 We consequently call these class groups a teachers ___areas of expertise___.   
 
+</br>
+
 ---
 
+</br>
+
 # Even when trained on the same dataset, different models have complementary information about the data. Now what?   
+
+</br>
 
 As the large majority of model pairings have complementary information, the immediate next question for us was: What can we do with it? And in more practical terms:    
 
@@ -85,7 +114,11 @@ Well, even if the teacher is equiperformant or stronger (by some test evaluation
 
 As such, finding a way to develop a ___general knowledge transfer___ mechanism is a very interesting research question.
 
+</br>
+
 ---
+
+</br>
 
 # Why should I care about general knowledge transfer?   
 
@@ -111,7 +144,11 @@ Some interesting pointers in that regard:
 
 * As we show, this can be done even without label information / expert knowledge about the canonical dataset!
 
+</br>
+
 ---
+
+</br>
 
 # So how is this done?   
 
@@ -160,7 +197,11 @@ Even more, with this setup, it is indeed the complementary knowledge that is tra
 
 Finally, we round this up by showing that one can get similar transfer success __without any labels__, but instead just going by model confidence - distilling from the teacher on a sample when it has higher confidence (maximum logit value), and from the pretrained student otherwise. Of course, there is no free lunch, and such an approach introduces selection biases and higher variance in the final results. However, practically, we found that this unsupervised approach works incredibly well, most of the times matching or even outperforming the supervised counterpart!
 
+</br>
+
 ---
+
+</br>
 
 # What's next?   
 
@@ -190,7 +231,11 @@ There are a lot of things that we didn't manage to cover in this paper, and that
 
 If you find these questions interesting (and don't want to work on them on your own), feel free to also reach out to us, we are always interested to chat about this!
 
+</br>
+
 ---
+
+</br>
 
 # Want to know more?
 
