@@ -14,7 +14,7 @@ abstract: _Training deep networks requires various design decisions regarding fo
 
 
 
-##### $\downarrow$ Start Here $\downarrow$   
+### $\downarrow$ Start Here $\downarrow$   
 
 Modern deep networks are (pre)trained on canonical datasets such as ImageNet under various design decisions - covering for instance their architecture, data augmentation, optimization method and even smaller, but still important factors such as the data ordering. This means that training data is received and integrated in differing fashions. But does this mean that each model acquires a somewhat "unique" understanding of the data? And if so, what can we do with that?
 
@@ -24,7 +24,7 @@ In our work, we try to provide insights and answers into both questions. Using l
 
 ---
 
-#### Finding complementary knowledge:   
+### Finding complementary knowledge:   
 
 </br>
 
@@ -40,7 +40,7 @@ For ___any pairing we tested___ (and by extension the majority of model pairings
 
 ---
 
-#### So what does this complementary knowledge look like?   
+### So what does this complementary knowledge look like?   
 
 </br>
 
@@ -60,7 +60,7 @@ We consequently call these class groups a teachers ___areas of expertise___.
 
 ---
 
-#### Even when trained on the same dataset, different models have complementary information about the data. Now what?   
+### Even when trained on the same dataset, different models have complementary information about the data. Now what?   
 
 As the large majority of model pairings have complementary information, the immediate next question for us was: What can we do with it? And in more practical terms:    
 
@@ -86,7 +86,7 @@ As such, finding a way to develop a ___general knowledge transfer___ mechanism i
 
 ---
 
-#### Why should I care about general knowledge transfer?   
+### Why should I care about general knowledge transfer?   
 
 </br>
 
@@ -112,7 +112,7 @@ Some interesting pointers in that regard:
 
 ---
 
-#### So how is this done?   
+### So how is this done?   
 
 </br>
 
@@ -161,7 +161,7 @@ Finally, we round this up by showing that one can get similar transfer success _
 
 ---
 
-### What's next?   
+## What's next?   
 
 </br>
 
@@ -191,7 +191,7 @@ If you find these questions interesting (and don't want to work on them on your 
 
 ---
 
-## Want to know more?
+# Want to know more?
 
 </br>
 
