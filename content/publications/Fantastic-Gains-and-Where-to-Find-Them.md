@@ -122,13 +122,20 @@ As such, finding a way to develop a ___general knowledge transfer___ mechanism i
 
 # Why should I care about general knowledge transfer?   
 
+
 </br>
 
 Before diving into what we tried to tackle this problem setting, it makes sense to understand why general knowledge transfer is of practical interest.
 
+</br>
+
 ![text](/publications/ICLR24_Fantastic/advantages_1.png)
 
+</br>
+
 Some interesting pointers in that regard:
+
+</br>
 
 * One could train multiple models independently in a federated fashion, and try to transfer the additionally gained context from one into another model. Even if one chooses an untrained base model to transfer knowledge too, as soon as multiple models are involved and transfered from at different points in time, it becomes a general transfer problem.
 
@@ -183,7 +190,7 @@ _So how can we get the best from both worlds?_ One methods restricts the change 
 
 </br>
 
-In particular, we simply select data points where we want to distill knowledge from the teacher, and those where we want to avoid this, and instead distill from our original, untouched student. By default, one can leverage class labels to make this selection: Whenever a sample falls into the complementary regime of the teacher, we distill from it, and otherwise we don't. Compared to the other approaches (see previous plot, rightmost bar), this not only raises the overall success rate, _but also gives both complementary knowledge transfer for weaker teacher, and strong transfer from strong teacher models.
+In particular, we simply select data points where we want to distill knowledge from the teacher, and those where we want to avoid this, and instead distill from our original, untouched student. By default, one can leverage class labels to make this selection: Whenever a sample falls into the complementary regime of the teacher, we distill from it, and otherwise we don't. Compared to the other approaches (see previous plot, rightmost bar), this not only raises the overall success rate, __but also gives both complementary knowledge transfer for weaker teacher, and strong transfer from strong teacher models__.
 
 </br>
 
@@ -208,6 +215,8 @@ Finally, we round this up by showing that one can get similar transfer success _
 </br>
 
 There are a lot of things that we didn't manage to cover in this paper, and that are all equally interesting to investigate further:
+
+</br>
 
 * Can one find similar results beyond classification models on ImageNet - e.g. CLIP-style models? And how would a general knowledge transfer mechanism best look here?
   
