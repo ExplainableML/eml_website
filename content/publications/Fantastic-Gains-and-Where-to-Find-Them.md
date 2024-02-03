@@ -22,7 +22,11 @@ abstract: _Training deep networks requires various design decisions regarding fo
 
 Modern deep networks are (pre)trained on canonical datasets such as ImageNet under various design decisions - covering for instance their architecture, data augmentation, optimization method and even smaller, but still important factors such as the data ordering. This means that training data is received and integrated in differing fashions. But does this mean that each model acquires a somewhat "unique" understanding of the data? And if so, what can we do with that?
 
+</br>
+
 ![text](/publications/ICLR24_Fantastic/motivation_1.png)
+
+</br>
 
 In our work, we try to provide insights and answers into both questions. Using large public model libraries, which comprise thousands of models trained on canonical datasets such as ImageNet, we first observe that for any pair of (sufficiently) trained model, complementary knowledge exists.
 
