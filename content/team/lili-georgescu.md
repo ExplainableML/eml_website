@@ -4,6 +4,8 @@ name: Iuliana Georgescu
 role: Postdoctoral Researcher
 order: 2
 link: lili-georgescu
+website: https://lilygeorgescu.github.io/
+scholar: https://scholar.google.com/citations?hl=en&user=XIAPgbwAAAAJ
 ---
 
 Iuliana Georgescu is a post-doctoral researcher in the Explainable Machine Learning group, led by Prof. Zeynep Akata. She did her PhD at the University of Bucharest supervised by prof. Dr. Radu Ionescu. Iuliana worked on video anomaly detection and medical image analysis during her PhD. 
