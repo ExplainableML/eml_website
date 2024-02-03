@@ -1,7 +1,7 @@
 ---
 img: "/publications/ICLR24_Fantastic/teaser.png"
 title: Fantastic Gains and Where to Find Them - On the Existence and Prospect of General Knowledge Transfer
-authors: Karsten Roth*, Lukas Thede*, A. S. Koepke, Oriol Vinyals, Olivier Henaff, Zeynep Akata
+authors: Karsten Roth*, Lukas Thede*, A. S. Koepke, Oriol Vinyals, Olivier Hénaff, Zeynep Akata
 publisher: International Conference on Learning Representations, ICLR
 year: 2024
 date: "2024-01-20"
