@@ -7,7 +7,7 @@ title: Advanced Topics in Vision-Language Models
 
 </br>
 
-Current publications on Vision-Language Models will be discussed in this seminar. These will be based around SOTA models like CLIP, Llava, and Stable-Diffusion.
+The seminar aims to explore cutting-edge advancements in the realm of Vision-Language Models (VLMs), focusing on various topics crucial to their development and application. Through a deep dive into seminal papers and latest research, students will gain an understanding of how models like CLIP, Llama, and Stable Diffusion work at an architectural and mathematical level. By the end of the seminar, students should have a comprehensive perspective on the current state and future potential of vision-language modeling. They will be equipped to evaluate new research, identify promising applications, and contribute meaningfully to the responsible development of this important field.
 
 </br>
 
