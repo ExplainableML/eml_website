@@ -46,7 +46,7 @@ The seminar awards 5 ECTS Credits and will take place in person at [Helmholtz AI
 
 </br>
 
-All students will be matched to one topic group including a primary paper and two secondary papers. They are expect to give one short presentation, a long presentation on their primary paper. Additionally, the should present a very short one-slide covering their secondary papers from a specified role and submit a two page final report on the seminar.
+All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper as well as a one-slide on the secondary papers from a different perspective. Additionally, they should submit a two page final report on the seminar.
 
 </br>
 
@@ -54,6 +54,7 @@ The tentative schedule of the seminar is as follows:
 - Online Introductory Session, April 18th, (1-2:30pm)
 - Short presentations on May 16th, 23rd (1-3pm)
 - Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
+- Deadline for the final report on July 12th
 
 </br>
 
@@ -67,7 +68,7 @@ A successful participation in the seminar includes:
 - Active participation in the entire event: We have 70% attendance policy for this seminar. (You need to attend at least 5 of the 7 sessions.)
 - Short presentation on May 16th or 23rd (10 minutes talk with questions)
 - Long presentation on June 6th, 13th, 20th, 27th, or July 4th (30 minutes talk with questions)
-- Submission of a final report summarizing the contents of the seminar up to 2 pages.
+- Submission of a final report summarizing the contents of the seminar up to 2 pages by July 12th.
 
 ## Registration
 
