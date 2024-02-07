@@ -28,13 +28,13 @@ Additionally, we recommend to have taken at least one advanced deep learning lec
 or a related practical.
 
 ## Topics to select from:
-- Zero/few-shot learning in large VLMs
+- Foundation VLMs
+- Zero/few-shot learning in VLMs
 - Language guidance in computer vision
 - Personalized text2img models
 - Compositionality
-- Foundation VLMs
 
-## Organisation
+## Organization
 
 </br>
 
@@ -46,7 +46,7 @@ The seminar awards 5 ECTS Credits and will take place in person at [Helmholtz AI
 
 </br>
 
-All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper as well as a one-slide on the secondary papers from a different perspective. Additionally, they should submit a two page final report on the seminar.
+All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper as well as a one-slide on the secondary papers from two different perspectives. Additionally, they should submit a two page final report at the end of the seminar.
 
 </br>
 
@@ -58,7 +58,7 @@ The tentative schedule of the seminar is as follows:
 
 </br>
 
-For questions, please contact luca.eyring@helmholtz-munich.de.
+For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@helmholtz-munich.de.
 
 ## Requirements
 
@@ -66,8 +66,8 @@ For questions, please contact luca.eyring@helmholtz-munich.de.
 
 A successful participation in the seminar includes:
 - Active participation in the entire event: We have 70% attendance policy for this seminar. (You need to attend at least 5 of the 7 sessions.)
-- Short presentation on May 16th or 23rd (10 minutes talk with questions)
-- Long presentation on June 6th, 13th, 20th, 27th, or July 4th (30 minutes talk with questions)
+- Short presentation on May 16th or 23rd (10 minutes talk including questions)
+- Long presentation on June 6th, 13th, 20th, 27th, or July 4th (30 minutes talk including questions)
 - Submission of a final report summarizing the contents of the seminar up to 2 pages by July 12th.
 
 ## Registration
