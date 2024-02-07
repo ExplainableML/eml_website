@@ -2,7 +2,13 @@
 title: Advanced Topics in Vision-Language Models
 ---
 # TUM Master's Seminar: Advanced Topics in Vision-Language Models (SS 2024)
+
+</br>
+
 ## Content
+
+</br>
+
 Current publications on Vision-Language Models will be discussed in this seminar. These will be based around SOTA models like CLIP, Llava, and Stable-Diffusion.
 
 </br>
@@ -31,6 +37,7 @@ or a related practical.
 - Foundation VLMs
 
 ## Organisation
+</br>
 The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom ([https://zoom.us/j/92673399783](https://zoom.us/j/92673399783)). Afterwards, the slides will be uploaded here.
 
 </br>
@@ -53,6 +60,7 @@ The tentative schedule of the seminar is as follows:
 For questions, please contact luca.eyring@helmholtz-munich.de.
 
 ## Requirements
+</br>
 A successful participation in the seminar includes:
 - Active participation in the entire event: We have 70% attendance policy for this seminar. (You need to attend at least 5 of the 7 sessions.)
 - Short presentation on May 16th or 23rd (10 minutes talk with questions)
@@ -60,4 +68,5 @@ A successful participation in the seminar includes:
 - Submission of a final report summarizing the contents of the seminar up to 2 pages.
 
 ## Registration
+</br>
 The registration must be done through the [TUM Matching Platform](https://matching.in.tum.de/).
