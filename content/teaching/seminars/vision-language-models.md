@@ -5,9 +5,13 @@ title: Advanced Topics in Vision-Language Models
 ## Content
 Current publications on Vision-Language Models will be discussed in this seminar. These will be based around SOTA models like CLIP, Llava, and Stable-Diffusion.
 
+</br>
+
 This is a Master's level course. Since these topics are very complex, prior participation in at least one of the following lectures is required:
 - Introduction to Deep Learning (IN2346)
 - Machine Learning (IN2064)
+
+</br>
 
 Additionally, we recommend to have taken at least one advanced deep learning lecture, for example:
 - AML: Deep Generative Models (CIT4230003)
@@ -29,14 +33,22 @@ or a related practical.
 ## Organisation
 The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom ([https://zoom.us/j/92673399783](https://zoom.us/j/92673399783)). Afterwards, the slides will be uploaded here.
 
+</br>
+
 The seminar awards 5 ECTS Credits and will take place in person at [Helmholtz AI Munich](https://www.google.com/maps?ll=48.220675,11.596054&z=17&t=m&hl=en&gl=GB&mapclient=embed&cid=3379363886196135068).
 
+</br>
+
 All students will be matched to one topic group including a primary paper and two secondary papers. They are expect to give one short presentation, a long presentation on their primary paper. Additionally, the should present a very short one-slide covering their secondary papers from a specified role and submit a two page final report on the seminar.
+
+</br>
 
 The tentative schedule of the seminar is as follows:
 - Online Introductory Session, April 18th, (1-2:30pm)
 - Short presentations on May 16th, 23rd (1-3pm)
 - Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
+
+</br>
 
 For questions, please contact luca.eyring@helmholtz-munich.de.
 
