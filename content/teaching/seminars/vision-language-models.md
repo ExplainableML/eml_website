@@ -1,7 +1,8 @@
 ---
 title: Advanced Topics in Vision-Language Models (VLMs)
 ---
-# Seminar:Advanced Topics in Vision-Language Models (SS 2024)
+# Seminar: Advanced Topics in Vision-Language Models (SS 2024)\
+\
 ## Content
 Current publications on Vision-Language Models will be discussed in this seminar. These will be based around SOTA models like CLIP, Llava, and Stable-Diffusion.\
 
