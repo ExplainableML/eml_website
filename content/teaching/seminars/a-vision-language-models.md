@@ -31,7 +31,7 @@ or a related practical.
 - Foundation VLMs
 - Zero/few-shot learning in VLMs
 - Language guidance in computer vision
-- Personalized text2img models
+- Personalized text2image models
 - Compositionality
 
 ## Organization
@@ -67,8 +67,7 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 A successful participation in the seminar includes:
 - Active participation in the entire event: We have 70% attendance policy for this seminar. (You need to attend at least 5 of the 7 sessions.)
 - Short presentation on May 16th or 23rd (10 minutes talk including questions)
-- Long presentation on June 6th, 13th, 20th, 27th, or July 4th (30 minutes talk including questions)
-- Submission of a final report summarizing the contents of the seminar up to 2 pages by July 12th.
+- Long presentation on June 6th, 13th, 20th, 27th, or July 4th (20 minutes talk including questions)
 
 ## Registration
 
