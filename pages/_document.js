@@ -10,8 +10,8 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>EML Tübingen</title>
-                    <meta name="description" content="Explainable Machine Learning Tübingen" />
+                    <title>EML Munich</title>
+                    <meta name="description" content="Explainable Machine Learning Munich" />
 
                 </Head>
                 <body class="bg-gray-50">
