@@ -40,7 +40,7 @@ Neural Monge maps have been successfully applied to a variety of domain translat
 
 </br>
 
-![text](/publications/ICLR24_Unbalancedness/motivation_2.png){ width=50% }
+<img src="/publications/ICLR24_Unbalancedness/motivation_2.png" width="250" height="150" alt="text">
 
 </br>
 
