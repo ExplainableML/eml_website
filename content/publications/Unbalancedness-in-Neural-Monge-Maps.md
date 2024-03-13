@@ -39,7 +39,7 @@ Unpaired domain translation aims to transform data from a source to a target dis
 
 </br>
 
-Neural Monge maps have been successfully applied to a variety of domain translation tasks. However, optimal transport assumes a static marginal distribuytion, which can limit its application as it cannot account for **[i]** outliers and **[ii]** undesired distribution shifts, e.g. class imbalance between source and target distribtuion as in the example above. **Unbalanced** OT (UOT) overcomes these limiatations by replacing the conservation of mass constraint with a penalization on mass deviations.
+Neural Monge maps have been successfully applied to a variety of domain translation tasks. However, optimal transport assumes a static marginal distribuytion, which can limit its application as it cannot account for **[i]** outliers and **[ii]** undesired distribution shifts, e.g. class imbalance between source and target distribtuion as in the example above. **Unbalanced** OT (UOT) overcomes these limitations by replacing the conservation of mass constraint with a penalization on mass deviations as seen in the following:
 
 </br>
 
@@ -51,16 +51,15 @@ However, existing methods for estimating neural Monge maps with unbalancedness a
 
 </br>
 
-![text](/publications/ICLR24_Unbalancedness/unbalancedness_teaser.png)
+![text](/publications/ICLR24_Unbalancedness/motivation_3.png)
 
 </br>
 
 We show that with our method we can mimic the behaviour of discrete UOT for any neural Monge map estimator. This also seamlessly integrates with the _OT Flow Matching_ (OT-FM) framework as shown in the following.
 
-
 </br>
 
-![text](/publications/ICLR24_Unbalancedness/motivation_3.png)
+![text](/publications/ICLR24_Unbalancedness/unbalancedness_teaser.png)
 
 </br>
 
@@ -76,7 +75,7 @@ We demonstrate the importance of learning unbalanced Monge maps on three differe
 
 </br>
 
-We demonstrate that unbalancedness enhances the performance in all three of these settings. In particular, it improves _trajectory inference_ on time-resolved _single-cell_ datasets trained with _OT-ICNN_ and the prediction of _perturbations on the cellular level_ trained with _Monge Gap_. Moreover, we demonstrate that while OT-FM performs competitively in natural image translation, unbalancedness (UOT-FM) further elevates these results.
+We demonstrate that unbalancedness enhances the performance in all three of these settings. In particular, We apply our method to existing estimators across two unpaired __single-cell translation__ settings. Here, we show how unbalancedness is crucial in recovering meaningful single-cell __trajectories over time__ with _OT-ICNN_ and in predicting cellular responses to __cell perturbations__ with _Monge Gap_. Moreover, we demonstrate that while OT-FM performs competitively in __unpaired image translation__, unbalancedness (UOT-FM) further elevates these results and better preserves relevant input features.
 
 </br>
 
