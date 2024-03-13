@@ -22,9 +22,12 @@ abstract: _In optimal transport (OT), a Monge map is known as a mapping that tra
 
 Unpaired domain translation aims to transform data from a source to a target distribution without access to paired training samples. This setting poses the significant challenge of achieving a meaningful translation between distributions while retaining relevant input features. Although there are many ways to define the desired properties of such a transformation, **optimal transport** (OT) offers a natural framework by matching samples across distributions in the most cost-efficient way. If this optimal correspondence can be formulated as a map, such a map is known as a Monge map.
 
+
 </br>
 
-![text](/publications/ICLR24_Unbalancedness/motivation_1.png)
+<div  style="text-align: center;">
+    <img src="/publications/ICLR24_Unbalancedness/motivation_1.png" width="500" height="300">
+</div>
 
 </br>
 
@@ -40,7 +43,7 @@ Neural Monge maps have been successfully applied to a variety of domain translat
 
 </br>
 
-<img src="/publications/ICLR24_Unbalancedness/motivation_2.png" width="300" height="200">
+![text](/publications/ICLR24_Unbalancedness/motivation_2.png)
 
 </br>
 
