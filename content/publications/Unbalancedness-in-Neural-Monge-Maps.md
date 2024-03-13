@@ -25,9 +25,9 @@ Unpaired domain translation aims to transform data from a source to a target dis
 
 </br>
 
-<div  style="text-align: center;">
-    <img src="/publications/ICLR24_Unbalancedness/motivation_1.png" width="500" height="300">
-</div>
+<p align="center">
+    <img src="/publications/ICLR24_Unbalancedness/motivation_1.png" width="350" height="200">
+</p>
 
 </br>
 
