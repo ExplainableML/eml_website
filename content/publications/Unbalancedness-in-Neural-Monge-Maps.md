@@ -72,11 +72,11 @@ We show that with our method we can mimic the behaviour of discrete UOT for any 
 
 </br>
 
-We demonstrate the importance of learning unbalanced Monge maps on three different domain translation tasks leveraging three different (balanced) Monge map estimators, which showcases the flexibility of our proposed method.
+We demonstrate the importance of learning unbalanced Monge maps on three different domain translation tasks leveraging three different (balanced) Monge map estimators, which showcases the flexibility of our proposed method. We find that unbalancedness enhances the performance in all three of these settings.
 
 </br>
 
-We demonstrate that unbalancedness enhances the performance in all three of these settings. In particular, We apply our method to existing estimators across two unpaired __single-cell translation__ settings. Here, we show how unbalancedness is crucial in recovering meaningful single-cell __trajectories over time__ with _OT-ICNN_ and in predicting cellular responses to __cell perturbations__ with _Monge Gap_. Moreover, we demonstrate that while OT-FM performs competitively in __unpaired image translation__, unbalancedness (UOT-FM) further elevates these results and better preserves relevant input features.
+In particular, We apply our method to existing estimators across two unpaired __single-cell translation__ settings. Here, we show how unbalancedness is crucial in recovering meaningful single-cell __trajectories over time__ with _OT-ICNN_ and in predicting cellular responses to __cell perturbations__ with _Monge Gap_. Moreover, we demonstrate that while OT-FM performs competitively in __unpaired image translation__, unbalancedness (UOT-FM) further elevates these results and better preserves relevant input features.
 
 </br>
 
