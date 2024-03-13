@@ -32,8 +32,6 @@ Unpaired domain translation aims to transform data from a source to a target dis
 
 </br>
 
-</br>
-
 # Incorporating Unbalancedness:   
 
 </br>
@@ -42,7 +40,7 @@ Neural Monge maps have been successfully applied to a variety of domain translat
 
 </br>
 
-![text](/publications/ICLR24_Unbalancedness/motivation_2.png)
+![text](/publications/ICLR24_Unbalancedness/motivation_2.png){ width=50% }
 
 </br>
 
@@ -50,7 +48,7 @@ However, existing methods for estimating neural Monge maps with unbalancedness a
 
 </br>
 
-![text](/publications/ICLR24_Unbalancedness/teaser.png)
+![text](/publications/ICLR24_Unbalancedness/unbalancedness_teaser.png)
 
 </br>
 
@@ -72,6 +70,10 @@ We show that with our method we can mimic the behaviour of discrete UOT for any 
 </br>
 
 We demonstrate the importance of learning unbalanced Monge maps on three different domain translation tasks leveraging three different (balanced) Monge map estimators, which showcases the flexibility of our proposed method.
+
+</br>
+
+We demonstrate that unbalancedness enhances the performance in all three of these settings. In particular, it improves trajectory inference on time-resolved single-cell datasets trained with __OT-ICNN__ and the prediction of perturbations on the cellular level trained with __Monge Gap__. Moreover, we demonstrate that while OT-FM performs competitively in natural image translation, unbalancedness (UOT-FM) further elevates these results.
 
 </br>
 
