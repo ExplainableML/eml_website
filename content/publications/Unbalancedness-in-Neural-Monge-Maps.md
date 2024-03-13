@@ -26,7 +26,7 @@ Unpaired domain translation aims to transform data from a source to a target dis
 </br>
 
 <p align="center" width="100%">
-    <img width="50%" src="/publications/ICLR24_Unbalancedness/motivation_1.png">
+    <img width="33%" src="/publications/ICLR24_Unbalancedness/motivation_1.png">
 </p>
 
 </br>
@@ -39,7 +39,7 @@ Unpaired domain translation aims to transform data from a source to a target dis
 
 </br>
 
-Neural Monge maps have been successfully applied to a variety of domain translation tasks. However, optimal transport assumes a static marginal distribuytion, which can limit its application as it cannot account for **[i]** outliers and **[ii]** undesired distribution shifts, e.g. class imbalance between source and target distribtuion as in the example above. **Unbalanced** OT (UOT) overcomes these limitations by replacing the conservation of mass constraint with a penalization on mass deviations as seen in the following:
+Neural Monge maps have been successfully applied to a variety of domain translation tasks. However, optimal transport assumes a static marginal distribution, which can limit its application as it cannot account for **[i]** outliers and **[ii]** undesired distribution shifts, e.g. class imbalance between source and target distribtuion as in the example above. **Unbalanced** OT (UOT) overcomes these limitations by replacing the conservation of mass constraint with a penalization on mass deviations as seen in the following:
 
 </br>
 
@@ -55,7 +55,7 @@ However, existing methods for estimating neural Monge maps with unbalancedness a
 
 </br>
 
-We show that with our method we can mimic the behaviour of discrete UOT for any neural Monge map estimator. This also seamlessly integrates with the _OT Flow Matching_ (OT-FM) framework as shown in the following.
+We show that with our method we can mimic the behaviour of discrete UOT for any neural Monge map estimator. This also seamlessly integrates with the _OT Flow Matching_ (OT-FM) framework as shown above.
 
 </br>
 
