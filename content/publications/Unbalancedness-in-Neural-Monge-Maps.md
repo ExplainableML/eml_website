@@ -32,6 +32,8 @@ Unpaired domain translation aims to transform data from a source to a target dis
 
 If this optimal correspondence can be formulated as a map, such a map is known as a Monge map. Recently, a considerable number of neural parameterizations to estimate Monge maps have been proposed.
 
+</br>
+
 ---
 
 </br>
