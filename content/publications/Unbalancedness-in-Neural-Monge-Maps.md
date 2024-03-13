@@ -55,7 +55,7 @@ However, existing methods for estimating neural Monge maps with unbalancedness a
 
 </br>
 
-We show that with our method we can mimic the behaviour of discrete UOT for any neural Monge map estimator. This also seamlessly integrates with the OT Flow Matching (OT-FM) framework as shown in the following.
+We show that with our method we can mimic the behaviour of discrete UOT for any neural Monge map estimator. This also seamlessly integrates with the _OT Flow Matching_ (OT-FM) framework as shown in the following.
 
 
 </br>
@@ -76,7 +76,7 @@ We demonstrate the importance of learning unbalanced Monge maps on three differe
 
 </br>
 
-We demonstrate that unbalancedness enhances the performance in all three of these settings. In particular, it improves trajectory inference on time-resolved single-cell datasets trained with __OT-ICNN__ and the prediction of perturbations on the cellular level trained with __Monge Gap__. Moreover, we demonstrate that while OT-FM performs competitively in natural image translation, unbalancedness (UOT-FM) further elevates these results.
+We demonstrate that unbalancedness enhances the performance in all three of these settings. In particular, it improves _trajectory inference_ on time-resolved _single-cell_ datasets trained with _OT-ICNN_ and the prediction of _perturbations on the cellular level_ trained with _Monge Gap_. Moreover, we demonstrate that while OT-FM performs competitively in natural image translation, unbalancedness (UOT-FM) further elevates these results.
 
 </br>
 
@@ -84,4 +84,4 @@ We demonstrate that unbalancedness enhances the performance in all three of thes
 
 </br>
 
-Lastly, we show that unbalancedness also improves performance in the image generation setting. In particular, a small amount of unbalancedness with UOT-FM outperforms OT-FM on CIFAR-10 image generation.
+Lastly, we show that unbalancedness also improves performance in the __image generation__ setting. In particular, a small amount of unbalancedness with UOT-FM improves upon OT-FM on CIFAR-10 image generation. For all the details, check out the paper!
