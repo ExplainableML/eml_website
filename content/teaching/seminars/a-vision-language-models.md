@@ -58,6 +58,8 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 
 ### Foundation VLMs
 
+</br>
+
 1. Learning Transferable Visual Models From Natural Language Supervision (CLIP, https://arxiv.org/abs/2103.00020)
 2. BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation (https://arxiv.org/abs/2201.12086)
 3. Visual Instruction Tuning (https://arxiv.org/abs/2304.08485)
@@ -70,6 +72,8 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 </br>
 
 ### Zero/few-shot learning in VLMs
+
+</br>
 
 1. Test-time Adaptation with CLIP Reward for Zero-shot Generalization in VLMs (https://arxiv.org/pdf/2305.18010.pdf)
 2. Prompt Distribution Learning (https://arxiv.org/pdf/2205.03340.pdf)
@@ -84,6 +88,8 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 
 ### Language guidance in computer vision
 
+</br>
+
 1. DeViL: Decoding Vision features into Language (https://arxiv.org/abs/2309.01617)
 2. Label-Free Concept Bottleneck Models (https://arxiv.org/abs/2304.06129)
 3. Generalized Category Discovery (https://arxiv.org/abs/2201.02609)
@@ -97,6 +103,8 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 
 ### Personalized text2image models
 
+</br>
+
 1. Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet, https://arxiv.org/abs/2302.05543)
 2. An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion (https://textual-inversion.github.io/)
 3. DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation (https://dreambooth.github.io/)
@@ -109,6 +117,8 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 </br>
 
 ### Compositionality
+
+</br>
 
 1. Vision-by-Language for Training-Free Compositional Image Retrieval (https://arxiv.org/abs/2310.09291)
 2. CoVR: Learning Composed Video Retrieval from Web Video Captions (https://imagine.enpc.fr/~ventural/covr/dataset/covr.pdf)
