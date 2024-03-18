@@ -92,15 +92,16 @@ __Karsten Roth__, Oriol Vinyals, Zeynep Akata
 Reviewer for
 - ECCV '22, CVPR '22 and '23 (all outstanding reviewer)
 - MICCAI '20,'21, ICCV '23, IJCV \& TPAMI since '22
-- NeurIPS '23, ICLR '24
+- NeurIPS '23, ICLR '24, ICML '24, ECCV '24
 - Lots of CVPR/NeurIPS workshops
 
 # Supervision
 
-- _Continual Learning with Foundation Models_, Zafir Stojanovski. Master Thesis May 2023. Workshop Submission.
+__Master Theses and Research Projects:__
+- _Continual Learning with Foundation Models_, Zafir Stojanovski. Master Thesis May 2023. Workshop Paper.
 - _Scene Sketch-based Image Retrieval_, Jessica Bader. Master Thesis May 2023.
 - _Topological Properties of Metric Spaces_, Zafir Stojanovski, Jessica Bader. Research Project 2023.
-- _Realistic Concept Bottleneck Models_, Nishad Singhi. Master Thesis (_ongoing_, with Jae Myung Kim).
+- _Realistic Concept Bottleneck Models_, Nishad Singhi. Master Thesis April 2024, with Jae Myung Kim. Workshop and Conference Submission.
 - _Effective Decoder-free Disentanglement_, Jasper Touissant. Research Project (with Shyamgopal Karthik) Nov 2023.
 - _Topological and Equivariant Self-Supervised Learning_, Madhav Iyengar. Master Thesis Nov 2023.
-- _Improving Industrial Anomaly Detection_, Stefan Wezel. Master Thesis July 2023. Collaboration with Maddox AI. Workshop Submission.
+- _Improving Industrial Anomaly Detection_, Stefan Wezel. Master Thesis July 2023. Collaboration with Maddox AI. Workshop Paper.
