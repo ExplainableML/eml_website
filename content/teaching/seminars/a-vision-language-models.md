@@ -27,6 +27,31 @@ Additionally, we recommend to have taken at least one advanced deep learning lec
 - ADL4R (IN2349)
 or a related practical.
 
+## Organization
+
+</br>
+
+The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom [https://zoom.us/j/92673399783](https://zoom.us/j/92673399783) . You can finde the slides [here](https://drive.google.com/file/d/1ji2Sp1J-Xtoki5PiuumrQ1LEYfTYdqGl/view?usp=sharing).
+
+</br>
+
+The seminar awards 5 ECTS Credits and will take place in person at [Helmholtz AI Munich](https://www.google.com/maps?ll=48.220675,11.596054&z=17&t=m&hl=en&gl=GB&mapclient=embed&cid=3379363886196135068).
+
+</br>
+
+All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper (from the perspective of an __academic reviewer__) as well as a one-slide on the secondary papers from two different perspectives (__industry practitioner__ and __academic researcher__).
+
+</br>
+
+The tentative schedule of the seminar is as follows:
+- Online Introductory Session, April 18th, (1-2:30pm)
+- Short presentations on May 16th, 23rd (1-3pm)
+- Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
+
+</br>
+
+For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@helmholtz-munich.de.
+
 # Topics to select from:
 
 </br>
@@ -95,31 +120,6 @@ or a related practical.
 8. When and why vision-language models behave like bags-of-words, and what to do about it? (https://arxiv.org/abs/2210.01936)
 
 </br>
-
-## Organization
-
-</br>
-
-The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom [https://zoom.us/j/92673399783](https://zoom.us/j/92673399783) . You can finde the slides [here](https://drive.google.com/file/d/1ji2Sp1J-Xtoki5PiuumrQ1LEYfTYdqGl/view?usp=sharing).
-
-</br>
-
-The seminar awards 5 ECTS Credits and will take place in person at [Helmholtz AI Munich](https://www.google.com/maps?ll=48.220675,11.596054&z=17&t=m&hl=en&gl=GB&mapclient=embed&cid=3379363886196135068).
-
-</br>
-
-All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper (from the perspective of an __academic reviewer__) as well as a one-slide on the secondary papers from two different perspectives (__industry practitioner__ and __academic researcher__).
-
-</br>
-
-The tentative schedule of the seminar is as follows:
-- Online Introductory Session, April 18th, (1-2:30pm)
-- Short presentations on May 16th, 23rd (1-3pm)
-- Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
-
-</br>
-
-For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@helmholtz-munich.de.
 
 ## Requirements
 
