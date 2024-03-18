@@ -52,9 +52,9 @@ The tentative schedule of the seminar is as follows:
 
 For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@helmholtz-munich.de.
 
-# Topics to select from:
-
 </br>
+
+# Topics to select from:
 
 ### Foundation VLMs
 
