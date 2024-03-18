@@ -108,7 +108,7 @@ The seminar awards 5 ECTS Credits and will take place in person at [Helmholtz AI
 
 </br>
 
-All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper as well as a one-slide on the secondary papers from two different perspectives. Additionally, they should submit a two page final report at the end of the seminar.
+All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper (from the perspective of an __academic reviewer__) as well as a one-slide on the secondary papers from two different perspectives (__industry practicioner__ and __acedemic researcher__).
 
 </br>
 
