@@ -44,7 +44,7 @@ All students will be matched to __one topic group including a primary paper and 
 </br>
 
 The tentative schedule of the seminar is as follows:
-- Online Introductory Session, April 18th, (1-2:30pm), [https://zoom.us/j/92673399783](https://zoom.us/j/92673399783) 
+- Online Introductory Session, April 18th, (1-2:30pm), [https://zoom.us/j/94077626596](https://zoom.us/j/94077626596) 
 - Short presentations on May 16th, 23rd (1-3pm)
 - Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
 
