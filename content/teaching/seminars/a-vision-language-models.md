@@ -31,7 +31,7 @@ or a related practical.
 
 </br>
 
-The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom. You can finde the slides [here](https://drive.google.com/file/d/1ji2Sp1J-Xtoki5PiuumrQ1LEYfTYdqGl/view?usp=sharing).
+The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom. You can find the slides [here](https://drive.google.com/file/d/1ji2Sp1J-Xtoki5PiuumrQ1LEYfTYdqGl/view?usp=sharing).
 
 </br>
 
@@ -44,9 +44,9 @@ All students will be matched to __one topic group including a primary paper and 
 </br>
 
 The tentative schedule of the seminar is as follows:
-- Online Introductory Session, April 18th, (1-2:30pm), [https://zoom.us/j/94077626596](https://zoom.us/j/94077626596) 
-- Short presentations on May 16th, 23rd (1-3pm)
-- Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
+- __Online__ Introductory Session, April 18th, (1-2:30pm), [https://zoom.us/j/94077626596](https://zoom.us/j/94077626596) 
+- __Onsitr__ Short presentations on May 16th, 23rd (1-3pm)
+- __Onsitr__ Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
 
 </br>
 
