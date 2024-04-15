@@ -31,7 +31,7 @@ or a related practical.
 
 </br>
 
-The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom [https://zoom.us/j/92673399783](https://zoom.us/j/92673399783) . You can finde the slides [here](https://drive.google.com/file/d/1ji2Sp1J-Xtoki5PiuumrQ1LEYfTYdqGl/view?usp=sharing).
+The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom. You can finde the slides [here](https://drive.google.com/file/d/1ji2Sp1J-Xtoki5PiuumrQ1LEYfTYdqGl/view?usp=sharing).
 
 </br>
 
