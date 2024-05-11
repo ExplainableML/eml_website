@@ -13,10 +13,11 @@ scholar: https://scholar.google.com/citations?user=93ZjIs0AAAAJ
 
 # Profile
 
-Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ and the _International Max-Planck Research School for Intelligent Systems (IMPRS-IS)_ co-supervised by Prof. Zeynep Akata and Hon. Prof. Oriol Vinyals at Deepmind. He is supported by the Qualcomm Innovation Fellowship 2023.
+Karsten Roth is a PhD researcher at the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ and the _International Max-Planck Research School for Intelligent Systems (IMPRS-IS)_ co-supervised by Prof. Zeynep Akata and Hon. Prof. Oriol Vinyals at Google DeepMind. He is supported by the Qualcomm Innovation Fellowship 2023.
 
 </br>
 
+Karsten is currently working at Google DeepMind London as part of his ELLIS exchange working on large multimodal models.
 He has completed both Bachelor and Master studies in Physics at Heidelberg University (2021). 
 During that time, Karsten spent time abroad in Canada as a research intern at the _Montreal Institute for Learning Algorithms (MILA)_ supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the _Vector Institute_ supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. 
 
@@ -90,9 +91,9 @@ __Karsten Roth__, Oriol Vinyals, Zeynep Akata
 # Community Service
 
 Reviewer for
-- ECCV '22, CVPR '22 and '23 (all outstanding reviewer)
+- ECCV '22, CVPR '22 & '23, ICLR '24 (all outstanding reviewer)
 - MICCAI '20,'21, ICCV '23, IJCV \& TPAMI since '22
-- NeurIPS '23, ICLR '24, ICML '24, ECCV '24
+- NeurIPS '23 & '24, ICML '24, ECCV '24, CVPR '24
 - Lots of CVPR/NeurIPS workshops
 
 # Supervision
