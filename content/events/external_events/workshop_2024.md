@@ -276,7 +276,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
     <tbody>
         <tr>
             <td ><p class="mt-3 text-black-500 text-base font-bold">Workshop funded by <br/>Helmoholtz AI </p> </td>
-                        <td><img src="/workshop_2024/helmholtz.jpeg" width="270" height="270"></td>
+                        <td><img src="/workshop_2024/helmholtz.webp" width="270" height="270"></td>
         </tr>
     </tbody>
 </table>
