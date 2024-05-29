@@ -26,6 +26,5 @@ link: alumni
 * Sam Tureski (Master Thesis Student) at EML, now NLP Research Engineer at Posh, New york.
 * Ilke Cugu (Research Scientist) at EML, now Engineer at Microsoft, Turkey.
 * Yanbei Chen (Postdoc Oct 2020 - May 2022) at EML, now Applied Scientist-II at Amazon Seattle.
-* Wenjia Xu (Visiting researcher Oct 2019 - Mar 2022) at EML, now an assistant professor at UCAS.
 * Yao Rong (Collaborating PhD Researcher) at EML, now at TU Munich.
 * Charlotte Wenner (Administrative Assistant).
