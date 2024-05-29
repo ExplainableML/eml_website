@@ -173,7 +173,7 @@ The workshop will take place at the [Helmholtz Pioneer Campus](https://www.helmh
 
 ### Attending
 
-There is no registration fee, however the venue has limited capacity. Registration will be available soon.
+There is no registration fee, however the venue has limited capacity. If you are interested in attending, we recommend registering ASAP. Registration is available [here](https://forms.gle/YrUzVXRmZqS2Gvb89).
 <br/>
 
 ### Poster  Submission
