@@ -173,7 +173,7 @@ The workshop will take place at the [Helmholtz Pioneer Campus](https://www.helmh
 
 ### Attending
 
-There is no registration fee, however the venue has limited capacity. Registration will be available soon.
+There is no registration fee, however the venue has limited capacity. If you are interested in attending, we recommend registering ASAP. Registration is available [here](https://forms.gle/YrUzVXRmZqS2Gvb89). If you realize after registering that you cannot attend, please contact us via the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A), so that we may free up the slot for other participants.
 <br/>
 
 ### Poster  Submission
@@ -279,7 +279,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
     </thead>
     <tbody>
         <tr>
-            <td ><p class="mt-3 text-black-500 text-base font-bold">Workshop funded by <br/>Helmoholtz AI </p> </td>
+            <td ><p class="mt-3 text-black-500 text-base font-bold">Workshop funded by <br/>Helmholtz AI </p> </td>
                         <td><img src="/workshop_2024/helmholtz.webp" width="270" height="270"></td>
         </tr>
     </tbody>
