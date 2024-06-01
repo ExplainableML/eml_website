@@ -17,7 +17,7 @@ Karsten Roth is a PhD researcher at the Explainable Machine Learning group as pa
 
 </br>
 
-Karsten is currently working at Google DeepMind London as part of his ELLIS exchange working on large multimodal models.
+Karsten is currently working at Google DeepMind London as part of his ELLIS exchange on large multimodal models.
 He has completed both Bachelor and Master studies in Physics at Heidelberg University (2021). 
 During that time, Karsten spent time abroad in Canada as a research intern at the _Montreal Institute for Learning Algorithms (MILA)_ supervised by Dr. Joseph Paul Cohen and Prof. Yoshua Bengio, and the _Vector Institute_ supervised by Prof. Marzyeh Ghassemi, working on all manners of representation learning and their applications to the medical domain. 
 
@@ -31,6 +31,12 @@ His primary interests cover approaches to effective representation learning unde
 
 
 # Publications
+
+</br>
+
+__"_ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections_"__   
+Massimo Bini, __Karsten Roth__, Zeynep Akata, Anna Khoreva
+International Conference on Machine Learning, ICML 2024
 
 </br>
 
