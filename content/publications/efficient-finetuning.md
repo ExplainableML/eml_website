@@ -28,17 +28,48 @@ In this work, we propose *ETHER* (Efficient Finetuning via Hyperplane Reflection
 
 ***ETHER.*** *ETHER* sets up weight transformations as hyperplane reflections using the Householder transformation:
 </br>
-<p align="center">
-    $$H=I-2uu^{\intercal}$$
-</p>
+
+$$
+\begin{align*}
+H = I - 2uu^{\intercal}
+\end{align*}
+$$
+
+<!-- <p align="center">
+    $$ {H=I-2uu^{\intercal}}$$
+</p> -->
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'>
+    <p align="center">
+        $$ {H=I-2uu^{\intercal}}$$
+    </p>
+</script> -->
 </br>
 These reflections keep the distance to the identity matrix constant, minimizing the risk of divergence from the pretrained model during finetuning. This allows for a low number of extra parameters and the use of high learning rates, resulting in learning rate robustness and fast convergence.
 
 ***ETHER+.*** While *ETHER* has these benefits, the strong transformation strength may not be suitable for more nuanced tasks. To address this, the paper proposes *ETHER+*, a relaxed variant of the Householder transformation:
 </br>
-<p align="center">
-    $$H^+=I-uu^{\intercal}+vv^{\intercal}$$
-</p>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'>
+    <p align="center">
+        $$H^+=I-uu^{\intercal}+vv^{\intercal}$$
+    </p>
+</script> -->
+
+
+$$
+\begin{equation}
+    \mathcal{L}_{AN}=\frac{1}{C}\left[
+    \sum_{i \in \mathcal{I}^{p}}   \mathcal{L}_{+} 
+    +  \sum_{i \in
+    \mathcal{I}^{n} \cup \mathcal{I}^{\phi}}  \mathcal{L}_{-}
+    \right]
+\end{equation}
+$$
+
+$$
+\begin{align*}
+H^+=I-uu^{\intercal}+vv^{\intercal}
+\end{align*}
+$$
 </br>
 *ETHER+* allows for interactions between two distinct hyperplanes, which can weaken or cancel each other out to provide more nuanced weight adjustments. Importantly, the transformation distance remains bounded, still minimizing the risk of diverging from the pretrained model.
 </br>
