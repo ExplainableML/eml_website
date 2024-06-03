@@ -38,6 +38,7 @@ $$
 These reflections keep the distance to the identity matrix constant, minimizing the risk of divergence from the pretrained model during finetuning. This allows for a low number of extra parameters and the use of high learning rates, resulting in learning rate robustness and fast convergence.
 
 </br>
+
 ***ETHER+.*** While *ETHER* has these benefits, the strong transformation strength may not be suitable for more nuanced tasks. To address this, the paper proposes *ETHER+*, a relaxed variant of the Householder transformation:
 </br>
 
@@ -66,6 +67,8 @@ Overall, *ETHER* leverages hyperplane reflections for efficient and stable finet
 
 The *ETHER* and *ETHER+* methods exhibit several intriguing properties that make them attractive for practical finetuning tasks:
 
+</br>
+
 **Non-Deteriorating Nature.** Both *ETHER* and *ETHER+* are upper-bounded in their possible perturbation over the pretrained weight matrices, ensuring suitable results for most hyperparameter choices. We qualitatively visualize this by perturbing Stable Diffusion with transformations of different distance (below, left), finding that *ETHER* and *ETHER+* perturbed models still retain semantics despite noticeable changes, unlike the catastrophic deterioration of an unbound method like OFT.
 </br>
 </br>
@@ -79,6 +82,7 @@ The *ETHER* and *ETHER+* methods exhibit several intriguing properties that make
 </br>
 ![](/publications/ether/rate_db0_g2.png)
 </br>
+
 **Parameter Efficiency.** *ETHER*-based methods, consisting in a search for optimal reflection hyperplanes, are highly parameter-efficient, using significantly fewer parameters than other fine-tuning approaches like OFT and LoRA. For example, when fine-tuning Stable Diffusion, *ETHER* and *ETHER+* use 120 times and 30 times fewer parameters than OFT, respectively.
 
 The bounded perturbation, learning rate robustness, and parameter efficiency of *ETHER* and *ETHER+* make them attractive practical fine-tuning methods.
