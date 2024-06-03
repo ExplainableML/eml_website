@@ -35,49 +35,30 @@ H = I - 2uu^{\intercal}
 \end{align*}
 $$
 
-<!-- <p align="center">
-    $$ {H=I-2uu^{\intercal}}$$
-</p> -->
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'>
-    <p align="center">
-        $$ {H=I-2uu^{\intercal}}$$
-    </p>
-</script> -->
 </br>
 These reflections keep the distance to the identity matrix constant, minimizing the risk of divergence from the pretrained model during finetuning. This allows for a low number of extra parameters and the use of high learning rates, resulting in learning rate robustness and fast convergence.
 
+</br>
 ***ETHER+.*** While *ETHER* has these benefits, the strong transformation strength may not be suitable for more nuanced tasks. To address this, the paper proposes *ETHER+*, a relaxed variant of the Householder transformation:
 </br>
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'>
-    <p align="center">
-        $$H^+=I-uu^{\intercal}+vv^{\intercal}$$
-    </p>
-</script> -->
-
-
-$$
-\begin{equation}
-    \mathcal{L}_{AN}=\frac{1}{C}\left[
-    \sum_{i \in \mathcal{I}^{p}}   \mathcal{L}_{+} 
-    +  \sum_{i \in
-    \mathcal{I}^{n} \cup \mathcal{I}^{\phi}}  \mathcal{L}_{-}
-    \right]
-\end{equation}
-$$
 
 $$
 \begin{align*}
 H^+=I-uu^{\intercal}+vv^{\intercal}
 \end{align*}
 $$
+
 </br>
+
 *ETHER+* allows for interactions between two distinct hyperplanes, which can weaken or cancel each other out to provide more nuanced weight adjustments. Importantly, the transformation distance remains bounded, still minimizing the risk of diverging from the pretrained model.
+</br>
 </br>
 <p align="center">
     <img src="/publications/ether/ICML-24-7_gd.png" alt="drawing" width="400"/>
 </p>
 <!-- ![](/publications/ether/ICML-24-7_gd.png) -->
 </br>
+
 Overall, *ETHER* leverages hyperplane reflections for efficient and stable finetuning, while *ETHER+* relaxes the constant distance to enable more flexible transformations when needed, while retaining the core benefits of the approach.
 
 </br>
@@ -90,9 +71,12 @@ The *ETHER* and *ETHER+* methods exhibit several intriguing properties that make
 
 **Non-Deteriorating Nature.** Both *ETHER* and *ETHER+* are upper-bounded in their possible perturbation over the pretrained weight matrices, ensuring suitable results for most hyperparameter choices. We qualitatively visualize this by perturbing Stable Diffusion with transformations of different distance (below, left), finding that *ETHER* and *ETHER+* perturbed models still retain semantics despite noticeable changes, unlike the catastrophic deterioration of an unbound method like OFT.
 </br>
+</br>
 ![](/publications/ether/non_deter.png)
 </br>
+
 **Learning Rate and Hyperparameter Robustness.** The non-deteriorating nature of *ETHER* and *ETHER+* results in learning rate robustness during finetuning, where training stability becomes much less dependent on the choice of learning rate. *ETHER+* can achieve fast convergence with learning rates covering multiple magnitudes, while non-*ETHER* methods exhibit significant performance drops at high learning rates.
+</br>
 </br>
 ![](/publications/ether/lr_rob.png)
 </br>
@@ -111,12 +95,14 @@ The bounded perturbation, learning rate robustness, and parameter efficiency of 
 Multiplicative finetuning techniques like *ETHER* introduce additional computational load through extra matrix multiplications. To mitigate this issue, the paper proposes the usage a block-diagonal formulation of *ETHER*.
 
 In this block-diagonal structure, each block on the diagonal of transformation matrix $H$ only affects a sub-block of the weight matrix $W$. As a result, the full weight transformation can now be separated into smaller block-specific operations. This significantly increases the training speed by reducing the overall number of computations from O(d^2 f) to O(d^2 f/n).In addition, each of this block operations can now be fully parallelized, further speeding-up the method.
+
 </br>
 <p align="center">
     <img src="/publications/ether/block_final6.png" alt="drawing" width="400"/>
 </p>
 <!-- ![](/publications/ether/block_final6.png) -->
 </br>
+
 Importantly, in *ETHER* transformations the total number of trainable parameters remains constant regardless of the number of blocks n, unlike block-diagonal OFT where higher block counts decreased adaptation performance. Instead, the block-parallel ETHER is found to maintain consistent performance even with increasing block counts, allowing for an improved computational footprint with negligible performance impact.
 
 </br>
@@ -127,6 +113,7 @@ Importantly, in *ETHER* transformations the total number of trainable parameters
 
 OFT links the finetuning stability and performance obtained by transforming the weights via matrix-multiplication to the orthogonality of the transformations, and a consequently unaltered hyperspherical energy (HE). To test this assumption, we have included an OFT control baseline (Naive), which does not utilize orthogonality constraints.
 Our experiments do not show significant differences in terms of performance and training stability, suggesting that such properties stem from the multiplicative finetuning approach rather than the underlying HE retention.
+</br>
 </br>
 ![](/publications/ether/hypers_comp.png)
 </br>
@@ -142,15 +129,18 @@ We tested our method on generative model adaptation, with a focus on subject-dri
 
 **Subject-driven generation.**
 </br>
+</br>
 ![](/publications/ether/db.png)
 </br>
 
 **Controllable generation.**
 </br>
+</br>
 ![](/publications/ether/results_cn_g.png)
 </br>
 
 **Language Model Adaptation.**
+</br>
 </br>
 ![](/publications/ether/lang.png)
 
