@@ -106,7 +106,7 @@ In this block-diagonal structure, each block on the diagonal of the transformati
 <!-- ![](/publications/ether/block_final6.png) -->
 </br>
 
-Importantly, in *ETHER* transformations the total number of trainable parameters remains constant regardless of the number of blocks n, unlike block-diagonal OFT where higher block counts decreased adaptation performance. Instead, the block-parallel ETHER is found to maintain consistent performance even with increasing block counts, allowing for an improved computational footprint with negligible performance impact.
+Importantly, in *ETHER* transformations the total number of trainable parameters remains constant regardless of the number of blocks n, unlike block-diagonal OFT where higher block counts decreased adaptation performance. Instead, the block-parallel *ETHER* is found to maintain consistent performance even with increasing block counts, allowing for an improved computational footprint with negligible performance impact.
 
 </br>
 
@@ -120,6 +120,7 @@ Our experiments do not show significant differences in terms of performance and 
 </br>
 ![](/publications/ether/hypers_comp.png)
 </br>
+
 This evidence diminishes the role of the HE and instead emphasizes the greater importance of the Euclidean distance, establishing the *ETHER* family as a favorable option in multiplicative finetuning settings.
 
 </br>
