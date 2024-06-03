@@ -2,7 +2,7 @@
 img: "/publications/ether.png"
 title: "ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections"
 authors: Massimo Bini, Karsten Roth, Zeynep Akata, Anna Khoreva
-publisher: International Conference on Machine Learning
+publisher: International Conference on Machine Learning, ICML
 year: 2024
 date: "2024-04-25"
 filename: efficient-finetuning
