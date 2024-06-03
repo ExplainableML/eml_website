@@ -11,11 +11,9 @@ abstract: Parameter-efficient finetuning (PEFT) has become ubiquitous to adapt f
 ---
 
 </br>
-<p align="center">
 
 ## Motivation
 
-</p>
 </br>
 
 Large-scale foundation models offer impressive capabilities, but their massive parameter counts pose challenges for affordable and scalable adaptation. Parameter-efficient finetuning (PEFT) techniques, especially those leveraging lightweight transformations, have emerged as effective solutions. These methods finetune on smaller datasets to adapt to downstream tasks, without incurring significant inference latency, parameter counts, or compromising the costly pretraining. However, striking the right balance between adaptation and retention of foundational model abilities often requires expensive hyperparameter tuning.
@@ -23,34 +21,34 @@ Large-scale foundation models offer impressive capabilities, but their massive p
 In this work, we propose *ETHER* (Efficient Finetuning via Hyperplane Reflections) - a new family of multiplicative weight transformations that are efficient in parameter count while preserving model abilities and being robust in convergence and learning rate choices. 
 
 </br>
-<p align="center">
 
 ## *ETHER* and *ETHER+*
 
-</p>
 </br>
 
 ***ETHER.*** *ETHER* sets up weight transformations as hyperplane reflections using the Householder transformation:
+</br>
 $$H=I-2uu^{\intercal}$$
+</br>
 These reflections keep the distance to the identity matrix constant, minimizing the risk of divergence from the pretrained model during finetuning. This allows for a low number of extra parameters and the use of high learning rates, resulting in learning rate robustness and fast convergence.
 
 ***ETHER+.*** While *ETHER* has these benefits, the strong transformation strength may not be suitable for more nuanced tasks. To address this, the paper proposes *ETHER+*, a relaxed variant of the Householder transformation:
+</br>
 $$H^+=I-uu^{\intercal}+vv^{\intercal}$$
+</br>
 *ETHER+* allows for interactions between two distinct hyperplanes, which can weaken or cancel each other out to provide more nuanced weight adjustments. Importantly, the transformation distance remains bounded, still minimizing the risk of diverging from the pretrained model.
 
 <p align="center">
-<img src="/publications/ether/ICML-24-7_gd.png" alt="drawing" width="400"/>
-<!-- ![](/publications/ether/ICML-24-7_gd.png) -->
+    <img src="/publications/ether/ICML-24-7_gd.png" alt="drawing" width="400"/>
 </p>
+<!-- ![](/publications/ether/ICML-24-7_gd.png) -->
 
 Overall, *ETHER* leverages hyperplane reflections for efficient and stable finetuning, while *ETHER+* relaxes the constant distance to enable more flexible transformations when needed, while retaining the core benefits of the approach.
 
 </br>
-<p align="center">
 
 ## Why to use *ETHER*: Intriguing Properties
 
-</p>
 </br>
 
 The *ETHER* and *ETHER+* methods exhibit several intriguing properties that make them attractive for practical finetuning tasks:
@@ -70,28 +68,26 @@ The *ETHER* and *ETHER+* methods exhibit several intriguing properties that make
 The bounded perturbation, learning rate robustness, and parameter efficiency of *ETHER* and *ETHER+* make them attractive practical fine-tuning methods.
 
 </br>
-<p align="center">
 
 ## Speeding-up Multiplicative Finetuning with Block-parallel Scheme
 
-</p>
 </br>
 
 Multiplicative finetuning techniques like *ETHER* introduce additional computational load through extra matrix multiplications. To mitigate this issue, the paper proposes the usage a block-diagonal formulation of *ETHER*.
 
 In this block-diagonal structure, each block on the diagonal of transformation matrix $H$ only affects a sub-block of the weight matrix $W$. As a result, the full weight transformation can now be separated into smaller block-specific operations. This significantly increases the training speed by reducing the overall number of computations from O(d^2 f) to O(d^2 f/n).In addition, each of this block operations can now be fully parallelized, further speeding-up the method.
 
-<img src="/publications/ether/block_final6.png" alt="drawing" width="400"/>
+<p align="center">
+    <img src="/publications/ether/block_final6.png" alt="drawing" width="400"/>
+</p>
 <!-- ![](/publications/ether/block_final6.png) -->
 
 Importantly, in *ETHER* transformations the total number of trainable parameters remains constant regardless of the number of blocks n, unlike block-diagonal OFT where higher block counts decreased adaptation performance. Instead, the block-parallel ETHER is found to maintain consistent performance even with increasing block counts, allowing for an improved computational footprint with negligible performance impact.
 
 </br>
-<p align="center">
 
 ## Multiplicative Finetuning needs Hyperspherical Energy Retention?
 
-</p>
 </br>
 
 OFT links the finetuning stability and performance obtained by transforming the weights via matrix-multiplication to the orthogonality of the transformations, and a consequently unaltered hyperspherical energy (HE). To test this assumption, we have included an OFT control baseline (Naive), which does not utilize orthogonality constraints.
@@ -102,11 +98,9 @@ Our experiments do not show significant differences in terms of performance and 
 This evidence diminishes the role of the HE and instead emphasizes the greater importance of the Euclidean distance, establishing the *ETHER* family as a favorable option in multiplicative finetuning settings.
 
 </br>
-<p align="center">
 
 ## Benchmark Experiments
 
-</p>
 </br>
 
 We tested our method on generative model adaptation, with a focus on subject-driven image synthesis and controllable image synthesis, and on language model adaptation, looking at both natural language understanding and instruction tuning.
@@ -121,11 +115,9 @@ We tested our method on generative model adaptation, with a focus on subject-dri
 ![](/publications/ether/lang.png)
 
 </br>
-<p align="center">
 
 ## Want to know more?
 
-</p>
 </br>
 
 For more details (additional tables, ablations, further considerations) have a look at the full [paper](https://arxiv.org/abs/2405.20271)! Do you want to test the finetuning method yourself? The code is available [here](https://github.com/mwbini/ether).
