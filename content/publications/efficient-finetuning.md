@@ -83,9 +83,9 @@ The *ETHER* and *ETHER+* methods exhibit several intriguing properties that make
 ![](/publications/ether/rate_db0_g2.png)
 </br>
 
-**Parameter Efficiency.** *ETHER*-based methods, consisting in a search for optimal reflection hyperplanes, are highly parameter-efficient, using significantly fewer parameters than other fine-tuning approaches like OFT and LoRA. For example, when fine-tuning Stable Diffusion, *ETHER* and *ETHER+* use 120 times and 30 times fewer parameters than OFT, respectively.
+**Parameter Efficiency.** *ETHER*-based methods, consisting in a search for optimal reflection hyperplanes, are highly parameter-efficient, using significantly fewer parameters than other finetuning approaches like OFT and LoRA. For example, when finetuning Stable Diffusion, *ETHER* and *ETHER+* use 120 times and 30 times fewer parameters than OFT, respectively.
 
-The bounded perturbation, learning rate robustness, and parameter efficiency of *ETHER* and *ETHER+* make them attractive practical fine-tuning methods.
+The bounded perturbation, learning rate robustness, and parameter efficiency of *ETHER* and *ETHER+* make them attractive practical finetuning methods.
 
 </br>
 
