@@ -97,7 +97,7 @@ The bounded perturbation, learning rate robustness, and parameter efficiency of 
 
 Multiplicative finetuning techniques like *ETHER* introduce additional computational load through extra matrix multiplications. To mitigate this issue, the paper proposes the usage a block-diagonal formulation of *ETHER*.
 
-In this block-diagonal structure, each block on the diagonal of the transformation matrix $H$ only affects a sub-block of the weight matrix $W$. As a result, the full weight transformation can now be separated into smaller block-specific operations. This significantly increases the training speed by reducing the overall number of computations from O(d^2 f) to O(d^2 f/n).In addition, each of this block operations can now be fully parallelized, further speeding-up the method.
+In this block-diagonal structure, each block on the diagonal of the transformation matrix $H$ only affects a sub-block of the weight matrix $W$. As a result, the full weight transformation can now be separated into smaller block-specific operations. This significantly increases the training speed by reducing the overall number of computations from $\mathcal{O}(d^2 f)$ to $\mathcal{O}(d^2 f/n)$. In addition, each of this block operations can now be fully parallelized, further speeding-up the method.
 
 </br>
 <p align="center">
