@@ -35,7 +35,6 @@ H = I - 2uu^{\intercal}
 \end{align*}
 $$
 
-</br>
 These reflections keep the distance to the identity matrix constant, minimizing the risk of divergence from the pretrained model during finetuning. This allows for a low number of extra parameters and the use of high learning rates, resulting in learning rate robustness and fast convergence.
 
 </br>
@@ -47,8 +46,6 @@ $$
 H^+=I-uu^{\intercal}+vv^{\intercal}
 \end{align*}
 $$
-
-</br>
 
 *ETHER+* allows for interactions between two distinct hyperplanes, which can weaken or cancel each other out to provide more nuanced weight adjustments. Importantly, the transformation distance remains bounded, still minimizing the risk of diverging from the pretrained model.
 </br>
@@ -126,6 +123,8 @@ This evidence diminishes the role of the HE and instead emphasizes the greater i
 </br>
 
 We tested our method on generative model adaptation, with a focus on subject-driven image synthesis and controllable image synthesis, and on language model adaptation, looking at both natural language understanding and instruction tuning.
+
+</br>
 
 **Subject-driven generation.**
 </br>
