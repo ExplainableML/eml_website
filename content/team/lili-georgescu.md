@@ -2,7 +2,7 @@
 img: "/team/Iuliana-Georgescu.png"
 name: Iuliana Georgescu
 role: Postdoctoral Researcher
-order: 2
+order: 3
 link: lili-georgescu
 website: https://lilygeorgescu.github.io/
 scholar: https://scholar.google.com/citations?hl=en&user=XIAPgbwAAAAJ
