@@ -5,7 +5,7 @@ authors: Massimo Bini, Karsten Roth, Zeynep Akata, Anna Khoreva
 publisher: International Conference on Machine Learning, ICML
 year: 2024
 date: "2024-04-25"
-filename: efficient-finetuning
+filename: ether
 arxiv: https://arxiv.org/abs/2405.20271
 github: https://github.com/mwbini/ether
 
