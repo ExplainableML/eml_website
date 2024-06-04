@@ -1,7 +1,7 @@
 ---
 img: "/team/stephan-alaniz.jpg"
 name: Stephan Alaniz
-role: Postdoctoral Researcher
+role: Deputy Head
 order: 2
 link: stephan-alaniz
 mail: stephan.alaniz (at) uni-tuebingen.de
