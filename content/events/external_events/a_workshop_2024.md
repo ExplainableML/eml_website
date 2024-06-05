@@ -220,7 +220,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
                 <a href=https://www.eml-unitue.de/people/luca-eyring> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/luca-eyring.jpg alt=Luca Eyring ></Image> <a href=https://www.eml-unitue.de/people/luca-eyring class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Luca Eyring </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
  			<td>
-                <a href=https://www.eml-munich.de/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/placeholder.png alt=TBD ></Image> <a href=https://www.eml-munich.de/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > TBD </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Schulz Lab</p> </div></a>
+                <a href=https://cpilab.org/marcel.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/marcel.jpg alt=Marcel Binz ></Image> <a href=https://cpilab.org/marcel.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Marcel Binz </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
         </tr>
         <tr>
@@ -279,7 +279,8 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
     </thead>
     <tbody>
         <tr>
-            <td ><p class="mt-3 text-black-500 text-base font-bold">Workshop funded by <br/>Helmholtz AI </p> </td>
+            <td ><p class="mt-3 text-black-500 text-base font-bold">Workshop funded by <br/>Helmholtz AI <br/> and ELLIS </p> </td>
+                        <td><img src="/workshop_2024/ellismunichblack.png" width="150" height="150"></td>
                         <td><img src="/workshop_2024/helmholtz.webp" width="270" height="270"></td>
         </tr>
     </tbody>
