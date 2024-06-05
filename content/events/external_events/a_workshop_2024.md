@@ -225,7 +225,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
         </tr>
         <tr>
             <td>
-                <a href=https://www.eml-munich.de/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover" src=/workshop_2024/placeholder.png alt=TBD ></Image> <a href=https://www.eml-munich.de/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > TBD </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Bauer Lab</p> </div></a>
+                <a href=https://yashasannadani.com/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover" src=/workshop_2024/yashas.jpeg alt=Yashas Annadani ></Image> <a href=https://yashasannadani.com/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Yashas Annadani </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
  			<td>
                 <a href=https://www.eml-munich.de/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/placeholder.png alt=TBD ></Image> <a href=https://www.eml-munich.de/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > TBD </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">TBD</p> </div></a>
