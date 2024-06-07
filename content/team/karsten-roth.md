@@ -35,63 +35,63 @@ His primary interests cover approaches to effective representation learning unde
 </br>
 
 __"_ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections_"__   
-Massimo Bini, __Karsten Roth__, Zeynep Akata, Anna Khoreva
-International Conference on Machine Learning, ICML 2024
+Massimo Bini, __Karsten Roth__, Zeynep Akata, Anna Khoreva  
+*International Conference on Machine Learning, ICML 2024*
 
 </br>
 
 __"_Fantastic Gains and Where to Find Them: On the Existence and Prospect of General Knowledge Transfer between Any Pretrained Model_"__   
 __Karsten Roth *__, Lukas Thede *, A. Sophia Koepke, Oriol Vinyals, Olivier Henaff, Zeynep Akata     
-**Spotlight** at International Conference on Learning Representations, ICLR 2024
+**Spotlight** *at International Conference on Learning Representations, ICLR 2024*
 
 </br>
 
 __"_Vision-by-Language for Training-Free Compositional Image Retrieval_"__   
 Shyamgopal Karthik *, __Karsten Roth *__, Massimilano Mancini, Zeynep Akata  
-International Conference on Learning Representations, ICLR 2024
+*International Conference on Learning Representations, ICLR 2024*
 
 </br>
 
 __"_Waffling around for Performance: Visual Classification with Random Words and Broad Concepts_"__   
 __Karsten Roth__ *, Jae Myung Kim *, Almut Sophia Koepke, Oriol Vinyals, Cordelia Schmid, Zeynep Akata\
-IEEE International Conference for Computer Vision, ICCV 2023
+*IEEE International Conference for Computer Vision, ICCV 2023*
   
 </br>
 
 __"_Disentanglement of Correlated Factors via Hausdorff Factorized Support_"__   
 __Karsten Roth__, Mark Ibrahim, Zeynep Akata, Pascal Vincent *, Diane Bouchacourt *  
-International Conference on Learning Representations, ICLR 2023
+*International Conference on Learning Representations, ICLR 2023*
 
 </br>
 
 __"_Momentum-based Weight Interpolation of Strong Zero-Shot Models for Continual Learning_"__  
 Zafir Stojanovski *, __Karsten Roth__ *, Zeynep Akata  
-Best Paper at INTERPOLATE Workshop @ Conference on Neural Information Processing Systems, NeurIPS 2022  
+**Best Paper at INTERPOLATE Workshop** @ *Conference on Neural Information Processing Systems, NeurIPS 2022*  
 _Result of Master Thesis_
 
 </br>
 
 __"_A Non-isotropic Probabilistic Take on Proxy-based Deep Metric Learning_"__  
 Michael Kirchhof *, __Karsten Roth__ *, Zeynep Akata, Enkelejda Kasneci  
-European Conference on Computer Vision, ECCV 2022
+*European Conference on Computer Vision, ECCV 2022*
 
 </br>
 
 __"_Uniform Priors for Data-Efficient Learning_"__  
 Samarth Sinha *, __Karsten Roth__ *, Anirudh Goyal, Marzyeh Ghassemi, Zeynep Akata, Hugo Larochelle, Animesh Garg  
-Workshop on Learning with Limited Labels @ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+Workshop on Learning with Limited Labels @ *IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022*
 
 </br>
 
 __"_Non-isotropy Regularization for Proxy-based Deep Metric Learning_"__   
 __Karsten Roth__, Oriol Vinyals, Zeynep Akata  
-IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+*IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022*
 
 </br>
 
 __"_Integrating Language Guidance into Vision-based Deep Metric Learning_"__  
 __Karsten Roth__, Oriol Vinyals, Zeynep Akata  
-**Oral** at IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022
+**Oral** at *IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2022*
 
 
 # Community Service
