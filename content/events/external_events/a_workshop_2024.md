@@ -135,7 +135,7 @@ table thead b, strong {
 | 10:50 |  -  | 11:00 |                 | Welcome, Zeynep Akata   |     |                 |
 |       |     |       |                 | Block 1                 |     |                 |
 | 11:00 |  -  | 11:15 |                 | Vincent Fortuin:        | TBD |                 |
-| 11:15 |  -  | 11:30 |                 | HAI Talk #2             |     |                 | 
+| 11:15 |  -  | 11:30 |                 | Niki Kilbertus:         | TBD |                 | 
 | 11:30 |  -  | 12:00 |                 | Keynote #1              |     |                 | 
 |       |     |       |                 | *TBD*                   |     |                 | 
 | 12:00 |  -  | 2:00  |                 | Lunch and Network       |     |                 |
@@ -217,21 +217,21 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
                 <a href=https://fortuin.github.io/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover" src=/workshop_2024/vincent.jpeg alt=Vincent Fortuin ></Image> <a href=https://fortuin.github.io/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Vincent Fortuin </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">ELPIS</p> </div></a>
             </td>
  			<td>
-                <a href=https://www.eml-unitue.de/people/luca-eyring> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/luca-eyring.jpg alt=Luca Eyring ></Image> <a href=https://www.eml-unitue.de/people/luca-eyring class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Luca Eyring </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">EML Munich</p> </div></a>
+                <a href=https://sites.google.com/view/nikikilbertus/home> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/niki.jpeg alt=Niki Kilbertus ></Image> <a href=https://sites.google.com/view/nikikilbertus/home class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Niki Kilbertus </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz AI</p> </div></a>
             </td>
  			<td>
-                <a href=https://cpilab.org/marcel.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/marcel.jpg alt=Marcel Binz ></Image> <a href=https://cpilab.org/marcel.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Marcel Binz </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">HCAI</p> </div></a>
+                <a href=https://stes.io/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/steffen.jpeg alt=Steffen Schneider ></Image> <a href=https://stes.io/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Steffen Schneider </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Dynamical Inference Lab</p> </div></a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href=https://yashasannadani.com/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover" src=/workshop_2024/yashas.jpeg alt=Yashas Annadani ></Image> <a href=https://yashasannadani.com/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Yashas Annadani </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Bauer Group</p> </div></a>
+                <a href=https://www.eml-unitue.de/people/luca-eyring> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover" src=/workshop_2024/luca-eyring.jpg alt=Luca Eyring ></Image> <a href=https://www.eml-unitue.de/people/luca-eyring class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Luca Eyring </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">EML Munich</p> </div></a>
             </td>
  			<td>
-                <a href=https://www.eml-munich.de/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/placeholder.png alt=TBD ></Image> <a href=https://www.eml-munich.de/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > TBD </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">TBD</p> </div></a>
+                <a href=https://cpilab.org/marcel.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/marcel.jpg alt=Marcel Binz ></Image> <a href=https://cpilab.org/marcel.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Marcel Binz </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">HCAI</p> </div></a>
             </td>
  			<td>
-                <a href=https://www.eml-munich.de/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/placeholder.png alt=TBD ></Image> <a href=https://www.eml-munich.de/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > TBD </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">TBD</p> </div></a>
+                <a href=https://yashasannadani.com/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="185" height="185" objectFit="cover"  src=/workshop_2024/yashas.jpeg alt=Yashas Annadani ></Image> <a href=https://yashasannadani.com/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Yashas Annadani </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Bauer Group</p> </div></a>
             </td>
         </tr>
     </tbody>
