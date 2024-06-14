@@ -88,7 +88,7 @@ One of the primary insights from the study is that P-RFCL techniques relying on 
 
 Most P-RFCL techniques can be matched by a simple and lightweight PEFT baseline. Our study demonstrates that the performance gains attributed to P-RFCL methods are often due to the underlying PEFT rather than the additional complexities introduced by query mechanisms.
 
-__Detailed Findings:__
+### Detailed Findings:
 * __Baseline Comparison:__ We introduce a baseline method, _OnlyPrompt_, which uses a straightforward PEFT approach without any complex query mechanisms. This method performs on par with or better than existing P-RFCL methods across a diverse set of benchmarks.
 * __Parameter Efficiency:__ _OnlyPrompt_ achieves these results while using significantly fewer parameters, highlighting the efficiency of simple PEFT techniques.
 
@@ -122,7 +122,7 @@ Our research compares the benefits of adapting continually versus adapting on on
 
 </br>
 
-![text](/publications/COLLAS24_Reflecting/table3_first_task_adapt.png)
+![text](/publications/COLLAS24_Reflecting/table3_fist_task_adapt.png)
 
 </br>
 
