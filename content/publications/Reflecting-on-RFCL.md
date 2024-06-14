@@ -1,5 +1,5 @@
 ---
-img: "publications/COLLAS24_Reflecting/thumbnail.png"
+img: "/publications/COLLAS24_Reflecting/thumbnail.png"
 title: Reflecting on the State of Rehearsal-Free Continual Learning with Pretrained Models
 authors: Lukas Thede*, Karsten Roth*, Olivier Hénaff, Matthias Bethge, Zeynep Akata
 publisher: Conference on Lifelong Learning Agents, CoLLAs
