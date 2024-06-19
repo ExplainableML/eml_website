@@ -78,45 +78,13 @@ table tbody tr:nth-child(3){
 }
 table tbody tr:nth-child(6){
 
-    background: rgba(128,128,128,0.2);
-
-}
-table tbody tr:nth-child(7){
-    background: rgba(128,128,128,0.1);
-    height: 50pt;
-    text-align: left;
-}
-
-table tbody tr:nth-child(9){
-
     background: rgba(128,128,128,0.4);
 
 }
-table tbody tr:nth-child(12){
-
-    background: rgba(128,128,128,0.2);
-
-}
-table tbody tr:nth-child(13){
-    background: rgba(128,128,128,0.1);
-    height: 50pt;
-    text-align: left;
-}
-
-table tbody tr:nth-child(15){
+table tbody tr:nth-child(10){
 
     background: rgba(128,128,128,0.4);
 
-}
-table tbody tr:nth-child(18){
-
-    background: rgba(128,128,128,0.2);
-
-}
-table tbody tr:nth-child(19){
-    background: rgba(128,128,128,0.1);
-    height: 50pt;
-    text-align: left;
 }
 
 
@@ -135,27 +103,22 @@ table thead b, strong {
 
 |  July |     | 8th   | <img width=10/> |                         |     | <img width=80/> |
 |------:|:---:|:------|-----------------|-------------------------|-----|-----------------|
-| 10:30 |     |       |                 | Registration and Coffee |     |                 |
-| 10:50 |  -  | 11:00 |                 | Welcome, Zeynep Akata   |     |                 |
-|       |     |       |                 | Block 1                 |     |                 |
-| 11:00 |  -  | 11:15 |                 | Vincent Fortuin:        | TBD |                 |
-| 11:15 |  -  | 11:30 |                 | Niki Kilbertus:         | TBD |                 | 
-| 11:30 |  -  | 12:00 |                 | Rahaf Aljundi           |     |                 | 
-|       |     |       |                 | *TBD*                   |     |                 | 
-| 12:00 |  -  | 2:00  |                 | Lunch and Network       |     |                 |
-|       |     |       |                 | Block 2                 |     |                 |
-|  2:00 |  -  | 2:15  |                 | HAI Talk #3             |     |                 |
-|  2:15 |  -  | 2:30  |                 | HAI Talk #4             |     |                 |
-|  2:30 |     | 3:00  |                 | Keynote #2              |     |                 |
-|       |     |       |                 | *TBD*                   |     |                 |
-|  3:00 |  -  | 4:00  |                 | Coffee and Posters      |     |                 |
-|       |     |       |                 | Block 3                 |     |                 |
-|  4:00 |  -  | 4:15  |                 | HAI Talk #5             |     |                 |
-|  4:15 |  -  | 4:30  |                 | HAI Talk #6             |     |                 | 
-|  4:30 |  -  | 5:00  |                 | Keynote #3              |     |                 | 
-|       |     |       |                 | *TBD*                   |     |                 |
-|  5:00 |  -  | 7:00  |                 | Discussion and Posters  |     |                 |
-
+| 9:00  |  -  |  9:20 |                 | Registration and Coffee |     |                 |
+| 9:20  |  -  |  9:30 |                 | Welcome, Eric Schulz    |     |                 |
+| 9:30  |  -  | 10:00 |                 | Keynote 1: Rich Shiffrin|     |                 |
+| 10:00 |  -  | 10:15 |                 | Short Talk 1: Niki Kilbertus       |  |                 |
+| 10:15 |  -  | 11:00 |                 | Break                   |     |                 | 
+| 11:00 |  -  | 11:30 |                 | Keynote 2: Rahaf Aljundi|     |                 | 
+| 11:30 |  -  | 11:45 |                 | Short Talk 2: Vincent Fortuin                   |     |                 | 
+| 11:45 |  -  | 13:15 |                 | Lunch    |     |                 |
+| 13:15 |  -  | 13:30 |                 | Short Talk 3: Steffen Schneider                 |     |                 |
+| 13:30 |  -  | 14:00  |                 | Keynote 3: Zeynep Akata             |     |                 |
+|  14:00 |  -  | 14:15  |                 | Short Talk 4: Marcel Binz             |     |                 |
+|  14:15 |  -  | 14:30  |                 | Coffee Break              |     |                 |
+|  14:30     |  -   |  14:45  |                 | Short Talk 5: Luca Eyring                   |     |                 |
+|  14:45 |  -  | 15:00  |                 | Short Talk 6: Yashas Andani      |     |                 |
+|   15:00    |     |  15:15     |                 | Farewell and Transition to Posers, Stefan Bauer                |     |                 |
+|  15:15 |  -  | 17:00  |                 | Posters             |     |                 |
 
 ### Venue
 
