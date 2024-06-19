@@ -202,7 +202,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
                 <a href=https://cogs.indiana.edu/directory/faculty/profile.php?faculty=shiffrin> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover" src=/workshop_2024/rich.png alt=Richard Shiffrin ></Image> <a href=https://cogs.indiana.edu/directory/faculty/profile.php?faculty=shiffrin class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Richard Shiffrin </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Indiana University Bloomington</p> </div></a>
             </td>
  			<td>
-                <a href=https://www.eml-unitue.de/people/zeynep-akata> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover"  src=/workshop/zeynep.png alt=Zeynep Akata ></Image> <a href=https://www.eml-unitue.de/people/zeynep-akata class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Zeynep Akata </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich, TUM</p> </div></a>
+                <a href=https://www.eml-unitue.de/people/zeynep-akata> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="310" height="310" objectFit="cover"  src=/workshop/zeynep.png alt=Zeynep Akata ></Image> <a href=https://www.eml-unitue.de/people/zeynep-akata class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Zeynep Akata </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich, TUM</p> </div></a>
             </td>
         <tr>
     </tbody>
