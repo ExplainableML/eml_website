@@ -116,7 +116,7 @@ table thead b, strong {
 |  14:00 |  -  | 14:15  |                 | Short Talk 4: Marcel Binz             |     |                 |
 |  14:15 |  -  | 14:30  |                 | Break (coffee will be provided)             |     |                 |
 |  14:30     |  -   |  14:45  |                 | Short Talk 5: Luca Eyring                   |     |                 |
-|  14:45 |  -  | 15:00  |                 | Short Talk 6: Yashas Andani      |     |                 |
+|  14:45 |  -  | 15:00  |                 | Short Talk 6: Yashas Annadani      |     |                 |
 |   15:00    |     |  15:15     |                 | Farewell and Transition to Posters, Stefan Bauer                |     |                 |
 |  15:15 |  -  | 17:00  |                 | Posters             |     |                 |
 
