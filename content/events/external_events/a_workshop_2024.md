@@ -44,12 +44,13 @@ Our workshop will consider research on approaches to machine learning and human-
 
 <div align="center">
 
-### [Registration](https://forms.gle/YrUzVXRmZqS2Gvb89)
-### [Poster Submission](https://forms.gle/QDMrbrGM4JpzYT5V9)
-
 ## Program and Venue
 
 </div>
+
+### [Registration](https://forms.gle/YrUzVXRmZqS2Gvb89)
+
+### [Poster Submission](https://forms.gle/QDMrbrGM4JpzYT5V9)
 
 
 ### Program
