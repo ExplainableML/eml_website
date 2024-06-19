@@ -107,17 +107,17 @@ table thead b, strong {
 | 9:20  |  -  |  9:30 |                 | Welcome, Eric Schulz    |     |                 |
 | 9:30  |  -  | 10:00 |                 | Keynote 1: Rich Shiffrin|     |                 |
 | 10:00 |  -  | 10:15 |                 | Short Talk 1: Niki Kilbertus       |  |                 |
-| 10:15 |  -  | 11:00 |                 | Break                   |     |                 | 
+| 10:15 |  -  | 11:00 |                 | Break (coffee will be provided)                |     |                 | 
 | 11:00 |  -  | 11:30 |                 | Keynote 2: Rahaf Aljundi|     |                 | 
 | 11:30 |  -  | 11:45 |                 | Short Talk 2: Vincent Fortuin                   |     |                 | 
-| 11:45 |  -  | 13:15 |                 | Lunch    |     |                 |
+| 11:45 |  -  | 13:15 |                 | Lunch (lunch will be provided)   |     |                 |
 | 13:15 |  -  | 13:30 |                 | Short Talk 3: Steffen Schneider                 |     |                 |
 | 13:30 |  -  | 14:00  |                 | Keynote 3: Zeynep Akata             |     |                 |
 |  14:00 |  -  | 14:15  |                 | Short Talk 4: Marcel Binz             |     |                 |
-|  14:15 |  -  | 14:30  |                 | Coffee Break              |     |                 |
+|  14:15 |  -  | 14:30  |                 | Break (coffee will be provided)             |     |                 |
 |  14:30     |  -   |  14:45  |                 | Short Talk 5: Luca Eyring                   |     |                 |
 |  14:45 |  -  | 15:00  |                 | Short Talk 6: Yashas Andani      |     |                 |
-|   15:00    |     |  15:15     |                 | Farewell and Transition to Posers, Stefan Bauer                |     |                 |
+|   15:00    |     |  15:15     |                 | Farewell and Transition to Posters, Stefan Bauer                |     |                 |
 |  15:15 |  -  | 17:00  |                 | Posters             |     |                 |
 
 ### Venue
