@@ -81,7 +81,7 @@ table tbody tr:nth-child(6){
     background: rgba(128,128,128,0.4);
 
 }
-table tbody tr:nth-child(10){
+table tbody tr:nth-child(11){
 
     background: rgba(128,128,128,0.4);
 
@@ -228,7 +228,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
                 <a href=https://www.eml-munich.de/people/jessica-bader> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/jessie.jpg alt=Jessica Bader ></Image> <a href=https://www.eml-munich.de/people/jessica-bader class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Jessica Bader </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
             <td>
-                <a href=https://cpilab.org/akshay.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/akshay.jpg alt=Akshay Jagadish ></Image> <a href=https://cpilab.org/akshay.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Akshay Jagadish </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
+                <a href=http://cpilab.org/milena.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/milena.jpeg alt=Milena Rmus ></Image> <a href=http://cpilab.org/milena.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Milena Rmus </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
             <td>
                 <a href=https://yashasannadani.com/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/yashas.jpeg alt=Yashas Annadani ></Image> <a href=https://yashasannadani.com/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Yashas Annadani </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
