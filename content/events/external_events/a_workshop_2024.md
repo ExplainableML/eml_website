@@ -101,24 +101,24 @@ table thead b, strong {
 
 
 
-|  July |     | 8th   | <img width=10/> |                         |     | <img width=80/> |
-|------:|:---:|:------|-----------------|-------------------------|-----|-----------------|
-| 9:00  |  -  |  9:20 |                 | Registration and Coffee |     |                 |
-| 9:20  |  -  |  9:30 |                 | Welcome, Eric Schulz    |     |                 |
-| 9:30  |  -  | 10:00 |                 | Keynote 1: Rich Shiffrin|     |                 |
-| 10:00 |  -  | 10:15 |                 | Short Talk 1: Niki Kilbertus       |  |                 |
-| 10:15 |  -  | 11:00 |                 | Break (coffee will be provided)                |     |                 | 
-| 11:00 |  -  | 11:30 |                 | Keynote 2: Rahaf Aljundi|     |                 | 
-| 11:30 |  -  | 11:45 |                 | Short Talk 2: Vincent Fortuin                   |     |                 | 
-| 11:45 |  -  | 13:15 |                 | Lunch (lunch will be provided)   |     |                 |
-| 13:15 |  -  | 13:30 |                 | Short Talk 3: Steffen Schneider                 |     |                 |
-| 13:30 |  -  | 14:00  |                 | Keynote 3: Zeynep Akata             |     |                 |
-|  14:00 |  -  | 14:15  |                 | Short Talk 4: Marcel Binz             |     |                 |
-|  14:15 |  -  | 14:30  |                 | Break (coffee will be provided)             |     |                 |
-|  14:30     |  -   |  14:45  |                 | Short Talk 5: Luca Eyring                   |     |                 |
-|  14:45 |  -  | 15:00  |                 | Short Talk 6: Yashas Annadani      |     |                 |
-|   15:00    |     |  15:15     |                 | Farewell and Transition to Posters, Stefan Bauer                |     |                 |
-|  15:15 |  -  | 17:00  |                 | Posters             |     |                 |
+|  July |     | 8th   | <img width=10/> |                                     |     | <img width=80/> |
+|------:|:---:|:------|-----------------|-------------------------------------|-----|-----------------|
+| 9:00  |  -  |  9:20 |                 | Registration                        |     |                 |
+| 9:20  |  -  |  9:30 |                 | Welcome, Eric Schulz                |     |                 |
+| 9:30  |  -  | 10:15 |                 | Keynote 1: Rich Shiffrin            |     |                 |
+| 10:15 |  -  | 10:30 |                 | Short Talk 1: Marcel Binz           |     |                 |
+| 10:30 |  -  | 11:00 |                 | Break (coffee will be provided)     |     |                 | 
+| 11:00 |  -  | 11:30 |                 | Keynote 2: Zeynep Akata             |     |                 | 
+| 11:30 |  -  | 11:45 |                 | Short Talk 2: Vincent Fortuin       |     |                 | 
+| 11:45 |  -  | 12:00 |                 | Short Talk 3: Niki Kilbertus        |     |                 |
+| 12:00 |  -  | 13:15 |                 | Lunch (food will be provided)       |     |                 |
+| 13:15 |  -  | 13:30 |                 | Short Talk 4: Steffen Schneider     |     |                 |
+| 13:30 |  -  | 14:00 |                 | Keynote 3: Rahaf Aljundi            |     |                 |
+| 14:00 |  -  | 14:30 |                 | Break (coffee will be provided)     |     |                 |
+| 14:30 |  -  | 14:45 |                 | Short Talk 5: Luca Eyring           |     |                 |
+| 14:45 |  -  | 15:00 |                 | Short Talk 6: Yashas Annadani       |     |                 |
+| 15:00 |  -  | 15:15 |                 | Farewell and Transition to Posters  |     |                 |
+| 15:15 |  -  | 17:00 |                 | Posters                             |     |                 |
 
 ### Venue
 
