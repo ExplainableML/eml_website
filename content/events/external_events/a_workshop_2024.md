@@ -140,11 +140,11 @@ The workshop will take place at the [Helmholtz Pioneer Campus](https://www.helmh
 
 ### Attending
 
-There is no registration fee, however the venue has limited capacity. If you are interested in attending, we recommend registering ASAP. *Anyone who wants to attend the talks should register.* Registration is available [here](https://forms.gle/YrUzVXRmZqS2Gvb89). If you realize after registering that you cannot attend, please contact us via the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A), so that we may free up the slot for other participants. *Once all spots are filled, the registration form will no longer accept submissions. If you are able to submit a registration, please consider this confirmation of your registration.*
+There is no registration fee, however the venue has limited capacity. If you are interested in attending, we recommend registering ASAP. *Anyone who wants to attend the talks should register.* Registration is available [here](https://forms.gle/YrUzVXRmZqS2Gvb89). If you realize after registering that you cannot attend, please contact us via the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A), so that we may free up the slot for other participants. *Once all spots are filled, the registration form will no longer accept submissions. If you are able to submit a registration, please consider this confirmation of your registration.* Registration will close on July 5.
 <br/>
 
 ### Poster  Submission
-Poster submission applications are open to anyone working on projects related to the themes of this workshop. Anyone interested should submit an abstract for consideration [here](https://forms.gle/QDMrbrGM4JpzYT5V9). Submission will close on June 24, and accepted posters will be notified by July 1. All posters will be presented in-person on the day of the event, during the poster sessions from 3:00pm-4:00pm and 5:00pm-7:00pm.
+Poster submission applications are open to anyone working on projects related to the themes of this workshop. Anyone interested should submit an abstract for consideration [here](https://forms.gle/QDMrbrGM4JpzYT5V9). Submission will close on June 24, and accepted posters will be notified by July 1. All posters will be presented in-person on the day of the event, during the poster sessions from 15:15 - 17:00.
 
 ### Contact
 Do you have any questions? Please fill out the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A) and we will reply to you as soon as we can.
