@@ -50,8 +50,6 @@ Our workshop will consider research on approaches to machine learning and human-
 
 ### [Registration Link](https://forms.gle/YrUzVXRmZqS2Gvb89)
 
-### [Poster Submission Link](https://forms.gle/QDMrbrGM4JpzYT5V9)
-
 
 ### Program
 
@@ -144,7 +142,7 @@ There is no registration fee, however the venue has limited capacity. If you are
 <br/>
 
 ### Poster  Submission
-Poster submission applications are open to anyone working on projects related to the themes of this workshop. Anyone interested should submit an abstract for consideration [here](https://forms.gle/QDMrbrGM4JpzYT5V9). Submission will close on June 24, and accepted posters will be notified by July 1. All posters will be presented in-person on the day of the event, during the poster sessions from 15:15 - 17:00.
+Poster submission applications are open to anyone working on projects related to the themes of this workshop. ~~Anyone interested should submit an abstract for consideration.~~ Submission has been closed as of June 24, and accepted posters will be notified by July 1. All posters will be presented in-person on the day of the event, during the poster sessions from 15:15 - 17:00.
 
 ### Contact
 Do you have any questions? Please fill out the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A) and we will reply to you as soon as we can.
