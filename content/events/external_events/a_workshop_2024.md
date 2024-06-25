@@ -48,6 +48,8 @@ Our workshop will consider research on approaches to machine learning and human-
 
 </div>
 
+### [Registration Link](https://forms.gle/YrUzVXRmZqS2Gvb89)
+
 
 ### Program
 
@@ -74,45 +76,13 @@ table tbody tr:nth-child(3){
 }
 table tbody tr:nth-child(6){
 
-    background: rgba(128,128,128,0.2);
-
-}
-table tbody tr:nth-child(7){
-    background: rgba(128,128,128,0.1);
-    height: 50pt;
-    text-align: left;
-}
-
-table tbody tr:nth-child(9){
-
     background: rgba(128,128,128,0.4);
 
 }
-table tbody tr:nth-child(12){
-
-    background: rgba(128,128,128,0.2);
-
-}
-table tbody tr:nth-child(13){
-    background: rgba(128,128,128,0.1);
-    height: 50pt;
-    text-align: left;
-}
-
-table tbody tr:nth-child(15){
+table tbody tr:nth-child(11){
 
     background: rgba(128,128,128,0.4);
 
-}
-table tbody tr:nth-child(18){
-
-    background: rgba(128,128,128,0.2);
-
-}
-table tbody tr:nth-child(19){
-    background: rgba(128,128,128,0.1);
-    height: 50pt;
-    text-align: left;
 }
 
 
@@ -129,29 +99,24 @@ table thead b, strong {
 
 
 
-|  July |     | 8th   | <img width=10/> |                         |     | <img width=80/> |
-|------:|:---:|:------|-----------------|-------------------------|-----|-----------------|
-| 10:30 |     |       |                 | Registration and Coffee |     |                 |
-| 10:50 |  -  | 11:00 |                 | Welcome, Zeynep Akata   |     |                 |
-|       |     |       |                 | Block 1                 |     |                 |
-| 11:00 |  -  | 11:15 |                 | Vincent Fortuin:        | TBD |                 |
-| 11:15 |  -  | 11:30 |                 | Niki Kilbertus:         | TBD |                 | 
-| 11:30 |  -  | 12:00 |                 | Keynote #1              |     |                 | 
-|       |     |       |                 | *TBD*                   |     |                 | 
-| 12:00 |  -  | 2:00  |                 | Lunch and Network       |     |                 |
-|       |     |       |                 | Block 2                 |     |                 |
-|  2:00 |  -  | 2:15  |                 | HAI Talk #3             |     |                 |
-|  2:15 |  -  | 2:30  |                 | HAI Talk #4             |     |                 |
-|  2:30 |     | 3:00  |                 | Keynote #2              |     |                 |
-|       |     |       |                 | *TBD*                   |     |                 |
-|  3:00 |  -  | 4:00  |                 | Coffee and Posters      |     |                 |
-|       |     |       |                 | Block 3                 |     |                 |
-|  4:00 |  -  | 4:15  |                 | HAI Talk #5             |     |                 |
-|  4:15 |  -  | 4:30  |                 | HAI Talk #6             |     |                 | 
-|  4:30 |  -  | 5:00  |                 | Keynote #3              |     |                 | 
-|       |     |       |                 | *TBD*                   |     |                 |
-|  5:00 |  -  | 7:00  |                 | Discussion and Posters  |     |                 |
-
+|  July |     | 8th   | <img width=10/> |                                     |     | <img width=80/> |
+|------:|:---:|:------|-----------------|-------------------------------------|-----|-----------------|
+| 9:00  |  -  |  9:20 |                 | Registration                        |     |                 |
+| 9:20  |  -  |  9:30 |                 | Welcome, Eric Schulz                |     |                 |
+| 9:30  |  -  | 10:15 |                 | Keynote 1: Rich Shiffrin            |     |                 |
+| 10:15 |  -  | 10:30 |                 | Short Talk 1: Marcel Binz           |     |                 |
+| 10:30 |  -  | 11:00 |                 | Break (coffee will be provided)     |     |                 | 
+| 11:00 |  -  | 11:30 |                 | Keynote 2: Zeynep Akata             |     |                 | 
+| 11:30 |  -  | 11:45 |                 | Short Talk 2: Vincent Fortuin       |     |                 | 
+| 11:45 |  -  | 12:00 |                 | Short Talk 3: Niki Kilbertus        |     |                 |
+| 12:00 |  -  | 13:15 |                 | Lunch (food will be provided)       |     |                 |
+| 13:15 |  -  | 13:30 |                 | Short Talk 4: Steffen Schneider     |     |                 |
+| 13:30 |  -  | 14:00 |                 | Keynote 3: Rahaf Aljundi            |     |                 |
+| 14:00 |  -  | 14:30 |                 | Break (coffee will be provided)     |     |                 |
+| 14:30 |  -  | 14:45 |                 | Short Talk 5: Luca Eyring           |     |                 |
+| 14:45 |  -  | 15:00 |                 | Short Talk 6: Yashas Annadani       |     |                 |
+| 15:00 |  -  | 15:15 |                 | Farewell and Transition to Posters  |     |                 |
+| 15:15 |  -  | 17:00 |                 | Posters                             |     |                 |
 
 ### Venue
 
@@ -173,11 +138,11 @@ The workshop will take place at the [Helmholtz Pioneer Campus](https://www.helmh
 
 ### Attending
 
-There is no registration fee, however the venue has limited capacity. If you are interested in attending, we recommend registering ASAP. *Anyone who wants to attend the talks should register.* Registration is available [here](https://forms.gle/YrUzVXRmZqS2Gvb89). If you realize after registering that you cannot attend, please contact us via the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A), so that we may free up the slot for other participants.
+There is no registration fee, however the venue has limited capacity. If you are interested in attending, we recommend registering ASAP. *Anyone who wants to attend the talks should register.* Registration is available [here](https://forms.gle/YrUzVXRmZqS2Gvb89). If you realize after registering that you cannot attend, please contact us via the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A), so that we may free up the slot for other participants. *Once all spots are filled, the registration form will no longer accept submissions. If you are able to submit a registration, please consider this confirmation of your registration.* Registration will close on July 5.
 <br/>
 
 ### Poster  Submission
-Poster submission applications are open to anyone working on projects related to the themes of this workshop. Anyone interested should submit an abstract for consideration [here](https://forms.gle/QDMrbrGM4JpzYT5V9). Submission will close on June 24, and accepted posters will be notified by July 1. All posters will be presented in-person on the day of the event, during the poster sessions from 3:00pm-4:00pm and 5:00pm-7:00pm.
+Poster submission applications are open to anyone working on projects related to the themes of this workshop. ~~Anyone interested should submit an abstract for consideration.~~ Submission has been closed as of June 24, and accepted posters will be notified by July 1. All posters will be presented in-person on the day of the event, during the poster sessions from 15:15 - 17:00.
 
 ### Contact
 Do you have any questions? Please fill out the form [here](https://forms.gle/ezBXDfmRL6QzQnH1A) and we will reply to you as soon as we can.
@@ -191,14 +156,14 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
     </thead>
     <tbody>
         <tr>
+         	<td>
+                <a href=https://scholar.google.fr/citations?user=YLh7yrwAAAAJ&hl=en> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover"  src=/workshop_2024/rahaf.jpg alt=Rahaf Aljundi ></Image> <a href=https://scholar.google.fr/citations?user=YLh7yrwAAAAJ&hl=en class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Rahaf Aljundi </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Toyota Motor Europe</p> </div></a>
+            </td>
             <td>
                 <a href=https://cogs.indiana.edu/directory/faculty/profile.php?faculty=shiffrin> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover" src=/workshop_2024/rich.png alt=Richard Shiffrin ></Image> <a href=https://cogs.indiana.edu/directory/faculty/profile.php?faculty=shiffrin class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Richard Shiffrin </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Indiana University Bloomington</p> </div></a>
             </td>
  			<td>
-                <a href=https://www.eml-munich.de/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover"  src=/workshop_2024/placeholder.png alt=TBD ></Image> <a href=https://www.eml-munich.de/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > TBD </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">TBD</p> </div></a>
-            </td>
- 			<td>
-                <a href=https://www.eml-munich.de/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover"  src=/workshop_2024/placeholder.png alt=TBD ></Image> <a href=https://www.eml-munich.de/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > TBD </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">TBD</p> </div></a>
+                <a href=https://www.eml-unitue.de/people/zeynep-akata> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover"  src=/team/zeynep-akata.jpg alt=Zeynep Akata ></Image> <a href=https://www.eml-unitue.de/people/zeynep-akata class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Zeynep Akata </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich, TUM</p> </div></a>
             </td>
         <tr>
     </tbody>
@@ -247,7 +212,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
     <tbody>
         <tr>
             <td>
-                <a href=https://www.eml-unitue.de/people/zeynep-akata> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="300" height="300" objectFit="cover" src=/workshop/zeynep.png alt=Zeynep Akata ></Image> <a href=https://www.eml-unitue.de/people/zeynep-akata class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Zeynep Akata </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
+                <a href=https://www.eml-unitue.de/people/zeynep-akata> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover" src=/team/zeynep-akata.jpg alt=Zeynep Akata ></Image> <a href=https://www.eml-unitue.de/people/zeynep-akata class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Zeynep Akata </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
             <td>
                 <a href=https://cpilab.org/eric.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="220" height="220" objectFit="cover" src=/workshop_2024/eric.jpg alt=Eric Schulz ></Image> <a href=https://cpilab.org/eric.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Eric Schulz </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
@@ -261,7 +226,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
                 <a href=https://www.eml-munich.de/people/jessica-bader> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/jessie.jpg alt=Jessica Bader ></Image> <a href=https://www.eml-munich.de/people/jessica-bader class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Jessica Bader </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
             <td>
-                <a href=https://cpilab.org/akshay.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/akshay.jpg alt=Akshay Jagadish ></Image> <a href=https://cpilab.org/akshay.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Akshay Jagadish </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
+                <a href=http://cpilab.org/milena.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/milena.jpeg alt=Milena Rmus ></Image> <a href=http://cpilab.org/milena.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Milena Rmus </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
             <td>
                 <a href=https://yashasannadani.com/> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/yashas.jpeg alt=Yashas Annadani ></Image> <a href=https://yashasannadani.com/ class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Yashas Annadani </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>

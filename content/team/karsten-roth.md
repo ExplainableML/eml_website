@@ -34,6 +34,12 @@ His primary interests cover approaches to effective representation learning unde
 
 </br>
 
+__"_Reflecting on the State of Rehearsal-free Continual Learning with Pretrained Models_"__   
+Lukas Thede*, __Karsten Roth*__, Olivier J. Hénaff, Matthias Bethge, Zeynep Akata   
+*Conference on Lifelong Learning Agents, CoLLAs 2024*
+
+</br>
+
 __"_ETHER: Efficient Finetuning of Large-Scale Models with Hyperplane Reflections_"__   
 Massimo Bini, __Karsten Roth__, Zeynep Akata, Anna Khoreva  
 *International Conference on Machine Learning, ICML 2024*
@@ -105,10 +111,10 @@ Reviewer for
 # Supervision
 
 __Master Theses and Research Projects:__
-- _Continual Learning with Foundation Models_, Zafir Stojanovski. Master Thesis May 2023. Workshop Paper.
-- _Scene Sketch-based Image Retrieval_, Jessica Bader. Master Thesis May 2023.
-- _Topological Properties of Metric Spaces_, Zafir Stojanovski, Jessica Bader. Research Project 2023.
-- _Realistic Concept Bottleneck Models_, Nishad Singhi. Master Thesis April 2024, with Jae Myung Kim. Workshop and Conference Submission.
+- _Realistic Concept Bottleneck Models_, Nishad Singhi. Master Thesis April 2024, with Jae Myung Kim. Workshop Paper, Conference Submission.
 - _Effective Decoder-free Disentanglement_, Jasper Touissant. Research Project (with Shyamgopal Karthik) Nov 2023.
 - _Topological and Equivariant Self-Supervised Learning_, Madhav Iyengar. Master Thesis Nov 2023.
 - _Improving Industrial Anomaly Detection_, Stefan Wezel. Master Thesis July 2023. Collaboration with Maddox AI. Workshop Paper.
+- _Continual Learning with Foundation Models_, Zafir Stojanovski. Master Thesis May 2023. Workshop Best Paper.
+- _Scene Sketch-based Image Retrieval_, Jessica Bader. Master Thesis May 2023.
+- _Topological Properties of Metric Spaces_, Zafir Stojanovski, Jessica Bader. Research Project 2023.
