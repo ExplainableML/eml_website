@@ -35,7 +35,7 @@ Zeynep Akata is a Liesel Beckmann Distinguished professor of Computer Science at
 ## External Activities
 
 * Program Chair:
-    * GCPR-DAGM 2020, IEEE CVPR 2024, GCPR-DAGM 2024, IEEE ICCV 2026​
+    * GCPR-DAGM 2020, IEEE CVPR 2024, ECCV 2026​
 * Senior Area Chair:
     * NeurIPS 2023, ICML 2024
 * Area Chair:
