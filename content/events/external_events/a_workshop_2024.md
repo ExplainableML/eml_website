@@ -76,12 +76,12 @@ table tbody tr:nth-child(3){
 }
 table tbody tr:nth-child(6){
 
-    background: rgba(128,128,128,0.4);
+    background: rgba(128,128,128,0.2);
 
 }
 table tbody tr:nth-child(11){
 
-    background: rgba(128,128,128,0.4);
+    background: rgba(128,128,128,0.2);
 
 }
 
@@ -103,7 +103,7 @@ table thead b, strong {
 |------:|:---:|:------|-----------------|-------------------------------------|-----|-----------------|
 | 9:00  |  -  |  9:20 |                 | Registration                        |     |                 |
 | 9:20  |  -  |  9:30 |                 | Welcome, Eric Schulz                |     |                 |
-| 9:30  |  -  | 10:15 |                 | Keynote 1: Rich Shiffrin            |     |                 |
+| 9:30  |  -  | 10:15 |                 | Spotlight Keynote: Rich Shiffrin  |     |                 |
 | 10:15 |  -  | 10:30 |                 | Short Talk 1: Marcel Binz           |     |                 |
 | 10:30 |  -  | 11:00 |                 | Break (coffee will be provided)     |     |                 | 
 | 11:00 |  -  | 11:30 |                 | Keynote 2: Zeynep Akata             |     |                 | 
