@@ -4,7 +4,7 @@ name: Stephan Alaniz
 role: Deputy Head
 order: 2
 link: stephan-alaniz
-mail: stephan.alaniz (at) uni-tuebingen.de
+mail: stephan.alaniz (at) helmholtz-munich.de
 scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
 ---
 
