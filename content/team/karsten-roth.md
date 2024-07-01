@@ -27,10 +27,16 @@ As a research intern, Karsten has also worked at the Amazon AWS research lablet 
 
 </br>
 
-His primary interests cover approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations and foundation models. He is also very interested in their application to medicine and the sciences.
+His primary interest: Making models generalize better. This covers approaches to effective representation learning under different forms of distribution shifts, including zero-shot, few-shot and continual learning problems, as well as understanding generalisation behaviour of learned (multimodal) representations and foundation models. He is also very interested in their application to medicine and the sciences.
 
 
 # Publications
+
+</br>
+
+__"_Improving Intervention Efficacy via Concept Realignment in Concept Bottleneck Models_"__   
+Nishad Singhi, Jae Myung Kim, __Karsten Roth__, Zeynep Akata   
+*European Conference on Computer Vision, ECCV 2024* (supervised Master Thesis)
 
 </br>
 
