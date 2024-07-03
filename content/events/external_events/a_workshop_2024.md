@@ -229,7 +229,7 @@ Do you have any questions? Please fill out the form [here](https://forms.gle/ezB
                 <a href=http://cpilab.org/milena.html> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/milena.jpeg alt=Milena Rmus ></Image> <a href=http://cpilab.org/milena.html class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Milena Rmus </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
             <td>
-                <a href=https://www.eml-munich.de/people/viktoria-schweiberger> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024viktoria-schweiberger.jpeg alt=Viktoria Schweiberger ></Image> <a href=https://www.eml-munich.de/people/viktoria-schweiberger class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Viktoria Schweiberger </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
+                <a href=https://www.eml-munich.de/people/viktoria-schweiberger> <div class="flex flex-col items-center justify-center"> <Image class="rounded-full mb-4" width="150" height="150" objectFit="cover"  src=/workshop_2024/viktoria-schweiberger.jpeg alt=Viktoria Schweiberger ></Image> <a href=https://www.eml-munich.de/people/viktoria-schweiberger class="mt-3 text-purple-500 text-lg md:text-base font-bold" > Viktoria Schweiberger </a> <p class="mt-3 text-purple-500 text-base md:text-xs font-bold">Helmholtz Munich</p> </div></a>
             </td>
         </tr>
     </tbody>
