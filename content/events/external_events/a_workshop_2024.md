@@ -74,12 +74,12 @@ table tbody tr:nth-child(3){
     background: rgba(128,128,128,0.4);
 
 }
-table tbody tr:nth-child(6){
+table tbody tr:nth-child(5){
 
     background: rgba(128,128,128,0.2);
 
 }
-table tbody tr:nth-child(11){
+table tbody tr:nth-child(10){
 
     background: rgba(128,128,128,0.2);
 
