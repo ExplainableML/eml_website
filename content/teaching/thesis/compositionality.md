@@ -1,5 +1,5 @@
 ---
-title: Measuring the role of compositionality in sequences
-description: In this project, you will study the question of how to measure the level of compositionality in sequential data. Many sequential data contain repeated patterns organized in a hierarchical, compositional structure. Extrapolating these patterns as tokens are vital for machine learning models to effectively process and compute representations from sequences. You will conduct literature search and in this topic, test out different measures of compositionality, and explore different tokenization methods to improve machine learning models.
+title: Measuring the Role of Compositionality in Sequences
+description: This project focuses on studying methods to measure the level of compositionality in sequential data. Many sequential datasets contain repeated patterns organized in hierarchical, compositional structures. Extrapolating these patterns as tokens is vital for machine learning models to effectively process and compute representations from sequences. The research will involve conducting a literature review on this topic, testing various measures of compositionality, and exploring different tokenization methods to improve machine learning models. The aim is to enhance our understanding of compositional structures in sequential data and their impact on model performance.
 contactname: Shuchen Wu
 contactlink: /people/shuchen-wu
