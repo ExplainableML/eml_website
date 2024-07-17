@@ -1,8 +1,8 @@
 ---
 img: "/team/massimo-bini.png"
 name: Massimo Bini
-role: Collaborating PhD Researcher
-order: 8
+role: PhD Researcher
+order: 4
 link: massimo-bini
 mail:  massimo.bini at uni-tuebingen.de
 ---

@@ -21,15 +21,37 @@ For the above commands, you should have ```node version 16``` or newer ones and 
 
 The webpage should now run in `localhost:3000`
 
-## Pages
 
-## Components
+
+## Best Practices
+Wiki for best practices in managing the website
+
+### Publications
+- change Date to have chronological order
+	- in publications, put (e.g. date: "2024-04-25") to have the papers chronologically
+
+
+### Common Issues
+
+- abstract on multiple lines
+	- abstract should be on one line
+
+- special characters in title
+	- put text into " " to have special characters (e.g. :, ...)
+
+- don't forget --- at the end of the abstract
+
+<!-- ## Pages
+
+## Components -->
+
 
 ## API interface to CMS
 The CMS is a simple directory with markdown files which can be left inside this repository in the content folder or moved to another repository.
 
-## Hosting 
 
+
+## Hosting 
 ### Vercel
 The website is hosted on vercel with sponsorship
 

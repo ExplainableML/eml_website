@@ -9,7 +9,7 @@ Please consider applying if you are interested in joining us!
 
 # HiWi Positions
 In this page, we will keep posting open student assistant positions.
-
+<!-- 
 <br/>
 <div class="border-b-2"></div>
 
@@ -39,4 +39,4 @@ Applications will be assessed on a rolling basis until the positions are filled.
 You can find the full advertisement <a href="https://drive.google.com/file/d/1IND5e8PGbVV_Qa-t2jwgPMkDf10y91lG/view?usp=sharing">here</a>.
 
 <br/>
-<div class="border-b-2"></div>
+<div class="border-b-2"></div> -->
