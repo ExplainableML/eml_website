@@ -1,8 +1,6 @@
 ---
 img: "/publications/ICML24_SemioLLM/blog_fig1.jpg"
 title: "SemioLLM: Assessing Large Language Models for Semiological Analysis in Epilepsy Research"
-img: "publications/ICML24_SemioLLM/blog_fig1.jpg"
-title: SemioLLM - Assessing Large Language Models for Semiological Analysis in Epilepsy Research
 authors: Meghal Dani, Muthu Jeyanthi Prakash, Zeynep Akata, Stefanie Liebe
 publisher: The International Conference on Machine Learning, ICML (AI4Science Workshop)
 year: 2024
