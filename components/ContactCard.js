@@ -19,9 +19,7 @@ export default function ContactCard() {
             <a className="text-purple-500" href="mailto:eml-sekretariat@inf.uni-tuebingen.de">
             eml-sekretariat@inf.uni-tuebingen.de
             </a>
-            
-            
-            
+
         </div>
     )
 }
