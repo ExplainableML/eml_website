@@ -2,9 +2,9 @@
 img: "/publications/EgoCVR/teaser.png"
 title: EgoCVR An Egocentric Benchmark for Fine-Grained Composed Video Retrieval
 authors: Thomas Hummel*, Shyamgopal Karthik*, Mariana-Iuliana Georgescu, Zeynep Akata
-publisher: International Conference on Learning Representations, ICLR
+publisher: European Conference on Computer Vision, ECCV
 year: 2024
-date: "2024-07-21"
+date: "2024-10-01"
 filename: EgoCVR
 arxiv: https://arxiv.org/
 github: https://github.com/ExplainableML/EgoCVR
