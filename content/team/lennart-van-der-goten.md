@@ -14,3 +14,6 @@ His primary research interests lie in generative modeling, medical applications,
 # Publications
 
 - "Conditional De-Identification of 3D Magnetic Resonance Images", Lennart Van der Goten, Tobias Hepp, Zeynep Akata, Kevin Smith, British Machine Vision Conference, BMVC 2021
+- "Wide Range MRI Artifact Removal with Transformers", Lennart Alexander Van der Goten & Kevin Smith, BMVC 2022
+- "Benefits of Non-Linear Scale Parameterizations in BBVI through Smoothness Results and Gradient Variance Bounds", Alexandra Hotti, Lennart Alexander Van der Goten, Jens Lagergren, AISTATS 2024
+- "Privacy Protection in MRI Scans Using 3D Masked Autoencoders", Lennart Alexander Van der Goten & Kevin Smith, MICCAI 2024
