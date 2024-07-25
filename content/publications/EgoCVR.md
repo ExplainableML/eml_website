@@ -6,10 +6,10 @@ publisher: European Conference on Computer Vision, ECCV
 year: 2024
 date: "2024-10-01"
 filename: EgoCVR
-arxiv: https://arxiv.org/
+arxiv: https://arxiv.org/abs/2407.16658
 github: https://github.com/ExplainableML/EgoCVR
 
-abstract: In Composed Video Retrieval, a video and a textual description which modifies the video content are provided as inputs to the model. The aim is to retrieve the relevant video with the modified content from a database of videos. In this challenging task, the first step is to acquire large-scale training datasets and collect high-quality benchmarks for evaluation. In this work, we introduce EgoCVR, a new evaluation benchmark for fine-grained Composed Video Retrieval using large-scale egocentric video datasets. EgoCVR consists of 2,295 queries that specifically focus on high-quality temporal video understanding. We find that existing Composed Video Retrieval frameworks do not achieve the necessary high-quality temporal video understanding for this task. To address this shortcoming, we adapt a simple training-free method, propose a generic re-ranking framework for Composed Video Retrieval, and demonstrate that this achieves strong results on EgoCVR._
+abstract: In Composed Video Retrieval, a video and a textual description which modifies the video content are provided as inputs to the model. The aim is to retrieve the relevant video with the modified content from a database of videos. In this challenging task, the first step is to acquire large-scale training datasets and collect high-quality benchmarks for evaluation. In this work, we introduce EgoCVR, a new evaluation benchmark for fine-grained Composed Video Retrieval using large-scale egocentric video datasets. EgoCVR consists of 2,295 queries that specifically focus on high-quality temporal video understanding. We find that existing Composed Video Retrieval frameworks do not achieve the necessary high-quality temporal video understanding for this task. To address this shortcoming, we adapt a simple training-free method, propose a generic re-ranking framework for Composed Video Retrieval, and demonstrate that this achieves strong results on EgoCVR.
 ---
 # Introduction
 
@@ -45,6 +45,6 @@ Re-Ranking plays an important role in improving the results, especially when the
 
 
 
-We hope you found this interesting, for more results and analysis, please refer to the [paper](https://arxiv.org/) and our [code](https://github.com/ExplainableML/EgoCVR).
+We hope you found this interesting, for more results and analysis, please refer to the [paper](https://arxiv.org/abs/2407.16658) and our [code](https://github.com/ExplainableML/EgoCVR).
 
 
