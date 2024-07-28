@@ -12,9 +12,17 @@ github:  https://github.com/lukasthede
 # Profile
 Lukas is currently pursuing his PhD under joined supervision of Zeynep Akata (at Helmholtz Munich and TUM) and Matthias Bethge (at the University of Tübingen) as part of the International Max-Planck Research School for Intelligent Systems (IMPRS-IS). He obtained his bachelor's and master's degrees in Industrial Engineering and Management from the Karlsruhe Institute of Technology (KIT). While studying, Lukas completed internships at Mercedes-Benz in Stuttgart and at Ernst & Young in Berlin.
 
+</br>
 His main research interest is to understand model transfer across distribution shifts. Currently, his work focuses on continually shifting data distributions, i.e. continual learning.
 
 # Publications
 
-- "Fantastic gains and where to find them: On the existence and prospect of general knowledge transfer between any pretrained model", Karsten Roth*, Lukas Thede*, Almut S. Koepke, Oriol Vinyals, Olivier Henaff, Zeynep Akata, ICLR 2024
-- "Reflecting on the State of Rehearsal-free Continual Learning with Pretrained Models", Lukas Thede*, Karsten Roth*, Olivier Henaff, Matthias Bethge, Zeynep Akata, CoLLAs 2024
+__"_Reflecting on the State of Rehearsal-free Continual Learning with Pretrained Models_"__   
+Lukas Thede*, __Karsten Roth*__, Olivier J. Hénaff, Matthias Bethge, Zeynep Akata   
+*Conference on Lifelong Learning Agents, CoLLAs 2024*
+
+
+__"_Fantastic Gains and Where to Find Them: On the Existence and Prospect of General Knowledge Transfer between Any Pretrained Model_"__   
+__Karsten Roth *__, Lukas Thede *, A. Sophia Koepke, Oriol Vinyals, Olivier Henaff, Zeynep Akata     
+**Spotlight** *at International Conference on Learning Representations, ICLR 2024*
+
