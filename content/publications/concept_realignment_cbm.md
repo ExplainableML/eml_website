@@ -1,7 +1,7 @@
 ---
 img: "/publications/ECCV2024_concept_realignment_cbm/main.png"
 title: Improving Intervention Efficacy via Concept Realignment in Concept Bottleneck Models
-filename: concept_realignment_cmb
+filename: concept_realignment_cbm
 authors: Nishad Singhi, Jae Myung Kim, Karsten Roth, Zeynep Akata
 publisher: European Conference on Computer Vision, ECCV
 year: 2024
