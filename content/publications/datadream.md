@@ -1,8 +1,7 @@
 ---
 img: "/publications/ECCV2024_datadream/datadream_main_figure.png"
-title: DataDream Few-shot Guided Dataset Generation
+title: DataDream: Few-shot Guided Dataset Generation
 filename: datadream
-
 authors: Jae Myung Kim, Jessica Bader, Stephan Alaniz, Cordelia Schmid, Zeynep Akata
 publisher: European Conference on Computer Vision, ECCV
 year: 2024
