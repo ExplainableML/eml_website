@@ -12,3 +12,5 @@ abstract: Concept Bottleneck Models (CBMs) ground image classification on human-
 arxiv: https://arxiv.org/pdf/2405.01531
 github: https://github.com/ExplainableML/concept_realignment
 ---
+
+# Introduction
