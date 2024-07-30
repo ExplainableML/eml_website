@@ -4,7 +4,7 @@ title: "SemioLLM: Assessing Large Language Models for Semiological Analysis in E
 authors: Meghal Dani, Muthu Jeyanthi Prakash, Zeynep Akata, Stefanie Liebe
 publisher: The International Conference on Machine Learning, ICML (AI4Science Workshop)
 year: 2024
-date: "2024-07-25"
+date: "2024-06-01"
 filename: semio-llm
 arxiv: https://arxiv.org/pdf/2407.03004
 
