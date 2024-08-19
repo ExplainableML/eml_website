@@ -100,7 +100,6 @@ Google Scholar profile: https://scholar.google.com/citations?user=jQl9RtkAAAAJ&h
 
 - 2024-Now Jessica Bader @ TUM
 - 2023-Now Yiran Huang @ TUM
-- 2023-Now Maja Pantic @ TUM
 - 2023-Now Lukas Thede @ University of Tübingen (with Matthias Bethge)
 - 2023-Now Luca Eyring @ TUM (ELLIS PhD with Alexei Dosovitskiy)
 - 2023-Now Leander Girrbach @ University of Tübingen
