@@ -2,7 +2,7 @@
 img: "/team/massimiliano-mancini.jpg"
 name: Massimiliano Mancini
 role: Collaborating Faculty
-order: 9
+order: 10
 link: massimiliano-mancini
 mail: massimiliano.mancini at uni-tuebingen.de
 website: https://mancinimassimiliano.github.io

@@ -2,7 +2,7 @@
 img: "/team/anjan_dutta.png"
 name: Anjan Dutta
 role: Collaborating Faculty
-order: 9
+order: 10
 link: anjan-dutta
 website: https://sites.google.com/site/2adutta
 ---

@@ -2,7 +2,7 @@
 img: "/team/ole_winther.jpg"
 name: Ole Winther
 role: Collaborating ELLIS Fellow
-order: 12
+order: 13
 link: ole-winther
 website: https://olewinther.github.io/
 ---

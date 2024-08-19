@@ -2,7 +2,7 @@
 img: "/team/wenjia-xu.jpeg"
 name: Wenjia Xu
 role: Collaborating Faculty
-order: 9
+order: 10
 link: wenjia-xu
 
 ---

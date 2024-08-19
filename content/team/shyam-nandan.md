@@ -2,7 +2,7 @@
 img: "/team/shyam-nandan.jpg"
 name: Shyam Nandan Rai
 role: Collaborating PhD researcher
-order: 8
+order: 9
 link: shyam-nandan
 linkedin: https://www.linkedin.com/in/shyam-nandan-rai-651026a9/
 scholar: https://scholar.google.com/citations?user=cKWXiTgAAAAJ&hl=en
