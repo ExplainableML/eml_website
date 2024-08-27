@@ -10,7 +10,7 @@ scholar: https://scholar.google.com/citations?user=eP6FHFAAAAAJ&hl=ko
 ---
 
 # Profile
-Jae Myung Kim is a PhD student at the University of Tübingen and a member of ELLIS & IMPRS-IS programs advised by Zeynep Akata (TU Munich, Helmholtz Munich) and Cordelia Schmid (Google, Inria). Previously, he completed my B.S. and M.S. degrees at the Seoul National University. During winter 2020, he worked as a research intern at NAVER AI Lab. He is broadly interested in efficient data-centric approaches, including synthetic data as training data, data weak alignment, and zero-shot/few-shot learning.
+Jae Myung Kim is a PhD student at the University of Tübingen and a member of ELLIS & IMPRS-IS programs advised by Zeynep Akata (TU Munich, Helmholtz Munich) and Cordelia Schmid (Google, Inria). Previously, he completed his B.S. and M.S. degrees at the Seoul National University. During the winter of 2020, he worked as a research intern at NAVER AI Lab. He is broadly interested in efficient data-centric approaches, including synthetic data as training data, data weak alignment, and zero-shot/few-shot learning. He has previously worked on building reliable models, topics such as XAI, bias, and uncertainty.
 
 # Publications
 
