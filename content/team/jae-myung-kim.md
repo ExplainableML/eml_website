@@ -35,7 +35,7 @@ ICCV 2023
 </br>
 
 __"_Exposing and Mitigating Spurious Correlations for Cross-Modal Retrieval_"__   </br>
-Youngwook Kim*, __Jae Myung Kim*__, Zeynep Akata, Jungwoo Lee   </br>
+__Jae Myung Kim__, A. Sophia Koepke, Cordelia Schmid, Zeynep Akata   </br>
 CVPR Workshop 2023
 
 </br>
