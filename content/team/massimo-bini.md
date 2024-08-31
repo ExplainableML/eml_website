@@ -1,5 +1,5 @@
 ---
-img: "/team/massimo-bini.png"
+img: "/team/massimo-bini.jpg"
 name: Massimo Bini
 role: PhD Researcher
 order: 4

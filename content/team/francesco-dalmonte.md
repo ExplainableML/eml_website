@@ -1,8 +1,8 @@
 ---
 img: "/team/francesco-dalmonte.jpg"
 name: Francesco Dalmonte
-role: Visiting Researcher
-order: 7
+role: Collaborating PhD researcher
+order: 9
 link: francesco-dalmonte
 ---
 

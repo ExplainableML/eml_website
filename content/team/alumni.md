@@ -8,6 +8,8 @@ link: alumni
 
 # List of Alumni
 
+* Carl Scandelius (Visiting Researcher), now BSc student at Harvard University.
+* Safa Eren Kuda (Visiting Researcher), now BSc student at Bilkent University.
 * Diego Marcos (Collaborating Faculty),  now Junior Professor at Inria.
 * Seong Joon Oh  (Collaborating Faculty), now professor at the University of Tübingen.
 * David Kurzendörfer (Master Thesis Student) at EML, now Software Developer at Localyzer GmbH, Germany.
