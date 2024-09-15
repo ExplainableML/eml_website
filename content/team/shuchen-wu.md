@@ -4,6 +4,10 @@ name: Shuchen Wu
 role: Visiting Researcher
 order: 7
 link: shuchen-wu
+website: https://swu32.github.io/
+linkedin: https://www.linkedin.com/in/shuchen-wu-61a69b78/
+github: https://github.com/swu32
+scholar: https://scholar.google.com/citations?user=apHyqNYAAAAJ
 ---
 
 # Profile
