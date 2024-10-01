@@ -35,13 +35,13 @@ His primary interest: Making models generalize better. This covers approaches to
 </br>
 
 __"_A Practitioner's Guide to Continual Multimodal Pretraining_"__   
-__Karsten Roth__*, Vishaal Udandarao*, Sebastian Dziadzio, Ameya Prabhu, Mehdi Cherti, Oriol Vinyals, Olivier Hénaff, Samuel Albanie, Matthias Bethge, Zeynep Akata
+__Karsten Roth__*, Vishaal Udandarao*, Sebastian Dziadzio, Ameya Prabhu, Mehdi Cherti, Oriol Vinyals, Olivier Hénaff, Samuel Albanie, Matthias Bethge, Zeynep Akata   
 *Thirty-eighth Annual Conference on Neural Information Processing Systems, NeurIPS 2024*
 
 </br>
 
 __"_ReNO: Enhancing One-step Text-to-Image Models through Reward-based Noise Optimization_"__   
-Luca Eyring*, Shyamgopal Karthik*, __Karsten Roth__, Alexey Dosovitskiy, Zeynep Akata
+Luca Eyring*, Shyamgopal Karthik*, __Karsten Roth__, Alexey Dosovitskiy, Zeynep Akata   
 *Thirty-eighth Annual Conference on Neural Information Processing Systems, NeurIPS 2024*
 
 </br>
