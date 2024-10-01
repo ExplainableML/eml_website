@@ -121,9 +121,9 @@ __Karsten Roth__, Oriol Vinyals, Zeynep Akata
 # Community Service
 
 Reviewer for
-- ECCV '22, CVPR '22 & '23, ICLR '24 (all outstanding reviewer)
+- ECCV '22 & '24, CVPR '22 & '23, ICLR '24 (all outstanding reviewer)
 - MICCAI '20,'21, ICCV '23, IJCV \& TPAMI since '22
-- NeurIPS '23 & '24, ICML '24, ECCV '24, CVPR '24
+- NeurIPS '23 & '24, ICML '24 & '25, CVPR '24
 - Lots of CVPR/NeurIPS workshops
 
 # Supervision
