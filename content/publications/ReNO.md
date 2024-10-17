@@ -1,5 +1,5 @@
 ---
-img: "/publications/ReNO/method.png"
+img: "/publications/ReNO/teaser.png"
 title: "ReNO: Enhancing One-step Text-to-Image Models through Reward-based Noise Optimization"
 authors: Luca Eyring*, Shyamgopal Karthik*, Karsten Roth, Alexey Dosovitskiy, Zeynep Akata
 publisher: Neural Information Processing Systems, NeurIPS
@@ -14,6 +14,6 @@ abstract: Text-to-Image (T2I) models have made significant advancements in recen
 
 # Demo
 
-We hope you found this interesting, for more results and analysis, please refer to the [paper](https://arxiv.org/abs/2406.04312), our [code](https://github.com/ExplainableML/ReNO, and our [demo](https://huggingface.co/spaces/fffiloni/ReNO)
+We hope you found this interesting, for more results and analysis, please refer to the [paper](https://arxiv.org/abs/2406.04312), our [code](https://github.com/ExplainableML/ReNO), and our [demo](https://huggingface.co/spaces/fffiloni/ReNO)
 
 
