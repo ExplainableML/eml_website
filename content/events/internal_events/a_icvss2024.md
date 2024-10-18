@@ -1,5 +1,5 @@
 ---
-title: IVCSS 2024
+title: ICVSS 2024
 ---
 <center>
 <Image width="900" height="900" objectFit="cover" src=/gallery/icvss2024/1.jpeg></Image>
