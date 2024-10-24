@@ -9,10 +9,21 @@ scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
 ---
 
 # Profile
-Stephan Alaniz is a post-doctoral researcher in the Explainable Machine Learning group, led by Prof. Zeynep Akata. His Ph.D was partially done at the University of Amsterdam, the Max Planck Institute for Informatics and the University of Tübingen, supervised by Zeynep Akata and Bernt Schiele.
-His research focuses on explainable AI and multi-modal learning with vision and language.
+Stephan Alaniz is a post-doctoral researcher and deputy head of the Explainable Machine Learning group at Helmholtz Munich and the Technical University of Munich. His Ph.D was partially done at the University of Amsterdam, the Max Planck Institute for Informatics and the University of Tübingen, supervised by Zeynep Akata and Bernt Schiele. His research focuses on explainable AI and multimodal learning with vision and language.
 
 # Publications
+
+How should the advent of large language models affect the practice of science?\
+Marcel Binz*, **Stephan Alaniz**\*, Adina Roskies, Balazs Aczel, Carl T. Bergstrom, Colin Allen, Daniel Schad, Dirk Wulff, Jevin D. West, Qiong Zhang, Richard M. Shiffrin, Samuel J. Gershman, Ven Popov, Emily M. Bender, Marco Marelli, Matthew M. Botvinick, Zeynep Akata, Eric Schulz\
+Provisionally accepted at PNAS, 2024
+
+&nbsp;
+
+DataDream: Few-shot Guided Dataset Generation\
+Jae Myung Kim, Jessica Bader, **Stephan Alaniz**, Cordelia Schmid, Zeynep Akata\
+ECCV 2024
+
+&nbsp;
 
 In-Context Impersonation Reveals Large Language Models' Strengths and Biases\
 Leonard Salewski, **Stephan Alaniz**, Isabel Rio-Torto, Eric Schulz and Zeynep Akata\
