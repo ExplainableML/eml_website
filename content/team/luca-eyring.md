@@ -35,5 +35,5 @@ Théo Uscidda *, __Luca Eyring *__, Karsten Roth, Fabian Theis, Zeynep Akata, Ma
 </br>
 
 __"_Unbalancedness in Neural Monge Maps Improves Unpaired Domain Translation_"__   
-__Luca Eyring *__, Dominik Klein *, Théo Uscidda *, Giovanni Palla, Niki Kilbertus, Zeynep Akata, Fabian Theis
+__Luca Eyring *__, Dominik Klein *, Théo Uscidda *, Giovanni Palla, Niki Kilbertus, Zeynep Akata, Fabian Theis   
 *International Conference on Learning Representations, ICLR 2024*
