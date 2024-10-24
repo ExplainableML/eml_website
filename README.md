@@ -4,12 +4,15 @@ This is the repo for the landing page of Explainable Machine Learning Munich/Tü
 ## Best Practices
 ### RULES
 - **(!!!)** before pushing (which will directly modify the website), **FIRST RUN IN DEVELOPMENT MODE** and check:
+
 	- that the website is running (some changes might easily break the website)
 	- that the changes are correctly displayed (some changes might show differently from what you expect)
+
 - **(!)** only edit your personal page, or add/edit your papers' blogpost to the publications section
+
 	- if you think some other changes are needed, or find any bugs/mistakes, please contact Massimo or Lukas
-	- papers date should have chronological order
-		- in publications, put (e.g. date: "2024-04-25") to have the papers chronologically
+	- papers date should have chronological order (e.g. follow notation "2024-04-25")
+		
 - if you find and solve any bugs/issues (likely to happen in papers' blogpost), please add them to the Common Issues section below (thanks!)
 
 
