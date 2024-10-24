@@ -29,7 +29,7 @@ __Luca Eyring *__, Shyamgopal Karthik *, Karsten Roth, Alexey Dosovitskiy, Zeyne
 </br>
 
 __"_Disentangled Representational Learning with the Gromov-Monge Gap_"__   
-Théo Uscidda *,__Luca Eyring *__, Karsten Roth, Fabian Theis, Zeynep Akata, Marco Cuturi   
+Théo Uscidda *, __Luca Eyring *__, Karsten Roth, Fabian Theis, Zeynep Akata, Marco Cuturi   
 *ICML Workshop on Structured Probabilistic Inference & Generative Modeling, SPIGM @ ICML 2024*
 
 </br>
