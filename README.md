@@ -1,34 +1,16 @@
-# EML Tübingen Website
-This is the repo for the landing page of Explainable Machine Learning Tübingen
-
-## Tools used
-1. NodeJS and npm
-In order to run the project in development mode you need the latest stable versions of nodejs and npm
-2. Next.js with Javascript
-Next.js is a framework for creating static and dynamic web applications. It builds on React which is the mostly used Web App Framework for building user interfaces.
-3. Tailwind CSS 
-Tailwind CSS is an open source UI Design framework with ease of use and flexibility. It is well documented.
-3. CMS with Markdown
-
-## How to run in development
-Inside this folder open a new terminal window and run:
-```
-npm i
-npm run dev
-```
-
-For the above commands, you should have ```node version 16``` or newer ones and ```openssl version 1.1.1``` installed
-
-The webpage should now run in `localhost:3000`
-
-
+# EML Munich/Tübingen Website
+This is the repo for the landing page of Explainable Machine Learning Munich/Tübingen.
 
 ## Best Practices
-Wiki for best practices in managing the website
-
-### Publications
-- change Date to have chronological order
-	- in publications, put (e.g. date: "2024-04-25") to have the papers chronologically
+### RULES
+- **(!!!)** before pushing (which will directly modify the website), **FIRST RUN IN DEVELOPMENT MODE** and check:
+	- that the website is running (some changes might easily break the website)
+	- that the changes are correctly displayed (some changes might show differently from what you expect)
+- **(!)** only edit your personal page, or add/edit your papers' blogpost to the publications section
+	- if you think some other changes are needed, or find any bugs/mistakes, please contact Massimo or Lukas
+	- papers date should have chronological order
+		- in publications, put (e.g. date: "2024-04-25") to have the papers chronologically
+- if you find and solve any bugs/issues (likely to happen in papers' blogpost), please add them to the Common Issues section below (thanks!)
 
 
 ### Common Issues
@@ -41,18 +23,70 @@ Wiki for best practices in managing the website
 
 - don't forget --- at the end of the abstract
 
-<!-- ## Pages
 
-## Components -->
+## Setup
+
+### Install
+get repo
+```
+git clone git@github.com:ExplainableML/eml_website.git
+```
+from https://nodejs.org/en/download/package-manager 
+```
+# install nvm (Node Version Manager) (notice that you need to have .zshrc file)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+
+# close and open new terminal
+
+# download and install Node.js (you may need to restart the terminal)
+nvm install 20
+
+# verify the right Node.js version is in the environment
+node -v # should print `v20.18.0`
+
+# verify the right npm version is in the environment
+npm -v # should print `10.8.2`
+```
 
 
-## API interface to CMS
+### Run in development
+
+
+```
+# from inside the repo folder
+npm i
+npm run dev
+
+# the webpage should now run in `localhost:3000`
+```
+- notice that `npm i` could require also running `npm audit fix` to fix vulnerabilities
+- for the above commands, you should have ```node version 16``` or newer ones and ```openssl version 1.1.1``` installed
+
+
+
+
+### Tools used
+1. NodeJS and npm
+In order to run the project in development mode you need the latest stable versions of nodejs and npm
+2. Next.js with Javascript
+Next.js is a framework for creating static and dynamic web applications. It builds on React which is the mostly used Web App Framework for building user interfaces.
+3. Tailwind CSS 
+Tailwind CSS is an open source UI Design framework with ease of use and flexibility. It is well documented.
+3. CMS with Markdown
+
+
+
+
+
+## Others
+
+### API interface to CMS
 The CMS is a simple directory with markdown files which can be left inside this repository in the content folder or moved to another repository.
 
 
 
-## Hosting 
-### Vercel
+### Hosting 
+#### Vercel
 The website is hosted on vercel with sponsorship
 
 <a href="https://vercel.com/?utm_source=eml&utm_campaign=education">
