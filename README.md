@@ -1,14 +1,14 @@
 # EML Munich/Tübingen Website
 This is the repo for the landing page of Explainable Machine Learning Munich/Tübingen.
 
-## Best Practices
-### RULES
+## Guidelines
+### Rules
 - **(!!!)** before pushing (which will directly modify the website), **FIRST RUN IN DEVELOPMENT MODE** and check:
 
 	- that the website is running (some changes might easily break the website)
 	- that the changes are correctly displayed (some changes might show differently from what you expect)
 
-- **(!)** only edit your personal page, or add/edit your papers' blogpost to the publications section
+- **(!)** only edit your personal page, or add/edit your papers' blogpost in the publications section
 
 	- if you think some other changes are needed, or find any bugs/mistakes, please contact Massimo or Lukas
 	- papers date should have chronological order (e.g. follow notation "2024-04-25")
@@ -18,11 +18,9 @@ This is the repo for the landing page of Explainable Machine Learning Munich/Tü
 
 ### Common Issues
 
-- abstract on multiple lines
-	- abstract should be on one line
+- abstract on multiple lines --> should be on one line
 
-- special characters in title
-	- put text into " " to have special characters (e.g. :, ...)
+- special characters in title --> put text into " " to have special characters (e.g. :, ...)
 
 - don't forget --- at the end of the abstract
 
