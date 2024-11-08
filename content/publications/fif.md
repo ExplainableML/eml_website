@@ -1,7 +1,7 @@
 ---
 img: "/publications/fif_teaser.png"
 title: "A Practitioner's Guide to Continual Multimodal Pretraining"
-authors: Karsten Roth*, Vishaal Udandarao*, Sebastian Dziadzio, Ameya Prabhu, Medhi Cherti, Oriol Vinyals, Olivier Henaff, Samuel Albanie^x, Matthias Bethge^x, Zeynep Akata^x
+authors: Karsten Roth*, Vishaal Udandarao*, Sebastian Dziadzio, Ameya Prabhu, Medhi Cherti, Oriol Vinyals, Olivier Henaff, Samuel Albanie, Matthias Bethge, Zeynep Akata
 publisher: Neural Information Processing Systems, NeurIPS
 year: 2024
 date: "2024-12-12"
