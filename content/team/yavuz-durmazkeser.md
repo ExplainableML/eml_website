@@ -1,8 +1,8 @@
 ---
 img: "/team/yavuz-durmazkeser.jpg"
 name: Yavuz Durmazkeser
-role: HiWi MSc student
-order: 6
+role: Collaborating PhD researcher
+order: 9
 link: yavuz-durmazkeser
 ---
 
