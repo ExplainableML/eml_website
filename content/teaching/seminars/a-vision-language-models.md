@@ -1,7 +1,7 @@
 ---
 title: Advanced Topics in Vision-Language Models
 ---
-# TUM Master's Seminar: Advanced Topics in Vision-Language Models (SS 2024)
+# TUM Master's Seminar: Advanced Topics in Vision-Language Models (SS 2025)
 
 ## Content
 
@@ -31,7 +31,7 @@ or a related practical.
 
 </br>
 
-The preliminary meeting will take place at 1pm on Thursday, 8th of Februray 2024 on Zoom. You can find the slides [here](https://drive.google.com/file/d/1ji2Sp1J-Xtoki5PiuumrQ1LEYfTYdqGl/view?usp=sharing).
+The preliminary meeting will take place at 2pm on Wednesdy, 12th of Februray 2024 on [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09)
 
 </br>
 
@@ -44,15 +44,15 @@ All students will be matched to __one topic group including a primary paper and 
 </br>
 
 The tentative schedule of the seminar is as follows:
-- __Online__ Introductory Session, April 18th, (1-2:30pm), [https://zoom.us/j/94077626596](https://zoom.us/j/94077626596). You can find the slides [here](https://drive.google.com/file/d/1pqzPd_a5yesIMdaxUu9DR9jHg1jGJeDt/view?usp=sharing).
-- __Onsite__ Short presentations on May 16th, 23rd (1-3pm)
-- __Onsite__ Long presentations on June 6th, 13th, 20th, 27th, July 4th (1-3pm)
+- __Online__ Introductory Session, April 17th, (1-2:30pm), [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09)
+- __Onsite__ Short presentations on May 15th, 22nd (1-3pm)
+- __Onsite__ Long presentations on June 5th, 12th, 19th, 26th, July 3rd (1-3pm)
 
 </br>
 
-For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@helmholtz-munich.de.
+For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@helmholtz-munich.de.
 
-</br>
+<!-- </br>
 
 # Topics to select from:
 
@@ -112,7 +112,7 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 2. CoVR: Learning Composed Video Retrieval from Web Video Captions (https://imagine.enpc.fr/~ventural/covr/dataset/covr.pdf)
 3. Zero-Shot Composed Image Retrieval with Textual Inversion (https://arxiv.org/abs/2303.15247)
 4. Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models (https://arxiv.org/abs/2301.13826)
-5. When and why vision-language models behave like bags-of-words, and what to do about it? (https://arxiv.org/abs/2210.01936)
+5. When and why vision-language models behave like bags-of-words, and what to do about it? (https://arxiv.org/abs/2210.01936) -->
 
 </br>
 
@@ -122,8 +122,8 @@ For questions, please contact yiran.huang@helmholtz-munich.de or luca.eyring@hel
 
 A successful participation in the seminar includes:
 - Active participation in the entire event: We have 70% attendance policy for this seminar. (You need to attend at least 5 of the 7 sessions.)
-- Short presentation on May 16th or 23rd (10 minutes talk including questions)
-- Long presentation on June 6th, 13th, 20th, 27th, or July 4th (20 minutes talk including questions)
+- Short presentation (10 minutes talk including questions)
+- Long presentation (20 minutes talk including questions)
 
 ## Registration
 
