@@ -1,8 +1,8 @@
 ---
 img: "/team/rui-xiao.png"
 name: Rui Xiao
-role: MSc thesis student
-order: 6
+role: PhD Researcher
+order: 4
 link: rui-xiao
 
 ---
