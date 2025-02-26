@@ -42,7 +42,7 @@ When this distortion equals zero, the map perfectly preserves the geometric feat
 
 </br>
 
-![text](/publications/ICL25_gmg/gmg_toy_data.png)
+![](/publications/ICLR25_gmg/gmg_toy_data.png)
 
 </br>
 
@@ -84,7 +84,7 @@ The GMG can be understood as a "debiased distortion." It compares the distortion
 
 </br>
 
-![text](/publications/ICL25_gmg/gmg_concept_figure.png)
+![](/publications/ICLR25_gmg/gmg_concept_figure.png)
 
 </br>
 
