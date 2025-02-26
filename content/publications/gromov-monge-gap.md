@@ -1,5 +1,5 @@
 ---
-img: "/publications/ICLR25_GMG/gmg_concept_figure.pdf"
+img: "/publications/ICLR25_GMG/gmg_concept_figure.png"
 title: Disentangled Representation Learning with the Gromov-Monge Gap
 authors: Théo Uscidda*, Luca Eyring*, Karsten Roth, Fabian J Theis, Zeynep Akata*, Marco Cuturi*
 publisher: International Conference on Learning Representations, ICLR
@@ -32,8 +32,8 @@ To quantify this preservation, we can use the distortion (DST) of a map T, which
 
 $$
 \begin{equation}
-\mathrm{DST}_r(T) := \int_{\mathcal{X}\times \mathcal{X}} \tfrac{1}{2} (c_\mathcal{X}(\mathbf{x},\mathbf{x}') - c_\mathcal{Y}(T(\mathbf{x}), T(\mathbf{x}')))^2 \mathrm{d}r(\mathbf{x})\mathrm{d}r(\mathbf{x}')
-\end{eqaution}
+\mathrm{DST}_r(T) := \int_{\mathcal{X}\times \mathcal{X}} \tfrac{1}{2} (c_\mathcal{X}(\mathbf{x},\mathbf{x}') - c_\mathcal{Y}(T(\mathbf{x}), T(\mathbf{x}')))^2 \mathrm{d}r(\mathbf{x})\mathrm{d}r(\mathbf{x}')\,.
+\end{equation}
 $$
 
 </br>
@@ -42,7 +42,7 @@ When this distortion equals zero, the map perfectly preserves the geometric feat
 
 </br>
 
-![text](/publications/ICL25_gmg/gmg_toy_data.pdf)
+![text](/publications/ICL25_gmg/gmg_toy_data.png)
 
 </br>
 
@@ -84,7 +84,7 @@ The GMG can be understood as a "debiased distortion." It compares the distortion
 
 </br>
 
-![text](/publications/ICL25_gmg/gmg_concept_figure.pdf)
+![text](/publications/ICL25_gmg/gmg_concept_figure.png)
 
 </br>
 
