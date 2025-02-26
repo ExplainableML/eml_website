@@ -16,9 +16,7 @@ github: https://github.com/swu32/HVM
 </br>
 </br>
 
-## Overview
-
-</br>
+# Overview
 
 Abstraction plays a key role in intelligence. Philosophers traditionally view abstract ideas as formed by identifying commonalities across experiences, distilled from concrete impressions grounded in perception. Psychologists suggest that abstraction arises from personal experiences, such as forming the concept of whiteness by observing various white objects. Abstract concepts are thought to build on concrete concepts and on top of the previously learned abstractions, thereby varying in complexity. The ability to abstract, which is often seen as a human-specific trait, enables reasoning, generalization, and problem-solving in novel contexts.
 
