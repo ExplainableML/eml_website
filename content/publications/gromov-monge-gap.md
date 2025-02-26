@@ -4,7 +4,9 @@ title: Disentangled Representation Learning with the Gromov-Monge Gap
 authors: Théo Uscidda*, Luca Eyring*, Karsten Roth, Fabian J Theis, Zeynep Akata*, Marco Cuturi*
 publisher: International Conference on Learning Representations, ICLR
 year: 2025
-date: "2025-02-26"
+month: 04
+day: 26
+date: "2025-04-26"
 filename: gromov-monge-gap
 arxiv: https://arxiv.org/abs/2407.07829
 github: https://arxiv.org/abs/2407.07829
