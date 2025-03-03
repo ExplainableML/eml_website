@@ -3,8 +3,10 @@ img: "/publications/ctx_1.png"
 title: Context-Aware Multimodal Pretraining
 authors: Karsten Roth, Zeynep Akata, Dima Damen, Ivana Balazevic*, Olivier J. Henaff*
 publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
-year: 2024
-date: "2024-11-22"
+year: 2025
+month: 6
+day: 13
+date: "2025-06-13"
 filename: context_aware
 arxiv: https://arxiv.org/abs/2411.15099
 github: https://arxiv.org/abs/2411.15099
