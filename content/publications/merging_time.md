@@ -3,8 +3,10 @@ img: "/publications/merging_time_1.png"
 title: How to Merge Your Multimodal Models Over Time?
 authors: Sebastian Dziadzio*, Vishaal Udandarao*, Karsten Roth*, Ameya Prabhu, Zeynep Akata, Samuel Albanie, Matthias Bethge
 publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
-year: 2024
-date: "2024-12-09"
+year: 2025
+month: 6
+day: 13
+date: "2025-06-13"
 filename: merging_time
 arxiv: https://arxiv.org/abs/2412.06712
 github: https://github.com/ExplainableML/fomo_in_flux
