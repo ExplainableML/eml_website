@@ -2,7 +2,7 @@
 img: "/publications/ICLR25_GenderBiasInVLAs/model_figure.png"
 title: "Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs)"
 filename: revealing_reducing_gender_biases_in_vlas
-authors: Leander Girrbach, Yiran Huang, Stephan Alaniz, Trevor Darrell, Zeynep Akata
+authors: Leander Girrbach, Stephan Alaniz, Yiran Huang, Trevor Darrell, Zeynep Akata
 publisher: International Conference on Learning Representations, ICLR
 year: 2025
 month: 04
