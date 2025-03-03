@@ -2,7 +2,7 @@
 img: "/publications/CVPR2025_flair/main.png"
 title: "FLAIR: VLM with Fine-grained Language-informed Image Representations"
 authors: Rui Xiao, Sanghwan Kim, Mariana-Iuliana Georgescu, Zeynep Akata, Stephan Alaniz
-publisher: Computer Vision and Pattern Recognition, CVPR
+publisher: IEEE Conference on Computer Vision and Pattern Recognition, CVPR
 year: 2025
 month: 06
 day: 13

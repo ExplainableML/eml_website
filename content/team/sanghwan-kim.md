@@ -11,4 +11,4 @@ scholar:  https://scholar.google.com/citations?user=XkqHJfYAAAAJ&hl=en
 ---
 
 # Profile
-Sanghwan Kim is an ELLIS PhD researcher in the Explainable Machine Learning group supervised by Zeynep Akata at the Technical University of Munich, starting in 2024. He completed his Master’s degree in Data Science at ETH Zürich in 2023 and his Bachelor’s degree in Computer Engineering at KAIST in 2020. His primary research interests include diffusion models, multimodal learning, and continual learning.
+Sanghwan Kim is a PhD researcher in the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ program, co-supervised by Prof. Zeynep Akata and Dr. Yongqin Xian at Google, Zurich. He completed his Master’s degree in Data Science at ETH Zürich, Switzerland (2023) and his Bachelor’s degree in Electrical Engineering at KAIST, South Korea (2020). His primary research interests include VideoQA tasks, multimodal learning, and continual learning.
