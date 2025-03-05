@@ -31,7 +31,7 @@ or a related practical.
 
 </br>
 
-The preliminary meeting will take place at 2pm on Wednesdy, 12th of Februray 2025 on [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09) See [Slides](https://drive.google.com/file/d/1yPeiV-kc-_KDf7K3kArYDTxtaDfIWOXe/view?usp=drive_link).
+The preliminary meeting will take place at 2pm on Wednesdy, 12th of Februray 2025 on [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09). See [Slides](https://drive.google.com/file/d/1INDmalibspXghQrTBPgGS65rygeZ9sjJ/view?usp=drive_link).
 
 </br>
 
@@ -46,7 +46,7 @@ All students will be matched to __one topic group including a primary paper and 
 The tentative schedule of the seminar is as follows:
 - __Online__ Introductory Session, April 9th, (1-2:30pm), [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09)
 - __Onsite__ Short presentations on April 23rd and 30th (1-3pm)
-- __Onsite__ Long presentations on May 21st, May 28th, June 4th, 11th, 18th(1-3pm)
+- __Onsite__ Long presentations on May 21st, May 28th, June 4th, 11th, Jule 2nd(1-3pm)
 
 </br>
 
