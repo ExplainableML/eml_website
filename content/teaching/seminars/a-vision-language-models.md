@@ -35,7 +35,7 @@ The preliminary meeting will take place at 2pm on Wednesdy, 12th of Februray 202
 
 </br>
 
-The seminar awards 5 ECTS Credits and will take place in person at [Helmholtz AI Munich](https://www.google.com/maps?ll=48.220675,11.596054&z=17&t=m&hl=en&gl=GB&mapclient=embed&cid=3379363886196135068).
+The seminar awards 5 ECTS Credits and will take place in person at [SAP Labs Munich](https://www.google.com/maps/place/SAP+Labs+Munich+(MUE03)/@48.2637921,11.6667211,15.71z/data=!4m6!3m5!1s0x479e73ae34549fab:0xcf849163c0750852!8m2!3d48.2641469!4d11.6610809!16s%2Fg%2F11s93pl1ct?entry=ttu&g_ep=EgoyMDI1MDMwMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D) in Garching campus.
 
 </br>
 
@@ -44,9 +44,9 @@ All students will be matched to __one topic group including a primary paper and 
 </br>
 
 The tentative schedule of the seminar is as follows:
-- __Online__ Introductory Session, April 17th, (1-2:30pm), [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09)
-- __Onsite__ Short presentations on May 15th, 22nd (1-3pm)
-- __Onsite__ Long presentations on June 5th, 12th, 19th, 26th, July 3rd (1-3pm)
+- __Online__ Introductory Session, April 9th, (1-2:30pm), [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09)
+- __Onsite__ Short presentations on April 23rd and 30th (1-3pm)
+- __Onsite__ Long presentations on May 21st, May 28th, June 4th, 11th, 18th(1-3pm)
 
 </br>
 
