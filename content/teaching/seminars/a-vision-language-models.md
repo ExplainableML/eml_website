@@ -31,7 +31,7 @@ or a related practical.
 
 </br>
 
-The preliminary meeting will take place at 2pm on Wednesdy, 12th of Februray 2025 on [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09) See [Slides](https://drive.google.com/file/d/19TeklHl8y7q6IttHPscIHqLjZUZGm38A/view?usp=sharing).
+The preliminary meeting will take place at 2pm on Wednesdy, 12th of Februray 2025 on [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09) See [Slides](https://drive.google.com/file/d/1yPeiV-kc-_KDf7K3kArYDTxtaDfIWOXe/view?usp=drive_link).
 
 </br>
 
