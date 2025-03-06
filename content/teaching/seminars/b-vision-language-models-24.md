@@ -1,5 +1,5 @@
 ---
-title: Advanced Topics in Vision-Language Models
+title: Advanced Topics in Vision-Language Models (SS 2024)
 ---
 # TUM Master's Seminar: Advanced Topics in Vision-Language Models (SS 2024)
 
