@@ -12,7 +12,5 @@ Please consider applying if you are interested in joining us!
 
 <br>
 
-
-<center>
-<Image width="900" height="900" objectFit="cover" src=/jobs/postdoc_adverisement.png></Image>
-</center>
+# Postdoctoral Researchers
+At the moment, we do not have any open postdoctoral positions in the lab. However, we always welcome inquiries from exceptional candidates interested in our research, and we encourage you to check back for future opportunities.
