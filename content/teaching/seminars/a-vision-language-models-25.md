@@ -107,7 +107,6 @@ For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@he
 2. [Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs](https://arxiv.org/abs/2401.06209)
 3. [Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2312.01998)
 4. [Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy](https://arxiv.org/abs/2306.07282.pdf)
-5. [Learning Vision from Models Rivals Learning Vision from Data](https://arxiv.org/abs/2411.16752)
 
 
 </br>
