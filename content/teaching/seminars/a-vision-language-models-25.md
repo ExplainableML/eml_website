@@ -60,44 +60,10 @@ For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@he
 
 </br>
 
-1. Learning Transferable Visual Models From Natural Language Supervision (CLIP, https://arxiv.org/abs/2103.00020)
-2. Visual Instruction Tuning (https://arxiv.org/abs/2304.08485)
-3. High-Resolution Image Synthesis With Latent Diffusion Models (Stable Diffusion, https://arxiv.org/abs/2112.10752)
-4. JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation (https://arxiv.org/abs/2411.07975)
-
-</br>
-
-### Compositionality
-
-</br>
-
-1. When and why vision-language models behave like bags-of-words, and what to do about it? (https://arxiv.org/abs/2210.01936)
-2. Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs. (https://arxiv.org/abs/2401.06209)
-3. Language-only Efficient Training of Zero-shot Composed Image Retrieval. (https://arxiv.org/abs/2312.01998)
-4. magine and Seek: Improving Composed Image Retrieval with an Imagined Proxy. (https://arxiv.org/abs/2306.07282.pdf)
-5. Learning Vision from Models Rivals Learning Vision from Data (https://arxiv.org/abs/2411.16752)
-
-</br>
-
-### Concept-based Explainability 
-
-</br>
-
-1. Discover-then-Name: Task-Agnostic Concept Bottlenecks via Automated Concept Discovery (https://arxiv.org/abs/2407.14499)
-2. Large Multi-modal Models Can Interpret Features in Large Multi-modal Models (https://arxiv.org/abs/2411.14982)
-3. PDiscoNet: Semantically consistent part discovery for fine-grained recognition (https://arxiv.org/abs/2309.03173)
-4. Sparse Autoencoders Find Highly Interpretable Features in Language Models (https://arxiv.org/abs/2309.08600)
-
-</br>
-
-### Applications of T2I Models
-
-</br>
-
-1. Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet, https://arxiv.org/abs/2302.05543)
-2. ReNoise: Real Image Inversion Through Iterative Noising (https://arxiv.org/abs/2403.14602)
-3. DataDream: Few-shot Guided Dataset Generation (https://arxiv.org/abs/2407.10910)
-4. DiG-IN: Diffusion Guidance for Investigating Networks -- Uncovering Classifier Differences Neuron Visualisations and Visual Counterfactual Explanations (https://arxiv.org/abs/2311.17833)
+1. [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
+2. [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
+3. [High-Resolution Image Synthesis With Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
+4. [JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2411.07975)
 
 </br>
 
@@ -105,10 +71,44 @@ For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@he
 
 </br>
 
-1. MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning (https://arxiv.org/abs/2503.07365)
-2. Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models (https://arxiv.org/abs/2503.06749)
-3. KTO: Model Alignment as Prospect Theoretic Optimization (https://arxiv.org/abs/2402.01306)
-4. Diffusion Model Alignment Using Direct Preference Optimization (https://arxiv.org/abs/2311.12908) -->
+1. [MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning](https://arxiv.org/abs/2503.07365)
+2. [Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](https://arxiv.org/abs/2503.06749)
+3. [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/abs/2402.01306)
+4. [Diffusion Model Alignment Using Direct Preference Optimization](https://arxiv.org/abs/2311.12908)
+
+</br>
+
+### Applications of T2I Models
+
+</br>
+
+1. [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543)
+2. [ReNoise: Real Image Inversion Through Iterative Noising](https://arxiv.org/abs/2403.14602)
+3. [DataDream: Few-shot Guided Dataset Generation](https://arxiv.org/abs/2407.10910)
+4. [DiG-IN: Diffusion Guidance for Investigating Networks -- Uncovering Classifier Differences Neuron Visualisations and Visual Counterfactual Explanations](https://arxiv.org/abs/2311.17833)
+
+</br>
+
+### Concept-based Explainability 
+
+</br>
+
+1. [Discover-then-Name: Task-Agnostic Concept Bottlenecks via Automated Concept Discovery](https://arxiv.org/abs/2407.14499)
+2. [Large Multi-modal Models Can Interpret Features in Large Multi-modal Models](https://arxiv.org/abs/2411.14982)
+3. [PDiscoNet: Semantically consistent part discovery for fine-grained recognition](https://arxiv.org/abs/2309.03173)
+4. [Sparse Autoencoders Find Highly Interpretable Features in Language Models ](https://arxiv.org/abs/2309.08600)
+</br>
+
+### Compositionality
+
+</br>
+
+1. [When and why vision-language models behave like bags-of-words, and what to do about it?](https://arxiv.org/abs/2210.01936)
+2. [Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs](https://arxiv.org/abs/2401.06209)
+3. [Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2312.01998)
+4. [Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy](https://arxiv.org/abs/2306.07282.pdf)
+5. [Learning Vision from Models Rivals Learning Vision from Data](https://arxiv.org/abs/2411.16752)
+
 
 </br>
 
