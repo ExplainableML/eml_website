@@ -52,7 +52,7 @@ The tentative schedule of the seminar is as follows:
 
 For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@helmholtz-munich.de.
 
-<!-- </br>
+</br>
 
 # Topics to select from:
 
@@ -61,46 +61,9 @@ For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@he
 </br>
 
 1. Learning Transferable Visual Models From Natural Language Supervision (CLIP, https://arxiv.org/abs/2103.00020)
-2. BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation (https://arxiv.org/abs/2201.12086)
-3. Visual Instruction Tuning (https://arxiv.org/abs/2304.08485)
-4. CoDi-2: In-Context, Interleaved, and Interactive Any-to-Any Generation (https://arxiv.org/pdf/2311.18775.pdf)
-5. High-Resolution Image Synthesis With Latent Diffusion Models (Stable Diffusion, https://arxiv.org/abs/2112.10752)
-
-</br>
-
-### Zero/few-shot learning in VLMs
-
-</br>
-
-1. Test-time Adaptation with CLIP Reward for Zero-shot Generalization in VLMs (https://arxiv.org/pdf/2305.18010.pdf)
-2. DDCoT: Duty-Distinct Chain-of-Thought Prompting for Multimodal Reasoning in Language Models (https://arxiv.org/pdf/2310.16436.pdf)
-3. Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners (https://arxiv.org/pdf/2303.02151.pdf)
-4. Waffling around for Performance: Visual Classification with Random Words and Broad Concepts (https://arxiv.org/pdf/2306.07282.pdf)
-5. Learning Vision from Models Rivals Learning Vision from Data (https://arxiv.org/pdf/2312.17742.pdf)
-
-</br>
-
-### Language guidance in computer vision
-
-</br>
-
-1. DeViL: Decoding Vision features into Language (https://arxiv.org/abs/2309.01617)
-2. Label-Free Concept Bottleneck Models (https://arxiv.org/abs/2304.06129)
-3. Visual Classification via Description from Large Language Models (https://arxiv.org/abs/2210.07183)
-4. ViperGPT: Visual Inference via Python Execution for Reasoning (https://arxiv.org/abs/2303.08128)
-5. Image-free Classifier Injection for Zero-Shot Classification (https://arxiv.org/abs/2308.10599)
-
-</br>
-
-### Personalized text2image models
-
-</br>
-
-1. Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet, https://arxiv.org/abs/2302.05543)
-2. An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion (https://textual-inversion.github.io/)
-3. DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation (https://dreambooth.github.io/)
-4. Differential Diffusion: Giving Each Pixel Its Strength (https://differential-diffusion.github.io/)
-5. Anti-DreamBooth: Protecting users from personalized text-to-image synthesis (https://arxiv.org/pdf/2303.15433.pdf)
+2. Visual Instruction Tuning (https://arxiv.org/abs/2304.08485)
+3. High-Resolution Image Synthesis With Latent Diffusion Models (Stable Diffusion, https://arxiv.org/abs/2112.10752)
+4. JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation (https://arxiv.org/abs/2411.07975)
 
 </br>
 
@@ -108,11 +71,44 @@ For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@he
 
 </br>
 
-1. Vision-by-Language for Training-Free Compositional Image Retrieval (https://arxiv.org/abs/2310.09291)
-2. CoVR: Learning Composed Video Retrieval from Web Video Captions (https://imagine.enpc.fr/~ventural/covr/dataset/covr.pdf)
-3. Zero-Shot Composed Image Retrieval with Textual Inversion (https://arxiv.org/abs/2303.15247)
-4. Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models (https://arxiv.org/abs/2301.13826)
-5. When and why vision-language models behave like bags-of-words, and what to do about it? (https://arxiv.org/abs/2210.01936) -->
+1. When and why vision-language models behave like bags-of-words, and what to do about it? (https://arxiv.org/abs/2210.01936)
+2. Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs. (https://arxiv.org/abs/2401.06209)
+3. Language-only Efficient Training of Zero-shot Composed Image Retrieval. (https://arxiv.org/abs/2312.01998)
+4. magine and Seek: Improving Composed Image Retrieval with an Imagined Proxy. (https://arxiv.org/abs/2306.07282.pdf)
+5. Learning Vision from Models Rivals Learning Vision from Data (https://arxiv.org/abs/2411.16752)
+
+</br>
+
+### Concept-based Explainability 
+
+</br>
+
+1. Discover-then-Name: Task-Agnostic Concept Bottlenecks via Automated Concept Discovery (https://arxiv.org/abs/2407.14499)
+2. Large Multi-modal Models Can Interpret Features in Large Multi-modal Models (https://arxiv.org/abs/2411.14982)
+3. PDiscoNet: Semantically consistent part discovery for fine-grained recognition (https://arxiv.org/abs/2309.03173)
+4. Sparse Autoencoders Find Highly Interpretable Features in Language Models (https://arxiv.org/abs/2309.08600)
+
+</br>
+
+### Applications of T2I Models
+
+</br>
+
+1. Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet, https://arxiv.org/abs/2302.05543)
+2. ReNoise: Real Image Inversion Through Iterative Noising (https://arxiv.org/abs/2403.14602)
+3. DataDream: Few-shot Guided Dataset Generation (https://arxiv.org/abs/2407.10910)
+4. DiG-IN: Diffusion Guidance for Investigating Networks -- Uncovering Classifier Differences Neuron Visualisations and Visual Counterfactual Explanations (https://arxiv.org/abs/2311.17833)
+
+</br>
+
+### RLHF in Vision Language Models
+
+</br>
+
+1. MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning (https://arxiv.org/abs/2503.07365)
+2. Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models (https://arxiv.org/abs/2503.06749)
+3. KTO: Model Alignment as Prospect Theoretic Optimization (https://arxiv.org/abs/2402.01306)
+4. Diffusion Model Alignment Using Direct Preference Optimization (https://arxiv.org/abs/2311.12908) -->
 
 </br>
 
