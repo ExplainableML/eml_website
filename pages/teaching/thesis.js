@@ -21,7 +21,7 @@ export default function Thesis(props) {
 
             <YearHeadline text="Thesis Topics"></YearHeadline>
 
-            <p class="text-sm px-4 lg:px-32 mb-16">If you are a student at the Technical University of Munich in a MSc degree program at the department of Computer Science, and are interested in working with us (e.g. for a master&#39;s thesis, research internship, research project, or as a HiWi student), please send an enquiry to luca.eyring@helmholtz-munich.de. Please include a current CV including a description of previous research/work experiences, a transcript of all previous courses and grades, and a brief statement of what research you want to do and why you want to join our group. A list of open topics is below— however, note that this list is not exhaustive, and we might have additional topics available.</p>
+            <p class="text-sm px-4 lg:px-32 mb-16">If you are a student at the Technical University of Munich in a MSc degree program at the department of Computer Science, and are interested in working with us (e.g. for a master&#39;s thesis, research internship, research project, or as a HiWi student), please send an enquiry to yiran.huang@tum.de. Please include a current CV including a description of previous research/work experiences, a transcript of all previous courses and grades, and a brief statement of what research you want to do and why you want to join our group. A list of open topics is below— however, note that this list is not exhaustive, and we might have additional topics available.</p>
             <div class="grid grid-cols-1 overflow-y-scroll gap-8">
 
 
