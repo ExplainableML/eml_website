@@ -4,6 +4,7 @@ name: Sanghwan Kim
 role: PhD Researcher
 order: 4
 link: sanghwan-kim
+mail: sanghwan.kim at helmholtz-munich.de
 website: https://kim-sanghwan.github.io/
 linkedin:  https://www.linkedin.com/in/sanghwan-kim-bb2a41193/?original_referer=https%3A%2F%2Fkim-sanghwan.github.io%2F
 scholar:  https://scholar.google.com/citations?user=XkqHJfYAAAAJ&hl=en
