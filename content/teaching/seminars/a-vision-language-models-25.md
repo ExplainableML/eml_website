@@ -106,7 +106,7 @@ For questions, please contact yiran.huang@helmholtz-munich.de or sanghwan.kim@he
 1. [When and why vision-language models behave like bags-of-words, and what to do about it?](https://arxiv.org/abs/2210.01936)
 2. [Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs](https://arxiv.org/abs/2401.06209)
 3. [Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2312.01998)
-4. [Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy](https://arxiv.org/abs/2306.07282.pdf)
+4. [Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy](https://arxiv.org/abs/2411.16752)
 
 
 </br>
