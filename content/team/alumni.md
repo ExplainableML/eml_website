@@ -8,6 +8,7 @@ link: alumni
 
 # List of Alumni
 
+* Anjan Dutta (Collaborating Faculty), now Assistant Professor at the University of Surrey.
 * Carl Scandelius (Visiting Researcher), now BSc student at Harvard University.
 * Safa Eren Kuday (Visiting Researcher), now BSc student at Bilkent University.
 * Diego Marcos (Collaborating Faculty),  now Junior Professor at Inria.

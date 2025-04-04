@@ -1,15 +1,15 @@
 ---
 img: "/team/stephan-alaniz.jpg"
 name: Stephan Alaniz
-role: Deputy Head
-order: 2
+role: Collaborating Faculty
+order: 10
 link: stephan-alaniz
 mail: stephan.alaniz (at) helmholtz-munich.de
 scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
 ---
 
 # Profile
-Stephan Alaniz is a post-doctoral researcher and deputy head of the Explainable Machine Learning group at Helmholtz Munich and the Technical University of Munich. His Ph.D was partially done at the University of Amsterdam, the Max Planck Institute for Informatics and the University of Tübingen, supervised by Zeynep Akata and Bernt Schiele. His research focuses on explainable AI and multimodal learning with vision and language.
+Stephan Alaniz was a post-doctoral researcher and deputy head of the Explainable Machine Learning group at Helmholtz Munich and the Technical University of Munich. His Ph.D was partially done at the University of Amsterdam, the Max Planck Institute for Informatics and the University of Tübingen, supervised by Zeynep Akata and Bernt Schiele. His research focuses on explainable AI and multimodal learning with vision and language.
 
 # Publications
 
