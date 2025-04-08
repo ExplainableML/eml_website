@@ -44,7 +44,7 @@ All students will be matched to __one topic group including a primary paper and 
 </br>
 
 The tentative schedule of the seminar is as follows:
-- __Online__ Introductory Session, April 9th, (1-2:30pm), [Zoom](https://tum-conf.zoom-x.de/j/8713460070?pwd=SEd6a2QycjF0VnMzOGVDOXpuNzkwQT09)
+- __Online__ Introductory Session, April 9th, (1-2:30pm), [Zoom](https://tum-conf.zoom-x.de/j/64655141614?pwd=3iLEwrAUhs369HEbTS3waR1mdbv5Ws.1)
 - __Onsite__ Short presentations on April 23rd (Room B2.01) and 30th (Room B1.01) (1-3pm)
 - __Onsite__ Long presentations on May 21st (Room B1.01), May 28th (Room B1.01), June 4th (Room B1.01), 11th (Room B1.01), July 2nd (Room B2.01) (1-3pm)
 
