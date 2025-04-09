@@ -17,12 +17,15 @@ His main research interest is to understand model transfer across distribution s
 
 # Publications
 
+__"_Understanding the Limits of Lifelong Knowledge Editing in LLMs_"__
+Lukas Thede, Karsten Roth, Matthias Bethge, Zeynep Akata, Tom Hartvigsen
+
 __"_Reflecting on the State of Rehearsal-free Continual Learning with Pretrained Models_"__   
-Lukas Thede*, __Karsten Roth*__, Olivier J. Hénaff, Matthias Bethge, Zeynep Akata   
+__Lukas Thede*__, Karsten Roth*, Olivier J. Hénaff, Matthias Bethge, Zeynep Akata   
 *Conference on Lifelong Learning Agents, CoLLAs 2024*
 
 
 __"_Fantastic Gains and Where to Find Them: On the Existence and Prospect of General Knowledge Transfer between Any Pretrained Model_"__   
-__Karsten Roth *__, Lukas Thede *, A. Sophia Koepke, Oriol Vinyals, Olivier Henaff, Zeynep Akata     
+Karsten Roth*, __Lukas Thede*__, A. Sophia Koepke, Oriol Vinyals, Olivier Henaff, Zeynep Akata     
 **Spotlight** *at International Conference on Learning Representations, ICLR 2024*
 
