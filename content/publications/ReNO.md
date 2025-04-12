@@ -16,4 +16,8 @@ abstract: Text-to-Image (T2I) models have made significant advancements in recen
 
 We hope you found this interesting, for more results and analysis, please refer to the [paper](https://arxiv.org/abs/2406.04312), our [code](https://github.com/ExplainableML/ReNO), and our [demo](https://huggingface.co/spaces/fffiloni/ReNO)
 
+# Helmholtz AI Best Paper Award
+
+We are delighted to share that our paper received the Helmholtz AI Best Paper award for the year 2024. More details can be found [here](https://www.helmholtz.ai/detail/helmholtz-ai-annual-retrospective-and-award-ceremony-2024/).
+
 
