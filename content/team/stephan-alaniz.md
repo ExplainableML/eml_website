@@ -4,18 +4,36 @@ name: Stephan Alaniz
 role: Collaborating Faculty
 order: 10
 link: stephan-alaniz
-mail: stephan.alaniz (at) helmholtz-munich.de
+mail: stephan.alaniz (at) telecom-paris.fr
 scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
 ---
 
 # Profile
-Stephan Alaniz was a post-doctoral researcher and deputy head of the Explainable Machine Learning group at Helmholtz Munich and the Technical University of Munich. His Ph.D was partially done at the University of Amsterdam, the Max Planck Institute for Informatics and the University of Tübingen, supervised by Zeynep Akata and Bernt Schiele. His research focuses on explainable AI and multimodal learning with vision and language.
+Stephan Alaniz is an assistant professor in the Multimedia group at Télécom Paris, Institut Polytechnique de Paris. Previously, he was a post-doctoral researcher and deputy head of the Explainable Machine Learning group at Helmholtz Munich and Technical University of Munich. He received his Ph.D. in 2022 which was partially done at the University of Amsterdam, the Max Planck Institute for Informatics, and the University of Tübingen, under the supervision of Prof. Zeynep Akata and Prof. Bernt Schiele. He published at CVPR, ECCV, ICCV, ICLR, and NeurIPS with a research focus on explainable AI and multi-modal learning with vision and language. 
 
 # Publications
 
-How should the advent of large language models affect the practice of science?\
+FLAIR: VLM with Fine-grained Language-informed Image Representations\
+Rui Xiao, Sanghwan Kim, Mariana-Iuliana Georgescu, Zeynep Akata, **Stephan Alaniz**\
+CVPR 2025
+
+&nbsp;
+
+COSMOS: Cross-Modality Self-Distillation for Vision Language Pre-training\
+Sanghwan Kim, Rui Xiao, Mariana-Iuliana Georgescu, **Stephan Alaniz**, Zeynep Akata\
+CVPR 2025
+
+&nbsp;
+
+Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs)\
+Leander Girrbach, **Stephan Alaniz**, Yiran Huang, Trevor Darrell, Zeynep Akata\
+ICLR 2025
+
+&nbsp;
+
+How should the advancement of large language models affect the practice of science?\
 Marcel Binz*, **Stephan Alaniz**\*, Adina Roskies, Balazs Aczel, Carl T. Bergstrom, Colin Allen, Daniel Schad, Dirk Wulff, Jevin D. West, Qiong Zhang, Richard M. Shiffrin, Samuel J. Gershman, Ven Popov, Emily M. Bender, Marco Marelli, Matthew M. Botvinick, Zeynep Akata, Eric Schulz\
-Provisionally accepted at PNAS, 2024
+PNAS, 2025
 
 &nbsp;
 
