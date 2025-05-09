@@ -4,7 +4,7 @@ title: Understanding the Limits of Lifelong Knowledge Editing in LLMs
 authors: Lukas Thede, Karsten Roth, Matthias Bethge, Zeynep Akata, Tom Hartvigsen
 publisher: International Conference on Machine Learning, ICML
 year: 2025
-date: "2025-05-09"
+date: "2025-07-13"
 filename: wikibigedit
 arxiv: https://arxiv.org/abs/2503.05683
 github: https://github.com/ExplainableML/WikiBigEdit
