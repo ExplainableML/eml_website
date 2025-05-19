@@ -2,7 +2,7 @@
 img: "/team/alexey-dosovitskiy.png"
 name: Alexey Dosovitskiy
 role: Collaborating ELLIS Fellow
-order: 13
+order: 22
 link: alexey-dosovitskiy
 ---
 

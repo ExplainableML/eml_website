@@ -1,8 +1,8 @@
 ---
 img: "/team/shuchen-wu.jpg"
 name: Shuchen Wu
-role: Visiting Researcher
-order: 7
+role: Collaborating Researcher
+order: 14
 link: shuchen-wu
 website: https://swu32.github.io/
 linkedin: https://www.linkedin.com/in/shuchen-wu-61a69b78/

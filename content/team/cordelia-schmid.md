@@ -2,7 +2,7 @@
 img: "/team/cordelia_schmid.jpg"
 name: Cordelia Schmid
 role: Collaborating ELLIS Fellow
-order: 13
+order: 22
 link: cordelia-schmid
 website: https://www.di.ens.fr/willow/people_webpages/cordelia/
 ---

@@ -2,7 +2,7 @@
 img: "/team/francesco-dalmonte.jpg"
 name: Francesco Dalmonte
 role: Collaborating PhD researcher
-order: 9
+order: 12
 link: francesco-dalmonte
 ---
 

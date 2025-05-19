@@ -2,7 +2,7 @@
 img: "/team/serge-belongie.jpg"
 name: Serge Belongie
 role: Collaborating ELLIS Fellow
-order: 13
+order: 22
 link: serge-belongie
 website: https://sergebelongie.github.io/
 ---

@@ -2,7 +2,7 @@
 img: "/team/stephan-alaniz.jpg"
 name: Stephan Alaniz
 role: Collaborating Faculty
-order: 10
+order: 16
 link: stephan-alaniz
 mail: stephan.alaniz (at) telecom-paris.fr
 scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
