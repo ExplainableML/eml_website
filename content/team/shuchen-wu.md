@@ -11,6 +11,4 @@ scholar: https://scholar.google.com/citations?user=apHyqNYAAAAJ
 ---
 
 # Profile
-Shuchen Wu is a visiting researcher at the Explainable Machine Learning group supervised by Prof. Zeynep Akata. Shuchen did her PhD at the Max Planck Institute for Biological Cybernetics, during which Shuchen worked on modeling human sequence learning and chunking. 
-
-Shuchen’s current research interest is to bridge the cognitive gap between human and neural interpretability via studying the hierarchically structured dataset.
+Shuchen Wu currently is a Shanahan Foundation Fellow at the Allen Institute and the University of Washington. Prior to that, she conducted her PhD in Max Planck Institute for Biological Cybernetics, mentored by Eric Schulz, Peter Dayan, and Felix Wichmann. She received her master's degree at the Institute of Neuroinformatics in the University & ETH Zurich, and her bachelor's degree from the University of Rochester.
