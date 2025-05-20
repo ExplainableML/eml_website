@@ -8,6 +8,8 @@ link: alumni
 
 # List of Alumni
 
+* Francesco Dalmonte (Collaborating PhD Researcher) at EML, now PhD student at the University of Bologna.
+* Shyam Nadan Rai (Collaborating PhD Researcher) at EML, now PhD student at the University of Turin.
 * Otniel-Bogdan Mercea (PhD Student) at EML, now Computer Vision Applied Research Scientist at Apple Barcelona.
 * Anjan Dutta (Collaborating Faculty), now Assistant Professor at the University of Surrey.
 * Carl Scandelius (Visiting Researcher), now BSc student at Harvard University.
