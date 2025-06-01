@@ -2,7 +2,7 @@
 img: "/team/maria-bravo.jpg"
 name: Maria Bravo
 role: Postdoctoral Researcher
-order: 3
+order: 2
 link: maria-bravo
 website: https://mabravo641.github.io/
 scholar: https://scholar.google.com/citations?hl=en&user=GPKSZdcAAAAJ

@@ -2,7 +2,7 @@
 img: "/team/quentin-bouniot.jpg"
 name: Quentin Bouniot
 role: Postdoctoral Researcher
-order: 3
+order: 2
 link: quentin-bouniot
 mail: quentin.bouniot at gmail.com
 website: https://qbouniot.github.io/
