@@ -11,13 +11,13 @@ link: alumni
 * Karsten Roth (PhD Student) at EML.
 * Leonard Salewski (PhD Student) at EML, now Research Scientist at Aleph Alpha.
 * Thomas Hummel (PhD Student) at EML.
-* Anders Christensen (Collaborating PhD Researcher) at EML, now PhD student at the Technical University of Denmark.
-* Francesco Dalmonte (Collaborating PhD Researcher) at EML, now PhD student at the University of Bologna.
-* Shyam Nadan Rai (Collaborating PhD Researcher) at EML, now PhD student at the University of Turin.
+* Anders Christensen (Collaborating PhD Researcher) at EML, now Postdoc at the University of Copenhagen.
+* Francesco Dalmonte (Collaborating PhD Researcher) at EML, now PhD Student at the University of Bologna.
+* Shyam Nadan Rai (Collaborating PhD Researcher) at EML, now PhD Student at the University of Turin.
 * Otniel-Bogdan Mercea (PhD Student) at EML, now Computer Vision Applied Research Scientist at Apple Barcelona.
 * Anjan Dutta (Collaborating Faculty), now Assistant Professor at the University of Surrey.
-* Carl Scandelius (Visiting Researcher), now BSc student at Harvard University.
-* Safa Eren Kuday (Visiting Researcher), now BSc student at Bilkent University.
+* Carl Scandelius (Visiting Researcher), now BSc Student at Harvard University.
+* Safa Eren Kuday (Visiting Researcher), now BSc Student at Bilkent University.
 * Diego Marcos (Collaborating Faculty), now Junior Professor at Inria.
 * Seong Joon Oh  (Collaborating Faculty), now professor at the University of Tübingen.
 * David Kurzendörfer (Master Thesis Student) at EML, now Software Developer at Localyzer GmbH, Germany.
