@@ -4,7 +4,7 @@ title: "SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutio
 authors: Jessica Bader, Leander Girrbach, Stephan Alaniz, Zeynep Akata
 publisher: IEEE International Conference on Computer Vision, ICCV
 year: 2025
-date: "2025-06-26"
+date: "2025-10-25"
 filename: sub
 arxiv: https://arxiv.org/abs/TODO
 github: https://github.com/ExplainableML/sub
