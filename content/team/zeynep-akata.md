@@ -98,19 +98,23 @@ Google Scholar profile: https://scholar.google.com/citations?user=jQl9RtkAAAAJ&h
 
 # PhD Students
 
+- 2025-Now Simon Roschmann @ TUM
+- 2025-Now Rui Xiao @ TUM
+- 2024-Now Sanghwan Kim @ TUM
+- 2024-Now Mateusz Pach @ TUM
 - 2024-Now Jessica Bader @ TUM
 - 2023-Now Yiran Huang @ TUM
 - 2023-Now Lukas Thede @ University of Tübingen (with Matthias Bethge)
 - 2023-Now Luca Eyring @ TUM (ELLIS PhD with Alexei Dosovitskiy)
 - 2023-Now Leander Girrbach @ University of Tübingen
-- 2021-Now Shyamgopal Karthik @ University of Tübingen 
-- 2021-Now Jae Myung Kim @ University of Tübingen and INRIA (ELLIS PhD with Cordelia Schmid)
-- 2021-Now Karsten Roth @ University of Tübingen and Deepmind (ELLIS PhD with Oriol Vinyals)
 - 2021-Now Anders Christensen @ Denmark Technical University and University of Tübingen (co-supervision, ELLIS PhD with Ole Winther)
-- 2021-Now Otniel Mercea @ University of Tübingen (with Andreas Geiger)
-- 2020-Now Thomas Hummel @ University of Tübingen 
-- 2020-Now Leonard Salewski @ University of Tübingen (with Hendrik Lensch)
-- 2019-Now Lennart van Goten @ KTH Stockholm (co-supervision, with Kevin Smith)
+- 2021-2025 Shyamgopal Karthik @ University of Tübingen 
+- 2021-2025 Jae Myung Kim @ University of Tübingen and INRIA (ELLIS PhD with Cordelia Schmid)
+- 2021-2025 Karsten Roth @ University of Tübingen and Deepmind (ELLIS PhD with Oriol Vinyals)
+- 2021-2025 Otniel Mercea @ University of Tübingen (with Andreas Geiger)
+- 2020-2025 Thomas Hummel @ University of Tübingen 
+- 2020-2025 Leonard Salewski @ University of Tübingen (with Hendrik Lensch)
+- 2019-2024 Lennart van Goten @ KTH Stockholm (co-supervision, with Kevin Smith)
 - 2021-2023 Uddeshya Upadhyay @ University of Tübingen
 - 2017-2022 Stephan Alaniz @ University of Tübingen and Max Planck Institute for Informatics
 - 2016-2020 Yongqin Xian @ Max Planck Institute for Informatics (with Bernt Schiele)

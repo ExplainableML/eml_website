@@ -8,6 +8,10 @@ link: alumni
 
 # List of Alumni
 
+* Karsten Roth (PhD Student) at EML.
+* Leonard Salewski (PhD Student) at EML, now Research Scientist at Aleph Alpha.
+* Thomas Hummel (PhD Student) at EML.
+* Anders Christensen (Collaborating PhD Researcher) at EML, now PhD student at the Technical University of Denmark.
 * Francesco Dalmonte (Collaborating PhD Researcher) at EML, now PhD student at the University of Bologna.
 * Shyam Nadan Rai (Collaborating PhD Researcher) at EML, now PhD student at the University of Turin.
 * Otniel-Bogdan Mercea (PhD Student) at EML, now Computer Vision Applied Research Scientist at Apple Barcelona.
@@ -36,3 +40,4 @@ link: alumni
 * Yanbei Chen (Postdoc Oct 2020 - May 2022) at EML, now Applied Scientist-II at Amazon Seattle.
 * Yao Rong (Collaborating PhD Researcher) at EML, now at TU Munich.
 * Charlotte Wenner (Administrative Assistant).
+* Iuliana Georgescu (Postdoc) at EML.

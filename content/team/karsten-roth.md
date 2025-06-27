@@ -1,8 +1,8 @@
 ---
 img: "/team/karsten-roth.jpg"
 name: Karsten Roth
-role: PhD Researcher
-order: 4
+role: Collaborating Researcher
+order: 14
 link: karsten-roth
 mail: karsten.rh1 at gmail.com
 website: https://www.karroth.com
