@@ -8,7 +8,6 @@ link: alumni
 
 # List of Alumni
 
-* Karsten Roth (PhD Student) at EML.
 * Leonard Salewski (PhD Student) at EML, now Research Scientist at Aleph Alpha.
 * Thomas Hummel (PhD Student) at EML.
 * Anders Christensen (Collaborating PhD Researcher) at EML, now Postdoc at the University of Copenhagen.

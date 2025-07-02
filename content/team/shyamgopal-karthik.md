@@ -1,8 +1,8 @@
 ---
 img: "/team/shyamgopal-karthik.jpeg"
 name: Shyamgopal Karthik
-role: PhD Researcher
-order: 4
+role: Collaborating Researcher
+order: 14
 link: shyamgopal-karthik
 mail: shyamgopalkart at gmail.com
 github: https://github.com/sgk98
