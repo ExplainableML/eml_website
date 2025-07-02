@@ -39,3 +39,4 @@ link: alumni
 * Yanbei Chen (Postdoc Oct 2020 - May 2022) at EML, now Applied Scientist-II at Amazon Seattle.
 * Yao Rong (Collaborating PhD Researcher) at EML, now at TU Munich.
 * Charlotte Wenner (Administrative Assistant).
+* Iuliana Georgescu (Postdoc) at EML.
