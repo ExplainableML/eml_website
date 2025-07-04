@@ -7,4 +7,4 @@ link: gul-zain
 ---
 
 # Profile
-Gul Zain is a visiting researcher at the EML Munich lab, holding a master's degree in computer science from TU Kaiserslautern (2023). He has had the privilege of working with distinguished researchers, including Prof. Dr. Bernt Schiele at the Max Planck Institute for Informatics in Saarbrücken and PD Dr. Federico Tombari at Google. His research focuses on adapting and exploiting foundation models in an efficient manner. At EML, he is dedicated to advancing methods for enhancing multi-modal generalist models to maximize their performance and versatility.
+Gul Zain is a visiting researcher. He finished his masters in 2023 in Computer Science. He has previously worked in continual learning, zero shot learning and multi modal models. At EML, he is interested in the topics of multi modal agents and RLHF.
