@@ -8,6 +8,9 @@ link: alumni
 
 # List of Alumni
 
+* Hyeon-Woo Nam (Collaborating PhD Researcher) at EML, now PhD Student at POSTECH in South Korea.
+* Emre Akbas (Visiting Faculty) at EML, now Associate Professor at Middle East Technical University.
+* Jae Myung Kim (PhD Student) at EML.
 * Leonard Salewski (PhD Student) at EML, now Research Scientist at Aleph Alpha.
 * Thomas Hummel (PhD Student) at EML.
 * Anders Christensen (Collaborating PhD Researcher) at EML, now Postdoc at the University of Copenhagen.
