@@ -1,7 +1,7 @@
 ---
 img: "/team/yavuz-durmazkeser.jpg"
 name: Yavuz Durmazkeser
-role: Collaborating PhD researcher
+role: Collaborating PhD Researcher
 order: 12
 link: yavuz-durmazkeser
 ---
