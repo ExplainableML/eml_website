@@ -17,6 +17,20 @@ His primary interests center around gaining a better understanding of deep learn
 
 # Publications
 
+SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutions.\
+[Jessica Bader](https://www.https://www.eml-munich.de/people/jessica-bader), **Leander Girrbach**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+ICCV 2025\
+[Paper](https://arxiv.org/abs/2507.23784) | [Code](https://github.com/ExplainableML/sub)
+
+&nbsp;
+
+Align-then-Unlearn: Embedding Alignment for LLM Unlearning.\
+Philipp Spohn, **Leander Girrbach**, [Jessica Bader](https://www.https://www.eml-munich.de/people/jessica-bader) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+ICML 2025 Workshop on Machine Unlearning for Generative AI\
+[Paper](https://arxiv.org/abs/2506.13181) | [Code](https://github.com/ExplainableML/align-then-unlearn)
+
+&nbsp;
+
 Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs).\
 **Leander Girrbach**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), [Yiran Huang](https://www.eml-unitue.de/people/yiran-huang), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 ICLR 2025\
