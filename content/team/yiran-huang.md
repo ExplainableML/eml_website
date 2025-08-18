@@ -17,12 +17,13 @@ During summer 2021, she worked as a research intern Bosch Sensortec. Her researc
 
 # Publications
 Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs).\
-Leander Girrbach, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), **Yiran Huang**, [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+[Leander Girrbach(https://www.eml-munich.de/people/leander-girrbach)], [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), **Yiran Huang**, [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 ICLR 2025\
 [Paper](https://arxiv.org/abs/2410.19314) | [Code](https://github.com/ExplainableML/vla-gender-bias)
 
 &nbsp;
+
 Investigating Structural Pruning and Recovery Techniques for Compressing Multimodal Large Language Models: An Empirical Study. \
-**Yiran Huang**, Lukas Thede, Massimiliano Mancini, Wenjia Xu, Zeynep Akata\
+**Yiran Huang**, [Lukas Thede](https://www.eml-munich.de/people/lukas-thede), [Massimiliano Mancini](https://www.eml-munich.de/people/massimiliano-mancini), [Wenjia Xu](https://www.eml-munich.de/people/wenjia-xu), [Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)\
 GCPR 2025\
 [Paper](https://arxiv.org/abs/2507.20749)
