@@ -5,6 +5,8 @@ role: PhD Researcher
 order: 4
 link: yiran-huang
 linkedin: http://www.linkedin.com/in/yiran-huang-b45884211
+mail: yiran.huang (at) tum.de
+scholar: https://scholar.google.com/citations?user=xoxgATcAAAAJ&hl=en
 ---
 
 # Profile
