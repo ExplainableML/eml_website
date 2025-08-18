@@ -17,7 +17,7 @@ During summer 2021, she worked as a research intern Bosch Sensortec. Her researc
 
 # Publications
 Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs).\
-[Leander Girrbach(https://www.eml-munich.de/people/leander-girrbach)], [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), **Yiran Huang**, [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+[Leander Girrbach](https://www.eml-munich.de/people/leander-girrbach), [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), **Yiran Huang**, [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 ICLR 2025\
 [Paper](https://arxiv.org/abs/2410.19314) | [Code](https://github.com/ExplainableML/vla-gender-bias)
 
