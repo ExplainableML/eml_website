@@ -6,7 +6,7 @@ publisher: IEEE International Conference on Computer Vision, ICCV
 year: 2025
 date: "2025-10-25"
 filename: sub
-arxiv: https://arxiv.org/abs/TODO
+arxiv: https://arxiv.org/abs/2507.23784
 github: https://github.com/ExplainableML/sub
 
 
