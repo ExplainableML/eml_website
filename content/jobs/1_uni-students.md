@@ -35,7 +35,7 @@ Please send your application to explainable.ml.munich@gmail.com.
 
 <div id="medical_sae" class="anchor-offset"></div>
 <p align="center">
-  <img src="/jobs/ThesisProposal_MedicalSAE.pdf" alt='Thesis on "SAEs for Medical Report Generation"' width="70%"/>
+  <img src="/jobs/ThesisProposal_MedicalSAE.png" alt='Thesis on "SAEs for Medical Report Generation"' width="70%"/>
 </p>
 
 <!-- CSS to offset anchor scrolling -->
