@@ -8,6 +8,9 @@ link: alumni
 
 # List of Alumni
 
+* Shyamgopal Karthik (PhD Researcher) at EML, now Member of Technical Staff at Genmo.
+* Ronald Skorobogat (Master Thesis Student) at EML.
+* Meghal Dani (PhD Researcher) at EML.
 * Hyeon-Woo Nam (Collaborating PhD Researcher) at EML, now PhD Student at POSTECH in South Korea.
 * Emre Akbas (Visiting Faculty) at EML, now Associate Professor at Middle East Technical University.
 * Jae Myung Kim (PhD Student) at EML.
