@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "bluesky-profile-feed-embed": "^1.0.3",
     "feather-icons": "^4.28.0",
     "gray-matter": "^4.0.3",
     "leaflet": "^1.7.1",
