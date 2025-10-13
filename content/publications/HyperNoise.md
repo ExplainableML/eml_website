@@ -14,6 +14,8 @@ abstract: The new paradigm of test-time scaling has yielded remarkable breakthro
 
 </br>
 
+</br>
+
 ![](/publications/HyperNoise/redness.png)
 
 </br>
