@@ -4,6 +4,8 @@ title: "Noise Hypernetworks: Amortizing Test-Time Compute in Diffusion Models"
 authors: Luca Eyring, Shyamgopal Karthik, Alexey Dosovitskiy, Nataniel Ruiz, Zeynep Akata
 publisher: Neural Information Processing Systems, NeurIPS
 year: 2025
+month: 12
+day: 08
 date: "2025-12-08"
 filename: HyperNoise
 arxiv: https://arxiv.org/abs/2508.09968
@@ -14,12 +16,6 @@ abstract: The new paradigm of test-time scaling has yielded remarkable breakthro
 
 </br>
 
-</br>
-
-![](/publications/HyperNoise/redness.png)
-
-</br>
-
 # Demo
 
-We hope you found this interesting, for more results and analysis, please refer to the [paper](https://arxiv.org/abs/2508.09968), our [code](https://github.com/ExplainableML/HyperNoise), as well as the Huggingface [model](https://huggingface.co/lucaeyring/HyperNoise_Sana_Sprint_0.6B) and [demo](https://huggingface.co/spaces/multimodalart/hypernoise-sana-sprint)
+For all the details, please refer to the [paper](https://arxiv.org/abs/2508.09968), our [code](https://github.com/ExplainableML/HyperNoise), as well as the Huggingface [model](https://huggingface.co/lucaeyring/HyperNoise_Sana_Sprint_0.6B) and [demo](https://huggingface.co/spaces/multimodalart/hypernoise-sana-sprint)
