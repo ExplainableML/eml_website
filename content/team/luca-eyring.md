@@ -22,15 +22,25 @@ He pursued a Bachelor in Informatics at LMU Munich and a Master specializing in 
 
 </br>
 
-__"_ReNO: Enhancing One-step Text-to-Image Models through Reward-based Noise Optimization_"__   
-__Luca Eyring *__, Shyamgopal Karthik *, Karsten Roth, Alexey Dosovitskiy, Zeynep Akata   
-*Thirty-eighth Annual Conference on Neural Information Processing Systems, NeurIPS 2024*
+__"_Noise Hypernetworks: Amortizing Test-Time Compute in Diffusion Models_"__   
+__Luca Eyring__, Shyamgopal Karthik, Alexey Dosovitskiy, Nataniel Ruiz, Zeynep Akata
+*Thirty-nineth Annual Conference on Neural Information Processing Systems, NeurIPS 2025*
+
+</br>
 
 </br>
 
 __"_Disentangled Representational Learning with the Gromov-Monge Gap_"__   
 Théo Uscidda *, __Luca Eyring *__, Karsten Roth, Fabian Theis, Zeynep Akata, Marco Cuturi   
+*International Conference on Learning Representations, ICLR 2025*
 *ICML Workshop on Structured Probabilistic Inference & Generative Modeling, SPIGM @ ICML 2024*
+
+</br>
+
+__"_ReNO: Enhancing One-step Text-to-Image Models through Reward-based Noise Optimization_"__   
+__Luca Eyring *__, Shyamgopal Karthik *, Karsten Roth, Alexey Dosovitskiy, Zeynep Akata
+*Thirty-eighth Annual Conference on Neural Information Processing Systems, NeurIPS 2024*
+
 
 </br>
 
