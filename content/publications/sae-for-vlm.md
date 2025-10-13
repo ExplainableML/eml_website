@@ -4,7 +4,7 @@ title: "Sparse Autoencoders Learn Monosemantic Features in Vision-Language Model
 authors: Mateusz Pach, Shyamgopal Karthik, Quentin Bouniot, Serge Belongie, Zeynep Akata
 publisher: Neural Information Processing Systems, NeurIPS
 year: 2025
-date: "2025-12-7"
+date: "2025-12-07"
 filename: sae-for-vlm
 arxiv: https://arxiv.org/abs/2504.02821
 github: https://github.com/ExplainableML/sae-for-vlm
