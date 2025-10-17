@@ -17,7 +17,6 @@ Please send your application to explainable.ml.munich@gmail.com.
 <ul align="left" style="list-style-position: inside;">
   <li><a href="#knowledge_transfer">Knowledge Transfer in LLMs</a></li>
   <li><a href="#multimodal_llm">Multimodal Large Language Models</a></li>
-  <li><a href="#medical_sae">SAEs for Medical Report Generation</a></li>
 </ul>
 <br>
 
@@ -32,11 +31,6 @@ Please send your application to explainable.ml.munich@gmail.com.
   <img src="/jobs/ThesisProposal_Cordelia.svg" alt='Hiwi position on "Multimodal Large Language Models"' width="70%"/>
 </p>
 <br><br>
-
-<div id="medical_sae" class="anchor-offset"></div>
-<p align="center">
-  <img src="/jobs/ThesisProposal_MedicalSAE.png" alt='Thesis on "SAEs for Medical Report Generation"' width="70%"/>
-</p>
 
 <!-- CSS to offset anchor scrolling -->
 <style>
