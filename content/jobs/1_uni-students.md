@@ -15,11 +15,18 @@ Please send your application to explainable.ml.munich@gmail.com.
 
 ## Open positions
 <ul align="left" style="list-style-position: inside;">
+  <li><a href="#Implicit Personification in LLMs">Implicit Personification in LLMs</a></li> 
   <li><a href="#knowledge_transfer">Knowledge Transfer in LLMs</a></li>
   <li><a href="#multimodal_llm">Multimodal Large Language Models</a></li>
- <li><a href="#Implicit Personification in LLMs">Implicit Personification in LLMs</a></li> 
 </ul>
 <br>
+
+
+<div id="Implicit Personification in LLMs" class="anchor-offset"></div>
+<p align="center">
+  <img src="/jobs/Thesis LLM inplicit personafication.svg" alt='Master thesis position on "Interpreting Large Language Models"' width="70%"/>
+</p>
+<br><br>
 
 <div id="knowledge_transfer" class="anchor-offset"></div>
 <p align="center">
@@ -30,12 +37,6 @@ Please send your application to explainable.ml.munich@gmail.com.
 <div id="multimodal_llm" class="anchor-offset"></div>
 <p align="center">
   <img src="/jobs/ThesisProposal_Cordelia.svg" alt='Hiwi position on "Multimodal Large Language Models"' width="70%"/>
-</p>
-<br><br>
-
-<div id="Implicit Personification in LLMs" class="anchor-offset"></div>
-<p align="center">
-  <img src="/jobs/Thesis LLM inplicit personafication.svg" alt='Master thesis position on "Interpreting Large Language Models"' width="70%"/>
 </p>
 <br><br>
 
