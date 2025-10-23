@@ -14,6 +14,10 @@ Please consider applying if you are interested in joining us!
 We usually hire students via centralized calls, i.e. the *European Laboratory for Learning and Intelligent Systems* ([ELLIS](https://ellis.eu/phd-postdoc)) Ph.D. Program.
 ELLIS is a vibrant research community with top researchers in various fields of machine learning, AI, and robotics. If you want to join us for your Ph.D., consider applying through their annual call!
 
+### Open calls for Ph.D. positions in 2025/26:
+- [European Laboratory for Learning and Intelligent Systems (ELLIS)](https://ellis.eu/news/ellis-phd-program-call-for-applications-2025)
+- [Munich Center for Machine Learning (MCML)](https://mcml.ai/opportunities/for-phd-applicants/phd2026/)
+
 
 ## Applying as a visiting Ph.D. student
 
