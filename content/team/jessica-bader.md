@@ -15,19 +15,20 @@ Jessie Bader is a PhD researcher in the Explainable Machine Learning group super
 Her primary research interests center on text-to-image generation, particularly enhancing T2I models’ prompt-following abilities and their capacity to produce unusual or out-of-distribution images.
 
 # Publications
-__"_Stitch: Training-Free Position Control in Multimodal Diffusion Transformers_"__
-__Jessica Bader *__, Mateusz Pach *, María Bravo, Serge Belongie, Zeynep Akata
+__"_Stitch: Training-Free Position Control in Multimodal Diffusion Transformers_"__    
+__Jessica Bader *__, Mateusz Pach *, María Bravo, Serge Belongie, Zeynep Akata    
 *Under review 2025*
 
 </br>
 
-__"_SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutions_"__
-__Jessica Bader__, Leander Girrbach, Stephan Alaniz, Zeynep Akata
+__"_SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutions_"__    
+__Jessica Bader__, Leander Girrbach, Stephan Alaniz, Zeynep Akata    
 *International Conference on Computer Vision, ICCV 2025*
 
 </br>
-__"_DataDream: Few-shot Guided Dataset Generation_"__
-Jae Myung Kim *, __Jessica Bader *__, Stephan Alaniz, Cordelia Schmid, Zeynep Akata
+
+__"_DataDream: Few-shot Guided Dataset Generation_"__    
+Jae Myung Kim *, __Jessica Bader *__, Stephan Alaniz, Cordelia Schmid, Zeynep Akata    
 *European Conference on Computer Vision, ECCV 2024*
 
 # Community Service
