@@ -8,6 +8,7 @@ link: alumni
 
 # List of Alumni
 
+* Razieh Rezaei (Research Scientist) at EML.
 * Shyamgopal Karthik (PhD Researcher) at EML, now Member of Technical Staff at Genmo.
 * Ronald Skorobogat (Master Thesis Student) at EML.
 * Meghal Dani (PhD Researcher) at EML.
