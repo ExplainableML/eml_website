@@ -27,11 +27,22 @@ Additionally, we recommend to have taken at least one advanced deep learning lec
 - ADL4R (IN2349)
 or a related practical.
 
+
+## Registration
+
+</br>
+
+The registration must be done through the [TUM Matching Platform](https://matching.in.tum.de/).
+
+\[IMPORTANT\]
+Please in addition send your transcript to explainable.ml.munich@gmail.com with the title [Seminar on VLM SS2026 - Your name] 
+
+
 ## Organization
 
 </br>
 
-The preliminary meeting will take place at 2pm on Monday, 9th of Februray 2026 on [Zoom](https://tum-conf.zoom-x.de/meetings/67275215842/invitations?signature=HzmaDJd5QxCi6qqlVTywWom_g8pikeyLelmDAHqGf88).
+The preliminary meeting will take place at 2pm on Monday, 9th of Februray 2026 on [Zoom](https://tum-conf.zoom-x.de/meetings/67275215842/invitations?signature=HzmaDJd5QxCi6qqlVTywWom_g8pikeyLelmDAHqGf88). [Slides](https://drive.google.com/file/d/1MMlOFW2X3e7e6JOqSTU0ZT9YoqlehdcV/view?usp=sharing)
 
 </br>
 
@@ -108,9 +119,3 @@ A successful participation in the seminar includes:
 - Active participation in the entire event: We have 70% attendance policy for this seminar. (You need to attend at least 5 of the 7 sessions.)
 - Short presentation (10 minutes talk including questions)
 - Long presentation (20 minutes talk including questions)
-
-## Registration
-
-</br>
-
-The registration must be done through the [TUM Matching Platform](https://matching.in.tum.de/).
