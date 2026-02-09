@@ -31,7 +31,7 @@ or a related practical.
 
 </br>
 
-The preliminary meeting will take place at 2pm on Wednesdy, 9th of Februray 2026 on [Zoom](https://tum-conf.zoom-x.de/meetings/67275215842/invitations?signature=HzmaDJd5QxCi6qqlVTywWom_g8pikeyLelmDAHqGf88).
+The preliminary meeting will take place at 2pm on Monday, 9th of Februray 2026 on [Zoom](https://tum-conf.zoom-x.de/meetings/67275215842/invitations?signature=HzmaDJd5QxCi6qqlVTywWom_g8pikeyLelmDAHqGf88).
 
 </br>
 
