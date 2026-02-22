@@ -8,6 +8,8 @@ link: alumni
 
 # List of Alumni
 
+* Gul Zain (Research Scientist) at EML.
+* Michael Mergner (Foreign Language Secretary) at EML.
 * Yavuz Durmazkeser (Collaborating PhD Researcher) at EML, now PhD Student at TU Delft.
 * Razieh Rezaei (Research Scientist) at EML.
 * Shyamgopal Karthik (PhD Researcher) at EML, now Member of Technical Staff at Genmo.
