@@ -33,9 +33,10 @@ Zeynep Akata is a Liesel Beckmann Distinguished professor of Computer Science at
 - BSc: Trakya University, Turkey, 2008
 
 ## External Activities
-
+* General Chair:
+    * HAICON 2026
 * Program Chair:
-    * GCPR-DAGM 2020, IEEE CVPR 2024, ECCV 2026​
+    * GCPR-DAGM 2020, IEEE CVPR 2024
 * Senior Area Chair:
     * NeurIPS 2023, ICML 2024
 * Area Chair:
@@ -65,12 +66,15 @@ Zeynep Akata is a Liesel Beckmann Distinguished professor of Computer Science at
     * ImageNet: The Past, The Present and The Future Workshop at NeurIPS 2021, Co-organizer
 
 ## Awards and Funding 
-* Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society in 2014
-* Explainable Artificial Intelligence (XAI) grant from DARPA in 2017
-* ERC Starting Grant from the European Research Council in 2019
-* Young Investigator honour from Werner-von-Siemens-Ring Foundation in 2019
-* DAGM German Pattern Recognition Award in 2021
-* ECVA Young Researcher Award in 2022
+* Lise-Meitner Award for Excellent Women in Computer Science from Max Planck Society, 2014
+* Explainable Artificial Intelligence (XAI) grant from DARPA, 2017
+* ERC Starting Grant from the European Research Council, 2019
+* Young Investigator honour from Werner-von-Siemens-Ring Foundation, 2019
+* DAGM German Pattern Recognition Award, 2021
+* ECVA Young Researcher Award, 2022
+* Alfried Krupp Award from Alfried Krupp von Bohlen und Halbach Stiftung, 2023
+* Germany‘s Top 40 Under 40, Capital Magazin, 2024
+* ZukunftsWissen Award, Leopoldina (Germany‘s National Academy of the Sciences), 2025
 
 
 # Publications
