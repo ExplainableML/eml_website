@@ -10,37 +10,39 @@ export default function Publications(props) {
   const publications = props.publicationsData.map(pub => matter(pub));
   let publicationsList = publications.map(item => item.data);
 
-  useEffect(()=>{
-  },[])
+  useEffect(() => {
+  }, [])
   return (
     <div class="bg-gray-50">
-              <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
       <NavBar></NavBar>
       <div className="pt-24 flex flex-col items-center justify-top min-h-screen py-2">
 
+        {publicationsList.filter((pub) => { return pub.year == 2026 }).length > 0 && <><YearHeadline text="2026"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2026 })}></PublicationGrid></>}
 
-      {publicationsList.filter((pub)=>{return pub.year==2025}).length>0&&<><YearHeadline text="2025"></YearHeadline>
-          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2025})}></PublicationGrid></>}
+        {publicationsList.filter((pub) => { return pub.year == 2025 }).length > 0 && <><YearHeadline text="2025"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2025 })}></PublicationGrid></>}
 
-          {publicationsList.filter((pub)=>{return pub.year==2024}).length>0&&<><YearHeadline text="2024"></YearHeadline>
-          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2024})}></PublicationGrid></>}
+        {publicationsList.filter((pub) => { return pub.year == 2024 }).length > 0 && <><YearHeadline text="2024"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2024 })}></PublicationGrid></>}
 
-          {publicationsList.filter((pub)=>{return pub.year==2023}).length>0&&<><YearHeadline text="2023"></YearHeadline>
-          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2023})}></PublicationGrid></>}
+        {publicationsList.filter((pub) => { return pub.year == 2023 }).length > 0 && <><YearHeadline text="2023"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2023 })}></PublicationGrid></>}
 
-          {publicationsList.filter((pub)=>{return pub.year==2022}).length>0&&<><YearHeadline text="2022"></YearHeadline>
-          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2022})}></PublicationGrid></>}
+        {publicationsList.filter((pub) => { return pub.year == 2022 }).length > 0 && <><YearHeadline text="2022"></YearHeadline>
+          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2022 })}></PublicationGrid></>}
 
 
-          <YearHeadline text="2021"></YearHeadline>
-          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2021})}></PublicationGrid>
-          <YearHeadline text="2020"></YearHeadline>
-          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2020})}></PublicationGrid>
+        <YearHeadline text="2021"></YearHeadline>
+        <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2021 })}></PublicationGrid>
+        <YearHeadline text="2020"></YearHeadline>
+        <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2020 })}></PublicationGrid>
 
-          <YearHeadline text="2019"></YearHeadline>
-          <PublicationGrid viewAll={false} publications={publicationsList.filter((pub)=>{return pub.year==2019})}></PublicationGrid>
+        <YearHeadline text="2019"></YearHeadline>
+        <PublicationGrid viewAll={false} publications={publicationsList.filter((pub) => { return pub.year == 2019 })}></PublicationGrid>
 
       </div>
     </div>
