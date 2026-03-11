@@ -42,7 +42,14 @@ Please in addition send your transcript to explainable.ml.munich@gmail.com with 
 
 </br>
 
-The preliminary meeting will take place at 2pm on Monday, 9th of Februray 2026 on [Zoom](https://tum-conf.zoom-x.de/meetings/67275215842/invitations?signature=HzmaDJd5QxCi6qqlVTywWom_g8pikeyLelmDAHqGf88). [Slides](https://drive.google.com/file/d/1MMlOFW2X3e7e6JOqSTU0ZT9YoqlehdcV/view?usp=sharing)
+The preliminary meeting took place at 2pm on Monday, 9th of Februray 2026 on [Zoom](https://tum-conf.zoom-x.de/meetings/67275215842/invitations?signature=HzmaDJd5QxCi6qqlVTywWom_g8pikeyLelmDAHqGf88). [Slides](https://drive.google.com/file/d/1MMlOFW2X3e7e6JOqSTU0ZT9YoqlehdcV/view?usp=sharing)
+
+</br>
+
+The tentative schedule of the seminar is as follows:
+- __Online__ Introductory Session, April 1st (Online Zoom) (1pm)
+- __Onsite__ Short presentations on April 23rd and 30th (SAP Building) (1-3pm)
+- __Onsite__ Long presentations on May 6th, 13th, 20th, and 27th (SAP Building) (1-3pm)
 
 </br>
 
@@ -51,13 +58,6 @@ The seminar awards 5 ECTS Credits and will take place in person at [SAP Labs Mun
 </br>
 
 All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper (from the perspective of an __academic reviewer__) as well as a one-slide on the secondary papers from two different perspectives (__industry practitioner__ and __academic researcher__).
-<!-- 
-</br>
-
-The tentative schedule of the seminar is as follows:
-- __Online__ Introductory Session, April 9th, (1-2:30pm), [Zoom](https://tum-conf.zoom-x.de/j/64655141614?pwd=3iLEwrAUhs369HEbTS3waR1mdbv5Ws.1),[slides](https://drive.google.com/file/d/11p-U8RBOeRyeIaNBcJlm2QoDYdI51zS1/view?usp=sharing)    
-- __Onsite__ Short presentations on April 23rd (Room B2.01) and 30th (Room B1.01) (1-3pm)
-- __Onsite__ Long presentations on May 21st (Room B1.01), May 28th (Room B1.01), June 4th (Room B1.01), 11th (Room B1.01), July 2nd (Room B2.01) (1-3pm) -->
 
 </br>
 
