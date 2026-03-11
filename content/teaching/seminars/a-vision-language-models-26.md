@@ -47,7 +47,7 @@ The preliminary meeting took place at 2pm on Monday, 9th of Februray 2026 on [Zo
 </br>
 
 The tentative schedule of the seminar is as follows:
-- __Online__ Introductory Session, April 1st (Online Zoom) (1pm)
+- __Online__ Introductory Session, April 1st (Online [Zoom](https://tum-conf.zoom-x.de/j/8713460070)) (1pm)
 - __Onsite__ Short presentations on April 23rd and 30th (SAP Building) (1-3pm)
 - __Onsite__ Long presentations on May 6th, 13th, 20th, and 27th (SAP Building) (1-3pm)
 
@@ -58,6 +58,15 @@ The seminar awards 5 ECTS Credits and will take place in person at [SAP Labs Mun
 </br>
 
 All students will be matched to __one topic group including a primary paper and two secondary papers__. They are expected to give one short and one long presentation on their primary paper (from the perspective of an __academic reviewer__) as well as a one-slide on the secondary papers from two different perspectives (__industry practitioner__ and __academic researcher__).
+
+### Requirements
+
+</br>
+
+A successful participation in the seminar includes:
+- Active participation in the seminar: We have a attendance policy for this seminar, you need to attend the introductory sessio (online) and at least 5 of the 6 in-person sessions.
+- Short presentation (10 minutes talk including questions)
+- Long presentation (20 minutes talk including questions)
 
 </br>
 
@@ -110,12 +119,3 @@ For questions, please contact luca.eyring@tum.de or yiran.huang@helmholtz-munich
 
 
 </br>
-
-## Requirements
-
-</br>
-
-A successful participation in the seminar includes:
-- Active participation in the entire event: We have 70% attendance policy for this seminar. (You need to attend at least 5 of the 7 sessions.)
-- Short presentation (10 minutes talk including questions)
-- Long presentation (20 minutes talk including questions)
