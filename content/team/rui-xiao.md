@@ -19,7 +19,7 @@ __Rui Xiao__, Sanghwan Kim, Yongqin Xian, Zeynep Akata, Stephan Alaniz
 
 *CVPR 2026*
 
-[Paper](https://arxiv.org/abs/<place_holder>) | [Code](https://github.com/ExplainableML/finer)
+[Paper](https://arxiv.org/pdf/2603.17662v1) | [Code](https://github.com/ExplainableML/finer)
 
 </br>
 
