@@ -5,19 +5,11 @@ export default function ContactCard() {
             <div>Ingolstädter Landstraße 1</div>
             <div>85764 Oberschleißheim</div>
             <div className="mb-8"></div>
-            
-            <div className="font-semibold">Office Munich</div>
+
+            <div className="font-semibold">Office</div>
             <div>Viktoria Schweiberger</div>
             <a className="text-purple-500" href="mailto:viktoria.schweiberger@helmholtz-munich.de">
                 viktoria.schweiberger@helmholtz-munich.de
-            </a>
-
-            <div className="mt-4"></div>
-
-            <div className="font-semibold">Office Tübingen</div>
-            <div>Michael Mergner</div>
-            <a className="text-purple-500" href="mailto:eml-sekretariat@inf.uni-tuebingen.de">
-            eml-sekretariat@inf.uni-tuebingen.de
             </a>
 
         </div>
