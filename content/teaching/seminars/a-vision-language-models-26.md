@@ -47,7 +47,7 @@ The preliminary meeting took place at 2pm on Monday, 9th of Februray 2026 on [Zo
 </br>
 
 The tentative schedule of the seminar is as follows:
-- __Online__ Introductory Session, April 1st (Online [Zoom](https://tum-conf.zoom-x.de/j/8713460070)) (10.30am), [Slides](https://drive.google.com/file/d/1ZDeUaP0Iq5V0p7dB4w-C9HlShU0tddOs/view?usp=drive_link) 
+- __Online__ Introductory Session, April 1st (Online [Zoom](https://tum-conf.zoom-x.de/j/8713460070)) (10.30am), [Slides](https://drive.google.com/file/d/1ZDeUaP0Iq5V0p7dB4w-C9HlShU0tddOs/view?usp=sharing) 
 - __Onsite__ Short presentations on April 22nd and 29th (SAP Building) (1-3pm)
 - __Onsite__ Long presentations on May 6th, 13th, 20th, and 27th (SAP Building) (1-3pm)
 
