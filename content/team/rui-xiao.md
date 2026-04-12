@@ -17,7 +17,7 @@ Rui Xiao is a PhD student in the Explainable Machine Learning group, supervised 
 __"_FINER: MLLMs Hallucinate under Fine-grained Negative Queries_"__    
 __Rui Xiao__, Sanghwan Kim, Yongqin Xian, Zeynep Akata, Stephan Alaniz
 
-*CVPR 2026*
+*CVPR 2026*, Oral
 
 [Paper](https://arxiv.org/pdf/2603.17662v1) | [Code](https://github.com/ExplainableML/finer)
 
@@ -26,7 +26,7 @@ __Rui Xiao__, Sanghwan Kim, Yongqin Xian, Zeynep Akata, Stephan Alaniz
 __"_FLAIR: VLM with Fine-grained Language-informed Image Representations_"__    
 __Rui Xiao__, Sanghwan Kim, Mariana-Iuliana Georgescu, Zeynep Akata, Stephan Alaniz
 
-*CVPR 2025*
+*CVPR 2025*, Poster
 
 [Paper](https://arxiv.org/abs/2412.03561) | [Code](https://github.com/ExplainableML/flair)
 
@@ -36,7 +36,7 @@ __Rui Xiao__, Sanghwan Kim, Mariana-Iuliana Georgescu, Zeynep Akata, Stephan Ala
 __"_COSMOS: Cross-Modality Self-Distillation for Vision Language Pre-training_"__    
 Sanghwan Kim, __Rui Xiao__, Mariana-Iuliana Georgescu, Stephan Alaniz, Zeynep Akata
 
-*CVPR 2025*
+*CVPR 2025*, Poster
 
 [Paper](https://arxiv.org/abs/2412.01814) | [Code](https://github.com/ExplainableML/cosmos)
 
