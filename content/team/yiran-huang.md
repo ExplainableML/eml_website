@@ -16,6 +16,20 @@ She received her Master’s degree in Robotics, Cognition, Intelligence at Techn
 During summer 2021, she worked as a research intern Bosch Sensortec. Her research interest include vision & language, multi-modal learning as well as zero shot learning.
 
 # Publications
+Structural Pruning of Large Vision Language Models: A Comprehensive Study on Pruning Dynamics, Recovery, and Data Efficiency.\
+**Yiran Huang**, [Lukas Thede](https://www.eml-munich.de/people/lukas-thede), [Massimiliano Mancini](https://www.eml-munich.de/people/massimiliano-mancini), [Wenjia Xu](https://www.eml-munich.de/people/wenjia-xu), [Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)\
+IJCV 2026\
+[Paper](https://arxiv.org/abs/2604.24380) | [Code](https://github.com/YiranHuangIrene/VLMCompression)
+
+&nbsp;
+
+Towards understanding multimodal in-context learning.\
+**Yiran Huang**, [Karsten Roth](https://karroth.com/), [Quentin Bouniot](https://qbouniot.github.io/), [Wenjia Xu](https://www.eml-munich.de/people/wenjia-xu), [Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)\
+NeurIPS 2025 workshop What Can('t) Transformers Do?\
+[Paper](https://transformerstheory.github.io/pdf/07_huang_et_al.pdf)
+
+&nbsp;
+
 Revealing and Reducing Gender Biases in Vision and Language Assistants (VLAs).\
 [Leander Girrbach](https://www.eml-munich.de/people/leander-girrbach), [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), **Yiran Huang**, [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 ICLR 2025\
@@ -26,4 +40,4 @@ ICLR 2025\
 Investigating Structural Pruning and Recovery Techniques for Compressing Multimodal Large Language Models: An Empirical Study. \
 **Yiran Huang**, [Lukas Thede](https://www.eml-munich.de/people/lukas-thede), [Massimiliano Mancini](https://www.eml-munich.de/people/massimiliano-mancini), [Wenjia Xu](https://www.eml-munich.de/people/wenjia-xu), [Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)\
 GCPR 2025\
-[Paper](https://arxiv.org/abs/2507.20749)
+[Paper](https://arxiv.org/abs/2507.20749) | [Code](https://github.com/YiranHuangIrene/VLMCompression)
