@@ -17,8 +17,36 @@ His primary interests center around gaining a better understanding of deep learn
 
 # Publications
 
+Sparse Autoencoders are Topic Models.\
+**Leander Girrbach** and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+ICML 2026\
+[Paper](https://arxiv.org/abs/2511.16309)
+
+&nbsp;
+
+Person-Centric Annotations of LAION-400M: Auditing Bias and Its Transfer to Models.\
+**Leander Girrbach**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz), [Genevieve Smith](https://www.eecs.berkeley.edu/~genevieve.smith/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+ICLR 2026\
+[Paper](https://arxiv.org/abs/2510.03721) | [Code](https://github.com/ExplainableML/LAION400M-Person-Centric-Annotations)
+
+&nbsp;
+
+Are Reasoning LLMs Robust to Interventions on Their Chain-of-Thought?\
+[Alexander von Recum](https://www.eml-unitue.de/people/alexander-von-recum), **Leander Girrbach**, and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+ICLR 2026\
+[Paper](https://arxiv.org/abs/2602.07470) | [Code](https://github.com/ExplainableML/RLLM-CoT-Robustness)
+
+&nbsp;
+
+A Systematic Study of In-the-Wild Model Merging for Large Language Models.\
+[Oguz Kagan Hitit](https://kaganhitit11.github.io/), **Leander Girrbach**, and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+TMLR (03/2026)\
+[Paper](https://arxiv.org/abs/2511.21437) | [Code](https://github.com/kaganhitit11/mergeval)
+
+&nbsp;
+
 SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutions.\
-[Jessica Bader](https://www.https://www.eml-munich.de/people/jessica-bader), **Leander Girrbach**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
+[Jessica Bader](https:/www.https://www.eml-munich.de/people/jessica-bader), **Leander Girrbach**, [Stephan Alaniz](https://www.eml-unitue.de/people/stephan-alaniz) and [Zeynep Akata](https://www.eml-unitue.de/people/zeynep-akata)\
 ICCV 2025\
 [Paper](https://arxiv.org/abs/2507.23784) | [Code](https://github.com/ExplainableML/sub)
 
