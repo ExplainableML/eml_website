@@ -16,6 +16,14 @@ She received her Master’s degree in Robotics, Cognition, Intelligence at Techn
 During summer 2021, she worked as a research intern Bosch Sensortec. Her research interest include vision & language, multi-modal learning as well as zero shot learning.
 
 # Publications
+
+Dissecting Multimodal In-Context Learning: Modality Asymmetries and Circuit Dynamics in modern Transformers.\
+**Yiran Huang**, [Karsten Roth](https://karroth.com/), [Quentin Bouniot](https://qbouniot.github.io/), [Wenjia Xu](https://www.eml-munich.de/people/wenjia-xu), [Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)\
+ICML 2026 Spotlight\
+[Paper](https://arxiv.org/abs/2601.20796)
+
+&nbsp;
+
 Structural Pruning of Large Vision Language Models: A Comprehensive Study on Pruning Dynamics, Recovery, and Data Efficiency.\
 **Yiran Huang**, [Lukas Thede](https://www.eml-munich.de/people/lukas-thede), [Massimiliano Mancini](https://www.eml-munich.de/people/massimiliano-mancini), [Wenjia Xu](https://www.eml-munich.de/people/wenjia-xu), [Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)\
 IJCV 2026\
