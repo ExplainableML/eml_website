@@ -7,7 +7,7 @@ year: 2026
 month: 07
 day: 06
 date: "2026-07-06"
-filename: finer
+filename: micl
 arxiv: https://arxiv.org/abs/2601.20796
 # github: https://github.com/ExplainableML/finer
 

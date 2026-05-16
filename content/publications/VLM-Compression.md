@@ -6,7 +6,7 @@ publisher: International Journal of Computer Vision, IJCV
 year: 2026
 month: 09
 day: 01
-date: "2026-09-01"
+date: "2026-06-01"
 filename: VLM-Compression
 arxiv: https://arxiv.org/pdf/2604.24380 
 github: https://github.com/YiranHuangIrene/VLMCompression 
