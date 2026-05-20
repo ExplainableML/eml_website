@@ -1,5 +1,5 @@
 ---
-img: "/publications/AttentiveLayerFusion/teaser.png"
+img: "/publications/DiamondMaps/teaser.png"
 title: "Diamond Maps: Efficient Reward Alignment via Stochastic Flow Maps"
 authors: Peter Holderrieth*, Douglas Chen*, Luca Eyring*, Ishin Shah, Giri Anantharaman, Yutong He, Zeynep Akata, Tommi Jaakkola, Nicholas Matthew Boffi, Max Simchowitz
 publisher: International Conference on Machine Learning, ICML
