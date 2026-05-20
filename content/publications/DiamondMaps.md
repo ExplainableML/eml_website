@@ -4,9 +4,9 @@ title: "Diamond Maps: Efficient Reward Alignment via Stochastic Flow Maps"
 authors: Peter Holderrieth*, Douglas Chen*, Luca Eyring*, Ishin Shah, Giri Anantharaman, Yutong He, Zeynep Akata, Tommi Jaakkola, Nicholas Matthew Boffi, Max Simchowitz
 publisher: International Conference on Machine Learning, ICML
 year: 2026
-month: 05
-day: 20
-date: "2026-05-20"
+month: 07
+day: 01
+date: "2026-07-01"
 filename: DiamondMaps
 arxiv: https://arxiv.org/abs/2602.05993
 github: https://github.com/PeterHolderrieth/diamond_maps/
