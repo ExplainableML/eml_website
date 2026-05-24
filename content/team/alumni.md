@@ -8,6 +8,7 @@ link: alumni
 
 # List of Alumni
 
+* Kristiyan Sakalyan (Research Scientist), now PhD student with Leo Schwinn at Helmholtz.
 * Karsten Roth (PhD Student), now Research Scientist at Google DeepMind.
 * Massimiliano Mancini (Postdoc), now Assistant Professor at Universita di Trento.
 * Shuchen Wu (Collaborating Researcher), now Shanahan Foundation Fellow at the Allen Institute.
