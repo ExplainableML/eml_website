@@ -12,6 +12,9 @@ scholar: https://scholar.google.com/citations?user=CTK-Y2UAAAAJ
 ---
 
 # Profile
-Quentin Bouniot is a post-doctoral researcher in the Explainable Machine Learning group, led by Prof. Zeynep Akata. He was previously a post-doctoral researcher at Telecom Paris, working with Prof. Florence-d'Alché-Buc and Prof. Pavlo Mozharovskyi. He got his PhD conjointly with Université Jean-Monnet Saint-Étienne, under the supervision of Prof. Amaury Habrard, and CEA-List, under the supervision of Romaric Audigier and Angélique Loesch. He graduated from CentraleSupélec in 2019.
+Quentin Bouniot is an Assistant Professor at Télécom Paris, Institut Polytechnique de Paris. He was previously a Post-Doctoral researcher in the Explainable Machine Learning group at TUM and Helmholtz Munich, led by Prof. Zeynep Akata, and before that at Télécom Paris, with Prof. Florence d'Alché-Buc and Prof. Pavlo Mozharovskyi. He got his PhD from Université Jean-Monnet Saint-Étienne, under the supervision of Prof. Amaury Habrard, and CEA-List, under the supervision of Romaric Audigier and Angélique Loesch. He graduated from CentraleSupélec (France) in 2019.
 
-His current research topic focus on Uncertainty and Explainability in Deep Learning models. The topic of his PhD was on Few-shot Learning and Meta-Learning, applied to Object Detection and Image Segmentation. More generally, he is interested in Deep Representation Learning applied in Computer Vision.
+His main line of research revolves around Deep Representation Learning, and his current research interests include: 
+- mechanistic interpretability of representations in foundation models across modalities
+- alignment of representation between modalities, mainly vision-language
+- robustness, distribution shift, uncertainty quantification, learning with limited labeled data
