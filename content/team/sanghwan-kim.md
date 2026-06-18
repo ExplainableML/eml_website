@@ -12,4 +12,4 @@ scholar:  https://scholar.google.com/citations?user=XkqHJfYAAAAJ&hl=en
 ---
 
 # Profile
-Sanghwan Kim is a PhD researcher in the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ program, co-supervised by Prof. Zeynep Akata and Dr. Yongqin Xian at Google, Zurich. He completed his Master’s degree in Data Science at ETH Zürich, Switzerland (2023) and his Bachelor’s degree in Electrical Engineering at KAIST, South Korea (2020). His primary research interests include VideoQA tasks, multimodal learning, and continual learning.
+Sanghwan Kim is a PhD researcher in the Explainable Machine Learning group as part of the _European Laboratory for Learning and Intelligent Systems (ELLIS)_ program, co-supervised by Prof. Zeynep Akata and Dr. Yongqin Xian at Google, Zurich. He completed his Master’s degree in Data Science at ETH Zürich, Switzerland (2023) and his Bachelor’s degree in Electrical Engineering at KAIST, South Korea (2020). His primary research interests include video understanding and multimodal learning.
