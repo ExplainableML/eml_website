@@ -25,12 +25,12 @@ export default function Home(props) {
 
 
 
-  return (<div class="bg-gray-50">
+  return (<div className="bg-gray-50">
 
     <Head>
 
 <title>EML Munich</title>
-<description text="Explainable Machine Learning Munich"></description>
+<meta name="description" content="Explainable Machine Learning Munich" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -53,23 +53,23 @@ export default function Home(props) {
     <NavBar></NavBar>
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Hero></Hero>
-      <div class="pt-24" id="team"></div>
+      <div className="pt-24" id="team"></div>
       <Headline id="team" text="Team"></Headline>
       <TeamMemberGrid team={teamList}></TeamMemberGrid>
-      <div class="pt-24" id="publications"></div>
+      <div className="pt-24" id="publications"></div>
       <Headline id="publications" text="Publications"></Headline>
       <PublicationGrid viewAll={true} publications={publicationsList.sort(function(a,b) {return new Date(b.date)- new Date(a.date)}).slice(0,3)}></PublicationGrid>
-      <div class="pt-24" id="teaching"></div>
+      <div className="pt-24" id="teaching"></div>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
       <div className="pt-24" id="jobs"></div>
       <div className="pt-24" id="events"></div>
       <Headline text="Events"></Headline>
       <EventGrid></EventGrid>
-      <div class="pt-24" id="news"></div>
+      <div className="pt-24" id="news"></div>
       <Headline text="News" ></Headline>
       <NewsGrid></NewsGrid>
-      <div class="pt-24" id="contact"></div>
+      <div className="pt-24" id="contact"></div>
       <Headline text="Contact"></Headline>
       <ContactGrid></ContactGrid>
       <img src="Logo_munich.png"  width="800" height="800" />

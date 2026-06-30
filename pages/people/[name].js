@@ -43,8 +43,8 @@ export default function TeamMember(props) {
     </style>
       <NavBar otherLink={true}></NavBar>
 
-      <div class=" pt-32 bg-gray-50 mb-32 flex justify-center ">
-        <div class="container grid grid-cols-1 lg:grid-cols-5 overflow-y-scroll text-justify">
+      <div className=" pt-32 bg-gray-50 mb-32 flex justify-center ">
+        <div className="container grid grid-cols-1 lg:grid-cols-5 overflow-y-scroll text-justify">
           <TeamMemberSidebar activeSection={activeSection} setActiveSection={setActiveSection} person={props.data} content={props.content}></TeamMemberSidebar>
           <TeamMemberContent activeSection={activeSection} setActiveSection={setActiveSection} content={props.content}></TeamMemberContent>
         </div>

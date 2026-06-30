@@ -9,17 +9,17 @@ export default function JobCard(props) {
             setLink("jobs");
         }
     },[])
-    return (<a href={"/"+link}><div class=" overflow-hidden shadow-lg bg-white p-16 flex flex-col items-center justify-center">
+    return (<a href={"/"+link}><div className=" overflow-hidden shadow-lg bg-white p-16 flex flex-col items-center justify-center">
 
        {props.type == "Jobs" && <div>
-       <div class="pb-4">
+       <div className="pb-4">
            <Image src="/master_l.png" objectFit="cover" width="200" height="200"></Image>
            </div>
-        <div class="font-bold text-center text-xl">Jobs</div>
+        <div className="font-bold text-center text-xl">Jobs</div>
 
-        <div class="flex flex-row justify-center items-center pt-8">
+        <div className="flex flex-row justify-center items-center pt-8">
 
-<a class="text-purple-500 font-semibold" href="/jobs">View Details</a>
+<a className="text-purple-500 font-semibold" href="/jobs">View Details</a>
 </div>
            </div>}
 

@@ -9,12 +9,8 @@ class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <Head>
-                    <title>EML Munich</title>
-                    <meta name="description" content="Explainable Machine Learning Munich" />
-
-                </Head>
-                <body class="bg-gray-50">
+                <Head />
+                <body className="bg-gray-50">
                     <Main />
                     <NextScript />
                 </body>
