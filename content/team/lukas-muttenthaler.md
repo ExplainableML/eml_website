@@ -1,8 +1,8 @@
 ---
 img: "/team/lukas-muttenthaler.jpg"
 name: Lukas Muttenthaler
-role: Senior Researcher
-order: 3
+role: Collaborating Researcher
+order: 17
 link: lukas-muttenthaler
 website: https://lukasmut.github.io/
 linkedin: https://www.linkedin.com/in/lukas-muttenthaler/
@@ -12,7 +12,7 @@ scholar: https://scholar.google.com/citations?user=ktyApiAAAAAJ&hl=en&oi=ao
 
 # Profile
 
-Lukas is a full-time Senior Research Scientist at Aignostics and a part-time Senior Researcher in the Explainable Machine Learning Group at TUM, led by Prof. Zeynep Akata. Prior to that, Lukas did his PhD in the Machine Learning Group at Technische Universität Berlin, led by Prof. Klaus-Robert Müller. Throughout most of his PhD Lukas was a Student Researcher at Google DeepMind (legacy Brain). At Google DeepMind Lukas was mainly advised by Simon Kornblith, Andrew Lampinen, Thomas Unterthiner, and Klaus Greff. Before his PhD, Lukas did a Master’s in IT and Cognition with a minor in Computer Science at the University of Copenhagen where he mostly worked on Natural Language Processing.
+Lukas is a full-time Senior Research Scientist at Aignostics and was a part-time Senior Researcher in the Explainable Machine Learning Group at TUM, led by Prof. Zeynep Akata. Prior to that, Lukas did his PhD in the Machine Learning Group at Technische Universität Berlin, led by Prof. Klaus-Robert Müller. Throughout most of his PhD Lukas was a Student Researcher at Google DeepMind (legacy Brain). At Google DeepMind Lukas was mainly advised by Simon Kornblith, Andrew Lampinen, Thomas Unterthiner, and Klaus Greff. Before his PhD, Lukas did a Master’s in IT and Cognition with a minor in Computer Science at the University of Copenhagen where he mostly worked on Natural Language Processing.
 
 </br>
 
