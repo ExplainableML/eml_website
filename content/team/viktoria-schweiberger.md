@@ -1,7 +1,7 @@
 ---
 img: "/team/viktoria-schweiberger.jpeg"
 name: Viktoria Schweiberger
-role: Foreign Language Assistant (Munich)
+role: Foreign Language Assistant
 order: 18
 link: viktoria-schweiberger
 ---
