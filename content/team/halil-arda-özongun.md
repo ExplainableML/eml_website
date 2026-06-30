@@ -4,6 +4,9 @@ name: Halil Arda Özongun
 role: Visiting Student
 order: 6
 link: halil-arda-özongun
+mail: halilardaozongun@gmail.com
+website: https://gall-ardo.github.io
+github: https://github.com/Gall-ardo
 ---
 
 # Profile
