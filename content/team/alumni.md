@@ -8,6 +8,7 @@ link: alumni
 
 # List of Alumni
 
+* Jessica Bader (Research Scientist).
 * Kristiyan Sakalyan (Research Scientist), now PhD student with Leo Schwinn at Helmholtz.
 * Karsten Roth (PhD Student), now Research Scientist at Google DeepMind.
 * Massimiliano Mancini (Postdoc), now Assistant Professor at Universita di Trento.
