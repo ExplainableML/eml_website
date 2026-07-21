@@ -18,7 +18,7 @@ Please consider applying if you are interested in joining us!
 
 <div id="phd_ai4science" class="anchor-offset"></div>
 <p align="center">
-  <img src="/jobs/PhD_Ad_Jul2026.pdf" alt='PhD position on "Building the Foundations of Integrated AI for Science"' width="70%"/>
+  <img src="/jobs/PhD_Ad_Jul2026.svg" alt='PhD position on "Building the Foundations of Integrated AI for Science"' width="70%"/>
 </p>
 <br><br>
 
