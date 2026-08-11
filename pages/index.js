@@ -17,11 +17,8 @@ import NewsGrid from '../components/NewsGrid';
 
 export default function Home(props) {
 
-  const publications = props.publicationsData.map(pub => matter(pub));
-  let publicationsList = publications.map(item => item.data);
-
-  const team = props.teamData.map(person => matter(person));
-  let teamList = team.map(person => person.data);
+  const publicationsList = props.publicationsData;
+  const teamList = props.teamData;
 
 
 
@@ -58,7 +55,7 @@ export default function Home(props) {
       <TeamMemberGrid team={teamList}></TeamMemberGrid>
       <div className="pt-24" id="publications"></div>
       <Headline id="publications" text="Publications"></Headline>
-      <PublicationGrid viewAll={true} publications={publicationsList.sort(function(a,b) {return new Date(b.date)- new Date(a.date)}).slice(0,3)}></PublicationGrid>
+      <PublicationGrid viewAll={true} publications={publicationsList}></PublicationGrid>
       <div className="pt-24" id="teaching"></div>
       <Headline text="Teaching"></Headline>
       <TeachingGrid></TeachingGrid>
@@ -93,8 +90,10 @@ export const getStaticProps = async () => {
       encoding: "utf-8"
     });
 
-    return rawContent;
-  });
+    return matter(rawContent).data;
+  }).sort(function(a,b) {
+    return new Date(b.date) - new Date(a.date);
+  }).slice(0, 3);
 
   const team_files = fs.readdirSync(`${process.cwd()}/content/team/`, 'utf-8');
 
@@ -106,7 +105,7 @@ export const getStaticProps = async () => {
       encoding: "utf-8"
     });
 
-    return rawContent;
+    return matter(rawContent).data;
   });
 
 
@@ -115,7 +114,6 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      team,
       teamData,
       publicationsData
     }
