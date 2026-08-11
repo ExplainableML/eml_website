@@ -2,10 +2,10 @@
 img: "/team/merve-tapli.jpg"
 name: Merve Tapli
 role: Visiting Researcher
-order: 5
+order: 6
 link: merve-tapli
 linkedin: https://www.linkedin.com/in/merve-taplı-247064b4/
-mail: merve.tapli at helmholtz-munich.de
+mail: merve.tapli (at) helmholtz-munich.de
 ---
 
 # Profile

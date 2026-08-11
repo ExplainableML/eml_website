@@ -2,9 +2,9 @@
 img: "/team/halil-arda-özongun.jpeg"
 name: Halil Arda Özongun
 role: Visiting Student
-order: 6
+order: 9
 link: halil-arda-özongun
-mail: halilardaozongun@gmail.com
+mail: halilardaozongun (at) gmail.com
 website: https://gall-ardo.github.io
 github: https://github.com/Gall-ardo
 ---

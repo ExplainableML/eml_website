@@ -4,7 +4,7 @@ name: Rui Xiao
 role: PhD Researcher
 order: 4
 link: rui-xiao
-mail: rui.xiao at tum.de
+mail: rui.xiao (at) tum.de
 linkedin: https://www.linkedin.com/in/rui-xiao-tum/
 github: https://github.com/sean-xr
 scholar: https://scholar.google.com/citations?user=YVLOoK0AAAAJ&hl

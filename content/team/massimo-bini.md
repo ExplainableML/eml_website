@@ -4,7 +4,7 @@ name: Massimo Bini
 role: Postdoctoral Researcher
 order: 2
 link: massimo-bini
-mail:  massimo.bini at uni-tuebingen.de
+mail: massimo.bini (at) uni-tuebingen.de
 ---
 
 # Profile

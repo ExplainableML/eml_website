@@ -2,10 +2,10 @@
 img: "/team/anton-baumann.jpeg"
 name: Anton Baumann
 role: MSc Student
-order: 6
+order: 7
 link: anton-baumann
 linkedin: https://www.linkedin.com/in/anton-baumann/
-mail: anton.baumann (at) tum.de 
+mail: anton.baumann (at) tum.de
 website: antonbaumann.com
 github: https://github.com/antonbaumann
 scholar: https://scholar.google.de/citations?user=4CEGXaYAAAAJ

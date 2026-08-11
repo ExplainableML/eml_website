@@ -4,7 +4,7 @@ name: Quentin Bouniot
 role: Collaborating Faculty
 order: 16
 link: quentin-bouniot
-mail: quentin.bouniot at gmail.com
+mail: quentin.bouniot (at) gmail.com
 website: https://qbouniot.github.io/
 linkedin: https://www.linkedin.com/in/quentin-bouniot/
 github: https://github.com/qbouniot

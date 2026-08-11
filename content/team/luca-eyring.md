@@ -4,7 +4,7 @@ name: Luca Eyring
 role: PhD Researcher
 order: 4
 link: luca-eyring
-mail: luca.eyring at gmail.com
+mail: luca.eyring (at) gmail.com
 website: https://lucaeyring.com/
 linkedin: https://www.linkedin.com/in/luca-eyring-74abb01b2/
 twitter: LucaEyring

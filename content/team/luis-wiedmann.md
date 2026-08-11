@@ -4,7 +4,7 @@ name: Luis Wiedmann
 role: PhD Reseacher
 order: 4
 link: luis-wiedmann
-mail: luis.wiedmann at gmail.com
+mail: luis.wiedmann (at) gmail.com
 website: https://lusxvr.github.io/
 linkedin: https://www.linkedin.com/in/luiswiedmann/
 github: https://github.com/lusxvr

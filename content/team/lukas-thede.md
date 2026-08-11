@@ -5,7 +5,7 @@ role: PhD Researcher
 order: 4
 link: lukas-thede
 linkedin: https://www.linkedin.com/in/lukas-thede-3b6700166
-mail: Lukas.Thede at uni-tuebingen.de
+mail: Lukas.Thede (at) uni-tuebingen.de
 github:  https://github.com/lukasthede
 scholar: https://scholar.google.com/citations?user=YC-3YaYAAAAJ
 ---

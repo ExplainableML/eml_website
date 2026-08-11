@@ -2,7 +2,7 @@
 img: "/team/maeliss-debeaumont.jpg"
 name: Maëliss de Beaumont
 role: Visiting Student
-order: 6
+order: 9
 link: maeliss-debeaumont
 linkedin: https://www.linkedin.com/in/maeliss-de-beaumont/
 mail: maelissdebeaumont (at) gmail.com
