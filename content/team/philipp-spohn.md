@@ -1,7 +1,7 @@
 ---
 img: "/team/philipp-spohn.jpeg"
 name: Philipp Spohn
-role: MSc Student
+role: Student Research Assistant
 order: 7
 link: philipp-spohn
 mail: philipp.spohn (at) tum.de
