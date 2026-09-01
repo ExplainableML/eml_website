@@ -8,6 +8,8 @@ link: alumni
 
 # List of Alumni
 
+* Maëliss de Beaumont (Visiting Student), now master's student at Télécom Paris.
+* Halil Arda Özongun (Visiting Student), now bachelor's student at Bilkent University.
 * Mateusz Pach (Research Scientist).
 * Jessica Bader (Research Scientist).
 * Kristiyan Sakalyan (Research Scientist), now PhD student with Leo Schwinn at Helmholtz.
