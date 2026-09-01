@@ -5,6 +5,7 @@ role: Collaborating Faculty
 order: 16
 link: stephan-alaniz
 mail: stephan.alaniz (at) telecom-paris.fr
+website: https://salaniz.me/
 scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
 ---
 
@@ -12,6 +13,54 @@ scholar: https://scholar.google.com/citations?user=mzZa_yQAAAAJ
 Stephan Alaniz is an assistant professor in the Multimedia group at Télécom Paris, Institut Polytechnique de Paris. Previously, he was a post-doctoral researcher and deputy head of the Explainable Machine Learning group at Helmholtz Munich and Technical University of Munich. He received his Ph.D. in 2022 which was partially done at the University of Amsterdam, the Max Planck Institute for Informatics, and the University of Tübingen, under the supervision of Prof. Zeynep Akata and Prof. Bernt Schiele. He published at CVPR, ECCV, ICCV, ICLR, and NeurIPS with a research focus on explainable AI and multi-modal learning with vision and language. 
 
 # Publications
+
+Look But Don't Touch with Sparse Autoencoders for Unlearning in Diffusion Models\
+Enrico Cassano, Riccardo Renzulli, Rayyan Ahmed, Marco Grangetto, **Stephan Alaniz**\
+ECCV 2026
+
+&nbsp;
+
+Training-free Uncertainty Guidance for Complex Visual Tasks with MLLMs\
+Sanghwan Kim, Rui Xiao, **Stephan Alaniz**, Yongqin Xian, Zeynep Akata\
+ECCV 2026
+
+&nbsp;
+
+FINER: MLLMs Hallucinate under Fine-grained Negative Queries\
+Rui Xiao, Sanghwan Kim, Yongqin Xian, Zeynep Akata, **Stephan Alaniz**\
+CVPR 2026 **ORAL**
+
+&nbsp;
+
+Explaining CLIP Zero-shot Predictions Through Concepts\
+Onat Ozdemir, Anders Christensen, **Stephan Alaniz**, Zeynep Akata, Emre Akbas\
+CVPR 2026
+
+&nbsp;
+
+Person-Centric Annotations of LAION-400M: Auditing Bias and Its Transfer to Models\
+Leander Girrbach, **Stephan Alaniz**, Genevieve Smith, Trevor Darrell, Zeynep Akata\
+ICLR 2026
+
+&nbsp;
+
+Concept-Guided Interpretability via Neural Chunking\
+Shuchen Wu, **Stephan Alaniz**, Shyamgopal Karthik, Peter Dayan, Eric Schulz, Zeynep Akata\
+NeurIPS 2025
+
+&nbsp;
+
+SUB: Benchmarking CBM Generalization via Synthetic Attribute Substitutions\
+Jessica Bader, Leander Girrbach, **Stephan Alaniz**, Zeynep Akata\
+ICCV 2025
+
+&nbsp;
+
+LoFT: LoRA-Fused Training Dataset Generation with Few-shot Guidance\
+Jae Myung Kim, **Stephan Alaniz**, Cordelia Schmid, Zeynep Akata\
+BMVC 2025
+
+&nbsp;
 
 FLAIR: VLM with Fine-grained Language-informed Image Representations\
 Rui Xiao, Sanghwan Kim, Mariana-Iuliana Georgescu, Zeynep Akata, **Stephan Alaniz**\
