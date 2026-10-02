@@ -18,19 +18,24 @@ His research focuses on the reliable and efficient adaptation of foundation mode
 
 # Publications
 
-__"_CapTrack: Multifaceted Evaluation of Forgetting in LLM Post-Training_"__
-Lukas Thede, Stefan Winzeck, Zeynep Akata, Jonathan Richard Schwarz
+__"_MedKIT: Evaluating Knowledge Integration and Generalization in Large Language Models_"__   
+__Lukas Thede__, Yash Kumar Atri, David Chen, Danielle Bitterman, Matthias Bethge, Tom Hartvigsen, Zeynep Akata   
+*Neural Information Processing Systems, NeurIPS 2026 (Evaluations & Datasets Track)*
 
-__"_Structural Pruning of Large Vision Language Models: A Comprehensive Study on Pruning Dynamics, Recovery, and Data Efficiency_"__
-Yiran Huang, Lukas Thede, Massimiliano Mancini, Wenjia Xu, Zeynep Akata
+__"_CapTrack: Multifaceted Evaluation of Forgetting in LLM Post-Training_"__   
+__Lukas Thede__, Stefan Winzeck, Zeynep Akata, Jonathan Richard Schwarz   
+*Neural Information Processing Systems, NeurIPS 2026 (Evaluations & Datasets Track)*
+
+__"_Structural Pruning of Large Vision Language Models: A Comprehensive Study on Pruning Dynamics, Recovery, and Data Efficiency_"__   
+Yiran Huang, __Lukas Thede__, Massimiliano Mancini, Wenjia Xu, Zeynep Akata   
 *International Journal of Computer Vision, IJCV 2026*
 
-__"_Beyond the final layer: Attentive multilayer fusion for vision transformers_"__
-Laure Ciernik*, Marco Morik*, Lukas Thede, Luca Eyring, Shinichi Nakajima, Zeynep Akata, Lukas Muttenthaler
+__"_Beyond the final layer: Attentive multilayer fusion for vision transformers_"__   
+Laure Ciernik*, Marco Morik*, __Lukas Thede__, Luca Eyring, Shinichi Nakajima, Zeynep Akata, Lukas Muttenthaler   
 *International Conference on Machine Learning, ICML 2026*
 
-__"_Understanding the Limits of Lifelong Knowledge Editing in LLMs_"__
-Lukas Thede, Karsten Roth, Matthias Bethge, Zeynep Akata, Tom Hartvigsen
+__"_Understanding the Limits of Lifelong Knowledge Editing in LLMs_"__   
+__Lukas Thede__, Karsten Roth, Matthias Bethge, Zeynep Akata, Tom Hartvigsen   
 *International Conference on Machine Learning, ICML 2025*
 
 __"_Reflecting on the State of Rehearsal-free Continual Learning with Pretrained Models_"__   
