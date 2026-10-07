@@ -1,4 +1,4 @@
-import { GitHub, FileText, Linkedin, Globe, Map, Phone, Mail, Image } from 'react-feather';
+import { GitHub, FileText, Linkedin, Globe, Map, Phone, Mail, Image, Database } from 'react-feather';
 
 
 export default function References(props) {
@@ -8,6 +8,7 @@ export default function References(props) {
 
         {props.arxiv && <span className="flex flex-row justify-left items-center p-4 py-1">     <FileText color="#5A005B" size={18} /><a className="text-purple-500 font-semibold text-xs  pl-2" href={props.arxiv}>arXiv</a></span>}
         {props.github && <span className="flex flex-row justify-left items-center p-4 py-1">     <GitHub color="#5A005B" size={18} /><a className="text-purple-500 font-semibold text-xs pl-2" href={props.github}>Github</a></span>}
+        {props.huggingface && <span className="flex flex-row justify-left items-center p-4 py-1">     <Database color="#5A005B" size={18} /><a className="text-purple-500 font-semibold text-xs pl-2" href={props.huggingface}>Hugging Face</a></span>}
         {props.linkedin && <span className="flex flex-row justify-left items-center p-4 py-1">     <Linkedin color="#5A005B" size={18} /><a className="text-purple-500 font-semibold text-xs pl-2" href={props.linkedin}>Linkedin</a></span>}
         {props.website && <span className="flex flex-row justify-left items-center p-4 py-1">     <Globe color="#5A005B" size={18} /><a className="text-purple-500 font-semibold text-xs pl-2" href={props.website}>Website</a></span>}
         {props.address && <span className="flex flex-row justify-left items-center p-4 py-1">     <Map color="#5A005B" size={18} /><span className="text-purple-500 font-semibold text-xs pl-2">{props.address}</span></span>}
@@ -25,6 +26,7 @@ export default function References(props) {
 
             {props.arxiv && <span className="flex flex-row justify-left items-center p-4 py-1">     <FileText color="#5A005B" size={22} /><a className="text-purple-500 font-semibold text-md  pl-2" href={props.arxiv}>arXiv</a></span>}
             {props.github && <span className="flex flex-row justify-left items-center p-4 py-1">     <GitHub color="#5A005B" size={22} /><a className="text-purple-500 font-semibold text-md pl-2" href={props.github}>Github</a></span>}
+            {props.huggingface && <span className="flex flex-row justify-left items-center p-4 py-1">     <Database color="#5A005B" size={22} /><a className="text-purple-500 font-semibold text-md pl-2" href={props.huggingface}>Hugging Face</a></span>}
             {props.linkedin && <span className="flex flex-row justify-left items-center p-4 py-1">     <Linkedin color="#5A005B" size={22} /><a className="text-purple-500 font-semibold text-md pl-2" href={props.linkedin}>Linkedin</a></span>}
             {props.website && <span className="flex flex-row justify-left items-center p-4 py-1">     <Globe color="#5A005B" size={22} /><a className="text-purple-500 font-semibold text-md pl-2" href={props.website}>Website</a></span>}
             {props.address && <span className="flex flex-row justify-left items-center p-4 py-1">     <Map color="#5A005B" size={22} /><span className="text-purple-500 font-semibold text-md pl-2">{props.address}</span></span>}
