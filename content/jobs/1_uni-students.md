@@ -14,9 +14,16 @@ Please send your application to explainable.ml.munich@gmail.com.
 
 ## Open positions
 <ul align="left" style="list-style-position: inside;">
+  <li><a href="#mech_interp_agents">From Mechanistic Interpretability to Agent Control</a></li>
   <li><a href="#multimodal_llm">Multimodal Large Language Models</a></li>
 </ul>
 <br>
+
+<div id="mech_interp_agents" class="anchor-offset"></div>
+<p align="center">
+  <img src="/jobs/ThesisProposal_MechInterp_AgentControl.svg" alt='Thesis proposal on "From Mechanistic Interpretability to Agent Control"' width="70%"/>
+</p>
+<br><br>
 
 <div id="multimodal_llm" class="anchor-offset"></div>
 <p align="center">
