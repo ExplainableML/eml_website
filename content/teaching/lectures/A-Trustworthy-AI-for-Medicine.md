@@ -30,7 +30,7 @@ The course runs in the winter semester 2026/27 (14.10.2026 - 05.02.2027):
 
 <br>
 
-The schedule for the first six weeks is as follows:
+The schedule is as follows:
 
 - Week 1 (12.-16.10.): Introduction and fundamentals (Prof. Zeynep Akata)
 - Week 2 (19.-23.10.): Large-scale models and adaptation (Yiran Huang)
@@ -38,6 +38,14 @@ The schedule for the first six weeks is as follows:
 - Week 4 (2.-6.11.): Multimodal alignment (Simon Roschmann)
 - Week 5 (9.-13.11.): Generative models (Dr. Maria Bravo)
 - Week 6 (16.-20.11.): Mechanistic interpretability (Dr. Kirill Bykov)
+- Week 7 (23.-27.11.): Uncertainty taxonomy and Bayesian neural networks
+- Week 8 (30.11.-4.12.): Calibration, conformal prediction, and OOD detection
+- Week 9 (7.-11.12.): Privacy-preserving machine learning
+- Week 10 (14.-18.12.): Federated learning and membership inference attacks
+- Week 11 (11.-15.1.): Active learning with differential privacy and data attribution
+- Week 12 (18.-22.1.): Memorisation, bias, and fairness
+- Week 13 (25.-29.1.): Advanced topics in memorisation
+- Week 14 (1.-5.2.): Summary
 
 
 ## Registration and requirements
