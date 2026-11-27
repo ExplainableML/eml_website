@@ -8,6 +8,8 @@ link: alumni
 
 # List of Alumni
 
+* Ali Kholmovaia (MSc Student).
+* Alexander Gitnik (MSc Student).
 * Maëliss de Beaumont (Visiting Student), now master's student at Télécom Paris.
 * Halil Arda Özongun (Visiting Student), now bachelor's student at Bilkent University.
 * Mateusz Pach (Research Scientist).
